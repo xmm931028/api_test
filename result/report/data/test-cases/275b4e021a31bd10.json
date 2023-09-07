@@ -1,0 +1,78 @@
+{
+  "uid" : "275b4e021a31bd10",
+  "name" : "校验招投标搜索",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_search",
+  "historyId" : "c2f73124e800ad73da8ad888c12162b1",
+  "time" : {
+    "start" : 1683688555559,
+    "stop" : 1683688556628,
+    "duration" : 1069
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 1528955822938091082, 'data_id': 2473293118034125666, 'item_number': '', 'money': '', 'name': '【设备类】中国电建江西电建公司河南尉氏垃圾发电项目一体化生活污水处理设备采购项目成交公示', 'notice_type': 2, 'products': '一体化生活污水处理设备', 'pub_province': '江西省', 'pub_time': datetime.datetime(2022, 3, 17, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "71389016a2175095",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683605689147,
+        "stop" : 1683605690516,
+        "duration" : 1369
+      }
+    }, {
+      "uid" : "12edba37692e7dfc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683602529938,
+        "stop" : 1683602531453,
+        "duration" : 1515
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "275b4e021a31bd10.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 1528955822938091082, 'data_id': 2473293118034125666, 'item_number': '', 'money': '', 'name': '【设备类】中国电建江西电建公司河南尉氏垃圾发电项目一体化生活污水处理设备采购项目成交公示', 'notice_type': 2, 'products': '一体化生活污水处理设备', 'pub_province': '江西省', 'pub_time': datetime.datetime(2022, 3, 17, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

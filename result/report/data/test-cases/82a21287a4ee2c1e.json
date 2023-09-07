@@ -1,0 +1,59 @@
+{
+  "uid" : "82a21287a4ee2c1e",
+  "name" : "融资轮次为空的数据",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestDbCase#test_db_company_finances_stage",
+  "historyId" : "76c3d66e9911fbd5589f0a295d6587a5",
+  "time" : {
+    "start" : 1683607018412,
+    "stop" : 1683607020996,
+    "duration" : 2584
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 5579 == 0\n +  where 5579 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A30E5C8>>(\"select count(*) count from company where data_id in (select company_id from company_finances where stage ='-') and is_linked=1\")\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A30E5C8>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A30E5C8>.get_one_value",
+  "statusTrace" : "self = <api_test.testcase.test_company.test_company_data.TestDbCase object at 0x000002B81A2B7CC8>\n\n    @allure.title('融资轮次为空的数据')\n    #查询融资轮次为空的数据\n    def test_db_company_finances_stage(self):\n>       assert h.get_one_value(\"select count(*) count from company where data_id in (select company_id from company_finances where stage ='-') and is_linked=1\") == 0\nE       assert 5579 == 0\nE        +  where 5579 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A30E5C8>>(\"select count(*) count from company where data_id in (select company_id from company_finances where stage ='-') and is_linked=1\")\nE        +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A30E5C8>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A30E5C8>.get_one_value\n\napi_test\\testcase\\test_company\\test_company_data.py:51: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "company表db校验"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDbCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "82a21287a4ee2c1e.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,60 @@
+{
+  "uid" : "d828a817ebb5dcec",
+  "name" : "获取人物教育经历-V1接口",
+  "fullName" : "api_test.testcase.test_person.test_person.TestPerson#test_person_edu_experience",
+  "historyId" : "812d428019d09296db45ea4e5c1dc20d",
+  "time" : {
+    "start" : 1683604418671,
+    "stop" : 1683604418715,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人物测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_person"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPerson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_person.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 523, 'company_member_list': [{'company_id': 1627389388583065787, 'created_at': datetime.datetime(2023, 4, 26, 11, 43, 1), 'end_time': '', 'id': 2208630, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 2956594561647744128, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 11, 43, 1), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, {'company_id': 4720595399781011062, 'created_at': datetime.datetime(2023, 4, 26, 12, 33, 33), 'end_time': '', 'id': 44356034, 'is_delete': 0, 'job_status': 2, 'major_type': 0, 'organize_type': 0, 'person_from': 3, 'person_id': 2956594561647744128, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 33, 33), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, {'company_id': 7660386497920530242, 'created_at': datetime.datetime(2023, 4, 26, 13, 19, 39), 'end_time': '', 'id': 44363896, 'is_delete': 0, 'job_status': 2, 'major_type': 0, 'organize_type': 0, 'person_from': 3, 'person_id': 2956594561647744128, 'pos_weight': 12, 'position': '高级合伙人', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 19, 39), 'useful_position': '43', 'useful_position_json': '[{\"id\": \"43\", \"name\": \"高级合伙人\"}]'}, {'company_id': 2516849524391202418, 'created_at': datetime.datetime(2023, 4, 26, 11, 57, 57), 'end_time': '', 'id': 62057609, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 2956594561647744128, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-03-29', 'updated_at': datetime.datetime(2023, 4, 26, 11, 57, 57), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, {'company_id': 7166681282765942073, 'created_at': datetime.datetime(2023, 4, 26, 13, 11, 44), 'end_time': '', 'id': 62103044, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 2956594561647744128, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-03-29', 'updated_at': datetime.datetime(2023, 4, 26, 13, 11, 44), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}], 'data_id': 2956594561647744128, 'edu_cnt': 2, 'edu_list': [{'created_at': datetime.datetime(2023, 2, 16, 19, 53, 22), 'degree': '2', 'end_time': '', 'id': 481409, 'person_id': 2956594561647744128, 'professional': '理学', 'school_name': '浙江大学', 'school_url': '', 'start_time': '', 'updated_at': datetime.datetime(2023, 2, 16, 19, 53, 22)}, {'created_at': datetime.datetime(2022, 12, 13, 0, 0), 'degree': '200', 'end_time': '', 'id': 23011, 'person_id': 2956594561647744128, 'professional': '', 'school_name': '浙江大学', 'school_url': '', 'start_time': '', 'updated_at': datetime.datetime(2022, 12, 21, 0, 20, 16)}], 'introduction': '周剑先生:1977年12月出生,中国国籍,无境外永久居留权,浙江大学理学硕士,历任浙江天堂硅谷鲲诚基金总经理;浙江天堂硅谷朝阳基金总经理;硅谷天堂上海阳光基金总经理;江西联创电子有限公司监事;Melfas株式会社理事;现任江西联创硅谷投资有限公司总经理、执行董事;天堂硅谷资产管理集团有限公司高级合伙人;本公司监事。', 'is_linked': 1, 'member_cnt': 5, 'name': '周剑', 'person_list': {'avatar': '', 'avatar_word': '周', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 25), 'data_id': 7330861824137771848, 'from': '爱企查', 'id': 19063, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '周剑', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 43, 25), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 5274228386289939230, 'insuranceNum': 4947}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d828a817ebb5dcec.json",
+  "parameterValues" : [ "{'cnt': 523, 'company_member_list': [{'company_id': 1627389388583065787, 'created_at': datetime.datetime(2023, 4, 26, 11, 43, 1), 'end_time': '', 'id': 2208630, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 2956594561647744128, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 11, 43, 1), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, {'company_id': 4720595399781011062, 'created_at': datetime.datetime(2023, 4, 26, 12, 33, 33), 'end_time': '', 'id': 44356034, 'is_delete': 0, 'job_status': 2, 'major_type': 0, 'organize_type': 0, 'person_from': 3, 'person_id': 2956594561647744128, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 33, 33), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, {'company_id': 7660386497920530242, 'created_at': datetime.datetime(2023, 4, 26, 13, 19, 39), 'end_time': '', 'id': 44363896, 'is_delete': 0, 'job_status': 2, 'major_type': 0, 'organize_type': 0, 'person_from': 3, 'person_id': 2956594561647744128, 'pos_weight': 12, 'position': '高级合伙人', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 19, 39), 'useful_position': '43', 'useful_position_json': '[{\"id\": \"43\", \"name\": \"高级合伙人\"}]'}, {'company_id': 2516849524391202418, 'created_at': datetime.datetime(2023, 4, 26, 11, 57, 57), 'end_time': '', 'id': 62057609, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 2956594561647744128, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-03-29', 'updated_at': datetime.datetime(2023, 4, 26, 11, 57, 57), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, {'company_id': 7166681282765942073, 'created_at': datetime.datetime(2023, 4, 26, 13, 11, 44), 'end_time': '', 'id': 62103044, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 2956594561647744128, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-03-29', 'updated_at': datetime.datetime(2023, 4, 26, 13, 11, 44), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}], 'data_id': 2956594561647744128, 'edu_cnt': 2, 'edu_list': [{'created_at': datetime.datetime(2023, 2, 16, 19, 53, 22), 'degree': '2', 'end_time': '', 'id': 481409, 'person_id': 2956594561647744128, 'professional': '理学', 'school_name': '浙江大学', 'school_url': '', 'start_time': '', 'updated_at': datetime.datetime(2023, 2, 16, 19, 53, 22)}, {'created_at': datetime.datetime(2022, 12, 13, 0, 0), 'degree': '200', 'end_time': '', 'id': 23011, 'person_id': 2956594561647744128, 'professional': '', 'school_name': '浙江大学', 'school_url': '', 'start_time': '', 'updated_at': datetime.datetime(2022, 12, 21, 0, 20, 16)}], 'introduction': '周剑先生:1977年12月出生,中国国籍,无境外永久居留权,浙江大学理学硕士,历任浙江天堂硅谷鲲诚基金总经理;浙江天堂硅谷朝阳基金总经理;硅谷天堂上海阳光基金总经理;江西联创电子有限公司监事;Melfas株式会社理事;现任江西联创硅谷投资有限公司总经理、执行董事;天堂硅谷资产管理集团有限公司高级合伙人;本公司监事。', 'is_linked': 1, 'member_cnt': 5, 'name': '周剑', 'person_list': {'avatar': '', 'avatar_word': '周', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 25), 'data_id': 7330861824137771848, 'from': '爱企查', 'id': 19063, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '周剑', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 43, 25), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 5274228386289939230, 'insuranceNum': 4947}, 'tags': ''}" ]
+}

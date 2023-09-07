@@ -1,0 +1,78 @@
+{
+  "uid" : "4f2b1b50782afcad",
+  "name" : "获取人物工作经历",
+  "fullName" : "api_test.testcase.test_person.test_person.TestPerson#test_person_work_experience",
+  "historyId" : "f66fa15c9b0828899274a12cc3617185",
+  "time" : {
+    "start" : 1683690373256,
+    "stop" : 1683690373937,
+    "duration" : 681
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人物测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_person"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPerson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_person.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 49, 'company_member_list': [{'company_id': 4786748079158385287, 'created_at': datetime.datetime(2023, 4, 26, 12, 33, 34), 'end_time': '', 'id': 4907136, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 6160640773083377657, 'pos_weight': 24, 'position': '执行董事,经理', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 1, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 33, 34), 'useful_position': '19,30', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"执行董事\"}, {\"id\": \"30\", \"name\": \"经理\"}]'}, {'company_id': 8688282756065667910, 'created_at': datetime.datetime(2023, 4, 26, 13, 35, 48), 'end_time': '', 'id': 4907141, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 6160640773083377657, 'pos_weight': 0, 'position': '董事长', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 35, 48), 'useful_position': '0', 'useful_position_json': '[{\"id\": \"0\", \"name\": \"董事长\"}]'}], 'data_id': 6160640773083377657, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 2, 'name': '吴建文', 'person_list': {'avatar': '', 'avatar_word': '吴', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 27), 'data_id': 354814695593313026, 'from': '爱企查', 'id': 51134, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '吴建文', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 43, 27), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 4986889082200500917, 'insuranceNum': 6574}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9a18bb8cc023c4ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683607704777,
+        "stop" : 1683607705127,
+        "duration" : 350
+      }
+    }, {
+      "uid" : "578188fd31aee75f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683604410989,
+        "stop" : 1683604411465,
+        "duration" : 476
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f2b1b50782afcad.json",
+  "parameterValues" : [ "{'cnt': 49, 'company_member_list': [{'company_id': 4786748079158385287, 'created_at': datetime.datetime(2023, 4, 26, 12, 33, 34), 'end_time': '', 'id': 4907136, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 6160640773083377657, 'pos_weight': 24, 'position': '执行董事,经理', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 1, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 33, 34), 'useful_position': '19,30', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"执行董事\"}, {\"id\": \"30\", \"name\": \"经理\"}]'}, {'company_id': 8688282756065667910, 'created_at': datetime.datetime(2023, 4, 26, 13, 35, 48), 'end_time': '', 'id': 4907141, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 6160640773083377657, 'pos_weight': 0, 'position': '董事长', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 35, 48), 'useful_position': '0', 'useful_position_json': '[{\"id\": \"0\", \"name\": \"董事长\"}]'}], 'data_id': 6160640773083377657, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 2, 'name': '吴建文', 'person_list': {'avatar': '', 'avatar_word': '吴', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 27), 'data_id': 354814695593313026, 'from': '爱企查', 'id': 51134, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '吴建文', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 43, 27), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 4986889082200500917, 'insuranceNum': 6574}, 'tags': ''}" ]
+}

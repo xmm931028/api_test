@@ -1,0 +1,78 @@
+{
+  "uid" : "c4ea7728fb2971ea",
+  "name" : "校验招投标搜索",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_search",
+  "historyId" : "2668bf2a21f36918c9683688a9440e32",
+  "time" : {
+    "start" : 1683688518455,
+    "stop" : 1683688519524,
+    "duration" : 1069
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 1148328510719701285, 'item_number': '', 'money': '276588元', 'name': '北京市公安局丰台分局2022年度新增直管食堂油烟清洗服务项目竞争性磋商', 'notice_type': 1, 'products': '油烟清洗服务', 'pub_province': '北京市', 'pub_time': datetime.datetime(2022, 1, 14, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "23a7908e5ef104ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683605643075,
+        "stop" : 1683605644433,
+        "duration" : 1358
+      }
+    }, {
+      "uid" : "8fc943ff15663770",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683602480982,
+        "stop" : 1683602482627,
+        "duration" : 1645
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c4ea7728fb2971ea.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 1148328510719701285, 'item_number': '', 'money': '276588元', 'name': '北京市公安局丰台分局2022年度新增直管食堂油烟清洗服务项目竞争性磋商', 'notice_type': 1, 'products': '油烟清洗服务', 'pub_province': '北京市', 'pub_time': datetime.datetime(2022, 1, 14, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

@@ -1,0 +1,60 @@
+{
+  "uid" : "b9f904bfd9c48e02",
+  "name" : "orig_members接口",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_orig_members_v2",
+  "historyId" : "792b856d62e907b5012c0d2f939b72cf",
+  "time" : {
+    "start" : 1683603811054,
+    "stop" : 1683603811133,
+    "duration" : 79
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2017-12-05', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 4382396262304907776, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '湖南省长沙市开福区', 'district_city': '长沙市', 'district_county': '开福区', 'district_province': '湖南省', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 21212040, 'industry': '软件和信息技术服务业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '夏新明', 'legal_person_id': 117439970432646592, 'license_number': '430105000302872', 'open_status': '存续', 'open_time': '2017-12-05 至 2067-12-04', 'org_no': 'MA4P9RCA8', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '长沙市开福区四方坪街道双拥路9号长城万富汇大厦9层9038号房（集群注册）', 'reg_capital': '200万(元)', 'reg_capital_amount': Decimal('2000000.00'), 'reg_capital_currency': '元', 'reg_code': '430105000302872', 'reg_no': '91430105MA4P9RCA81', 'scope': '商业信息咨询；企业管理咨询服务；信息技术咨询服务；软件开发；光伏项目的技术开发、技术转让及运营管理。（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'start_date': '2017-12-05', 'tax_no': '91430105MA4P9RCA81', 'unified_code': '91430105MA4P9RCA81', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/c8c69d2245abbc912c62259df6b49cdd.txt'}, 'compete_cnt': 0, 'data_id': 4382396262304907776, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '夏新明', 'name': '长沙晋达利商务咨询有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b9f904bfd9c48e02.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2017-12-05', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 4382396262304907776, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '湖南省长沙市开福区', 'district_city': '长沙市', 'district_county': '开福区', 'district_province': '湖南省', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 21212040, 'industry': '软件和信息技术服务业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '夏新明', 'legal_person_id': 117439970432646592, 'license_number': '430105000302872', 'open_status': '存续', 'open_time': '2017-12-05 至 2067-12-04', 'org_no': 'MA4P9RCA8', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '长沙市开福区四方坪街道双拥路9号长城万富汇大厦9层9038号房（集群注册）', 'reg_capital': '200万(元)', 'reg_capital_amount': Decimal('2000000.00'), 'reg_capital_currency': '元', 'reg_code': '430105000302872', 'reg_no': '91430105MA4P9RCA81', 'scope': '商业信息咨询；企业管理咨询服务；信息技术咨询服务；软件开发；光伏项目的技术开发、技术转让及运营管理。（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'start_date': '2017-12-05', 'tax_no': '91430105MA4P9RCA81', 'unified_code': '91430105MA4P9RCA81', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/c8c69d2245abbc912c62259df6b49cdd.txt'}, 'compete_cnt': 0, 'data_id': 4382396262304907776, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '夏新明', 'name': '长沙晋达利商务咨询有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+}

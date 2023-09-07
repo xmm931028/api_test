@@ -1,0 +1,62 @@
+{
+  "uid" : "94efd9a4a213f44f",
+  "name" : "人物搜索",
+  "fullName" : "api_test.testcase.test_person.test_person.TestPerson#test_person_search",
+  "historyId" : "eda50fe8be34a0d7a36ab5abd083addc",
+  "time" : {
+    "start" : 1683604074312,
+    "stop" : 1683604079102,
+    "duration" : 4790
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 7106 == 7108",
+  "statusTrace" : "self = <api_test.testcase.test_person.test_person.TestPerson object at 0x00000243713E8648>\ntest_data = {'cnt': 7071, 'company_member_list': (), 'data_id': 1938517358212589792, 'edu_cnt': 0, ...}\n\n    @allure.title('人物搜索')\n    @pytest.mark.parametrize('test_data', person_yaml_data)\n    def test_person_search(self, test_data):\n        result = p.person_search_v3(test_data['name'],'')\n        result_info = result['data']['items']\n        person_id = str(test_data['data_id'])\n        # 断言搜索结果与数据库保持一致\n        sql_person_cnt = f'select count(*) count from person where name like \"%{test_data[\"name\"]}%\" and `from` <> \"脉脉\" and data_id  in (select person_id from company_member)'\n        cnt = s.get_one_value(sql_person_cnt)\n>       assert cnt == result['data']['cnt']\nE       assert 7106 == 7108\n\napi_test\\testcase\\test_person\\test_person.py:91: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人物测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_person"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPerson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_person.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 7071, 'company_member_list': (), 'data_id': 1938517358212589792, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 0, 'member_cnt': 0, 'name': '王丽', 'person_list': {'avatar': '', 'avatar_word': '王', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 24), 'data_id': 7175637688526941928, 'from': '爱企查', 'id': 15, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '王丽蓉', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 43, 24), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 1525365043855458481, 'insuranceNum': 175836}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "94efd9a4a213f44f.json",
+  "parameterValues" : [ "{'cnt': 7071, 'company_member_list': (), 'data_id': 1938517358212589792, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 0, 'member_cnt': 0, 'name': '王丽', 'person_list': {'avatar': '', 'avatar_word': '王', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 24), 'data_id': 7175637688526941928, 'from': '爱企查', 'id': 15, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '王丽蓉', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 43, 24), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 1525365043855458481, 'insuranceNum': 175836}, 'tags': ''}" ]
+}

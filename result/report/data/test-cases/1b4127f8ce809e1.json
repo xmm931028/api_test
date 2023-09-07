@@ -1,0 +1,78 @@
+{
+  "uid" : "1b4127f8ce809e1",
+  "name" : "校验招投标详情",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_detail",
+  "historyId" : "7f780c3426436eddfbd490e116acf1ed",
+  "time" : {
+    "start" : 1683688727465,
+    "stop" : 1683688728654,
+    "duration" : 1189
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 7985142554760773214, 'data_id': 2557601993495135245, 'item_number': '', 'money': '929280.0元', 'name': '任县2015年地下超采综合治理试点推广小麦玉米水肥一体化节水技术项目第13标段（二次招标）中标公告', 'notice_type': 2, 'products': '小麦玉米水肥一体化设施设备,水溶肥', 'pub_province': '河北省', 'pub_time': datetime.datetime(2015, 12, 23, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d9ab50a217cba5cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683605896580,
+        "stop" : 1683605898402,
+        "duration" : 1822
+      }
+    }, {
+      "uid" : "42f7055fa1c65bf8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683602750301,
+        "stop" : 1683602751704,
+        "duration" : 1403
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1b4127f8ce809e1.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 7985142554760773214, 'data_id': 2557601993495135245, 'item_number': '', 'money': '929280.0元', 'name': '任县2015年地下超采综合治理试点推广小麦玉米水肥一体化节水技术项目第13标段（二次招标）中标公告', 'notice_type': 2, 'products': '小麦玉米水肥一体化设施设备,水溶肥', 'pub_province': '河北省', 'pub_time': datetime.datetime(2015, 12, 23, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

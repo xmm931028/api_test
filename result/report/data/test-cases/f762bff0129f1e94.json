@@ -1,0 +1,60 @@
+{
+  "uid" : "f762bff0129f1e94",
+  "name" : "相似企业接口",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_company_compete_companies",
+  "historyId" : "fba57c238d18406cfa4babe9de33143e",
+  "time" : {
+    "start" : 1683607081794,
+    "stop" : 1683607081841,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 2, 'company_member_list': {'company_id': 8087575893545357983, 'created_at': datetime.datetime(2023, 4, 26, 13, 26, 25), 'end_time': '', 'id': 62763254, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 3720218757681321335, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-04-15', 'updated_at': datetime.datetime(2023, 4, 26, 13, 26, 25), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2022-12-08', 'authority': '宝安局', 'comp_num': '4', 'comp_num_link': '', 'company_id': 8087575893545357983, 'created_at': datetime.datetime(2023, 4, 15, 8, 5, 7), 'district': '广东省深圳市宝安区', 'district_city': '深圳市', 'district_county': '宝安区', 'district_province': '广东省', 'ent_type': '有限责任公司(自然人独资)', 'id': 15176400, 'industry': '科技推广和应用服务业', 'insurance_info': '{\"insuranceNum\":\"0人\",\"year\":\"2021\",\"reportUrl\":\"/pages/annual/index?pid=31129574571249&year=2021\"}', 'insurance_num': 0, 'legal_person': '李升强', 'legal_person_id': 8240499474159199471, 'license_number': '440306103474889', 'open_status': '开业', 'open_time': '2006-08-21 至 无固定期限', 'org_no': '79256636-X', 'org_type': '', 'paidin_capital': '51万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '', 'qualification': '增值税一般纳税人', 'real_capital': '', 'reg_addr': '深圳市宝安区西乡街道福中福社区富通城四期12栋903', 'reg_capital': '500万(元)', 'reg_capital_amount': Decimal('5000000.00'), 'reg_capital_currency': '元', 'reg_code': '440306103474889', 'reg_no': '9144030079256636XL', 'scope': '一般经营项目是：集成电路设计、电源管理、LCD/LED显示技术、音频芯片、无线WIFI、无线蓝牙、无线音箱、无线耳机、车载无线耳机、车载充电器、车载无线充、车载电子烟、无线电设备、音视频产品、智能穿戴、智能家居、智能手机、智能设备、衡器、电源适配器、电池、机电设备、软件、电子产品的研发和销售、芯片软件等技术转让；国内贸易、经营进出口业务（不含专营、专控、专卖商品）；在网上从事商贸活动（不含限制项目）；投资管理(不含限制项目）。，许可经营项目是：集成电路、电源管理芯片、LCD/LED显示芯片、音频芯片、无线WIFI、无线蓝牙、无线立体声音箱、无线立体声耳机、车载蓝牙无线耳机、车载充电器、车载无线充、车载电子烟、无线电设备、音视频产品、智能穿戴、智能家居、智能手机、智能设备、衡器、电源适配器、电池、机电设备、电子产品的技术研发与加工。', 'start_date': '2006-08-21', 'tax_no': '9144030079256636XL', 'unified_code': '9144030079256636XL', 'updated_at': datetime.datetime(2023, 4, 25, 9, 38, 22), 'url': '/m/basic?pid=xlTM-TogKuTweUlPmGnfZ5FPJhgr7c5zBAmd&entName=%E6%B7%B1%E5%9C%B3%E5%B8%82%E6%83%A0%E5%8D%9A%E5%8D%87%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/6332152c55c50fc501614c93dc857613.txt'}, 'compete_cnt': 0, 'data_id': 8087575893545357983, 'finances_cnt': 0, 'introduction': '深圳市惠博升科技有限公司成立于2006年08月21日，注册地位于深圳市宝安区西乡街道福中福社区富通城四期12栋903，法定代表人为李升强。经营范围包括一般经营项目是：集成电路设计、电源管理、LCD/LED显示技术、音频芯片、无线WIFI、无线蓝牙、无线音箱、无线耳机、车载无线耳机、车载充电器、车载无线充、车载电子烟、无线电设备、音视频产品、智能穿戴、智能家居、智能手机、智能设备、衡器、电源适配器、电池、机电设备、软件、电子产品的研发和销售、芯片软件等技术转让；国内贸易、经营进出口业务（不含专营、专控、专卖商品）；在网上从事商贸活动（不含限制项目）；投资管理(不含限制项目）。，许可经营项目是：集成电路、电源管理芯片、LCD/LED显示芯片、音频芯片、无线WIFI、无线蓝牙、无线立体声音箱、无线立体声耳机、车载蓝牙无线耳机、车载充电器、车载无线充、车载电子烟、无线电设备、音视频产品、智能穿戴、智能家居、智能手机、智能设备、衡器、电源适配器、电池、机电设备、电子产品的技术研发与加工。', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '李升强', 'name': '深圳市惠博升科技有限公司', 'ownership_cnt': 1, 'ownership_list': {'amount': '500万(元)', 'company_id': 8087575893545357983, 'created_at': datetime.datetime(2023, 4, 15, 8, 4, 43), 'data_id': 8240499474159199471, 'data_type': 2, 'id': 13357085, 'is_delete': 0, 'ratio': '100%', 'tag': '', 'updated_at': datetime.datetime(2023, 4, 15, 8, 4, 43)}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f762bff0129f1e94.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 2, 'company_member_list': {'company_id': 8087575893545357983, 'created_at': datetime.datetime(2023, 4, 26, 13, 26, 25), 'end_time': '', 'id': 62763254, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 3720218757681321335, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-04-15', 'updated_at': datetime.datetime(2023, 4, 26, 13, 26, 25), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2022-12-08', 'authority': '宝安局', 'comp_num': '4', 'comp_num_link': '', 'company_id': 8087575893545357983, 'created_at': datetime.datetime(2023, 4, 15, 8, 5, 7), 'district': '广东省深圳市宝安区', 'district_city': '深圳市', 'district_county': '宝安区', 'district_province': '广东省', 'ent_type': '有限责任公司(自然人独资)', 'id': 15176400, 'industry': '科技推广和应用服务业', 'insurance_info': '{\"insuranceNum\":\"0人\",\"year\":\"2021\",\"reportUrl\":\"/pages/annual/index?pid=31129574571249&year=2021\"}', 'insurance_num': 0, 'legal_person': '李升强', 'legal_person_id': 8240499474159199471, 'license_number': '440306103474889', 'open_status': '开业', 'open_time': '2006-08-21 至 无固定期限', 'org_no': '79256636-X', 'org_type': '', 'paidin_capital': '51万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '', 'qualification': '增值税一般纳税人', 'real_capital': '', 'reg_addr': '深圳市宝安区西乡街道福中福社区富通城四期12栋903', 'reg_capital': '500万(元)', 'reg_capital_amount': Decimal('5000000.00'), 'reg_capital_currency': '元', 'reg_code': '440306103474889', 'reg_no': '9144030079256636XL', 'scope': '一般经营项目是：集成电路设计、电源管理、LCD/LED显示技术、音频芯片、无线WIFI、无线蓝牙、无线音箱、无线耳机、车载无线耳机、车载充电器、车载无线充、车载电子烟、无线电设备、音视频产品、智能穿戴、智能家居、智能手机、智能设备、衡器、电源适配器、电池、机电设备、软件、电子产品的研发和销售、芯片软件等技术转让；国内贸易、经营进出口业务（不含专营、专控、专卖商品）；在网上从事商贸活动（不含限制项目）；投资管理(不含限制项目）。，许可经营项目是：集成电路、电源管理芯片、LCD/LED显示芯片、音频芯片、无线WIFI、无线蓝牙、无线立体声音箱、无线立体声耳机、车载蓝牙无线耳机、车载充电器、车载无线充、车载电子烟、无线电设备、音视频产品、智能穿戴、智能家居、智能手机、智能设备、衡器、电源适配器、电池、机电设备、电子产品的技术研发与加工。', 'start_date': '2006-08-21', 'tax_no': '9144030079256636XL', 'unified_code': '9144030079256636XL', 'updated_at': datetime.datetime(2023, 4, 25, 9, 38, 22), 'url': '/m/basic?pid=xlTM-TogKuTweUlPmGnfZ5FPJhgr7c5zBAmd&entName=%E6%B7%B1%E5%9C%B3%E5%B8%82%E6%83%A0%E5%8D%9A%E5%8D%87%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/6332152c55c50fc501614c93dc857613.txt'}, 'compete_cnt': 0, 'data_id': 8087575893545357983, 'finances_cnt': 0, 'introduction': '深圳市惠博升科技有限公司成立于2006年08月21日，注册地位于深圳市宝安区西乡街道福中福社区富通城四期12栋903，法定代表人为李升强。经营范围包括一般经营项目是：集成电路设计、电源管理、LCD/LED显示技术、音频芯片、无线WIFI、无线蓝牙、无线音箱、无线耳机、车载无线耳机、车载充电器、车载无线充、车载电子烟、无线电设备、音视频产品、智能穿戴、智能家居、智能手机、智能设备、衡器、电源适配器、电池、机电设备、软件、电子产品的研发和销售、芯片软件等技术转让；国内贸易、经营进出口业务（不含专营、专控、专卖商品）；在网上从事商贸活动（不含限制项目）；投资管理(不含限制项目）。，许可经营项目是：集成电路、电源管理芯片、LCD/LED显示芯片、音频芯片、无线WIFI、无线蓝牙、无线立体声音箱、无线立体声耳机、车载蓝牙无线耳机、车载充电器、车载无线充、车载电子烟、无线电设备、音视频产品、智能穿戴、智能家居、智能手机、智能设备、衡器、电源适配器、电池、机电设备、电子产品的技术研发与加工。', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '李升强', 'name': '深圳市惠博升科技有限公司', 'ownership_cnt': 1, 'ownership_list': {'amount': '500万(元)', 'company_id': 8087575893545357983, 'created_at': datetime.datetime(2023, 4, 15, 8, 4, 43), 'data_id': 8240499474159199471, 'data_type': 2, 'id': 13357085, 'is_delete': 0, 'ratio': '100%', 'tag': '', 'updated_at': datetime.datetime(2023, 4, 15, 8, 4, 43)}, 'tags': ''}" ]
+}

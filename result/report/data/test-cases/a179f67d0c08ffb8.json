@@ -1,0 +1,78 @@
+{
+  "uid" : "a179f67d0c08ffb8",
+  "name" : "人物搜索",
+  "fullName" : "api_test.testcase.test_person.test_person.TestPerson#test_person_search",
+  "historyId" : "a244635e5380ffc81c84aac9059a1994",
+  "time" : {
+    "start" : 1683690191629,
+    "stop" : 1683690194759,
+    "duration" : 3130
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人物测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_person"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPerson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_person.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_member_list': [{'company_id': 4345192423292484759, 'created_at': datetime.datetime(2023, 5, 4, 21, 8, 53), 'end_time': '', 'id': 67215846, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 7292965589217740321, 'pos_weight': 24, 'position': '总经理,执行董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 1, 'start_time': '2023-05-04', 'updated_at': datetime.datetime(2023, 5, 8, 18, 26, 30), 'useful_position': '19,26', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"执行董事\"}, {\"id\": \"26\", \"name\": \"总经理\"}]'}], 'data_id': 7292965589217740321, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 1, 'name': '郭金亭', 'person_list': {'avatar': '', 'avatar_word': '郭', 'created_at': datetime.datetime(2023, 5, 4, 16, 29, 14), 'data_id': 7292965589217740321, 'from': '爱企查', 'id': 61198973, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '郭金亭', 'tags': '', 'updated_at': datetime.datetime(2023, 5, 6, 9, 1, 53), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 4345192423292484759, 'insuranceNum': 1}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a6585093a96c9fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683607520134,
+        "stop" : 1683607523256,
+        "duration" : 3122
+      }
+    }, {
+      "uid" : "ee5356271dbabec3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683604223298,
+        "stop" : 1683604226456,
+        "duration" : 3158
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a179f67d0c08ffb8.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_member_list': [{'company_id': 4345192423292484759, 'created_at': datetime.datetime(2023, 5, 4, 21, 8, 53), 'end_time': '', 'id': 67215846, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 7292965589217740321, 'pos_weight': 24, 'position': '总经理,执行董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 1, 'start_time': '2023-05-04', 'updated_at': datetime.datetime(2023, 5, 8, 18, 26, 30), 'useful_position': '19,26', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"执行董事\"}, {\"id\": \"26\", \"name\": \"总经理\"}]'}], 'data_id': 7292965589217740321, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 1, 'name': '郭金亭', 'person_list': {'avatar': '', 'avatar_word': '郭', 'created_at': datetime.datetime(2023, 5, 4, 16, 29, 14), 'data_id': 7292965589217740321, 'from': '爱企查', 'id': 61198973, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '郭金亭', 'tags': '', 'updated_at': datetime.datetime(2023, 5, 6, 9, 1, 53), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 4345192423292484759, 'insuranceNum': 1}, 'tags': ''}" ]
+}

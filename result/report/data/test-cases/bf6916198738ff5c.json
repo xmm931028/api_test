@@ -1,0 +1,78 @@
+{
+  "uid" : "bf6916198738ff5c",
+  "name" : "人物详情页-基本信息",
+  "fullName" : "api_test.testcase.test_person.test_person.TestPerson#test_person_detail",
+  "historyId" : "a06ba2a0b477810e0a52054e2670e4ed",
+  "time" : {
+    "start" : 1683690329957,
+    "stop" : 1683690330004,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人物测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_person"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPerson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_person.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_member_list': (), 'data_id': 2240599421639514809, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 0, 'member_cnt': 0, 'name': '彭开冬', 'person_list': {'avatar': '', 'avatar_word': '彭', 'created_at': datetime.datetime(2022, 12, 19, 13, 56, 25), 'data_id': 2240599421639514809, 'from': '爱企查', 'id': 23949501, 'introduction': '', 'is_delete': 0, 'is_linked': 0, 'name': '彭开冬', 'tags': '', 'updated_at': datetime.datetime(2022, 12, 19, 13, 56, 25), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': None, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "beca3bcf1bf494a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683607659316,
+        "stop" : 1683607659371,
+        "duration" : 55
+      }
+    }, {
+      "uid" : "f4e4e0d8ed5d680",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683604362641,
+        "stop" : 1683604362704,
+        "duration" : 63
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf6916198738ff5c.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_member_list': (), 'data_id': 2240599421639514809, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 0, 'member_cnt': 0, 'name': '彭开冬', 'person_list': {'avatar': '', 'avatar_word': '彭', 'created_at': datetime.datetime(2022, 12, 19, 13, 56, 25), 'data_id': 2240599421639514809, 'from': '爱企查', 'id': 23949501, 'introduction': '', 'is_delete': 0, 'is_linked': 0, 'name': '彭开冬', 'tags': '', 'updated_at': datetime.datetime(2022, 12, 19, 13, 56, 25), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': None, 'tags': ''}" ]
+}

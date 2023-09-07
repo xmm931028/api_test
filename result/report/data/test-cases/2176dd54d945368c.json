@@ -1,0 +1,62 @@
+{
+  "uid" : "2176dd54d945368c",
+  "name" : "企业基本信息与搜索保持一致",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_company_datail",
+  "historyId" : "52e9753ddcf99c47f3bbe44366562d40",
+  "time" : {
+    "start" : 1683607047403,
+    "stop" : 1683607047634,
+    "duration" : 231
+  },
+  "description" : "校验企业介绍",
+  "descriptionHtml" : "<p>校验企业介绍</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': None, 'compete_cnt': 0, 'data_id': 5804407596577060259, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '陈浔汐', 'name': '厦门五缘置业有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2176dd54d945368c.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': None, 'compete_cnt': 0, 'data_id': 5804407596577060259, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '陈浔汐', 'name': '厦门五缘置业有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+}

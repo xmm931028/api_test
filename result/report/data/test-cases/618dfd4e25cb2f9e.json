@@ -1,0 +1,60 @@
+{
+  "uid" : "618dfd4e25cb2f9e",
+  "name" : "校验招投标详情",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_detail",
+  "historyId" : "c5f230e39f1dda065c7b1b1cf115245b",
+  "time" : {
+    "start" : 1683602620959,
+    "stop" : 1683602622445,
+    "duration" : 1486
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 2912391624454137866, 'item_number': '', 'money': '16920.0', 'name': '四会市司法局办公家具定点采购定点议价成交公告', 'notice_type': 2, 'products': '木质柜,会议椅,木制台、桌类 品种:处级及以下办公桌,办公家具,会议桌,木制台', 'pub_province': '广东省', 'pub_time': datetime.datetime(2022, 11, 1, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "618dfd4e25cb2f9e.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 2912391624454137866, 'item_number': '', 'money': '16920.0', 'name': '四会市司法局办公家具定点采购定点议价成交公告', 'notice_type': 2, 'products': '木质柜,会议椅,木制台、桌类 品种:处级及以下办公桌,办公家具,会议桌,木制台', 'pub_province': '广东省', 'pub_time': datetime.datetime(2022, 11, 1, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

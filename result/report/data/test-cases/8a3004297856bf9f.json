@@ -1,0 +1,60 @@
+{
+  "uid" : "8a3004297856bf9f",
+  "name" : "企业融资历程-v2接口",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_company_finances_v2",
+  "historyId" : "43981e15497ba4a77df669e03495954c",
+  "time" : {
+    "start" : 1683607074953,
+    "stop" : 1683607074998,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 2, 'company_member_list': {'company_id': 1576663034925144151, 'created_at': datetime.datetime(2023, 4, 26, 11, 41, 18), 'end_time': '', 'id': 2349070, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 3153329297325375097, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 11, 41, 18), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2019-08-07', 'authority': '仁寿县市场监督管理局', 'comp_num': '4', 'comp_num_link': '', 'company_id': 1576663034925144151, 'created_at': datetime.datetime(2022, 12, 19, 12, 15, 18), 'district': '四川省眉山市仁寿县', 'district_city': '眉山市', 'district_county': '仁寿县', 'district_province': '四川省', 'ent_type': '其他有限责任公司', 'id': 8869854, 'industry': '房地产业', 'insurance_info': '{\"insuranceNum\": \"0人\", \"year\": \"2020\", \"reportUrl\": \"/pages/annual/index?pid=25377777511171&year=2020\"}', 'insurance_num': 0, 'legal_person': '徐云伟', 'legal_person_id': 0, 'license_number': '511421000101952', 'open_status': '注销', 'open_time': '2019-08-07 至 无固定期限', 'org_no': 'MA68031K-3', 'org_type': '-', 'paidin_capital': '-', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '增值税一般纳税人', 'real_capital': '-', 'reg_addr': '仁寿县文林镇中央商务大道198号(世纪财富中心)1幢1单元1层1001号', 'reg_capital': '5,000万(元)', 'reg_capital_amount': Decimal('50000000.00'), 'reg_capital_currency': '元', 'reg_code': '511421000101952', 'reg_no': '91511421MA68031K3W', 'scope': '房地产开发经营，土地整理，物业管理，企业营销策划，软件开发，技术推广服务。（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'start_date': '2019-08-07', 'tax_no': '91511421MA68031K3W', 'unified_code': '91511421MA68031K3W', 'updated_at': datetime.datetime(2023, 4, 23, 14, 58, 38), 'url': '/m/basic?pid=xlTM-TogKuTwCVNs6f-dOIioB38d1XE7pwmd&entName=%E5%9B%9B%E5%B7%9D%E9%94%A6%E8%87%BB%E6%BA%90%E5%AE%9E%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/aafc01e7e2df7eef66bb36470c2a7fc2.txt'}, 'compete_cnt': 0, 'data_id': 1576663034925144151, 'finances_cnt': 0, 'introduction': '-', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '徐云伟', 'name': '四川锦臻源实业有限公司', 'ownership_cnt': 2, 'ownership_list': {'amount': '50万(元)', 'company_id': 1576663034925144151, 'created_at': datetime.datetime(2022, 12, 19, 11, 37, 41), 'data_id': 5947552207521945993, 'data_type': 2, 'id': 11947365, 'is_delete': 0, 'ratio': '1%', 'tag': '', 'updated_at': datetime.datetime(2022, 12, 19, 11, 37, 41)}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8a3004297856bf9f.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 2, 'company_member_list': {'company_id': 1576663034925144151, 'created_at': datetime.datetime(2023, 4, 26, 11, 41, 18), 'end_time': '', 'id': 2349070, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 3153329297325375097, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 11, 41, 18), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2019-08-07', 'authority': '仁寿县市场监督管理局', 'comp_num': '4', 'comp_num_link': '', 'company_id': 1576663034925144151, 'created_at': datetime.datetime(2022, 12, 19, 12, 15, 18), 'district': '四川省眉山市仁寿县', 'district_city': '眉山市', 'district_county': '仁寿县', 'district_province': '四川省', 'ent_type': '其他有限责任公司', 'id': 8869854, 'industry': '房地产业', 'insurance_info': '{\"insuranceNum\": \"0人\", \"year\": \"2020\", \"reportUrl\": \"/pages/annual/index?pid=25377777511171&year=2020\"}', 'insurance_num': 0, 'legal_person': '徐云伟', 'legal_person_id': 0, 'license_number': '511421000101952', 'open_status': '注销', 'open_time': '2019-08-07 至 无固定期限', 'org_no': 'MA68031K-3', 'org_type': '-', 'paidin_capital': '-', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '增值税一般纳税人', 'real_capital': '-', 'reg_addr': '仁寿县文林镇中央商务大道198号(世纪财富中心)1幢1单元1层1001号', 'reg_capital': '5,000万(元)', 'reg_capital_amount': Decimal('50000000.00'), 'reg_capital_currency': '元', 'reg_code': '511421000101952', 'reg_no': '91511421MA68031K3W', 'scope': '房地产开发经营，土地整理，物业管理，企业营销策划，软件开发，技术推广服务。（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'start_date': '2019-08-07', 'tax_no': '91511421MA68031K3W', 'unified_code': '91511421MA68031K3W', 'updated_at': datetime.datetime(2023, 4, 23, 14, 58, 38), 'url': '/m/basic?pid=xlTM-TogKuTwCVNs6f-dOIioB38d1XE7pwmd&entName=%E5%9B%9B%E5%B7%9D%E9%94%A6%E8%87%BB%E6%BA%90%E5%AE%9E%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/aafc01e7e2df7eef66bb36470c2a7fc2.txt'}, 'compete_cnt': 0, 'data_id': 1576663034925144151, 'finances_cnt': 0, 'introduction': '-', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '徐云伟', 'name': '四川锦臻源实业有限公司', 'ownership_cnt': 2, 'ownership_list': {'amount': '50万(元)', 'company_id': 1576663034925144151, 'created_at': datetime.datetime(2022, 12, 19, 11, 37, 41), 'data_id': 5947552207521945993, 'data_type': 2, 'id': 11947365, 'is_delete': 0, 'ratio': '1%', 'tag': '', 'updated_at': datetime.datetime(2022, 12, 19, 11, 37, 41)}, 'tags': ''}" ]
+}

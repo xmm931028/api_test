@@ -1,0 +1,78 @@
+{
+  "uid" : "f635546dc2fc8612",
+  "name" : "校验招投标详情",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_detail",
+  "historyId" : "ef25fb87927222343911269c961266cf",
+  "time" : {
+    "start" : 1683688714326,
+    "stop" : 1683688715489,
+    "duration" : 1163
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 5571679986999269660, 'data_id': 2071896671521854596, 'item_number': '', 'money': '898008.0元', 'name': '临潭县教育局对临潭县羊沙中心小学等3所学校书法教室设备购置项目中标公告', 'notice_type': 2, 'products': '', 'pub_province': '甘肃省', 'pub_time': datetime.datetime(2022, 12, 10, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ae5fa4692e588dad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683605880396,
+        "stop" : 1683605881665,
+        "duration" : 1269
+      }
+    }, {
+      "uid" : "5ee76143ef622435",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683602733508,
+        "stop" : 1683602735328,
+        "duration" : 1820
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f635546dc2fc8612.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 5571679986999269660, 'data_id': 2071896671521854596, 'item_number': '', 'money': '898008.0元', 'name': '临潭县教育局对临潭县羊沙中心小学等3所学校书法教室设备购置项目中标公告', 'notice_type': 2, 'products': '', 'pub_province': '甘肃省', 'pub_time': datetime.datetime(2022, 12, 10, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

@@ -1,0 +1,60 @@
+{
+  "uid" : "bb81fe27b83366b6",
+  "name" : "orig_members接口",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_orig_members_v2",
+  "historyId" : "e31af643a9551491ac996380417ca0ba",
+  "time" : {
+    "start" : 1683607087951,
+    "stop" : 1683607088054,
+    "duration" : 103
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 2, 'company_member_list': {'company_id': 5775513286438803074, 'created_at': datetime.datetime(2023, 4, 26, 12, 49, 38), 'end_time': '', 'id': 1404368, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1839971088650438143, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 49, 38), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2016-11-29', 'authority': '北京市工商行政管理局海淀分局', 'comp_num': '1', 'comp_num_link': '', 'company_id': 5775513286438803074, 'created_at': datetime.datetime(2022, 10, 14, 10, 40, 37), 'district': '北京市海淀区', 'district_city': '北京市', 'district_county': '海淀区', 'district_province': '北京市', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 962884, 'industry': '科技推广和应用服务业', 'insurance_info': '{\"insuranceNum\": \"1人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=29848351900719&year=2021\"}', 'insurance_num': 1, 'legal_person': '董晓红', 'legal_person_id': 0, 'license_number': '110108012363279', 'open_status': '开业', 'open_time': '2009-10-29 至 2029-10-28', 'org_no': '69634066-X', 'org_type': '-', 'paidin_capital': '100万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '一般纳税人', 'real_capital': '-', 'reg_addr': '北京市海淀区西四环北路160号5层一区507', 'reg_capital': '500万(元)', 'reg_capital_amount': Decimal('5000000.00'), 'reg_capital_currency': '元', 'reg_code': '110108012363279', 'reg_no': '9111010869634066XU', 'scope': '技术开发、技术服务、技术咨询、技术转让；销售金属材料、建筑材料、机械设备、五金交电、电子产品；货物进出口、技术进出口、代理进出口。(企业依法自主选择经营项目，开展经营活动；依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事本市产业政策禁止和限制类项目的经营活动。)', 'start_date': '2009-10-29', 'tax_no': '9111010869634066XU', 'unified_code': '9111010869634066XU', 'updated_at': datetime.datetime(2023, 4, 23, 14, 27, 36), 'url': '/m/basic?pid=xlTM-TogKuTw56Mn3RBETQW6JSFRxopcIwmd&entName=%E5%8C%97%E4%BA%AC%E5%AE%87%E6%96%87%E7%A7%91%E6%8A%80%E5%8F%91%E5%B1%95%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/b7ab805f6858a238079bd837b172b2bf.txt'}, 'compete_cnt': 0, 'data_id': 5775513286438803074, 'finances_cnt': 0, 'introduction': '北京宇文科技发展有限公司成立于2009年10月29日，注册地位于北京市海淀区西四环北路160号5层一区507，法定代表人为董晓红。经营范围包括技术开发、技术服务、技术咨询、技术转让；销售金属材料、建筑材料、机械设备、五金交电、电子产品；货物进出口、技术进出口、代理进出口。(企业依法自主选择经营项目，开展经营活动；依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事本市产业政策禁止和限制类项目的经营活动。)', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '董晓红', 'name': '北京宇文科技发展有限公司', 'ownership_cnt': 2, 'ownership_list': {'amount': '250万(元)', 'company_id': 5775513286438803074, 'created_at': datetime.datetime(2022, 10, 14, 10, 36, 52), 'data_id': 1839971088650438143, 'data_type': 2, 'id': 1973039, 'is_delete': 0, 'ratio': '50%', 'tag': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 36, 52)}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bb81fe27b83366b6.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 2, 'company_member_list': {'company_id': 5775513286438803074, 'created_at': datetime.datetime(2023, 4, 26, 12, 49, 38), 'end_time': '', 'id': 1404368, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1839971088650438143, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 49, 38), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2016-11-29', 'authority': '北京市工商行政管理局海淀分局', 'comp_num': '1', 'comp_num_link': '', 'company_id': 5775513286438803074, 'created_at': datetime.datetime(2022, 10, 14, 10, 40, 37), 'district': '北京市海淀区', 'district_city': '北京市', 'district_county': '海淀区', 'district_province': '北京市', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 962884, 'industry': '科技推广和应用服务业', 'insurance_info': '{\"insuranceNum\": \"1人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=29848351900719&year=2021\"}', 'insurance_num': 1, 'legal_person': '董晓红', 'legal_person_id': 0, 'license_number': '110108012363279', 'open_status': '开业', 'open_time': '2009-10-29 至 2029-10-28', 'org_no': '69634066-X', 'org_type': '-', 'paidin_capital': '100万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '一般纳税人', 'real_capital': '-', 'reg_addr': '北京市海淀区西四环北路160号5层一区507', 'reg_capital': '500万(元)', 'reg_capital_amount': Decimal('5000000.00'), 'reg_capital_currency': '元', 'reg_code': '110108012363279', 'reg_no': '9111010869634066XU', 'scope': '技术开发、技术服务、技术咨询、技术转让；销售金属材料、建筑材料、机械设备、五金交电、电子产品；货物进出口、技术进出口、代理进出口。(企业依法自主选择经营项目，开展经营活动；依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事本市产业政策禁止和限制类项目的经营活动。)', 'start_date': '2009-10-29', 'tax_no': '9111010869634066XU', 'unified_code': '9111010869634066XU', 'updated_at': datetime.datetime(2023, 4, 23, 14, 27, 36), 'url': '/m/basic?pid=xlTM-TogKuTw56Mn3RBETQW6JSFRxopcIwmd&entName=%E5%8C%97%E4%BA%AC%E5%AE%87%E6%96%87%E7%A7%91%E6%8A%80%E5%8F%91%E5%B1%95%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/b7ab805f6858a238079bd837b172b2bf.txt'}, 'compete_cnt': 0, 'data_id': 5775513286438803074, 'finances_cnt': 0, 'introduction': '北京宇文科技发展有限公司成立于2009年10月29日，注册地位于北京市海淀区西四环北路160号5层一区507，法定代表人为董晓红。经营范围包括技术开发、技术服务、技术咨询、技术转让；销售金属材料、建筑材料、机械设备、五金交电、电子产品；货物进出口、技术进出口、代理进出口。(企业依法自主选择经营项目，开展经营活动；依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事本市产业政策禁止和限制类项目的经营活动。)', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '董晓红', 'name': '北京宇文科技发展有限公司', 'ownership_cnt': 2, 'ownership_list': {'amount': '250万(元)', 'company_id': 5775513286438803074, 'created_at': datetime.datetime(2022, 10, 14, 10, 36, 52), 'data_id': 1839971088650438143, 'data_type': 2, 'id': 1973039, 'is_delete': 0, 'ratio': '50%', 'tag': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 36, 52)}, 'tags': ''}" ]
+}

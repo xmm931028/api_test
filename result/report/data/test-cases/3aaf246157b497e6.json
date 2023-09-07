@@ -1,0 +1,60 @@
+{
+  "uid" : "3aaf246157b497e6",
+  "name" : "orig_members接口",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_orig_members_v2",
+  "historyId" : "337f125e2ede855a2a3519907dbe7556",
+  "time" : {
+    "start" : 1683607089590,
+    "stop" : 1683607089678,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2018-07-18', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 1713132757407557120, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '云南省丽江市宁蒗彝族自治县', 'district_city': '丽江市', 'district_county': '宁蒗彝族自治县', 'district_province': '云南省', 'ent_type': '农民专业合作社', 'id': 19188398, 'industry': '农业', 'insurance_info': '{\"insuraceNum\": \"5\"}', 'insurance_num': 5, 'legal_person': '历史阿坡', 'legal_person_id': 4964307005101986816, 'license_number': '530724NA000055X', 'open_status': '存续', 'open_time': '2010-04-07 至 无固定期限', 'org_no': '568828740', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': '120万人民币', 'reg_addr': '宁蒗县跑马坪乡二村', 'reg_capital': '300万(元)', 'reg_capital_amount': Decimal('3000000.00'), 'reg_capital_currency': '元', 'reg_code': '530724NA000055X', 'reg_no': '93530724568828740Q', 'scope': '经济林木种植；组织采购、供应成员所需的生产资料；组织收购、销售社员生产的产品；开展社员所需的运输、贮藏、加工、包装等服务；引进新技术、新品种，开展技术培训、技术交流和咨询服务；中药材种植；牛、羊的养殖。（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'start_date': '2010-04-07', 'tax_no': '93530724568828740Q', 'unified_code': '93530724568828740Q', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/7226ca85046259a862a17db109a52b62.txt'}, 'compete_cnt': 0, 'data_id': 1713132757407557120, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '历史阿坡', 'name': '宁蒗县跑马坪乡万格经济林木种植专业合作社', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3aaf246157b497e6.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2018-07-18', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 1713132757407557120, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '云南省丽江市宁蒗彝族自治县', 'district_city': '丽江市', 'district_county': '宁蒗彝族自治县', 'district_province': '云南省', 'ent_type': '农民专业合作社', 'id': 19188398, 'industry': '农业', 'insurance_info': '{\"insuraceNum\": \"5\"}', 'insurance_num': 5, 'legal_person': '历史阿坡', 'legal_person_id': 4964307005101986816, 'license_number': '530724NA000055X', 'open_status': '存续', 'open_time': '2010-04-07 至 无固定期限', 'org_no': '568828740', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': '120万人民币', 'reg_addr': '宁蒗县跑马坪乡二村', 'reg_capital': '300万(元)', 'reg_capital_amount': Decimal('3000000.00'), 'reg_capital_currency': '元', 'reg_code': '530724NA000055X', 'reg_no': '93530724568828740Q', 'scope': '经济林木种植；组织采购、供应成员所需的生产资料；组织收购、销售社员生产的产品；开展社员所需的运输、贮藏、加工、包装等服务；引进新技术、新品种，开展技术培训、技术交流和咨询服务；中药材种植；牛、羊的养殖。（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'start_date': '2010-04-07', 'tax_no': '93530724568828740Q', 'unified_code': '93530724568828740Q', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/7226ca85046259a862a17db109a52b62.txt'}, 'compete_cnt': 0, 'data_id': 1713132757407557120, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '历史阿坡', 'name': '宁蒗县跑马坪乡万格经济林木种植专业合作社', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+}

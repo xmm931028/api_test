@@ -1,0 +1,78 @@
+{
+  "uid" : "4b752580fffac5b7",
+  "name" : "校验招投标详情",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_detail",
+  "historyId" : "66d5ca7f1e0584389a178ee3dbb2bbb3",
+  "time" : {
+    "start" : 1683688699757,
+    "stop" : 1683688700945,
+    "duration" : 1188
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 3824929169679971752, 'data_id': 7422309388782771124, 'item_number': '', 'money': '', 'name': '菲达肥西烟气净化项目电气辅材采购结果公示', 'notice_type': 2, 'products': '电气辅材', 'pub_province': '安徽省', 'pub_time': datetime.datetime(2019, 10, 10, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c0e7586cf8adc00f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683605863042,
+        "stop" : 1683605864372,
+        "duration" : 1330
+      }
+    }, {
+      "uid" : "1f1e9485f2bd6c45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683602714963,
+        "stop" : 1683602716283,
+        "duration" : 1320
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4b752580fffac5b7.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 3824929169679971752, 'data_id': 7422309388782771124, 'item_number': '', 'money': '', 'name': '菲达肥西烟气净化项目电气辅材采购结果公示', 'notice_type': 2, 'products': '电气辅材', 'pub_province': '安徽省', 'pub_time': datetime.datetime(2019, 10, 10, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

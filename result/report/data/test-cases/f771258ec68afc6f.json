@@ -1,0 +1,78 @@
+{
+  "uid" : "f771258ec68afc6f",
+  "name" : "获取人物教育经历-V1接口",
+  "fullName" : "api_test.testcase.test_person.test_person.TestPerson#test_person_edu_experience",
+  "historyId" : "c64bfd421af640c02de6667040f3a050",
+  "time" : {
+    "start" : 1683690383330,
+    "stop" : 1683690383374,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人物测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_person"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPerson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_person.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 5, 'company_member_list': (), 'data_id': 2302653693382217915, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 0, 'member_cnt': 0, 'name': '吴大刚', 'person_list': {'avatar': '', 'avatar_word': '吴', 'created_at': datetime.datetime(2022, 10, 14, 10, 45, 4), 'data_id': 8058250134984225424, 'from': '爱企查', 'id': 1984747, 'introduction': '吴大刚：男，1970年7月出生，江苏苏州人，研究生学历，经济师，中共党员。1990年参加工作，历任人民银行苏州分行办事员、团委**(副科级)、金管科副科长、农金科副科长;人民银行太仓市支行副行长;人民银行苏州市中心支行办公室副主任、金管二科副科长;苏州银监分局监管二科副科长(主持工作)、监管二科科长;苏州银监分局党委委员、副局长。现任公司纪委**、监事长。', 'is_delete': 0, 'is_linked': 1, 'name': '吴大刚', 'tags': '', 'updated_at': datetime.datetime(2023, 3, 16, 10, 36, 31), 'us3_introduction': 'bdAttr/005140bdfa273bf0d8e6e7065cbeede5.txt'}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 39031510653661160, 'insuranceNum': 1786}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f89d7047adb80bdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683607712293,
+        "stop" : 1683607712353,
+        "duration" : 60
+      }
+    }, {
+      "uid" : "2a989e441dbc5e27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683604419300,
+        "stop" : 1683604419348,
+        "duration" : 48
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f771258ec68afc6f.json",
+  "parameterValues" : [ "{'cnt': 5, 'company_member_list': (), 'data_id': 2302653693382217915, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 0, 'member_cnt': 0, 'name': '吴大刚', 'person_list': {'avatar': '', 'avatar_word': '吴', 'created_at': datetime.datetime(2022, 10, 14, 10, 45, 4), 'data_id': 8058250134984225424, 'from': '爱企查', 'id': 1984747, 'introduction': '吴大刚：男，1970年7月出生，江苏苏州人，研究生学历，经济师，中共党员。1990年参加工作，历任人民银行苏州分行办事员、团委**(副科级)、金管科副科长、农金科副科长;人民银行太仓市支行副行长;人民银行苏州市中心支行办公室副主任、金管二科副科长;苏州银监分局监管二科副科长(主持工作)、监管二科科长;苏州银监分局党委委员、副局长。现任公司纪委**、监事长。', 'is_delete': 0, 'is_linked': 1, 'name': '吴大刚', 'tags': '', 'updated_at': datetime.datetime(2023, 3, 16, 10, 36, 31), 'us3_introduction': 'bdAttr/005140bdfa273bf0d8e6e7065cbeede5.txt'}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 39031510653661160, 'insuranceNum': 1786}, 'tags': ''}" ]
+}

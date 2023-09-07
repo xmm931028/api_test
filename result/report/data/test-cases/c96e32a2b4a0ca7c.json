@@ -1,0 +1,78 @@
+{
+  "uid" : "c96e32a2b4a0ca7c",
+  "name" : "组织成员",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_company_member",
+  "historyId" : "91495eb53244fc4448b6eb59dcb284d0",
+  "time" : {
+    "start" : 1683689823210,
+    "stop" : 1683689823302,
+    "duration" : 92
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2022-03-28', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 5950479017267083264, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '甘肃省金昌市永昌县', 'district_city': '金昌市', 'district_county': '永昌县', 'district_province': '甘肃省', 'ent_type': '有限责任公司(自然人独资)', 'id': 20361822, 'industry': '农业', 'insurance_info': '{\"insuraceNum\": \"\"}', 'insurance_num': 0, 'legal_person': '赵天锐', 'legal_person_id': 5395630585760656384, 'license_number': '620321200037292', 'open_status': '存续', 'open_time': '2022-03-28 至 无固定期限', 'org_no': 'MA7M9YF15', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '甘肃省金昌市永昌县新城子镇农林场', 'reg_capital': '1000万(元)', 'reg_capital_amount': Decimal('10000000.00'), 'reg_capital_currency': '元', 'reg_code': '620321200037292', 'reg_no': '91620321MA7M9YF15R', 'scope': '许可项目：牲畜饲养；家禽饲养；道路货物运输（不含危险货物）。（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准）***一般项目：蔬菜种植；草种植；豆类种植；薯类种植；食用菌种植；中草药种植；谷物种植；休闲观光活动；农业专业及辅助性活动；农作物病虫害防治服务；初级农产品收购；园林绿化工程施工；农业机械租赁；低温仓储（不含危险化学品等需许可审批的项目）；谷物销售；豆及薯类销售；农产品的生产、销售、加工、运输、贮藏及其他相关服务；农副产品销售；食用农产品初加工；草及相关制品销售；新鲜蔬菜批发；新鲜蔬菜零售；食用农产品零售；农作物秸秆处理及加工利用服务；劳务服务（不含劳务派遣）；装卸搬运；牲畜销售（不含犬类）；畜禽收购。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）***', 'start_date': '2022-03-28', 'tax_no': '91620321MA7M9YF15R', 'unified_code': '91620321MA7M9YF15R', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/901f87fbdde4d93e4068f3399c2a96be.txt'}, 'compete_cnt': 0, 'data_id': 5950479017267083264, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '赵天锐', 'name': '甘肃裕禾锐农业有限责任公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d30bd042887139d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683607124318,
+        "stop" : 1683607124490,
+        "duration" : 172
+      }
+    }, {
+      "uid" : "6a7a8a8699484d85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683603841579,
+        "stop" : 1683603841652,
+        "duration" : 73
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c96e32a2b4a0ca7c.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2022-03-28', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 5950479017267083264, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '甘肃省金昌市永昌县', 'district_city': '金昌市', 'district_county': '永昌县', 'district_province': '甘肃省', 'ent_type': '有限责任公司(自然人独资)', 'id': 20361822, 'industry': '农业', 'insurance_info': '{\"insuraceNum\": \"\"}', 'insurance_num': 0, 'legal_person': '赵天锐', 'legal_person_id': 5395630585760656384, 'license_number': '620321200037292', 'open_status': '存续', 'open_time': '2022-03-28 至 无固定期限', 'org_no': 'MA7M9YF15', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '甘肃省金昌市永昌县新城子镇农林场', 'reg_capital': '1000万(元)', 'reg_capital_amount': Decimal('10000000.00'), 'reg_capital_currency': '元', 'reg_code': '620321200037292', 'reg_no': '91620321MA7M9YF15R', 'scope': '许可项目：牲畜饲养；家禽饲养；道路货物运输（不含危险货物）。（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准）***一般项目：蔬菜种植；草种植；豆类种植；薯类种植；食用菌种植；中草药种植；谷物种植；休闲观光活动；农业专业及辅助性活动；农作物病虫害防治服务；初级农产品收购；园林绿化工程施工；农业机械租赁；低温仓储（不含危险化学品等需许可审批的项目）；谷物销售；豆及薯类销售；农产品的生产、销售、加工、运输、贮藏及其他相关服务；农副产品销售；食用农产品初加工；草及相关制品销售；新鲜蔬菜批发；新鲜蔬菜零售；食用农产品零售；农作物秸秆处理及加工利用服务；劳务服务（不含劳务派遣）；装卸搬运；牲畜销售（不含犬类）；畜禽收购。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）***', 'start_date': '2022-03-28', 'tax_no': '91620321MA7M9YF15R', 'unified_code': '91620321MA7M9YF15R', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/901f87fbdde4d93e4068f3399c2a96be.txt'}, 'compete_cnt': 0, 'data_id': 5950479017267083264, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '赵天锐', 'name': '甘肃裕禾锐农业有限责任公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+}

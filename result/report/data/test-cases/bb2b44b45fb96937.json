@@ -1,0 +1,78 @@
+{
+  "uid" : "bb2b44b45fb96937",
+  "name" : "校验招投标详情",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_detail",
+  "historyId" : "3d166ff5a53c9e512138700609d268de",
+  "time" : {
+    "start" : 1683688677327,
+    "stop" : 1683688678511,
+    "duration" : 1184
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 8492289093738943111, 'data_id': 1458199018181272851, 'item_number': '', 'money': '17450.0元', 'name': '内蒙古工业大学采购交换设备等(预算资金515000元)竞价结果公告', 'notice_type': 2, 'products': '交换设备,办公自动化设备', 'pub_province': '内蒙古自治区', 'pub_time': datetime.datetime(2019, 5, 10, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d4625800da0ed158",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683605835000,
+        "stop" : 1683605836593,
+        "duration" : 1593
+      }
+    }, {
+      "uid" : "9f948212ceee6d09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683602686182,
+        "stop" : 1683602687617,
+        "duration" : 1435
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bb2b44b45fb96937.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 8492289093738943111, 'data_id': 1458199018181272851, 'item_number': '', 'money': '17450.0元', 'name': '内蒙古工业大学采购交换设备等(预算资金515000元)竞价结果公告', 'notice_type': 2, 'products': '交换设备,办公自动化设备', 'pub_province': '内蒙古自治区', 'pub_time': datetime.datetime(2019, 5, 10, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

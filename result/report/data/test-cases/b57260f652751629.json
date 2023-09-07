@@ -1,0 +1,88 @@
+{
+  "uid" : "b57260f652751629",
+  "name" : "搜索有数据的企业",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_search",
+  "historyId" : "70b1fe6ca88e722872df380f9a99726c",
+  "time" : {
+    "start" : 1683689723654,
+    "stop" : 1683689723746,
+    "duration" : 92
+  },
+  "description" : "搜索企业,搜索结果与数据统计条数一致",
+  "descriptionHtml" : "<p>搜索企业,搜索结果与数据统计条数一致</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 2 == 1",
+  "statusTrace" : "self = <api_test.testcase.test_company.test_company_data.TestCompanyCase object at 0x000001C1E78A6408>\ntest_data = {'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), ...}\n\n    @allure.title('搜索有数据的企业')\n    @pytest.mark.parametrize('test_data',yaml_company_data)\n    def test_search(self,test_data):\n        '搜索企业,搜索结果与数据统计条数一致'\n        result = s.search_company(test_data['name'])\n        data_id = str(test_data['data_id'])\n        company_info = result['data']['items']\n        if company_info:\n            #断言搜索总数\n>           assert result['data']['cnt'] == test_data['cnt']  # 搜索条数\nE           assert 2 == 1\n\napi_test\\testcase\\test_company\\test_company_data.py:83: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2017-09-21', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 2796805656476674048, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '吉林省长春市公主岭市', 'district_city': '长春市', 'district_county': '公主岭市', 'district_province': '吉林省', 'ent_type': '农民专业合作社', 'id': 19839485, 'industry': '农业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '曲广超', 'legal_person_id': 6039922166402362368, 'license_number': '220381NA006409X', 'open_status': '存续', 'open_time': ' ', 'org_no': 'MA0Y3999X', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '吉林省公主岭市朝阳坡镇街道', 'reg_capital': '120万(元)', 'reg_capital_amount': Decimal('1200000.00'), 'reg_capital_currency': '元', 'reg_code': '220381NA006409X', 'reg_no': '93220381MA0Y3999XU', 'scope': '组织采购、供应成员所需的生产资料；组织收购、销售成员、生产的产品，开展成员所需的运输、贮藏、加工、包装等服务；种植服务、提供成员所需的农机作业服务（需专项审批的取得专项后方可经营）；引进新技术、开展技术培训、技术交流和咨询服务。（依法须经批准的目，经相关部门批准后方可开展经营活动）', 'start_date': '2015-11-10', 'tax_no': '93220381MA0Y3999XU', 'unified_code': '93220381MA0Y3999XU', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/1f31b85b7cc6b40471a738e41e4584cb.txt'}, 'compete_cnt': 0, 'data_id': 2796805656476674048, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '曲广超', 'name': '公主岭市朝阳坡镇招阳种植农机作业服务农民专业合作社', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3e311be5ad60bd7c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 == 1",
+      "time" : {
+        "start" : 1683607026353,
+        "stop" : 1683607026428,
+        "duration" : 75
+      }
+    }, {
+      "uid" : "8e13c3eb095ccf0b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 == 1",
+      "time" : {
+        "start" : 1683603730718,
+        "stop" : 1683603730795,
+        "duration" : 77
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b57260f652751629.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2017-09-21', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 2796805656476674048, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '吉林省长春市公主岭市', 'district_city': '长春市', 'district_county': '公主岭市', 'district_province': '吉林省', 'ent_type': '农民专业合作社', 'id': 19839485, 'industry': '农业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '曲广超', 'legal_person_id': 6039922166402362368, 'license_number': '220381NA006409X', 'open_status': '存续', 'open_time': ' ', 'org_no': 'MA0Y3999X', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '吉林省公主岭市朝阳坡镇街道', 'reg_capital': '120万(元)', 'reg_capital_amount': Decimal('1200000.00'), 'reg_capital_currency': '元', 'reg_code': '220381NA006409X', 'reg_no': '93220381MA0Y3999XU', 'scope': '组织采购、供应成员所需的生产资料；组织收购、销售成员、生产的产品，开展成员所需的运输、贮藏、加工、包装等服务；种植服务、提供成员所需的农机作业服务（需专项审批的取得专项后方可经营）；引进新技术、开展技术培训、技术交流和咨询服务。（依法须经批准的目，经相关部门批准后方可开展经营活动）', 'start_date': '2015-11-10', 'tax_no': '93220381MA0Y3999XU', 'unified_code': '93220381MA0Y3999XU', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/1f31b85b7cc6b40471a738e41e4584cb.txt'}, 'compete_cnt': 0, 'data_id': 2796805656476674048, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '曲广超', 'name': '公主岭市朝阳坡镇招阳种植农机作业服务农民专业合作社', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+}

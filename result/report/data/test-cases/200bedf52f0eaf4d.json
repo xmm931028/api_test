@@ -1,0 +1,62 @@
+{
+  "uid" : "200bedf52f0eaf4d",
+  "name" : "搜索有数据的企业",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_search",
+  "historyId" : "2f419bcf4a4c02831efbd2908552add0",
+  "time" : {
+    "start" : 1683607029305,
+    "stop" : 1683607029375,
+    "duration" : 70
+  },
+  "description" : "搜索企业,搜索结果与数据统计条数一致",
+  "descriptionHtml" : "<p>搜索企业,搜索结果与数据统计条数一致</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 4, 'company_member_list': {'company_id': 3162188259543950937, 'created_at': datetime.datetime(2023, 4, 26, 12, 7, 48), 'end_time': '', 'id': 10420123, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 3942565563308989591, 'pos_weight': 24, 'position': '董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 7, 48), 'useful_position': '19', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"董事\"}]'}, 'company_news_cnt': 4, 'company_news_value': {'company_id': 3162188259543950937, 'news_id': 5379720868859007780, 'publish_time': datetime.datetime(2023, 3, 30, 18, 6)}, 'company_register_info': {'annual_date': '2022-06-20', 'authority': '江苏无锡经济开发区行政审批局', 'comp_num': '8', 'comp_num_link': '', 'company_id': 3162188259543950937, 'created_at': datetime.datetime(2022, 12, 19, 11, 41, 20), 'district': '江苏省无锡市滨湖区', 'district_city': '无锡市', 'district_county': '滨湖区', 'district_province': '江苏省', 'ent_type': '有限责任公司(非自然人投资或控股的法人独资)', 'id': 8255442, 'industry': '科技推广和应用服务业', 'insurance_info': '{\"insuranceNum\": \"45人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=11471168382421&year=2021\"}', 'insurance_num': 45, 'legal_person': '程坦', 'legal_person_id': 0, 'license_number': '320211000503563', 'open_status': '开业', 'open_time': '2019-03-01 至 无固定期限', 'org_no': 'MA1Y03TG-3', 'org_type': '-', 'paidin_capital': '-', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '增值税一般纳税人', 'real_capital': '-', 'reg_addr': '无锡市太湖新城金融三街6号2001室', 'reg_capital': '100万(元)', 'reg_capital_amount': Decimal('1000000.00'), 'reg_capital_currency': '元', 'reg_code': '320211000503563', 'reg_no': '91320211MA1Y03TG32', 'scope': '软硬件开发；智能设备的研发；在大数据、信息、网络科技领域内从事技术开发、技术咨询、技术转让、技术服务；信息系统集成服务；数据处理及存储服务（不含在线数据）；网络工程的设计、施工；合同能源管理；企业管理咨询服务；贸易咨询服务；计算机软硬件及辅助设备、电子产品、通讯设备（不含卫星广播电视地面接收设施及发射装置）、工业自动化系统装置的销售、租赁（不含融资性租赁）；自营和代理各类商品及技术的进出口业务（国家限定企业经营或禁止进出口的商品除外）。（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'start_date': '2019-03-01', 'tax_no': '91320211MA1Y03TG32', 'unified_code': '91320211MA1Y03TG32', 'updated_at': datetime.datetime(2023, 4, 23, 14, 36, 55), 'url': '/m/basic?pid=xlTM-TogKuTwi6CN0vO5dA4uct445f-SFgmd&entName=%E4%B8%AD%E7%A7%91%E6%B5%B7%E6%8B%93%28%E6%97%A0%E9%94%A1%29%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/edd7cdf45fd09fff1131ae6b26ad2637.txt'}, 'compete_cnt': 0, 'data_id': 3162188259543950937, 'finances_cnt': 0, 'introduction': '中科海拓(无锡)科技有限公司成立于2019年03月01日，注册地位于无锡市太湖新城金融三街6号2001室，法定代表人为程坦。经营范围包括软硬件开发；智能设备的研发；在大数据、信息、网络科技领域内从事技术开发、技术咨询、技术转让、技术服务；信息系统集成服务；数据处理及存储服务（不含在线数据）；网络工程的设计、施工；合同能源管理；企业管理咨询服务；贸易咨询服务；计算机软硬件及辅助设备、电子产品、通讯设备（不含卫星广播电视地面接收设施及发射装置）、工业自动化系统装置的销售、租赁（不含融资性租赁）；自营和代理各类商品及技术的进出口业务（国家限定企业经营或禁止进出口的商品除外）。（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '程坦', 'name': '中科海拓(无锡)科技有限公司', 'ownership_cnt': 1, 'ownership_list': {'amount': '100万(元)', 'company_id': 3162188259543950937, 'created_at': datetime.datetime(2022, 12, 19, 11, 34, 13), 'data_id': 3798531468507492552, 'data_type': 1, 'id': 10895719, 'is_delete': 0, 'ratio': '100%', 'tag': '', 'updated_at': datetime.datetime(2022, 12, 19, 11, 34, 13)}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "200bedf52f0eaf4d.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 4, 'company_member_list': {'company_id': 3162188259543950937, 'created_at': datetime.datetime(2023, 4, 26, 12, 7, 48), 'end_time': '', 'id': 10420123, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 3942565563308989591, 'pos_weight': 24, 'position': '董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 7, 48), 'useful_position': '19', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"董事\"}]'}, 'company_news_cnt': 4, 'company_news_value': {'company_id': 3162188259543950937, 'news_id': 5379720868859007780, 'publish_time': datetime.datetime(2023, 3, 30, 18, 6)}, 'company_register_info': {'annual_date': '2022-06-20', 'authority': '江苏无锡经济开发区行政审批局', 'comp_num': '8', 'comp_num_link': '', 'company_id': 3162188259543950937, 'created_at': datetime.datetime(2022, 12, 19, 11, 41, 20), 'district': '江苏省无锡市滨湖区', 'district_city': '无锡市', 'district_county': '滨湖区', 'district_province': '江苏省', 'ent_type': '有限责任公司(非自然人投资或控股的法人独资)', 'id': 8255442, 'industry': '科技推广和应用服务业', 'insurance_info': '{\"insuranceNum\": \"45人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=11471168382421&year=2021\"}', 'insurance_num': 45, 'legal_person': '程坦', 'legal_person_id': 0, 'license_number': '320211000503563', 'open_status': '开业', 'open_time': '2019-03-01 至 无固定期限', 'org_no': 'MA1Y03TG-3', 'org_type': '-', 'paidin_capital': '-', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '增值税一般纳税人', 'real_capital': '-', 'reg_addr': '无锡市太湖新城金融三街6号2001室', 'reg_capital': '100万(元)', 'reg_capital_amount': Decimal('1000000.00'), 'reg_capital_currency': '元', 'reg_code': '320211000503563', 'reg_no': '91320211MA1Y03TG32', 'scope': '软硬件开发；智能设备的研发；在大数据、信息、网络科技领域内从事技术开发、技术咨询、技术转让、技术服务；信息系统集成服务；数据处理及存储服务（不含在线数据）；网络工程的设计、施工；合同能源管理；企业管理咨询服务；贸易咨询服务；计算机软硬件及辅助设备、电子产品、通讯设备（不含卫星广播电视地面接收设施及发射装置）、工业自动化系统装置的销售、租赁（不含融资性租赁）；自营和代理各类商品及技术的进出口业务（国家限定企业经营或禁止进出口的商品除外）。（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'start_date': '2019-03-01', 'tax_no': '91320211MA1Y03TG32', 'unified_code': '91320211MA1Y03TG32', 'updated_at': datetime.datetime(2023, 4, 23, 14, 36, 55), 'url': '/m/basic?pid=xlTM-TogKuTwi6CN0vO5dA4uct445f-SFgmd&entName=%E4%B8%AD%E7%A7%91%E6%B5%B7%E6%8B%93%28%E6%97%A0%E9%94%A1%29%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/edd7cdf45fd09fff1131ae6b26ad2637.txt'}, 'compete_cnt': 0, 'data_id': 3162188259543950937, 'finances_cnt': 0, 'introduction': '中科海拓(无锡)科技有限公司成立于2019年03月01日，注册地位于无锡市太湖新城金融三街6号2001室，法定代表人为程坦。经营范围包括软硬件开发；智能设备的研发；在大数据、信息、网络科技领域内从事技术开发、技术咨询、技术转让、技术服务；信息系统集成服务；数据处理及存储服务（不含在线数据）；网络工程的设计、施工；合同能源管理；企业管理咨询服务；贸易咨询服务；计算机软硬件及辅助设备、电子产品、通讯设备（不含卫星广播电视地面接收设施及发射装置）、工业自动化系统装置的销售、租赁（不含融资性租赁）；自营和代理各类商品及技术的进出口业务（国家限定企业经营或禁止进出口的商品除外）。（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '程坦', 'name': '中科海拓(无锡)科技有限公司', 'ownership_cnt': 1, 'ownership_list': {'amount': '100万(元)', 'company_id': 3162188259543950937, 'created_at': datetime.datetime(2022, 12, 19, 11, 34, 13), 'data_id': 3798531468507492552, 'data_type': 1, 'id': 10895719, 'is_delete': 0, 'ratio': '100%', 'tag': '', 'updated_at': datetime.datetime(2022, 12, 19, 11, 34, 13)}, 'tags': ''}" ]
+}

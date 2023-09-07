@@ -1,0 +1,84 @@
+{
+  "uid" : "d654af2bd2deb6e4",
+  "name" : "人物搜索",
+  "fullName" : "api_test.testcase.test_person.test_person.TestPerson#test_person_search",
+  "historyId" : "e49ec1fe7a650d1006f77b6b4003b7ef",
+  "time" : {
+    "start" : 1683690261773,
+    "stop" : 1683690265247,
+    "duration" : 3474
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 2714 == 2716",
+  "statusTrace" : "self = <api_test.testcase.test_person.test_person.TestPerson object at 0x000001C1E7BD2448>\ntest_data = {'cnt': 3258, 'company_member_list': [{'company_id': 8934220927826597223, 'created_at': datetime.datetime(2023, 4, 26,...etime(2023, 5, 4, 21, 7, 53), 'end_time': '', 'id': 67164277, ...}], 'data_id': 6775168613929241299, 'edu_cnt': 0, ...}\n\n    @allure.title('人物搜索')\n    @pytest.mark.parametrize('test_data', person_yaml_data)\n    def test_person_search(self, test_data):\n        result = p.person_search_v3(test_data['name'],'')\n        result_info = result['data']['items']\n        person_id = str(test_data['data_id'])\n        # 断言搜索结果与数据库保持一致\n        sql_person_cnt = f'select count(*) count from person where name like \"%{test_data[\"name\"]}%\" and `from` <> \"脉脉\" and data_id  in (select person_id from company_member)'\n        cnt = s.get_one_value(sql_person_cnt)\n>       assert cnt == result['data']['cnt']\nE       assert 2714 == 2716\n\napi_test\\testcase\\test_person\\test_person.py:91: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人物测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_person"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPerson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_person.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 3258, 'company_member_list': [{'company_id': 8934220927826597223, 'created_at': datetime.datetime(2023, 4, 26, 13, 40, 22), 'end_time': '', 'id': 5384430, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 6775168613929241299, 'pos_weight': 24, 'position': '执行董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 40, 22), 'useful_position': '19', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"执行董事\"}]'}, {'company_id': 780262639468709854, 'created_at': datetime.datetime(2023, 5, 4, 21, 7, 53), 'end_time': '', 'id': 67164277, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 6775168613929241299, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-05-04', 'updated_at': datetime.datetime(2023, 5, 8, 18, 25, 59), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}], 'data_id': 6775168613929241299, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 2, 'name': '张燕', 'person_list': {'avatar': '', 'avatar_word': '张', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 24), 'data_id': 4827983199792448802, 'from': '爱企查', 'id': 736, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '张燕', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 43, 24), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 7581435961835691668, 'insuranceNum': 14881}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3cb460dcc3f14382",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683607591373,
+        "stop" : 1683607594523,
+        "duration" : 3150
+      }
+    }, {
+      "uid" : "94a3ac58a2ed6181",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683604293996,
+        "stop" : 1683604297119,
+        "duration" : 3123
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d654af2bd2deb6e4.json",
+  "parameterValues" : [ "{'cnt': 3258, 'company_member_list': [{'company_id': 8934220927826597223, 'created_at': datetime.datetime(2023, 4, 26, 13, 40, 22), 'end_time': '', 'id': 5384430, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 6775168613929241299, 'pos_weight': 24, 'position': '执行董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 40, 22), 'useful_position': '19', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"执行董事\"}]'}, {'company_id': 780262639468709854, 'created_at': datetime.datetime(2023, 5, 4, 21, 7, 53), 'end_time': '', 'id': 67164277, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 6775168613929241299, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-05-04', 'updated_at': datetime.datetime(2023, 5, 8, 18, 25, 59), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}], 'data_id': 6775168613929241299, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 2, 'name': '张燕', 'person_list': {'avatar': '', 'avatar_word': '张', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 24), 'data_id': 4827983199792448802, 'from': '爱企查', 'id': 736, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '张燕', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 43, 24), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 7581435961835691668, 'insuranceNum': 14881}, 'tags': ''}" ]
+}

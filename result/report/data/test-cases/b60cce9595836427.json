@@ -1,0 +1,60 @@
+{
+  "uid" : "b60cce9595836427",
+  "name" : "校验招投标搜索",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_search",
+  "historyId" : "b3bca0d58e22f97e88ad8893a76a6231",
+  "time" : {
+    "start" : 1683605666759,
+    "stop" : 1683605668358,
+    "duration" : 1599
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 5084319781831376631, 'item_number': '', 'money': '4636000.0', 'name': '采购智能垃圾中转站压缩设备', 'notice_type': 2, 'products': '水平式垃圾压缩设备', 'pub_province': '', 'pub_time': datetime.datetime(2022, 11, 22, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b60cce9595836427.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 5084319781831376631, 'item_number': '', 'money': '4636000.0', 'name': '采购智能垃圾中转站压缩设备', 'notice_type': 2, 'products': '水平式垃圾压缩设备', 'pub_province': '', 'pub_time': datetime.datetime(2022, 11, 22, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

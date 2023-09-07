@@ -1,0 +1,78 @@
+{
+  "uid" : "3a4702bccd0c7703",
+  "name" : "校验招投标详情",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_detail",
+  "historyId" : "717f081719fcc4bc03c0a75a312e5010",
+  "time" : {
+    "start" : 1683688623794,
+    "stop" : 1683688624954,
+    "duration" : 1160
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 928843278956182448, 'item_number': '', 'money': '', 'name': '高台县骆驼城镇新民小学运动场建设项目（面层工程）成交公示', 'notice_type': 2, 'products': '运动场建设', 'pub_province': '甘肃省', 'pub_time': datetime.datetime(2023, 3, 17, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a32e9105c9ccd5f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683605769867,
+        "stop" : 1683605771291,
+        "duration" : 1424
+      }
+    }, {
+      "uid" : "7493817471ad4fa1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683602616508,
+        "stop" : 1683602617865,
+        "duration" : 1357
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3a4702bccd0c7703.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 928843278956182448, 'item_number': '', 'money': '', 'name': '高台县骆驼城镇新民小学运动场建设项目（面层工程）成交公示', 'notice_type': 2, 'products': '运动场建设', 'pub_province': '甘肃省', 'pub_time': datetime.datetime(2023, 3, 17, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

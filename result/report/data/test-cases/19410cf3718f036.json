@@ -1,0 +1,78 @@
+{
+  "uid" : "19410cf3718f036",
+  "name" : "校验招投标搜索",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_search",
+  "historyId" : "c9f1c401d863798cafa43c4f21e83716",
+  "time" : {
+    "start" : 1683688594672,
+    "stop" : 1683688595746,
+    "duration" : 1074
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 189491488071285722, 'item_number': '', 'money': '', 'name': '威海电厂综合中心办公家具采购询价书的采购结果', 'notice_type': 2, 'products': '办公家具', 'pub_province': '山东省', 'pub_time': datetime.datetime(2022, 11, 24, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "39b7200f96ad81ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683605735440,
+        "stop" : 1683605736879,
+        "duration" : 1439
+      }
+    }, {
+      "uid" : "5880cd92533a3210",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683602580217,
+        "stop" : 1683602581599,
+        "duration" : 1382
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "19410cf3718f036.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 189491488071285722, 'item_number': '', 'money': '', 'name': '威海电厂综合中心办公家具采购询价书的采购结果', 'notice_type': 2, 'products': '办公家具', 'pub_province': '山东省', 'pub_time': datetime.datetime(2022, 11, 24, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

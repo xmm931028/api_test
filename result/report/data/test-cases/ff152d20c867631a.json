@@ -1,0 +1,60 @@
+{
+  "uid" : "ff152d20c867631a",
+  "name" : "相似企业接口",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_company_compete_companies",
+  "historyId" : "cfbb7baf55a04621fd2ad7aca9222f52",
+  "time" : {
+    "start" : 1683607081494,
+    "stop" : 1683607081541,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 6, 'company_member_list': {'company_id': 446669945791134903, 'created_at': datetime.datetime(2023, 4, 26, 12, 28, 43), 'end_time': '', 'id': 223735, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 192100152764451685, 'pos_weight': 0, 'position': '董事长,总经理', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 1, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 28, 43), 'useful_position': '0,26', 'useful_position_json': '[{\"id\": \"0\", \"name\": \"董事长\"}, {\"id\": \"26\", \"name\": \"总经理\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2021-07-26', 'authority': '松江区市场监督管理局', 'comp_num': '1', 'comp_num_link': '', 'company_id': 446669945791134903, 'created_at': datetime.datetime(2022, 10, 14, 10, 41, 22), 'district': '上海市松江区', 'district_city': '上海市', 'district_county': '松江区', 'district_province': '上海市', 'ent_type': '有限责任公司(国有控股)', 'id': 1504050, 'industry': '金属制品业', 'insurance_info': '{\"insuranceNum\": \"93人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=32265281788823&year=2021\"}', 'insurance_num': 93, 'legal_person': '黄高云', 'legal_person_id': 0, 'license_number': '310227000580503', 'open_status': '开业', 'open_time': '1999-11-10 至 无固定期限', 'org_no': '63162542-9', 'org_type': '-', 'paidin_capital': '4,195.1万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '增值税一般纳税人', 'real_capital': '-', 'reg_addr': '上海市松江区九亭镇涞坊路2039号8幢', 'reg_capital': '4,195.1万(元)', 'reg_capital_amount': Decimal('41951000.00'), 'reg_capital_currency': '元', 'reg_code': '310227000580503', 'reg_no': '91310117631625429X', 'scope': '滑动轴承双金属复合材料及制品,碟形弹簧,密封材料自产自销。,电子元件加工。经营本企业自产产品的出口业务和本企业所需的机械设备、零配件、原辅材料的进口业务(但国家限定公司经营或禁止进出口的商品及技术除外),本企业包括本企业控股的成员企业。[依法须经批准的项目,经相关部门批准后方可开展经营活动]', 'start_date': '1999-11-10', 'tax_no': '91310117631625429X', 'unified_code': '91310117631625429X', 'updated_at': datetime.datetime(2023, 4, 23, 14, 36, 6), 'url': '/m/basic?pid=xlTM-TogKuTwdyorC4b6UAcJut71EOD6Kgmd&entName=%E4%B8%8A%E6%B5%B7%E6%A0%B8%E5%A8%81%E5%AE%9E%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/a70033cf08503a0a9c6298baf962d21a.txt'}, 'compete_cnt': 0, 'data_id': 446669945791134903, 'finances_cnt': 0, 'introduction': '上海核威实业有限公司成立于1999年11月10日，注册地位于上海市松江区九亭镇涞坊路2039号8幢，法定代表人为黄高云。经营范围包括滑动轴承双金属复合材料及制品,碟形弹簧,密封材料自产自销。,电子元件加工。经营本企业自产产品的出口业务和本企业所需的机械设备、零配件、原辅材料的进口业务(但国家限定公司经营或禁止进出口的商品及技术除外),本企业包括本企业控股的成员企业。[依法须经批准的项目,经相关部门批准后方可开展经营活动]上海核威实业有限公司对外投资1家公司。', 'invest_cnt': 1, 'invest_list': {'amount': '300万(元)', 'company_id': 446669945791134903, 'created_at': datetime.datetime(2022, 10, 14, 10, 23, 25), 'data_id': 7198090168028073924, 'data_type': 1, 'id': 260698, 'rate': '100%', 'status': '开业', 'updated_at': datetime.datetime(2022, 10, 14, 10, 23, 25)}, 'legal_person': '黄高云', 'name': '上海核威实业有限公司', 'ownership_cnt': 2, 'ownership_list': {'amount': '3,975.1万(元)', 'company_id': 446669945791134903, 'created_at': datetime.datetime(2022, 10, 14, 10, 38, 46), 'data_id': 2768580503218511479, 'data_type': 1, 'id': 3126427, 'is_delete': 0, 'ratio': '94.755787%', 'tag': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 38, 46)}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff152d20c867631a.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 6, 'company_member_list': {'company_id': 446669945791134903, 'created_at': datetime.datetime(2023, 4, 26, 12, 28, 43), 'end_time': '', 'id': 223735, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 192100152764451685, 'pos_weight': 0, 'position': '董事长,总经理', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 1, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 28, 43), 'useful_position': '0,26', 'useful_position_json': '[{\"id\": \"0\", \"name\": \"董事长\"}, {\"id\": \"26\", \"name\": \"总经理\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2021-07-26', 'authority': '松江区市场监督管理局', 'comp_num': '1', 'comp_num_link': '', 'company_id': 446669945791134903, 'created_at': datetime.datetime(2022, 10, 14, 10, 41, 22), 'district': '上海市松江区', 'district_city': '上海市', 'district_county': '松江区', 'district_province': '上海市', 'ent_type': '有限责任公司(国有控股)', 'id': 1504050, 'industry': '金属制品业', 'insurance_info': '{\"insuranceNum\": \"93人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=32265281788823&year=2021\"}', 'insurance_num': 93, 'legal_person': '黄高云', 'legal_person_id': 0, 'license_number': '310227000580503', 'open_status': '开业', 'open_time': '1999-11-10 至 无固定期限', 'org_no': '63162542-9', 'org_type': '-', 'paidin_capital': '4,195.1万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '增值税一般纳税人', 'real_capital': '-', 'reg_addr': '上海市松江区九亭镇涞坊路2039号8幢', 'reg_capital': '4,195.1万(元)', 'reg_capital_amount': Decimal('41951000.00'), 'reg_capital_currency': '元', 'reg_code': '310227000580503', 'reg_no': '91310117631625429X', 'scope': '滑动轴承双金属复合材料及制品,碟形弹簧,密封材料自产自销。,电子元件加工。经营本企业自产产品的出口业务和本企业所需的机械设备、零配件、原辅材料的进口业务(但国家限定公司经营或禁止进出口的商品及技术除外),本企业包括本企业控股的成员企业。[依法须经批准的项目,经相关部门批准后方可开展经营活动]', 'start_date': '1999-11-10', 'tax_no': '91310117631625429X', 'unified_code': '91310117631625429X', 'updated_at': datetime.datetime(2023, 4, 23, 14, 36, 6), 'url': '/m/basic?pid=xlTM-TogKuTwdyorC4b6UAcJut71EOD6Kgmd&entName=%E4%B8%8A%E6%B5%B7%E6%A0%B8%E5%A8%81%E5%AE%9E%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/a70033cf08503a0a9c6298baf962d21a.txt'}, 'compete_cnt': 0, 'data_id': 446669945791134903, 'finances_cnt': 0, 'introduction': '上海核威实业有限公司成立于1999年11月10日，注册地位于上海市松江区九亭镇涞坊路2039号8幢，法定代表人为黄高云。经营范围包括滑动轴承双金属复合材料及制品,碟形弹簧,密封材料自产自销。,电子元件加工。经营本企业自产产品的出口业务和本企业所需的机械设备、零配件、原辅材料的进口业务(但国家限定公司经营或禁止进出口的商品及技术除外),本企业包括本企业控股的成员企业。[依法须经批准的项目,经相关部门批准后方可开展经营活动]上海核威实业有限公司对外投资1家公司。', 'invest_cnt': 1, 'invest_list': {'amount': '300万(元)', 'company_id': 446669945791134903, 'created_at': datetime.datetime(2022, 10, 14, 10, 23, 25), 'data_id': 7198090168028073924, 'data_type': 1, 'id': 260698, 'rate': '100%', 'status': '开业', 'updated_at': datetime.datetime(2022, 10, 14, 10, 23, 25)}, 'legal_person': '黄高云', 'name': '上海核威实业有限公司', 'ownership_cnt': 2, 'ownership_list': {'amount': '3,975.1万(元)', 'company_id': 446669945791134903, 'created_at': datetime.datetime(2022, 10, 14, 10, 38, 46), 'data_id': 2768580503218511479, 'data_type': 1, 'id': 3126427, 'is_delete': 0, 'ratio': '94.755787%', 'tag': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 38, 46)}, 'tags': ''}" ]
+}

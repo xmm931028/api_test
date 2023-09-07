@@ -1,0 +1,60 @@
+{
+  "uid" : "bd95cf71546fa090",
+  "name" : "校验招投标详情",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_detail",
+  "historyId" : "7c5e0cf6db36ca2bcd5833687640de54",
+  "time" : {
+    "start" : 1683605839211,
+    "stop" : 1683605841038,
+    "duration" : 1827
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 7944963428016842614, 'data_id': 4363352091253993855, 'item_number': '', 'money': '', 'name': '德州站客运视频监控补强成交候选人公示', 'notice_type': 2, 'products': '客运视频监控补强', 'pub_province': '河北省', 'pub_time': datetime.datetime(2022, 8, 29, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bd95cf71546fa090.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 7944963428016842614, 'data_id': 4363352091253993855, 'item_number': '', 'money': '', 'name': '德州站客运视频监控补强成交候选人公示', 'notice_type': 2, 'products': '客运视频监控补强', 'pub_province': '河北省', 'pub_time': datetime.datetime(2022, 8, 29, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

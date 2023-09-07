@@ -1,0 +1,60 @@
+{
+  "uid" : "ba3b5456eebdb8e1",
+  "name" : "校验招投标详情",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_detail",
+  "historyId" : "b3a4a1bc223da2069c13b55f2122afc5",
+  "time" : {
+    "start" : 1683602651989,
+    "stop" : 1683602653262,
+    "duration" : 1273
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 7839057953683410158, 'item_number': '', 'money': '', 'name': '嵊州市创建国家5A级婚姻登记中心规范化及婚姻民俗文化展示区展陈项目的合同公告', 'notice_type': 2, 'products': '婚姻民俗文化展示区展陈', 'pub_province': '浙江省', 'pub_time': datetime.datetime(2022, 11, 21, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ba3b5456eebdb8e1.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 7839057953683410158, 'item_number': '', 'money': '', 'name': '嵊州市创建国家5A级婚姻登记中心规范化及婚姻民俗文化展示区展陈项目的合同公告', 'notice_type': 2, 'products': '婚姻民俗文化展示区展陈', 'pub_province': '浙江省', 'pub_time': datetime.datetime(2022, 11, 21, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

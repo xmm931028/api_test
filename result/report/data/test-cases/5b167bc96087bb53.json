@@ -1,0 +1,75 @@
+{
+  "uid" : "5b167bc96087bb53",
+  "name" : "采购商列表接口",
+  "fullName" : "api_test.testcase.test_bid.test_bid_api.TestBid#test_bid_invite_list",
+  "historyId" : "1b9604ee073de3780e34634059fb4201",
+  "time" : {
+    "start" : 1683687394031,
+    "stop" : 1683687398060,
+    "duration" : 4029
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标接口回归测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBid"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid.test_bid_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9aac8f3690a63937",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683604516532,
+        "stop" : 1683604521326,
+        "duration" : 4794
+      }
+    }, {
+      "uid" : "d8c669bb64bbed9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683601334258,
+        "stop" : 1683601339306,
+        "duration" : 5048
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b167bc96087bb53.json",
+  "parameterValues" : [ ]
+}

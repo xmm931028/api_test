@@ -1,0 +1,83 @@
+{
+  "uid" : "1c53cd67d4e25ad9",
+  "name" : "test_db_bid_project_win_company_contact",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_DbCheck#test_db_bid_project_win_company_contact",
+  "historyId" : "628275f378bfe54d900733d24b6c4851",
+  "time" : {
+    "start" : 1683688174222,
+    "stop" : 1683688197224,
+    "duration" : 23002
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 185 == 0\n +  where 185 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>>('select count(*) count from bid_project_win_company where CHAR_LENGTH(contact) >10;')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>.get_one_value",
+  "statusTrace" : "self = <api_test.testcase.test_bid_project.test_bid.Test_Bid_DbCheck object at 0x000001C1E77ECFC8>\n\n    def test_db_bid_project_win_company_contact(self):\n        #断言中标公司联系人名字长度超过10个字符\n>       assert s.get_one_value(\"select count(*) count from bid_project_win_company where CHAR_LENGTH(contact) >10;\") == 0\nE       AssertionError: assert 185 == 0\nE        +  where 185 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>>('select count(*) count from bid_project_win_company where CHAR_LENGTH(contact) >10;')\nE        +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>.get_one_value\n\napi_test\\testcase\\test_bid_project\\test_bid.py:83: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标db校验"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_DbCheck"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "52418f589047a10e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 185 == 0\n +  where 185 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A25F648>>('select count(*) count from bid_project_win_company where CHAR_LENGTH(contact) >10;')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A25F648>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A25F648>.get_one_value",
+      "time" : {
+        "start" : 1683605313340,
+        "stop" : 1683605339458,
+        "duration" : 26118
+      }
+    }, {
+      "uid" : "e28fceedd1311bb9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 185 == 0\n +  where 185 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x0000024370F83248>>('select count(*) count from bid_project_win_company where CHAR_LENGTH(contact) >10;')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x0000024370F83248>> = <api_test.untils.HandleMysql.HandleMysql object at 0x0000024370F83248>.get_one_value",
+      "time" : {
+        "start" : 1683602115430,
+        "stop" : 1683602157787,
+        "duration" : 42357
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1c53cd67d4e25ad9.json",
+  "parameterValues" : [ ]
+}

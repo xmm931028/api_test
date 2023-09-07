@@ -1,0 +1,60 @@
+{
+  "uid" : "faef6956b06409b4",
+  "name" : "校验招投标搜索",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_search",
+  "historyId" : "f43b1780dc0b3375d67ec3d40305846e",
+  "time" : {
+    "start" : 1683605750433,
+    "stop" : 1683605751659,
+    "duration" : 1226
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 8852334473087437221, 'data_id': 2119964718246252275, 'item_number': '', 'money': '14100.0元', 'name': '环江毛南族自治县总工会关于碎纸机的网上超市采购项目成交公告', 'notice_type': 2, 'products': '文件柜奈高4392800.01600.03联想/lenovo t4900 台式整机,碎纸机', 'pub_province': '广西壮族自治区', 'pub_time': datetime.datetime(2022, 6, 7, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "faef6956b06409b4.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 8852334473087437221, 'data_id': 2119964718246252275, 'item_number': '', 'money': '14100.0元', 'name': '环江毛南族自治县总工会关于碎纸机的网上超市采购项目成交公告', 'notice_type': 2, 'products': '文件柜奈高4392800.01600.03联想/lenovo t4900 台式整机,碎纸机', 'pub_province': '广西壮族自治区', 'pub_time': datetime.datetime(2022, 6, 7, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

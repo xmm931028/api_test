@@ -1,0 +1,62 @@
+{
+  "uid" : "aed44e4ea0cf1ef9",
+  "name" : "企业基本信息与搜索保持一致",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_company_datail",
+  "historyId" : "bcdec1f8221d877355211366da2319b2",
+  "time" : {
+    "start" : 1683607048151,
+    "stop" : 1683607048387,
+    "duration" : 236
+  },
+  "description" : "校验企业介绍",
+  "descriptionHtml" : "<p>校验企业介绍</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': None, 'compete_cnt': 0, 'data_id': 7610781128087765791, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '杨增松', 'name': '深圳市肌趣科技有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aed44e4ea0cf1ef9.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': None, 'compete_cnt': 0, 'data_id': 7610781128087765791, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '杨增松', 'name': '深圳市肌趣科技有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+}

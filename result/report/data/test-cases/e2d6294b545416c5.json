@@ -1,0 +1,60 @@
+{
+  "uid" : "e2d6294b545416c5",
+  "name" : "人物详情页-基本信息",
+  "fullName" : "api_test.testcase.test_person.test_person.TestPerson#test_person_detail",
+  "historyId" : "331f75b260b95127ff84fd149f8f1527",
+  "time" : {
+    "start" : 1683604368166,
+    "stop" : 1683604368234,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人物测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_person"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPerson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_person.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 4, 'company_member_list': (), 'data_id': 536555942836586738, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 0, 'member_cnt': 0, 'name': '姜春晓', 'person_list': {'avatar': '', 'avatar_word': '姜', 'created_at': datetime.datetime(2022, 10, 14, 10, 45, 52), 'data_id': 2003259140780973554, 'from': '爱企查', 'id': 2932006, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '姜春晓', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 45, 52), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 4980456043290932972, 'insuranceNum': 2}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e2d6294b545416c5.json",
+  "parameterValues" : [ "{'cnt': 4, 'company_member_list': (), 'data_id': 536555942836586738, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 0, 'member_cnt': 0, 'name': '姜春晓', 'person_list': {'avatar': '', 'avatar_word': '姜', 'created_at': datetime.datetime(2022, 10, 14, 10, 45, 52), 'data_id': 2003259140780973554, 'from': '爱企查', 'id': 2932006, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '姜春晓', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 45, 52), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 4980456043290932972, 'insuranceNum': 2}, 'tags': ''}" ]
+}

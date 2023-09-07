@@ -1,0 +1,60 @@
+{
+  "uid" : "e60500fe0dc652a1",
+  "name" : "校验招投标搜索",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_search",
+  "historyId" : "f47246392198f12b5c9fbdf749645170",
+  "time" : {
+    "start" : 1683602496855,
+    "stop" : 1683602498072,
+    "duration" : 1217
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 6899832809495293773, 'data_id': 8814238530914272264, 'item_number': '', 'money': '', 'name': '天津市红星职业中等专业学校天津市红星职业中等专业学校2022年食堂服务项目(项目编号:YHZB2022-HQ-001)竞争性磋商公告-否', 'notice_type': 1, 'products': '餐饮服务,食堂服务', 'pub_province': '天津市', 'pub_time': datetime.datetime(2022, 3, 10, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e60500fe0dc652a1.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 6899832809495293773, 'data_id': 8814238530914272264, 'item_number': '', 'money': '', 'name': '天津市红星职业中等专业学校天津市红星职业中等专业学校2022年食堂服务项目(项目编号:YHZB2022-HQ-001)竞争性磋商公告-否', 'notice_type': 1, 'products': '餐饮服务,食堂服务', 'pub_province': '天津市', 'pub_time': datetime.datetime(2022, 3, 10, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

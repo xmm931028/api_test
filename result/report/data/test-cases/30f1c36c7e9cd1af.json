@@ -1,0 +1,83 @@
+{
+  "uid" : "30f1c36c7e9cd1af",
+  "name" : "test_db_bid_project_win_company_id",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_DbCheck#test_db_bid_project_win_company_id",
+  "historyId" : "15490be79c84cc4671b856bad385b886",
+  "time" : {
+    "start" : 1683688043061,
+    "stop" : 1683688061440,
+    "duration" : 18379
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 429808 == 0\n +  where 429808 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>>('select count(*) count from bid_project_win_company where company_id not in (select data_id from company ) and company_id >0;')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>.get_one_value",
+  "statusTrace" : "self = <api_test.testcase.test_bid_project.test_bid.Test_Bid_DbCheck object at 0x000001C1E77EC448>\n\n    def test_db_bid_project_win_company_id(self):\n        #断言中标公司不在company存在的数据\n>       assert s.get_one_value(\"select count(*) count from bid_project_win_company where company_id not in (select data_id from company ) and company_id >0;\") == 0\nE       AssertionError: assert 429808 == 0\nE        +  where 429808 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>>('select count(*) count from bid_project_win_company where company_id not in (select data_id from company ) and company_id >0;')\nE        +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>.get_one_value\n\napi_test\\testcase\\test_bid_project\\test_bid.py:77: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标db校验"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_DbCheck"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c94b139f809f03d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 429850 == 0\n +  where 429850 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A25F648>>('select count(*) count from bid_project_win_company where company_id not in (select data_id from company ) and company_id >0;')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A25F648>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A25F648>.get_one_value",
+      "time" : {
+        "start" : 1683605194326,
+        "stop" : 1683605212345,
+        "duration" : 18019
+      }
+    }, {
+      "uid" : "10a7511aad796d98",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 429850 == 0\n +  where 429850 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x0000024370F83248>>('select count(*) count from bid_project_win_company where company_id not in (select data_id from company ) and company_id >0;')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x0000024370F83248>> = <api_test.untils.HandleMysql.HandleMysql object at 0x0000024370F83248>.get_one_value",
+      "time" : {
+        "start" : 1683601996323,
+        "stop" : 1683602015142,
+        "duration" : 18819
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "30f1c36c7e9cd1af.json",
+  "parameterValues" : [ ]
+}

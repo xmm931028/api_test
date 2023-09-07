@@ -1,0 +1,60 @@
+{
+  "uid" : "b723c4f233a48406",
+  "name" : "人物搜索",
+  "fullName" : "api_test.testcase.test_person.test_person.TestPerson#test_person_search",
+  "historyId" : "42dcef23a99fa3f643f577d905bddc97",
+  "time" : {
+    "start" : 1683607546549,
+    "stop" : 1683607549644,
+    "duration" : 3095
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人物测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_person"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPerson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_person.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 2, 'company_member_list': [{'company_id': 8904705117881271819, 'created_at': datetime.datetime(2023, 4, 26, 13, 40, 26), 'end_time': '', 'id': 4426792, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 6043657097941493933, 'pos_weight': 1001, 'position': '', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 0, 'position_label_six': 0, 'position_label_three': 1, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 40, 26), 'useful_position': '41', 'useful_position_json': '[]'}], 'data_id': 6043657097941493933, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 1, 'name': '余盛强', 'person_list': {'avatar': '', 'avatar_word': '余', 'created_at': datetime.datetime(2022, 10, 14, 10, 45, 38), 'data_id': 6043657097941493933, 'from': '爱企查', 'id': 2645602, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '余盛强', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 45, 38), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 8904705117881271819, 'insuranceNum': 0}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b723c4f233a48406.json",
+  "parameterValues" : [ "{'cnt': 2, 'company_member_list': [{'company_id': 8904705117881271819, 'created_at': datetime.datetime(2023, 4, 26, 13, 40, 26), 'end_time': '', 'id': 4426792, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 6043657097941493933, 'pos_weight': 1001, 'position': '', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 0, 'position_label_six': 0, 'position_label_three': 1, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 40, 26), 'useful_position': '41', 'useful_position_json': '[]'}], 'data_id': 6043657097941493933, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 1, 'name': '余盛强', 'person_list': {'avatar': '', 'avatar_word': '余', 'created_at': datetime.datetime(2022, 10, 14, 10, 45, 38), 'data_id': 6043657097941493933, 'from': '爱企查', 'id': 2645602, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '余盛强', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 45, 38), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 8904705117881271819, 'insuranceNum': 0}, 'tags': ''}" ]
+}

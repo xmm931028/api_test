@@ -1,0 +1,60 @@
+{
+  "uid" : "9cfdfb0121115648",
+  "name" : "企业融资历程-v1接口",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_company_finances_v1",
+  "historyId" : "b4c1a6530ed3e6a6d68990f489eb9d90",
+  "time" : {
+    "start" : 1683607066609,
+    "stop" : 1683607066661,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2021-11-11', 'authority': '晋中市太谷区市场监督管理局', 'comp_num': '1', 'comp_num_link': '', 'company_id': 2549814118446731377, 'created_at': datetime.datetime(2022, 10, 14, 10, 41, 18), 'district': '山西省晋中市太谷区', 'district_city': '晋中市', 'district_county': '太谷区', 'district_province': '山西省', 'ent_type': '有限责任公司分公司(自然人投资或控股)', 'id': 1462348, 'industry': '装卸搬运和仓储业', 'insurance_info': '{\"insuranceNum\": \"0人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=92565378506787&year=2021\"}', 'insurance_num': 0, 'legal_person': '张怡轩', 'legal_person_id': 0, 'license_number': '14072600A004385', 'open_status': '开业', 'open_time': '2021-11-11 至 2028-04-26', 'org_no': 'MA7YLETW-X', 'org_type': '-', 'paidin_capital': '-', 'person_link': '', 'person_title': '负责人', 'prev_ent_name': '-', 'qualification': '-', 'real_capital': '-', 'reg_addr': '山西省晋中市太谷区侯城乡北沙河村新建街111号', 'reg_capital': '-', 'reg_capital_amount': Decimal('0.00'), 'reg_capital_currency': '', 'reg_code': '14072600A004385', 'reg_no': '91140726MA7YLETWXT', 'scope': '许可项目：互联网信息服务；道路货物运输（不含危险货物）。（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准）一般项目：普通货物仓储服务（不含危险化学品等需许可审批的项目）；国内货物运输代理；装卸搬运；供应链管理服务。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）', 'start_date': '2021-11-11', 'tax_no': '91140726MA7YLETWXT', 'unified_code': '91140726MA7YLETWXT', 'updated_at': datetime.datetime(2023, 4, 27, 10, 4, 26), 'url': '/m/basic?pid=xlTM-TogKuTwxtpsxDFD5nL2Jkc4cnNbzgmd&entName=%E5%B1%B1%E8%A5%BF%E6%99%9F%E4%BA%A8%E5%85%83%E7%89%A9%E6%B5%81%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%A4%AA%E8%B0%B7%E5%88%86%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/147e7045878ef775510da206fe6fa2eb.txt'}, 'compete_cnt': 0, 'data_id': 2549814118446731377, 'finances_cnt': 0, 'introduction': '山西晟亨元物流有限公司太谷分公司成立于2021年11月11日，注册地位于山西省晋中市太谷区侯城乡北沙河村新建街111号，法定代表人为张怡轩。经营范围包括许可项目：互联网信息服务；道路货物运输（不含危险货物）。（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准）一般项目：普通货物仓储服务（不含危险化学品等需许可审批的项目）；国内货物运输代理；装卸搬运；供应链管理服务。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '张怡轩', 'name': '山西晟亨元物流有限公司太谷分公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9cfdfb0121115648.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2021-11-11', 'authority': '晋中市太谷区市场监督管理局', 'comp_num': '1', 'comp_num_link': '', 'company_id': 2549814118446731377, 'created_at': datetime.datetime(2022, 10, 14, 10, 41, 18), 'district': '山西省晋中市太谷区', 'district_city': '晋中市', 'district_county': '太谷区', 'district_province': '山西省', 'ent_type': '有限责任公司分公司(自然人投资或控股)', 'id': 1462348, 'industry': '装卸搬运和仓储业', 'insurance_info': '{\"insuranceNum\": \"0人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=92565378506787&year=2021\"}', 'insurance_num': 0, 'legal_person': '张怡轩', 'legal_person_id': 0, 'license_number': '14072600A004385', 'open_status': '开业', 'open_time': '2021-11-11 至 2028-04-26', 'org_no': 'MA7YLETW-X', 'org_type': '-', 'paidin_capital': '-', 'person_link': '', 'person_title': '负责人', 'prev_ent_name': '-', 'qualification': '-', 'real_capital': '-', 'reg_addr': '山西省晋中市太谷区侯城乡北沙河村新建街111号', 'reg_capital': '-', 'reg_capital_amount': Decimal('0.00'), 'reg_capital_currency': '', 'reg_code': '14072600A004385', 'reg_no': '91140726MA7YLETWXT', 'scope': '许可项目：互联网信息服务；道路货物运输（不含危险货物）。（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准）一般项目：普通货物仓储服务（不含危险化学品等需许可审批的项目）；国内货物运输代理；装卸搬运；供应链管理服务。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）', 'start_date': '2021-11-11', 'tax_no': '91140726MA7YLETWXT', 'unified_code': '91140726MA7YLETWXT', 'updated_at': datetime.datetime(2023, 4, 27, 10, 4, 26), 'url': '/m/basic?pid=xlTM-TogKuTwxtpsxDFD5nL2Jkc4cnNbzgmd&entName=%E5%B1%B1%E8%A5%BF%E6%99%9F%E4%BA%A8%E5%85%83%E7%89%A9%E6%B5%81%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%A4%AA%E8%B0%B7%E5%88%86%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/147e7045878ef775510da206fe6fa2eb.txt'}, 'compete_cnt': 0, 'data_id': 2549814118446731377, 'finances_cnt': 0, 'introduction': '山西晟亨元物流有限公司太谷分公司成立于2021年11月11日，注册地位于山西省晋中市太谷区侯城乡北沙河村新建街111号，法定代表人为张怡轩。经营范围包括许可项目：互联网信息服务；道路货物运输（不含危险货物）。（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准）一般项目：普通货物仓储服务（不含危险化学品等需许可审批的项目）；国内货物运输代理；装卸搬运；供应链管理服务。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '张怡轩', 'name': '山西晟亨元物流有限公司太谷分公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+}

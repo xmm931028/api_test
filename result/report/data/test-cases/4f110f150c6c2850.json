@@ -1,0 +1,78 @@
+{
+  "uid" : "4f110f150c6c2850",
+  "name" : "获取人物新闻",
+  "fullName" : "api_test.testcase.test_person.test_person.TestPerson#test_person_news",
+  "historyId" : "a72df588303627043afd209c9750cf91",
+  "time" : {
+    "start" : 1683690388085,
+    "stop" : 1683690388130,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人物测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_person"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPerson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_person.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 2, 'company_member_list': [{'company_id': 183881240340311738, 'created_at': datetime.datetime(2023, 4, 26, 11, 46, 26), 'end_time': '', 'id': 878966, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 995277832804087431, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 11, 46, 26), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}], 'data_id': 995277832804087431, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 1, 'name': '夏友军', 'person_list': {'avatar': '', 'avatar_word': '夏', 'created_at': datetime.datetime(2022, 10, 14, 10, 44, 9), 'data_id': 2667136830538723428, 'from': '爱企查', 'id': 889318, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '夏友军', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 44, 9), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 4493380589061709803, 'insuranceNum': 6}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cbecdd0341f0931e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683607716863,
+        "stop" : 1683607716910,
+        "duration" : 47
+      }
+    }, {
+      "uid" : "ca095500c784c4eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683604424741,
+        "stop" : 1683604424797,
+        "duration" : 56
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f110f150c6c2850.json",
+  "parameterValues" : [ "{'cnt': 2, 'company_member_list': [{'company_id': 183881240340311738, 'created_at': datetime.datetime(2023, 4, 26, 11, 46, 26), 'end_time': '', 'id': 878966, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 995277832804087431, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 11, 46, 26), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}], 'data_id': 995277832804087431, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 1, 'name': '夏友军', 'person_list': {'avatar': '', 'avatar_word': '夏', 'created_at': datetime.datetime(2022, 10, 14, 10, 44, 9), 'data_id': 2667136830538723428, 'from': '爱企查', 'id': 889318, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '夏友军', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 44, 9), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 4493380589061709803, 'insuranceNum': 6}, 'tags': ''}" ]
+}

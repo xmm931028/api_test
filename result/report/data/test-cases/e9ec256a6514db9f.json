@@ -1,0 +1,78 @@
+{
+  "uid" : "e9ec256a6514db9f",
+  "name" : "获取人物新闻",
+  "fullName" : "api_test.testcase.test_person.test_person.TestPerson#test_person_news",
+  "historyId" : "0649ef399cd34347b1a30a12ca38ec6f",
+  "time" : {
+    "start" : 1683690389972,
+    "stop" : 1683690390019,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人物测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_person"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPerson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_person.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 2, 'company_member_list': [{'company_id': 5792602118066417554, 'created_at': datetime.datetime(2023, 4, 26, 12, 49, 42), 'end_time': '', 'id': 25014003, 'is_delete': 0, 'job_status': 2, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1140933117385155487, 'pos_weight': 7, 'position': 'CEO', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 0, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 1, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 49, 42), 'useful_position': '4', 'useful_position_json': '[{\"id\": \"4\", \"name\": \"CEO\"}]'}, {'company_id': 8304671870157000653, 'created_at': datetime.datetime(2023, 4, 26, 13, 31, 13), 'end_time': '', 'id': 61520569, 'is_delete': 0, 'job_status': 2, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1140933117385155487, 'pos_weight': 1001, 'position': '', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 0, 'position_label_six': 0, 'position_label_three': 1, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 31, 13), 'useful_position': '41', 'useful_position_json': '[]'}, {'company_id': 8635944678469588378, 'created_at': datetime.datetime(2023, 4, 26, 13, 35, 45), 'end_time': '', 'id': 61913622, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1140933117385155487, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 35, 45), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, {'company_id': 1458847326715380072, 'created_at': datetime.datetime(2023, 4, 26, 11, 39, 33), 'end_time': '', 'id': 61913623, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1140933117385155487, 'pos_weight': 7, 'position': 'ceo,总经理,执行董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 1, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 11, 39, 33), 'useful_position': '4,19,26', 'useful_position_json': '[{\"id\": \"4\", \"name\": \"CEO\"}, {\"id\": \"19\", \"name\": \"执行董事\"}, {\"id\": \"26\", \"name\": \"总经理\"}]'}, {'company_id': 5558781305776877573, 'created_at': datetime.datetime(2023, 4, 26, 12, 46, 29), 'end_time': '', 'id': 61913624, 'is_delete': 0, 'job_status': 2, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1140933117385155487, 'pos_weight': 1001, 'position': '', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 0, 'position_label_six': 0, 'position_label_three': 1, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 46, 29), 'useful_position': '41', 'useful_position_json': '[]'}], 'data_id': 1140933117385155487, 'edu_cnt': 3, 'edu_list': [{'created_at': datetime.datetime(2022, 11, 10, 18, 20, 37), 'degree': '200', 'end_time': '', 'id': 6210, 'person_id': 1140933117385155487, 'professional': '', 'school_name': '卡内基梅隆大学', 'school_url': '', 'start_time': '', 'updated_at': datetime.datetime(2022, 12, 21, 0, 20, 11)}, {'created_at': datetime.datetime(2023, 2, 16, 19, 53, 43), 'degree': '2', 'end_time': '', 'id': 512457, 'person_id': 1140933117385155487, 'professional': '计算机', 'school_name': '美国卡耐基梅隆大学', 'school_url': '', 'start_time': '', 'updated_at': datetime.datetime(2023, 2, 16, 19, 53, 43)}, {'created_at': datetime.datetime(2022, 12, 13, 0, 0), 'degree': '200', 'end_time': '', 'id': 6212, 'person_id': 1140933117385155487, 'professional': '', 'school_name': '美国卡耐基梅隆大学', 'school_url': '', 'start_time': '', 'updated_at': datetime.datetime(2022, 12, 21, 0, 20, 11)}], 'introduction': '恒安特斯CEO，美国卡耐基梅隆大学计算机硕士和智能问答实验室成员，美国苹果公司总部，在iOS小组大型服务器集群优化及大规模数据处理。', 'is_linked': 1, 'member_cnt': 5, 'name': '林桂民', 'person_list': {'avatar': '', 'avatar_word': '林', 'created_at': datetime.datetime(2022, 11, 11, 14, 46, 1), 'data_id': 1140933117385155487, 'from': 'juzi', 'id': 4284782, 'introduction': '恒安特斯CEO，美国卡耐基梅隆大学计算机硕士和智能问答实验室成员，美国苹果公司总部，在iOS小组大型服务器集群优化及大规模数据处理。', 'is_delete': 0, 'is_linked': 1, 'name': '林桂民', 'tags': '创业者', 'updated_at': datetime.datetime(2023, 3, 16, 11, 38, 44), 'us3_introduction': 'bdAttr/406920a807b78850f51c94464f9ccb5a.txt'}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 8635944678469588378, 'insuranceNum': 0}, 'tags': '创业者'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6bf10d6cc0ca6871",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683607718895,
+        "stop" : 1683607718941,
+        "duration" : 46
+      }
+    }, {
+      "uid" : "80aaa8d31efe5239",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683604427027,
+        "stop" : 1683604427072,
+        "duration" : 45
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9ec256a6514db9f.json",
+  "parameterValues" : [ "{'cnt': 2, 'company_member_list': [{'company_id': 5792602118066417554, 'created_at': datetime.datetime(2023, 4, 26, 12, 49, 42), 'end_time': '', 'id': 25014003, 'is_delete': 0, 'job_status': 2, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1140933117385155487, 'pos_weight': 7, 'position': 'CEO', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 0, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 1, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 49, 42), 'useful_position': '4', 'useful_position_json': '[{\"id\": \"4\", \"name\": \"CEO\"}]'}, {'company_id': 8304671870157000653, 'created_at': datetime.datetime(2023, 4, 26, 13, 31, 13), 'end_time': '', 'id': 61520569, 'is_delete': 0, 'job_status': 2, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1140933117385155487, 'pos_weight': 1001, 'position': '', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 0, 'position_label_six': 0, 'position_label_three': 1, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 31, 13), 'useful_position': '41', 'useful_position_json': '[]'}, {'company_id': 8635944678469588378, 'created_at': datetime.datetime(2023, 4, 26, 13, 35, 45), 'end_time': '', 'id': 61913622, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1140933117385155487, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 35, 45), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, {'company_id': 1458847326715380072, 'created_at': datetime.datetime(2023, 4, 26, 11, 39, 33), 'end_time': '', 'id': 61913623, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1140933117385155487, 'pos_weight': 7, 'position': 'ceo,总经理,执行董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 1, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 11, 39, 33), 'useful_position': '4,19,26', 'useful_position_json': '[{\"id\": \"4\", \"name\": \"CEO\"}, {\"id\": \"19\", \"name\": \"执行董事\"}, {\"id\": \"26\", \"name\": \"总经理\"}]'}, {'company_id': 5558781305776877573, 'created_at': datetime.datetime(2023, 4, 26, 12, 46, 29), 'end_time': '', 'id': 61913624, 'is_delete': 0, 'job_status': 2, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1140933117385155487, 'pos_weight': 1001, 'position': '', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 0, 'position_label_six': 0, 'position_label_three': 1, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 46, 29), 'useful_position': '41', 'useful_position_json': '[]'}], 'data_id': 1140933117385155487, 'edu_cnt': 3, 'edu_list': [{'created_at': datetime.datetime(2022, 11, 10, 18, 20, 37), 'degree': '200', 'end_time': '', 'id': 6210, 'person_id': 1140933117385155487, 'professional': '', 'school_name': '卡内基梅隆大学', 'school_url': '', 'start_time': '', 'updated_at': datetime.datetime(2022, 12, 21, 0, 20, 11)}, {'created_at': datetime.datetime(2023, 2, 16, 19, 53, 43), 'degree': '2', 'end_time': '', 'id': 512457, 'person_id': 1140933117385155487, 'professional': '计算机', 'school_name': '美国卡耐基梅隆大学', 'school_url': '', 'start_time': '', 'updated_at': datetime.datetime(2023, 2, 16, 19, 53, 43)}, {'created_at': datetime.datetime(2022, 12, 13, 0, 0), 'degree': '200', 'end_time': '', 'id': 6212, 'person_id': 1140933117385155487, 'professional': '', 'school_name': '美国卡耐基梅隆大学', 'school_url': '', 'start_time': '', 'updated_at': datetime.datetime(2022, 12, 21, 0, 20, 11)}], 'introduction': '恒安特斯CEO，美国卡耐基梅隆大学计算机硕士和智能问答实验室成员，美国苹果公司总部，在iOS小组大型服务器集群优化及大规模数据处理。', 'is_linked': 1, 'member_cnt': 5, 'name': '林桂民', 'person_list': {'avatar': '', 'avatar_word': '林', 'created_at': datetime.datetime(2022, 11, 11, 14, 46, 1), 'data_id': 1140933117385155487, 'from': 'juzi', 'id': 4284782, 'introduction': '恒安特斯CEO，美国卡耐基梅隆大学计算机硕士和智能问答实验室成员，美国苹果公司总部，在iOS小组大型服务器集群优化及大规模数据处理。', 'is_delete': 0, 'is_linked': 1, 'name': '林桂民', 'tags': '创业者', 'updated_at': datetime.datetime(2023, 3, 16, 11, 38, 44), 'us3_introduction': 'bdAttr/406920a807b78850f51c94464f9ccb5a.txt'}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 8635944678469588378, 'insuranceNum': 0}, 'tags': '创业者'}" ]
+}

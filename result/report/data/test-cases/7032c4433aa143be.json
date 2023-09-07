@@ -1,0 +1,78 @@
+{
+  "uid" : "7032c4433aa143be",
+  "name" : "人物搜索",
+  "fullName" : "api_test.testcase.test_person.test_person.TestPerson#test_person_search",
+  "historyId" : "074545b76933918faeadcc63d654d86f",
+  "time" : {
+    "start" : 1683690083785,
+    "stop" : 1683690086933,
+    "duration" : 3148
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人物测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_person"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPerson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_person.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 3, 'company_member_list': (), 'data_id': 5290213933035147529, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 0, 'member_cnt': 0, 'name': '胡冬静', 'person_list': {'avatar': '', 'avatar_word': '胡', 'created_at': datetime.datetime(2023, 5, 4, 16, 26, 27), 'data_id': 2389102786998855082, 'from': '爱企查', 'id': 59939067, 'introduction': '', 'is_delete': 0, 'is_linked': 0, 'name': '胡冬静', 'tags': '', 'updated_at': datetime.datetime(2023, 5, 4, 16, 26, 27), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': None, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5cbd158cc490be40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683607405743,
+        "stop" : 1683607409016,
+        "duration" : 3273
+      }
+    }, {
+      "uid" : "72c57aa8ef7f2c1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683604111281,
+        "stop" : 1683604114528,
+        "duration" : 3247
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7032c4433aa143be.json",
+  "parameterValues" : [ "{'cnt': 3, 'company_member_list': (), 'data_id': 5290213933035147529, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 0, 'member_cnt': 0, 'name': '胡冬静', 'person_list': {'avatar': '', 'avatar_word': '胡', 'created_at': datetime.datetime(2023, 5, 4, 16, 26, 27), 'data_id': 2389102786998855082, 'from': '爱企查', 'id': 59939067, 'introduction': '', 'is_delete': 0, 'is_linked': 0, 'name': '胡冬静', 'tags': '', 'updated_at': datetime.datetime(2023, 5, 4, 16, 26, 27), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': None, 'tags': ''}" ]
+}

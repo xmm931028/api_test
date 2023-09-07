@@ -1,0 +1,83 @@
+{
+  "uid" : "256026eabd4fcc77",
+  "name" : "查询招标公司异常数据",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_DbCheck#test_db_bid_invite_company_name_null",
+  "historyId" : "9573a47521e34aa9a4c8876ce503c363",
+  "time" : {
+    "start" : 1683688220619,
+    "stop" : 1683688256931,
+    "duration" : 36312
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 11 == 0\n +  where 11 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>>(\"select count(*) count from bid_project_invite_company where name='' or name='-';\")\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>.get_one_value",
+  "statusTrace" : "self = <api_test.testcase.test_bid_project.test_bid.Test_Bid_DbCheck object at 0x000001C1E77FB6C8>\n\n    @allure.title('查询招标公司异常数据')\n    def test_db_bid_invite_company_name_null(self):\n        #断言招标公司名称为空的数据\n>       assert s.get_one_value(\"select count(*) count from bid_project_invite_company where name='' or name='-';\") == 0\nE       assert 11 == 0\nE        +  where 11 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>>(\"select count(*) count from bid_project_invite_company where name='' or name='-';\")\nE        +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>.get_one_value\n\napi_test\\testcase\\test_bid_project\\test_bid.py:92: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标db校验"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_DbCheck"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a8fb8bea03b73894",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 11 == 0\n +  where 11 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A25F648>>(\"select count(*) count from bid_project_invite_company where name='' or name='-';\")\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A25F648>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A25F648>.get_one_value",
+      "time" : {
+        "start" : 1683605342906,
+        "stop" : 1683605387366,
+        "duration" : 44460
+      }
+    }, {
+      "uid" : "a65c4b31155ea9d5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 11 == 0\n +  where 11 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x0000024370F83248>>(\"select count(*) count from bid_project_invite_company where name='' or name='-';\")\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x0000024370F83248>> = <api_test.untils.HandleMysql.HandleMysql object at 0x0000024370F83248>.get_one_value",
+      "time" : {
+        "start" : 1683602160966,
+        "stop" : 1683602200998,
+        "duration" : 40032
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "256026eabd4fcc77.json",
+  "parameterValues" : [ ]
+}

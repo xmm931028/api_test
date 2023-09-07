@@ -1,0 +1,78 @@
+{
+  "uid" : "899e3bcfeeee8372",
+  "name" : "校验招投标详情",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_detail",
+  "historyId" : "6a114ef9156a678ba9535ccd7c08dcf1",
+  "time" : {
+    "start" : 1683688674971,
+    "stop" : 1683688676130,
+    "duration" : 1159
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 1590460323593506689, 'item_number': '', 'money': '3808.5', 'name': '常宁市林业局关于卷尺的网上超市采购项目成交公告1', 'notice_type': 2, 'products': '三益档案,卷尺', 'pub_province': '湖南省', 'pub_time': datetime.datetime(2021, 12, 29, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a1d4ce5123448ac6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683605832470,
+        "stop" : 1683605833740,
+        "duration" : 1270
+      }
+    }, {
+      "uid" : "ced701cceaa7dd5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683602683015,
+        "stop" : 1683602684425,
+        "duration" : 1410
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "899e3bcfeeee8372.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 1590460323593506689, 'item_number': '', 'money': '3808.5', 'name': '常宁市林业局关于卷尺的网上超市采购项目成交公告1', 'notice_type': 2, 'products': '三益档案,卷尺', 'pub_province': '湖南省', 'pub_time': datetime.datetime(2021, 12, 29, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

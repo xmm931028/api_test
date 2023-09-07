@@ -1,0 +1,78 @@
+{
+  "uid" : "76ab41c8a5f3c18b",
+  "name" : "校验招投标搜索",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_search",
+  "historyId" : "2612cd839ec993d644ce79ce9573f5d9",
+  "time" : {
+    "start" : 1683688544199,
+    "stop" : 1683688545323,
+    "duration" : 1124
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 8243257245077932628, 'item_number': '', 'money': '', 'name': '招标公告：中国二冶清水驿至傅家窑QFTJ5项目小型构件加工工程劳务分包', 'notice_type': 1, 'products': '小型构件加工工程劳务分包', 'pub_province': '内蒙古自治区', 'pub_time': datetime.datetime(2020, 11, 21, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ec11129039f167f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683605675123,
+        "stop" : 1683605676525,
+        "duration" : 1402
+      }
+    }, {
+      "uid" : "db3eff6b429514a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683602516104,
+        "stop" : 1683602517574,
+        "duration" : 1470
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76ab41c8a5f3c18b.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 8243257245077932628, 'item_number': '', 'money': '', 'name': '招标公告：中国二冶清水驿至傅家窑QFTJ5项目小型构件加工工程劳务分包', 'notice_type': 1, 'products': '小型构件加工工程劳务分包', 'pub_province': '内蒙古自治区', 'pub_time': datetime.datetime(2020, 11, 21, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

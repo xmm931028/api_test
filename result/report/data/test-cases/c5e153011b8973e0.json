@@ -1,0 +1,78 @@
+{
+  "uid" : "c5e153011b8973e0",
+  "name" : "校验招投标搜索",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_search",
+  "historyId" : "f3f44f2bec0fd03942bdfce4f5448e7e",
+  "time" : {
+    "start" : 1683688502234,
+    "stop" : 1683688503421,
+    "duration" : 1187
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2613378360341286889, 'data_id': 1529145657681435035, 'item_number': '', 'money': '', 'name': '云南金鼎锌业有限公司二类机电202209--160142询价单结果公告', 'notice_type': 2, 'products': '', 'pub_province': '云南省', 'pub_time': datetime.datetime(2022, 10, 12, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f11b1fdb5cded507",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683605624071,
+        "stop" : 1683605625301,
+        "duration" : 1230
+      }
+    }, {
+      "uid" : "1e3d7147516ee09e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683602459899,
+        "stop" : 1683602461102,
+        "duration" : 1203
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c5e153011b8973e0.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2613378360341286889, 'data_id': 1529145657681435035, 'item_number': '', 'money': '', 'name': '云南金鼎锌业有限公司二类机电202209--160142询价单结果公告', 'notice_type': 2, 'products': '', 'pub_province': '云南省', 'pub_time': datetime.datetime(2022, 10, 12, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

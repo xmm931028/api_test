@@ -1,0 +1,60 @@
+{
+  "uid" : "928c6c65f4feb612",
+  "name" : "校验招投标搜索",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_search",
+  "historyId" : "84e81aab05fdcdb5d613f00d68e33d05",
+  "time" : {
+    "start" : 1683605727706,
+    "stop" : 1683605729001,
+    "duration" : 1295
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2854491867443512743, 'data_id': 697999218765603162, 'item_number': '', 'money': '884196.08元', 'name': '国家税务总局哈尔滨市税务局哈尔滨市税务局第三稽查局外立面理石拆除工程-临街拆除成交公告', 'notice_type': 2, 'products': '临街拆除外立面理石拆除', 'pub_province': '黑龙江省', 'pub_time': datetime.datetime(2021, 10, 14, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "928c6c65f4feb612.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2854491867443512743, 'data_id': 697999218765603162, 'item_number': '', 'money': '884196.08元', 'name': '国家税务总局哈尔滨市税务局哈尔滨市税务局第三稽查局外立面理石拆除工程-临街拆除成交公告', 'notice_type': 2, 'products': '临街拆除外立面理石拆除', 'pub_province': '黑龙江省', 'pub_time': datetime.datetime(2021, 10, 14, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

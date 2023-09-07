@@ -1,0 +1,59 @@
+{
+  "uid" : "7b03d2c63e07e0ce",
+  "name" : "test_db_bid_invite_company_phone",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_DbCheck#test_db_bid_invite_company_phone",
+  "historyId" : "ec899d5ff2fe5ea5f116a31fdc89ad25",
+  "time" : {
+    "start" : 1683602425268,
+    "stop" : 1683602453633,
+    "duration" : 28365
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 8718 == 0\n +  where 8718 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x0000024370F83248>>('select count(*) count from bid_project_invite_company where CHAR_LENGTH(invite_contact) > 10;')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x0000024370F83248>> = <api_test.untils.HandleMysql.HandleMysql object at 0x0000024370F83248>.get_one_value",
+  "statusTrace" : "self = <api_test.testcase.test_bid_project.test_bid.Test_Bid_DbCheck object at 0x0000024370EE5D48>\n\n    def test_db_bid_invite_company_phone(self):\n        #断言招标联系人名字超过10个字符\n>       assert s.get_one_value(\"select count(*) count from bid_project_invite_company where CHAR_LENGTH(invite_contact) > 10;\") == 0\nE       AssertionError: assert 8718 == 0\nE        +  where 8718 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x0000024370F83248>>('select count(*) count from bid_project_invite_company where CHAR_LENGTH(invite_contact) > 10;')\nE        +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x0000024370F83248>> = <api_test.untils.HandleMysql.HandleMysql object at 0x0000024370F83248>.get_one_value\n\napi_test\\testcase\\test_bid_project\\test_bid.py:107: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标db校验"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_DbCheck"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7b03d2c63e07e0ce.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,60 @@
+{
+  "uid" : "4725d7cfaf224341",
+  "name" : "对外投资",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_invest",
+  "historyId" : "ef5f2f2e7d17ec5e8d9d759491658669",
+  "time" : {
+    "start" : 1683603855971,
+    "stop" : 1683603856023,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 2, 'company_member_list': {'company_id': 3096737822928771718, 'created_at': datetime.datetime(2023, 4, 26, 12, 6, 10), 'end_time': '', 'id': 63317895, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 5031961751691796809, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-04-20', 'updated_at': datetime.datetime(2023, 4, 26, 12, 6, 10), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2023-02-06', 'authority': '包头市昆都仑区市场监督管理局', 'comp_num': '1', 'comp_num_link': '', 'company_id': 3096737822928771718, 'created_at': datetime.datetime(2023, 4, 20, 8, 38, 34), 'district': '内蒙古自治区包头市昆都仑区', 'district_city': '包头市', 'district_county': '昆都仑区', 'district_province': '内蒙古自治区', 'ent_type': '有限责任公司(自然人独资)', 'id': 15381516, 'industry': '零售业', 'insurance_info': '{\"insuranceNum\":\"2人\",\"year\":\"2021\",\"reportUrl\":\"/pages/annual/index?pid=31869197747288&year=2021\"}', 'insurance_num': 2, 'legal_person': '吴成涛', 'legal_person_id': 7052297012663543679, 'license_number': '150203000072469', 'open_status': '开业', 'open_time': '2013-02-07 至 2043-02-06', 'org_no': '06162162-8', 'org_type': '', 'paidin_capital': '100万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '', 'qualification': '', 'real_capital': '', 'reg_addr': '内蒙古自治区包头市昆都仑区恒大名都8栋住宅2单元1804房间（仅限办公使用）', 'reg_capital': '100万(元)', 'reg_capital_amount': Decimal('1000000.00'), 'reg_capital_currency': '元', 'reg_code': '150203000072469', 'reg_no': '91150203061621628A', 'scope': '许可经营项目：无。 一般经营项目：电器设备、机械设备、机电设备及配件的销售与维修（不含特种设备）；减速机、电器设备、机械设备、机电设备的技术服务；减速机、电机、机床、汽车配件、标准件、五金、水泵阀门、模具、钢材、建材、润滑油、橡胶制品、塑料制品、化工产品（不含危险品及专营产品）的销售', 'start_date': '2013-02-07', 'tax_no': '91150203061621628A', 'unified_code': '91150203061621628A', 'updated_at': datetime.datetime(2023, 4, 25, 9, 37, 49), 'url': '/m/basic?pid=xlTM-TogKuTwBQ3PjQI2fBZehGoYXI1UDAmd&entName=%E5%8C%85%E5%A4%B4%E5%B8%82%E7%94%AC%E5%8A%9B%E4%BC%A0%E5%8A%A8%E8%AE%BE%E5%A4%87%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/fe79ddc7337eaf1b14135f15c5d28d85.txt'}, 'compete_cnt': 0, 'data_id': 3096737822928771718, 'finances_cnt': 0, 'introduction': '包头市甬力传动设备有限公司成立于2013年02月07日，注册地位于内蒙古自治区包头市昆都仑区恒大名都8栋住宅2单元1804房间（仅限办公使用），法定代表人为吴成涛。经营范围包括许可经营项目：无。 一般经营项目：电器设备、机械设备、机电设备及配件的销售与维修（不含特种设备）；减速机、电器设备、机械设备、机电设备的技术服务；减速机、电机、机床、汽车配件、标准件、五金、水泵阀门、模具、钢材、建材、润滑油、橡胶制品、塑料制品、化工产品（不含危险品及专营产品）的销售', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '吴成涛', 'name': '包头市甬力传动设备有限公司', 'ownership_cnt': 1, 'ownership_list': {'amount': '100万(元)', 'company_id': 3096737822928771718, 'created_at': datetime.datetime(2023, 5, 4, 18, 55, 52), 'data_id': 7052297012663543679, 'data_type': 2, 'id': 15268700, 'is_delete': 0, 'ratio': '100%', 'tag': '', 'updated_at': datetime.datetime(2023, 5, 4, 18, 55, 52)}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4725d7cfaf224341.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 2, 'company_member_list': {'company_id': 3096737822928771718, 'created_at': datetime.datetime(2023, 4, 26, 12, 6, 10), 'end_time': '', 'id': 63317895, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 5031961751691796809, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-04-20', 'updated_at': datetime.datetime(2023, 4, 26, 12, 6, 10), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2023-02-06', 'authority': '包头市昆都仑区市场监督管理局', 'comp_num': '1', 'comp_num_link': '', 'company_id': 3096737822928771718, 'created_at': datetime.datetime(2023, 4, 20, 8, 38, 34), 'district': '内蒙古自治区包头市昆都仑区', 'district_city': '包头市', 'district_county': '昆都仑区', 'district_province': '内蒙古自治区', 'ent_type': '有限责任公司(自然人独资)', 'id': 15381516, 'industry': '零售业', 'insurance_info': '{\"insuranceNum\":\"2人\",\"year\":\"2021\",\"reportUrl\":\"/pages/annual/index?pid=31869197747288&year=2021\"}', 'insurance_num': 2, 'legal_person': '吴成涛', 'legal_person_id': 7052297012663543679, 'license_number': '150203000072469', 'open_status': '开业', 'open_time': '2013-02-07 至 2043-02-06', 'org_no': '06162162-8', 'org_type': '', 'paidin_capital': '100万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '', 'qualification': '', 'real_capital': '', 'reg_addr': '内蒙古自治区包头市昆都仑区恒大名都8栋住宅2单元1804房间（仅限办公使用）', 'reg_capital': '100万(元)', 'reg_capital_amount': Decimal('1000000.00'), 'reg_capital_currency': '元', 'reg_code': '150203000072469', 'reg_no': '91150203061621628A', 'scope': '许可经营项目：无。 一般经营项目：电器设备、机械设备、机电设备及配件的销售与维修（不含特种设备）；减速机、电器设备、机械设备、机电设备的技术服务；减速机、电机、机床、汽车配件、标准件、五金、水泵阀门、模具、钢材、建材、润滑油、橡胶制品、塑料制品、化工产品（不含危险品及专营产品）的销售', 'start_date': '2013-02-07', 'tax_no': '91150203061621628A', 'unified_code': '91150203061621628A', 'updated_at': datetime.datetime(2023, 4, 25, 9, 37, 49), 'url': '/m/basic?pid=xlTM-TogKuTwBQ3PjQI2fBZehGoYXI1UDAmd&entName=%E5%8C%85%E5%A4%B4%E5%B8%82%E7%94%AC%E5%8A%9B%E4%BC%A0%E5%8A%A8%E8%AE%BE%E5%A4%87%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/fe79ddc7337eaf1b14135f15c5d28d85.txt'}, 'compete_cnt': 0, 'data_id': 3096737822928771718, 'finances_cnt': 0, 'introduction': '包头市甬力传动设备有限公司成立于2013年02月07日，注册地位于内蒙古自治区包头市昆都仑区恒大名都8栋住宅2单元1804房间（仅限办公使用），法定代表人为吴成涛。经营范围包括许可经营项目：无。 一般经营项目：电器设备、机械设备、机电设备及配件的销售与维修（不含特种设备）；减速机、电器设备、机械设备、机电设备的技术服务；减速机、电机、机床、汽车配件、标准件、五金、水泵阀门、模具、钢材、建材、润滑油、橡胶制品、塑料制品、化工产品（不含危险品及专营产品）的销售', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '吴成涛', 'name': '包头市甬力传动设备有限公司', 'ownership_cnt': 1, 'ownership_list': {'amount': '100万(元)', 'company_id': 3096737822928771718, 'created_at': datetime.datetime(2023, 5, 4, 18, 55, 52), 'data_id': 7052297012663543679, 'data_type': 2, 'id': 15268700, 'is_delete': 0, 'ratio': '100%', 'tag': '', 'updated_at': datetime.datetime(2023, 5, 4, 18, 55, 52)}, 'tags': ''}" ]
+}

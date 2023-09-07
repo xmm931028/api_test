@@ -1,0 +1,78 @@
+{
+  "uid" : "7eb5e56aff1e376",
+  "name" : "人物详情页-基本信息",
+  "fullName" : "api_test.testcase.test_person.test_person.TestPerson#test_person_detail",
+  "historyId" : "a809038f16700d7e28f820b989271d6b",
+  "time" : {
+    "start" : 1683690329902,
+    "stop" : 1683690329955,
+    "duration" : 53
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人物测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_person"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPerson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_person.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 4, 'company_member_list': [{'company_id': 6575698351693363320, 'created_at': datetime.datetime(2023, 4, 26, 13, 2, 19), 'end_time': '', 'id': 1098382, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1277111150446922000, 'pos_weight': 24, 'position': '财务负责人,执行董事,经理', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 1, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 2, 19), 'useful_position': '19,20,30', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"执行董事\"}, {\"id\": \"20\", \"name\": \"财务负责人\"}, {\"id\": \"30\", \"name\": \"经理\"}]'}], 'data_id': 1277111150446922000, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 1, 'name': '庄冰冰', 'person_list': {'avatar': '', 'avatar_word': '庄', 'created_at': datetime.datetime(2022, 10, 14, 10, 45, 41), 'data_id': 1277111150446922000, 'from': '爱企查', 'id': 2707549, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '庄冰冰', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 45, 41), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 6575698351693363320, 'insuranceNum': 4}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b6439c8d35c75578",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683607659239,
+        "stop" : 1683607659309,
+        "duration" : 70
+      }
+    }, {
+      "uid" : "c74d724c204ce26c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683604362568,
+        "stop" : 1683604362638,
+        "duration" : 70
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7eb5e56aff1e376.json",
+  "parameterValues" : [ "{'cnt': 4, 'company_member_list': [{'company_id': 6575698351693363320, 'created_at': datetime.datetime(2023, 4, 26, 13, 2, 19), 'end_time': '', 'id': 1098382, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1277111150446922000, 'pos_weight': 24, 'position': '财务负责人,执行董事,经理', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 1, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 2, 19), 'useful_position': '19,20,30', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"执行董事\"}, {\"id\": \"20\", \"name\": \"财务负责人\"}, {\"id\": \"30\", \"name\": \"经理\"}]'}], 'data_id': 1277111150446922000, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 1, 'name': '庄冰冰', 'person_list': {'avatar': '', 'avatar_word': '庄', 'created_at': datetime.datetime(2022, 10, 14, 10, 45, 41), 'data_id': 1277111150446922000, 'from': '爱企查', 'id': 2707549, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '庄冰冰', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 45, 41), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 6575698351693363320, 'insuranceNum': 4}, 'tags': ''}" ]
+}

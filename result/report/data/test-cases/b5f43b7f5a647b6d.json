@@ -1,0 +1,78 @@
+{
+  "uid" : "b5f43b7f5a647b6d",
+  "name" : "校验招投标搜索",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_search",
+  "historyId" : "cde57576debb6da44b65124ff7b4c13c",
+  "time" : {
+    "start" : 1683688574830,
+    "stop" : 1683688575914,
+    "duration" : 1084
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 535442049675842739, 'data_id': 3734181575753474700, 'item_number': '', 'money': '', 'name': '江西财经职业学院2022年10至11月政府采购意向20221011002', 'notice_type': 3, 'products': '基础设施运营服务', 'pub_province': '', 'pub_time': datetime.datetime(2022, 10, 11, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "843a9d8ca918b515",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683605711814,
+        "stop" : 1683605712998,
+        "duration" : 1184
+      }
+    }, {
+      "uid" : "e15542e35670f036",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683602554092,
+        "stop" : 1683602555414,
+        "duration" : 1322
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b5f43b7f5a647b6d.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 535442049675842739, 'data_id': 3734181575753474700, 'item_number': '', 'money': '', 'name': '江西财经职业学院2022年10至11月政府采购意向20221011002', 'notice_type': 3, 'products': '基础设施运营服务', 'pub_province': '', 'pub_time': datetime.datetime(2022, 10, 11, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

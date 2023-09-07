@@ -1,0 +1,60 @@
+{
+  "uid" : "503d0ac14cac668",
+  "name" : "人物搜索",
+  "fullName" : "api_test.testcase.test_person.test_person.TestPerson#test_person_search",
+  "historyId" : "8847a13751e76883fa3136bbf8198f06",
+  "time" : {
+    "start" : 1683607459644,
+    "stop" : 1683607462885,
+    "duration" : 3241
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人物测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_person"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPerson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_person.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_member_list': [{'company_id': 4729938105929792300, 'created_at': datetime.datetime(2023, 4, 26, 12, 33, 33), 'end_time': '', 'id': 64385903, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 8922959926020375186, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-04-26', 'updated_at': datetime.datetime(2023, 4, 26, 12, 33, 33), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}], 'data_id': 8922959926020375186, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 1, 'name': '张远友', 'person_list': {'avatar': '', 'avatar_word': '张', 'created_at': datetime.datetime(2023, 4, 26, 7, 10, 7), 'data_id': 8922959926020375186, 'from': '爱企查', 'id': 58506193, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '张远友', 'tags': '', 'updated_at': datetime.datetime(2023, 4, 26, 9, 21, 21), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 4729938105929792300, 'insuranceNum': 0}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "503d0ac14cac668.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_member_list': [{'company_id': 4729938105929792300, 'created_at': datetime.datetime(2023, 4, 26, 12, 33, 33), 'end_time': '', 'id': 64385903, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 8922959926020375186, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-04-26', 'updated_at': datetime.datetime(2023, 4, 26, 12, 33, 33), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}], 'data_id': 8922959926020375186, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 1, 'name': '张远友', 'person_list': {'avatar': '', 'avatar_word': '张', 'created_at': datetime.datetime(2023, 4, 26, 7, 10, 7), 'data_id': 8922959926020375186, 'from': '爱企查', 'id': 58506193, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '张远友', 'tags': '', 'updated_at': datetime.datetime(2023, 4, 26, 9, 21, 21), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 4729938105929792300, 'insuranceNum': 0}, 'tags': ''}" ]
+}

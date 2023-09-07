@@ -1,0 +1,60 @@
+{
+  "uid" : "c801c9db52bce2c2",
+  "name" : "股东信息-v2接口",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_company_ownership",
+  "historyId" : "263f9c3fddfea45553770881d16d5b65",
+  "time" : {
+    "start" : 1683603847361,
+    "stop" : 1683603847415,
+    "duration" : 54
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2019-11-22', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 797108538809598592, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '贵州省遵义市道真仡佬族苗族自治县', 'district_city': '遵义市', 'district_county': '道真仡佬族苗族自治县', 'district_province': '贵州省', 'ent_type': '有限责任公司(自然人独资)', 'id': 19250398, 'industry': '农、林、牧、渔专业及辅助性活动', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '陈小勇', 'legal_person_id': 2113368044896561920, 'license_number': '520325000240016', 'open_status': '存续', 'open_time': '2019-11-22 至 无固定期限', 'org_no': 'MA6J52UX9', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '贵州省遵义市道真自治县玉溪镇新城社区长槽网格冉家巷507栋1楼', 'reg_capital': '200万(元)', 'reg_capital_amount': Decimal('2000000.00'), 'reg_capital_currency': '元', 'reg_code': '520325000240016', 'reg_no': '91520325MA6J52UX93', 'scope': '法律、法规、国务院决定规定禁止的不得经营；法律、法规、国务院决定规定应当许可（审批）的，经审批机关批准后凭许可（审批）文件经营;法律、法规、国务院决定规定无需许可（审批）的，市场主体自主选择经营。（花椒、水果、蔬菜、食用菌种植、加工、收购、销售；农作物种苗培育、销售；干果加工、销售；水产品养殖、牲畜养殖及销售；餐饮；住宿；农业观光旅游；农业技术推广及咨询服务；农业项目开发；观光旅游项目开发；农产品深加工、销售；农副产品市场投资建设、运营；农村基础设施建设；农田水利设施建设；农业高新技术研发、技术转让服务。（涉及许可经营项目，应取得相关部门许可后方可经营））', 'start_date': '2019-11-22', 'tax_no': '91520325MA6J52UX93', 'unified_code': '91520325MA6J52UX93', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/c62bcdf66e29f278d833efa7b60c5b9d.txt'}, 'compete_cnt': 0, 'data_id': 797108538809598592, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '陈小勇', 'name': '道真自治县勇达生态农业发展有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c801c9db52bce2c2.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2019-11-22', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 797108538809598592, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '贵州省遵义市道真仡佬族苗族自治县', 'district_city': '遵义市', 'district_county': '道真仡佬族苗族自治县', 'district_province': '贵州省', 'ent_type': '有限责任公司(自然人独资)', 'id': 19250398, 'industry': '农、林、牧、渔专业及辅助性活动', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '陈小勇', 'legal_person_id': 2113368044896561920, 'license_number': '520325000240016', 'open_status': '存续', 'open_time': '2019-11-22 至 无固定期限', 'org_no': 'MA6J52UX9', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '贵州省遵义市道真自治县玉溪镇新城社区长槽网格冉家巷507栋1楼', 'reg_capital': '200万(元)', 'reg_capital_amount': Decimal('2000000.00'), 'reg_capital_currency': '元', 'reg_code': '520325000240016', 'reg_no': '91520325MA6J52UX93', 'scope': '法律、法规、国务院决定规定禁止的不得经营；法律、法规、国务院决定规定应当许可（审批）的，经审批机关批准后凭许可（审批）文件经营;法律、法规、国务院决定规定无需许可（审批）的，市场主体自主选择经营。（花椒、水果、蔬菜、食用菌种植、加工、收购、销售；农作物种苗培育、销售；干果加工、销售；水产品养殖、牲畜养殖及销售；餐饮；住宿；农业观光旅游；农业技术推广及咨询服务；农业项目开发；观光旅游项目开发；农产品深加工、销售；农副产品市场投资建设、运营；农村基础设施建设；农田水利设施建设；农业高新技术研发、技术转让服务。（涉及许可经营项目，应取得相关部门许可后方可经营））', 'start_date': '2019-11-22', 'tax_no': '91520325MA6J52UX93', 'unified_code': '91520325MA6J52UX93', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/c62bcdf66e29f278d833efa7b60c5b9d.txt'}, 'compete_cnt': 0, 'data_id': 797108538809598592, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '陈小勇', 'name': '道真自治县勇达生态农业发展有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+}

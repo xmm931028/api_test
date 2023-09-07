@@ -1,0 +1,78 @@
+{
+  "uid" : "d15b612935804a0f",
+  "name" : "获取人物教育经历-V1接口",
+  "fullName" : "api_test.testcase.test_person.test_person.TestPerson#test_person_edu_experience",
+  "historyId" : "a89814dffa6855ee026f06223d296943",
+  "time" : {
+    "start" : 1683690383846,
+    "stop" : 1683690383895,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人物测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_person"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPerson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_person.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 3, 'company_member_list': [{'company_id': 349917931657071530, 'created_at': datetime.datetime(2023, 4, 28, 9, 16, 53), 'end_time': '', 'id': 64964519, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 5897824443003075356, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-04-28', 'updated_at': datetime.datetime(2023, 5, 8, 18, 7, 13), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}], 'data_id': 5897824443003075356, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 0, 'member_cnt': 1, 'name': '赵朝兴', 'person_list': {'avatar': '', 'avatar_word': '赵', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 48), 'data_id': 971063452445718620, 'from': '爱企查', 'id': 463597, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '赵朝兴', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 43, 48), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 349917931657071530, 'insuranceNum': 1}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cfb6f15607987983",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683607712908,
+        "stop" : 1683607712955,
+        "duration" : 47
+      }
+    }, {
+      "uid" : "227d1964909b9268",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683604419887,
+        "stop" : 1683604419932,
+        "duration" : 45
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d15b612935804a0f.json",
+  "parameterValues" : [ "{'cnt': 3, 'company_member_list': [{'company_id': 349917931657071530, 'created_at': datetime.datetime(2023, 4, 28, 9, 16, 53), 'end_time': '', 'id': 64964519, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 5897824443003075356, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-04-28', 'updated_at': datetime.datetime(2023, 5, 8, 18, 7, 13), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}], 'data_id': 5897824443003075356, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 0, 'member_cnt': 1, 'name': '赵朝兴', 'person_list': {'avatar': '', 'avatar_word': '赵', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 48), 'data_id': 971063452445718620, 'from': '爱企查', 'id': 463597, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '赵朝兴', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 43, 48), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 349917931657071530, 'insuranceNum': 1}, 'tags': ''}" ]
+}

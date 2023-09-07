@@ -1,0 +1,62 @@
+{
+  "uid" : "4eb5b463fa3525cb",
+  "name" : "企业基本信息与搜索保持一致",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_company_datail",
+  "historyId" : "0a221b10a24df277e9e3ea226a05149d",
+  "time" : {
+    "start" : 1683603767074,
+    "stop" : 1683603767373,
+    "duration" : 299
+  },
+  "description" : "校验企业介绍",
+  "descriptionHtml" : "<p>校验企业介绍</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 2, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2022-08-08', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 318143575605584768, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '新疆维吾尔自治区和田地区和田县', 'district_city': '和田地区', 'district_county': '和田县', 'district_province': '新疆维吾尔自治区', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 21146707, 'industry': '软件和信息技术服务业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '王晓冬', 'legal_person_id': 1070229749859707008, 'license_number': '653221050010897', 'open_status': '存续', 'open_time': '2018-10-15 至 无固定期限', 'org_no': 'MA7849C0X', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '新疆和田地区和田县巴格其镇巴扎博依村', 'reg_capital': '1000万(元)', 'reg_capital_amount': Decimal('10000000.00'), 'reg_capital_currency': '元', 'reg_code': '653221050010897', 'reg_no': '91653221MA7849C0XE', 'scope': '驾驶员培训服务、驾驶人考试服务、车辆租赁、设备租赁、场地租赁、房屋租赁、停车服务、运行维护服务（依法须经批准的项目，经相关部门批准后方可开展经营活动）（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'start_date': '2018-10-15', 'tax_no': '91653221MA7849C0XE', 'unified_code': '91653221MA7849C0XE', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/1b373b5155d09c6d5aac9689294fd6e7.txt'}, 'compete_cnt': 0, 'data_id': 318143575605584768, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '王晓冬', 'name': '和田县明源驾驶员培训有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4eb5b463fa3525cb.json",
+  "parameterValues" : [ "{'cnt': 2, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2022-08-08', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 318143575605584768, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '新疆维吾尔自治区和田地区和田县', 'district_city': '和田地区', 'district_county': '和田县', 'district_province': '新疆维吾尔自治区', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 21146707, 'industry': '软件和信息技术服务业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '王晓冬', 'legal_person_id': 1070229749859707008, 'license_number': '653221050010897', 'open_status': '存续', 'open_time': '2018-10-15 至 无固定期限', 'org_no': 'MA7849C0X', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '新疆和田地区和田县巴格其镇巴扎博依村', 'reg_capital': '1000万(元)', 'reg_capital_amount': Decimal('10000000.00'), 'reg_capital_currency': '元', 'reg_code': '653221050010897', 'reg_no': '91653221MA7849C0XE', 'scope': '驾驶员培训服务、驾驶人考试服务、车辆租赁、设备租赁、场地租赁、房屋租赁、停车服务、运行维护服务（依法须经批准的项目，经相关部门批准后方可开展经营活动）（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'start_date': '2018-10-15', 'tax_no': '91653221MA7849C0XE', 'unified_code': '91653221MA7849C0XE', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/1b373b5155d09c6d5aac9689294fd6e7.txt'}, 'compete_cnt': 0, 'data_id': 318143575605584768, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '王晓冬', 'name': '和田县明源驾驶员培训有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+}

@@ -1,0 +1,59 @@
+{
+  "uid" : "a1d7028ca84c3532",
+  "name" : "查询公司名称重复的数据",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestDbCase#test_db_company_name",
+  "historyId" : "1bfe0783a368e08575757f35f5565aa6",
+  "time" : {
+    "start" : 1683605901851,
+    "stop" : 1683606911758,
+    "duration" : 1009907
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 21324 == 0\n +  where 21324 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A30E5C8>>(\"select count(*) count from (select name,count(name) AS num from company where  introduction!='' and legal_person!='' group by name having num >1) a;\")\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A30E5C8>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A30E5C8>.get_one_value",
+  "statusTrace" : "self = <api_test.testcase.test_company.test_company_data.TestDbCase object at 0x000002B81A2A44C8>\n\n    @allure.title('查询公司名称重复的数据')\n    def test_db_company_name(self):\n>       assert h.get_one_value(\"select count(*) count from (select name,count(name) AS num from company where  introduction!='' and legal_person!='' group by name having num >1) a;\") == 0\nE       assert 21324 == 0\nE        +  where 21324 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A30E5C8>>(\"select count(*) count from (select name,count(name) AS num from company where  introduction!='' and legal_person!='' group by name having num >1) a;\")\nE        +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A30E5C8>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A30E5C8>.get_one_value\n\napi_test\\testcase\\test_company\\test_company_data.py:30: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "company表db校验"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDbCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a1d7028ca84c3532.json",
+  "parameterValues" : [ ]
+}

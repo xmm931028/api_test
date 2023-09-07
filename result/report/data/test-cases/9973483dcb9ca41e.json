@@ -1,0 +1,78 @@
+{
+  "uid" : "9973483dcb9ca41e",
+  "name" : "跟踪企业",
+  "fullName" : "api_test.testcase.test_follow.test_follow.TestFollow#test_company_follow",
+  "historyId" : "4621ccd50b2301a232eecbf14c3d59e2",
+  "time" : {
+    "start" : 1683689835159,
+    "stop" : 1683689835324,
+    "duration" : 165
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "跟踪人物和企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_follow"
+  }, {
+    "name" : "suite",
+    "value" : "test_follow"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFollow"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_follow.test_follow"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'title': '跟踪企业', 'item_id': '7926332075054106120', 'item_ids': ['7926332075054106120'], 'except': 'success', 'logo_word': '优司服', 'name': '上海优司服信息科技有限公司', 'tags': ['企业服务', '广告营销', '精准营销']}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "22c3c09853774d1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683607139007,
+        "stop" : 1683607139169,
+        "duration" : 162
+      }
+    }, {
+      "uid" : "c2450e216596d434",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683603856498,
+        "stop" : 1683603856691,
+        "duration" : 193
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9973483dcb9ca41e.json",
+  "parameterValues" : [ "{'title': '跟踪企业', 'item_id': '7926332075054106120', 'item_ids': ['7926332075054106120'], 'except': 'success', 'logo_word': '优司服', 'name': '上海优司服信息科技有限公司', 'tags': ['企业服务', '广告营销', '精准营销']}" ]
+}

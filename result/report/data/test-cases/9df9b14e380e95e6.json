@@ -1,0 +1,62 @@
+{
+  "uid" : "9df9b14e380e95e6",
+  "name" : "人物详情页-基本信息",
+  "fullName" : "api_test.testcase.test_person.test_person.TestPerson#test_person_detail",
+  "historyId" : "5dcf43ff922b67de0aec8ec3bb2850af",
+  "time" : {
+    "start" : 1683604364040,
+    "stop" : 1683604364091,
+    "duration" : 51
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '于' == '黄'\n  - 黄\n  + 于",
+  "statusTrace" : "self = <api_test.testcase.test_person.test_person.TestPerson object at 0x0000024371399B08>\ntest_data = {'cnt': 6, 'company_member_list': [{'company_id': 1441375804923922983, 'created_at': datetime.datetime(2023, 4, 26, 11...time(2023, 4, 26, 13, 8, 31), 'end_time': '', 'id': 62075457, ...}], 'data_id': 3549605878257328258, 'edu_cnt': 0, ...}\n\n    @allure.title('人物详情页-基本信息')\n    @pytest.mark.parametrize('test_data',person_yaml_data)\n    def test_person_detail(self,test_data):\n        result = p.person_detail_v2(str(test_data['data_id']))\n        #断言人物介绍\n        if test_data['person_list']:\n            if test_data['introduction'] == '' or test_data['introduction'] == '-':\n                assert result['data']['basic']['introduction'] == ''\n            else:\n                assert test_data['introduction'] == result['data']['basic']['introduction']\n        #断言头像，如果db中logo无数据，取logo_word字段\n            if test_data['person_list']['avatar'] == '' or test_data['person_list']['avatar'] == '-':\n                assert result['data']['basic']['logo'] == ''\n            else:\n                assert result['data']['basic']['logo'] == test_data['person_list']['avatar']\n            if test_data['person_list']['avatar_word'] == '' or test_data['person_list']['avatar_word'] == '-':\n                assert result['data']['basic']['logo_word'] == ''\n            else:\n>               assert result['data']['basic']['logo_word'] == test_data['person_list']['avatar_word']\nE               AssertionError: assert '于' == '黄'\nE                 - 黄\nE                 + 于\n\napi_test\\testcase\\test_person\\test_person.py:141: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人物测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_person"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPerson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_person.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 6, 'company_member_list': [{'company_id': 1441375804923922983, 'created_at': datetime.datetime(2023, 4, 26, 11, 39, 32), 'end_time': '', 'id': 2880494, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 3549605878257328258, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 11, 39, 32), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, {'company_id': 6977220037716925890, 'created_at': datetime.datetime(2023, 4, 26, 13, 8, 31), 'end_time': '', 'id': 62075457, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 3549605878257328258, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-03-29', 'updated_at': datetime.datetime(2023, 4, 26, 13, 8, 31), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}], 'data_id': 3549605878257328258, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 2, 'name': '于乔', 'person_list': {'avatar': '', 'avatar_word': '黄', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 36), 'data_id': 7987508910027267243, 'from': '爱企查', 'id': 222454, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '黄于乔', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 43, 36), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 5515717886130032252, 'insuranceNum': 141}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9df9b14e380e95e6.json",
+  "parameterValues" : [ "{'cnt': 6, 'company_member_list': [{'company_id': 1441375804923922983, 'created_at': datetime.datetime(2023, 4, 26, 11, 39, 32), 'end_time': '', 'id': 2880494, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 3549605878257328258, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 11, 39, 32), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, {'company_id': 6977220037716925890, 'created_at': datetime.datetime(2023, 4, 26, 13, 8, 31), 'end_time': '', 'id': 62075457, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 3549605878257328258, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-03-29', 'updated_at': datetime.datetime(2023, 4, 26, 13, 8, 31), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}], 'data_id': 3549605878257328258, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 2, 'name': '于乔', 'person_list': {'avatar': '', 'avatar_word': '黄', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 36), 'data_id': 7987508910027267243, 'from': '爱企查', 'id': 222454, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '黄于乔', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 43, 36), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 5515717886130032252, 'insuranceNum': 141}, 'tags': ''}" ]
+}

@@ -1,0 +1,62 @@
+{
+  "uid" : "3ca998658d2f94e2",
+  "name" : "企业基本信息与搜索保持一致",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_company_datail",
+  "historyId" : "cecc209e421b728856f6139638d4a812",
+  "time" : {
+    "start" : 1683607049529,
+    "stop" : 1683607049833,
+    "duration" : 304
+  },
+  "description" : "校验企业介绍",
+  "descriptionHtml" : "<p>校验企业介绍</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 3, 'company_member_list': {'company_id': 5820605176019195315, 'created_at': datetime.datetime(2023, 4, 26, 12, 51, 16), 'end_time': '', 'id': 2638829, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 3250036511441801058, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 51, 16), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2017-04-20', 'authority': '沈阳市铁西区市场监督管理局', 'comp_num': '25', 'comp_num_link': '', 'company_id': 5820605176019195315, 'created_at': datetime.datetime(2022, 12, 19, 13, 40, 53), 'district': '辽宁省沈阳市铁西区', 'district_city': '沈阳市', 'district_county': '铁西区', 'district_province': '辽宁省', 'ent_type': '有限责任公司(外国法人独资)', 'id': 9075819, 'industry': '批发业', 'insurance_info': '{\"insuranceNum\": \"9人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=30810361607721&year=2021\"}', 'insurance_num': 9, 'legal_person': '林光汉', 'legal_person_id': 0, 'license_number': '210100400028996', 'open_status': '开业', 'open_time': '2012-12-05 至 2042-12-04', 'org_no': '05075065-1', 'org_type': '-', 'paidin_capital': '21万(美元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '[沈阳银达房屋租赁有限公司]', 'qualification': '-', 'real_capital': '-', 'reg_addr': '沈阳市铁西区北二中路6-1号101', 'reg_capital': '21万(美元)', 'reg_capital_amount': Decimal('210000.00'), 'reg_capital_currency': '美元', 'reg_code': '210100400028996', 'reg_no': '91210100050750651P', 'scope': '纺织品、服装及日用品销售；自有房屋租赁；洗浴服务。（依法须经批准的项目，经相关部门批准后方可开展经营活动。）', 'start_date': '2012-12-05', 'tax_no': '91210100050750651P', 'unified_code': '91210100050750651P', 'updated_at': datetime.datetime(2023, 4, 23, 15, 3, 35), 'url': '/m/basic?pid=xlTM-TogKuTw9ZPVD2uA6vU*Pdtq69RPuwmd&entName=%E6%B2%88%E9%98%B3%E9%93%B6%E8%BE%BE%E7%91%9E%E5%95%86%E8%B4%B8%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/70a28ed1452802ad22ee2b05f6f7091e.txt'}, 'compete_cnt': 0, 'data_id': 5820605176019195315, 'finances_cnt': 0, 'introduction': '沈阳银达瑞商贸有限公司成立于2012年12月05日，注册地位于沈阳市铁西区北二中路6-1号101，法定代表人为林光汉。经营范围包括纺织品、服装及日用品销售；自有房屋租赁；洗浴服务。（依法须经批准的项目，经相关部门批准后方可开展经营活动。）沈阳银达瑞商贸有限公司对外投资2家公司。', 'invest_cnt': 2, 'invest_list': {'amount': '100万(元)', 'company_id': 5820605176019195315, 'created_at': datetime.datetime(2022, 12, 19, 11, 15, 5), 'data_id': 3462581499252474560, 'data_type': 0, 'id': 6160430, 'rate': '100%', 'status': '开业', 'updated_at': datetime.datetime(2022, 12, 19, 11, 15, 5)}, 'legal_person': '林光汉', 'name': '沈阳银达瑞商贸有限公司', 'ownership_cnt': 1, 'ownership_list': {'amount': '21万(美元)', 'company_id': 5820605176019195315, 'created_at': datetime.datetime(2022, 12, 19, 11, 39, 47), 'data_id': 6657639599278802847, 'data_type': 1, 'id': 12477481, 'is_delete': 0, 'ratio': '100%', 'tag': '', 'updated_at': datetime.datetime(2022, 12, 19, 11, 39, 47)}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3ca998658d2f94e2.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 3, 'company_member_list': {'company_id': 5820605176019195315, 'created_at': datetime.datetime(2023, 4, 26, 12, 51, 16), 'end_time': '', 'id': 2638829, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 3250036511441801058, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 51, 16), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2017-04-20', 'authority': '沈阳市铁西区市场监督管理局', 'comp_num': '25', 'comp_num_link': '', 'company_id': 5820605176019195315, 'created_at': datetime.datetime(2022, 12, 19, 13, 40, 53), 'district': '辽宁省沈阳市铁西区', 'district_city': '沈阳市', 'district_county': '铁西区', 'district_province': '辽宁省', 'ent_type': '有限责任公司(外国法人独资)', 'id': 9075819, 'industry': '批发业', 'insurance_info': '{\"insuranceNum\": \"9人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=30810361607721&year=2021\"}', 'insurance_num': 9, 'legal_person': '林光汉', 'legal_person_id': 0, 'license_number': '210100400028996', 'open_status': '开业', 'open_time': '2012-12-05 至 2042-12-04', 'org_no': '05075065-1', 'org_type': '-', 'paidin_capital': '21万(美元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '[沈阳银达房屋租赁有限公司]', 'qualification': '-', 'real_capital': '-', 'reg_addr': '沈阳市铁西区北二中路6-1号101', 'reg_capital': '21万(美元)', 'reg_capital_amount': Decimal('210000.00'), 'reg_capital_currency': '美元', 'reg_code': '210100400028996', 'reg_no': '91210100050750651P', 'scope': '纺织品、服装及日用品销售；自有房屋租赁；洗浴服务。（依法须经批准的项目，经相关部门批准后方可开展经营活动。）', 'start_date': '2012-12-05', 'tax_no': '91210100050750651P', 'unified_code': '91210100050750651P', 'updated_at': datetime.datetime(2023, 4, 23, 15, 3, 35), 'url': '/m/basic?pid=xlTM-TogKuTw9ZPVD2uA6vU*Pdtq69RPuwmd&entName=%E6%B2%88%E9%98%B3%E9%93%B6%E8%BE%BE%E7%91%9E%E5%95%86%E8%B4%B8%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/70a28ed1452802ad22ee2b05f6f7091e.txt'}, 'compete_cnt': 0, 'data_id': 5820605176019195315, 'finances_cnt': 0, 'introduction': '沈阳银达瑞商贸有限公司成立于2012年12月05日，注册地位于沈阳市铁西区北二中路6-1号101，法定代表人为林光汉。经营范围包括纺织品、服装及日用品销售；自有房屋租赁；洗浴服务。（依法须经批准的项目，经相关部门批准后方可开展经营活动。）沈阳银达瑞商贸有限公司对外投资2家公司。', 'invest_cnt': 2, 'invest_list': {'amount': '100万(元)', 'company_id': 5820605176019195315, 'created_at': datetime.datetime(2022, 12, 19, 11, 15, 5), 'data_id': 3462581499252474560, 'data_type': 0, 'id': 6160430, 'rate': '100%', 'status': '开业', 'updated_at': datetime.datetime(2022, 12, 19, 11, 15, 5)}, 'legal_person': '林光汉', 'name': '沈阳银达瑞商贸有限公司', 'ownership_cnt': 1, 'ownership_list': {'amount': '21万(美元)', 'company_id': 5820605176019195315, 'created_at': datetime.datetime(2022, 12, 19, 11, 39, 47), 'data_id': 6657639599278802847, 'data_type': 1, 'id': 12477481, 'is_delete': 0, 'ratio': '100%', 'tag': '', 'updated_at': datetime.datetime(2022, 12, 19, 11, 39, 47)}, 'tags': ''}" ]
+}

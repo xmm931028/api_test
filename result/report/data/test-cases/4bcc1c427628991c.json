@@ -1,0 +1,78 @@
+{
+  "uid" : "4bcc1c427628991c",
+  "name" : "相似企业接口",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_company_compete_companies",
+  "historyId" : "34ca321f327b6e57e552d680ead85242",
+  "time" : {
+    "start" : 1683689781365,
+    "stop" : 1683689781413,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2022-07-04', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 57181224771316896, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '安徽省合肥市肥西县', 'district_city': '合肥市', 'district_county': '肥西县', 'district_province': '安徽省', 'ent_type': '个人独资企业', 'id': 20571725, 'industry': '农业', 'insurance_info': '{\"insuraceNum\": \"\"}', 'insurance_num': 0, 'legal_person': '张锋', 'legal_person_id': 6982785879349096448, 'license_number': '340123000446724', 'open_status': '存续', 'open_time': '2022-07-04 至 无固定期限', 'org_no': 'MA8P7BJW5', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '安徽省合肥市肥西县花岗镇叶岗村杨祠队56号', 'reg_capital': '188万(元)', 'reg_capital_amount': Decimal('1880000.00'), 'reg_capital_currency': '元', 'reg_code': '340123000446724', 'reg_no': '91340123MA8P7BJW50', 'scope': '许可项目：水产养殖；水产苗种生产（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准）一般项目：谷物种植；豆类种植；油料种植；薯类种植；棉花种植；蔬菜种植；食用菌种植；花卉种植；树木种植经营；灌溉服务；草种植（除许可业务外，可自主依法经营法律法规非禁止或限制的项目）', 'start_date': '2022-07-04', 'tax_no': '91340123MA8P7BJW50', 'unified_code': '91340123MA8P7BJW50', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/f5ebf7628673a346c36e96c597cc3b48.txt'}, 'compete_cnt': 0, 'data_id': 57181224771316896, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '张锋', 'name': '合肥鹏峰生态养殖家庭农场', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b704b799b8b29412",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683607081745,
+        "stop" : 1683607081791,
+        "duration" : 46
+      }
+    }, {
+      "uid" : "4d1722270fe636a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683603798214,
+        "stop" : 1683603798278,
+        "duration" : 64
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4bcc1c427628991c.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2022-07-04', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 57181224771316896, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '安徽省合肥市肥西县', 'district_city': '合肥市', 'district_county': '肥西县', 'district_province': '安徽省', 'ent_type': '个人独资企业', 'id': 20571725, 'industry': '农业', 'insurance_info': '{\"insuraceNum\": \"\"}', 'insurance_num': 0, 'legal_person': '张锋', 'legal_person_id': 6982785879349096448, 'license_number': '340123000446724', 'open_status': '存续', 'open_time': '2022-07-04 至 无固定期限', 'org_no': 'MA8P7BJW5', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '安徽省合肥市肥西县花岗镇叶岗村杨祠队56号', 'reg_capital': '188万(元)', 'reg_capital_amount': Decimal('1880000.00'), 'reg_capital_currency': '元', 'reg_code': '340123000446724', 'reg_no': '91340123MA8P7BJW50', 'scope': '许可项目：水产养殖；水产苗种生产（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准）一般项目：谷物种植；豆类种植；油料种植；薯类种植；棉花种植；蔬菜种植；食用菌种植；花卉种植；树木种植经营；灌溉服务；草种植（除许可业务外，可自主依法经营法律法规非禁止或限制的项目）', 'start_date': '2022-07-04', 'tax_no': '91340123MA8P7BJW50', 'unified_code': '91340123MA8P7BJW50', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/f5ebf7628673a346c36e96c597cc3b48.txt'}, 'compete_cnt': 0, 'data_id': 57181224771316896, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '张锋', 'name': '合肥鹏峰生态养殖家庭农场', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+}

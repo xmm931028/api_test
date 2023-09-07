@@ -1,0 +1,78 @@
+{
+  "uid" : "eecea9db596feb36",
+  "name" : "校验招投标详情",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_detail",
+  "historyId" : "c2b1f728ceca2bdb4eb34990071bc130",
+  "time" : {
+    "start" : 1683688663081,
+    "stop" : 1683688664322,
+    "duration" : 1241
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 8963122379095140813, 'item_number': '', 'money': '', 'name': '杭州地铁运营有限公司2023-2025年保洁服务采购项目4号线一期标段', 'notice_type': 2, 'products': '保洁服务', 'pub_province': '浙江省', 'pub_time': datetime.datetime(2023, 2, 17, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8cb4a75520ef5500",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683605817914,
+        "stop" : 1683605819157,
+        "duration" : 1243
+      }
+    }, {
+      "uid" : "11cd3e0a15507d6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683602666932,
+        "stop" : 1683602668356,
+        "duration" : 1424
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eecea9db596feb36.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 8963122379095140813, 'item_number': '', 'money': '', 'name': '杭州地铁运营有限公司2023-2025年保洁服务采购项目4号线一期标段', 'notice_type': 2, 'products': '保洁服务', 'pub_province': '浙江省', 'pub_time': datetime.datetime(2023, 2, 17, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

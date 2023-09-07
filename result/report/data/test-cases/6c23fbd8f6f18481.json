@@ -1,0 +1,60 @@
+{
+  "uid" : "6c23fbd8f6f18481",
+  "name" : "相似企业接口",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_company_compete_companies",
+  "historyId" : "ca596f9629dba45fc81b28879fd46ad2",
+  "time" : {
+    "start" : 1683607085520,
+    "stop" : 1683607085566,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2017-11-06', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 7939489330100354048, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '江西省上饶市信州区', 'district_city': '上饶市', 'district_county': '信州区', 'district_province': '江西省', 'ent_type': '有限责任公司(自然人独资)', 'id': 19297095, 'industry': '林业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '苏文', 'legal_person_id': 2116269531257051904, 'license_number': '361124210011879', 'open_status': '存续', 'open_time': '2014-07-02 至 2064-07-01', 'org_no': '309216598', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': '1000万人民币', 'reg_addr': '江西省上饶市信州区三清山中大道316号47幢312', 'reg_capital': '1000万(元)', 'reg_capital_amount': Decimal('10000000.00'), 'reg_capital_currency': '元', 'reg_code': '361124210011879', 'reg_no': '91361124309216598B', 'scope': '苗木、花卉、草皮种植及销售；蔬菜、水果种植及销售；药材、油茶种植及销售；水产养殖；园林绿化。（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'start_date': '2014-07-02', 'tax_no': '91361124309216598B', 'unified_code': '91361124309216598B', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/c14052dfdff9da56a9a98a77b614301f.txt'}, 'compete_cnt': 0, 'data_id': 7939489330100354048, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '苏文', 'name': '上饶市福盛林农林开发有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c23fbd8f6f18481.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2017-11-06', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 7939489330100354048, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '江西省上饶市信州区', 'district_city': '上饶市', 'district_county': '信州区', 'district_province': '江西省', 'ent_type': '有限责任公司(自然人独资)', 'id': 19297095, 'industry': '林业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '苏文', 'legal_person_id': 2116269531257051904, 'license_number': '361124210011879', 'open_status': '存续', 'open_time': '2014-07-02 至 2064-07-01', 'org_no': '309216598', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': '1000万人民币', 'reg_addr': '江西省上饶市信州区三清山中大道316号47幢312', 'reg_capital': '1000万(元)', 'reg_capital_amount': Decimal('10000000.00'), 'reg_capital_currency': '元', 'reg_code': '361124210011879', 'reg_no': '91361124309216598B', 'scope': '苗木、花卉、草皮种植及销售；蔬菜、水果种植及销售；药材、油茶种植及销售；水产养殖；园林绿化。（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'start_date': '2014-07-02', 'tax_no': '91361124309216598B', 'unified_code': '91361124309216598B', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/c14052dfdff9da56a9a98a77b614301f.txt'}, 'compete_cnt': 0, 'data_id': 7939489330100354048, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '苏文', 'name': '上饶市福盛林农林开发有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+}

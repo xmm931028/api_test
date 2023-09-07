@@ -1,0 +1,1274 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 40 == 0\n +  where 40 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>>(\"select count(*) count from bid_project where name='' or name='-';\")\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>.get_one_value",
+      "children" : [ {
+        "name" : "查询招投标基本信息异常数据",
+        "uid" : "8721c8c07dcccf94",
+        "parentUid" : "90a294206d6345c7c9d3fee32f9956af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683687400909,
+          "stop" : 1683687563459,
+          "duration" : 162550
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "90a294206d6345c7c9d3fee32f9956af"
+    }, {
+      "name" : "AssertionError: assert 64 == 0\n +  where 64 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>>('select count(*) count from bid_project where CHAR_LENGTH(name)>300 ;')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>.get_one_value",
+      "children" : [ {
+        "name" : "test_db_bid_project_name_length",
+        "uid" : "55d2a0290cd79e7d",
+        "parentUid" : "99a25bf55a85410161237250b06af763",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683687563537,
+          "stop" : 1683687724115,
+          "duration" : 160578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "99a25bf55a85410161237250b06af763"
+    }, {
+      "name" : "AssertionError: assert 7295128 == 0\n +  where 7295128 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>>('select count(*) count from bid_project where company_id not in (select data_id from company ) and company_id > 0;')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>.get_one_value",
+      "children" : [ {
+        "name" : "test_db_bid_project_company",
+        "uid" : "1019701116b257d3",
+        "parentUid" : "c4e945e89a08e2d65cb7997de895ad1f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683687724126,
+          "stop" : 1683687749898,
+          "duration" : 25772
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c4e945e89a08e2d65cb7997de895ad1f"
+    }, {
+      "name" : "AssertionError: assert 242138 == 0\n +  where 242138 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>>('select count(*) count from bid_project where notice_type =3;')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>.get_one_value",
+      "children" : [ {
+        "name" : "test_db_bid_project_type",
+        "uid" : "495900e2615b12c3",
+        "parentUid" : "501e3de192be361589949d19ddef9cd0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683687749912,
+          "stop" : 1683687887906,
+          "duration" : 137994
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "501e3de192be361589949d19ddef9cd0"
+    }, {
+      "name" : "AssertionError: assert 114 == 0\n +  where 114 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>>('select count(*) count from bid_project_agency where company_id not in (select data_id from company ) and company_id >0;')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>.get_one_value",
+      "children" : [ {
+        "name" : "test_db_bid_project_agency_company",
+        "uid" : "5673c3725acccb8b",
+        "parentUid" : "57d2b0ce312387f830c4fbdbe31fbeb2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683687897039,
+          "stop" : 1683687904140,
+          "duration" : 7101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "57d2b0ce312387f830c4fbdbe31fbeb2"
+    }, {
+      "name" : "AssertionError: assert 5798 == 0\n +  where 5798 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>>('select count(*) count from bid_project_agency where bid_project_id not in (select data_id from bid_project);')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>.get_one_value",
+      "children" : [ {
+        "name" : "test_db_bid_project_agency_bid",
+        "uid" : "c5e2425b6ae33746",
+        "parentUid" : "05a0dd400ec64bab70f174da92dabb4b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683687904167,
+          "stop" : 1683687986047,
+          "duration" : 81880
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "05a0dd400ec64bab70f174da92dabb4b"
+    }, {
+      "name" : "AssertionError: assert 5034 == 0\n +  where 5034 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>>('select count(*) count from bid_project_agency where CHAR_LENGTH(contact) >10;')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>.get_one_value",
+      "children" : [ {
+        "name" : "test_db_bid_project_agency_contact",
+        "uid" : "a51c25cb0fc3a0a3",
+        "parentUid" : "e630d2d82ec000e7f8048bdc36314189",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683687986088,
+          "stop" : 1683687987229,
+          "duration" : 1141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e630d2d82ec000e7f8048bdc36314189"
+    }, {
+      "name" : "AssertionError: assert 5 == 0\n +  where 5 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>>('select count(*) count from bid_project_agency where CHAR_LENGTH(phone) >20;')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>.get_one_value",
+      "children" : [ {
+        "name" : "test_db_bid_project_agency_phone",
+        "uid" : "8e5942c60ff20eb7",
+        "parentUid" : "3df59fa2a9ab083ccc53a53245425605",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683687987240,
+          "stop" : 1683687988360,
+          "duration" : 1120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3df59fa2a9ab083ccc53a53245425605"
+    }, {
+      "name" : "AssertionError: assert 7219 == 0\n +  where 7219 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>>('select count(*) count from bid_project_win_company where CHAR_LENGTH(name)>200 ;')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>.get_one_value",
+      "children" : [ {
+        "name" : "test_db_bid_project_win_company_name_length",
+        "uid" : "96a03c96af14e28a",
+        "parentUid" : "d459c6ef07046ee0e5437d53ab9f313f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683688017356,
+          "stop" : 1683688043022,
+          "duration" : 25666
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d459c6ef07046ee0e5437d53ab9f313f"
+    }, {
+      "name" : "AssertionError: assert 429808 == 0\n +  where 429808 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>>('select count(*) count from bid_project_win_company where company_id not in (select data_id from company ) and company_id >0;')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>.get_one_value",
+      "children" : [ {
+        "name" : "test_db_bid_project_win_company_id",
+        "uid" : "30f1c36c7e9cd1af",
+        "parentUid" : "cb96b13cfdd9a7488d701f459c01e426",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683688043061,
+          "stop" : 1683688061440,
+          "duration" : 18379
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cb96b13cfdd9a7488d701f459c01e426"
+    }, {
+      "name" : "AssertionError: assert 3585 == 0\n +  where 3585 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>>('select count(*) count from bid_project_win_company where bid_project_id not in (select data_id from bid_project);')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>.get_one_value",
+      "children" : [ {
+        "name" : "test_db_bid_project_win_company_bid",
+        "uid" : "d46068bb1ca8f17c",
+        "parentUid" : "2e824464a44e849a401ebb3938ddfe33",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683688061451,
+          "stop" : 1683688174208,
+          "duration" : 112757
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2e824464a44e849a401ebb3938ddfe33"
+    }, {
+      "name" : "AssertionError: assert 185 == 0\n +  where 185 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>>('select count(*) count from bid_project_win_company where CHAR_LENGTH(contact) >10;')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>.get_one_value",
+      "children" : [ {
+        "name" : "test_db_bid_project_win_company_contact",
+        "uid" : "1c53cd67d4e25ad9",
+        "parentUid" : "662a132c0073c6b0b1c3048357a390f0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683688174222,
+          "stop" : 1683688197224,
+          "duration" : 23002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "662a132c0073c6b0b1c3048357a390f0"
+    }, {
+      "name" : "AssertionError: assert 11 == 0\n +  where 11 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>>(\"select count(*) count from bid_project_invite_company where name='' or name='-';\")\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>.get_one_value",
+      "children" : [ {
+        "name" : "查询招标公司异常数据",
+        "uid" : "256026eabd4fcc77",
+        "parentUid" : "c7951d5e48af550e0522f5b34f0708e3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683688220619,
+          "stop" : 1683688256931,
+          "duration" : 36312
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c7951d5e48af550e0522f5b34f0708e3"
+    }, {
+      "name" : "AssertionError: assert 23728 == 0\n +  where 23728 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>>('select count(*) count from bid_project_invite_company where CHAR_LENGTH(name)>200 ;')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>.get_one_value",
+      "children" : [ {
+        "name" : "test_db_bid_invite_company_name_length",
+        "uid" : "c6a3972b59842c6a",
+        "parentUid" : "627d051466ed463694b760bc37ddcd96",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683688256948,
+          "stop" : 1683688292153,
+          "duration" : 35205
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "627d051466ed463694b760bc37ddcd96"
+    }, {
+      "name" : "AssertionError: assert 2446035 == 0\n +  where 2446035 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>>('select count(*) count from bid_project_invite_company where company_id not in (select data_id from company ) and company_id >0;')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>.get_one_value",
+      "children" : [ {
+        "name" : "test_db_bid_invite_company_id",
+        "uid" : "9685ae90ec2a4adb",
+        "parentUid" : "840bdfa559afeed9f92a53e84d567f5d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683688292161,
+          "stop" : 1683688315371,
+          "duration" : 23210
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "840bdfa559afeed9f92a53e84d567f5d"
+    }, {
+      "name" : "AssertionError: assert 6800 == 0\n +  where 6800 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>>('select count(*) count from bid_project_invite_company where bid_project_id not in (select data_id from bid_project);')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>.get_one_value",
+      "children" : [ {
+        "name" : "test_db_bid_invite_company_bid",
+        "uid" : "84ba4230e58bac9f",
+        "parentUid" : "0e696212cb0d2f06cd82fca95da7a164",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683688315399,
+          "stop" : 1683688433497,
+          "duration" : 118098
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e696212cb0d2f06cd82fca95da7a164"
+    }, {
+      "name" : "AssertionError: assert 8718 == 0\n +  where 8718 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>>('select count(*) count from bid_project_invite_company where CHAR_LENGTH(invite_contact) > 10;')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>.get_one_value",
+      "children" : [ {
+        "name" : "test_db_bid_invite_company_phone",
+        "uid" : "d09714ba2908dbba",
+        "parentUid" : "a96872177d381b21cda8ed18bb9d0792",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683688468175,
+          "stop" : 1683688497560,
+          "duration" : 29385
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a96872177d381b21cda8ed18bb9d0792"
+    }, {
+      "name" : "AssertionError: assert 21325 == 0\n +  where 21325 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>>(\"select count(*) count from (select name,count(name) AS num from company where  introduction!='' and legal_person!='' group by name having num >1) a;\")\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>.get_one_value",
+      "children" : [ {
+        "name" : "查询公司名称重复的数据",
+        "uid" : "18ed6513d2c65ecd",
+        "parentUid" : "4aca74f83b5481c1b6b029d0eb257b7f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683688732578,
+          "stop" : 1683689615855,
+          "duration" : 883277
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4aca74f83b5481c1b6b029d0eb257b7f"
+    }, {
+      "name" : "AssertionError: assert 1849 == 0\n +  where 1849 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>>('select count(*) count from company where CHAR_LENGTH(name) >200')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>.get_one_value",
+      "children" : [ {
+        "name" : "test_db_company_length",
+        "uid" : "70f3f886988629bc",
+        "parentUid" : "e65a8c18f075954871873b53421204fb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689615902,
+          "stop" : 1683689627895,
+          "duration" : 11993
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e65a8c18f075954871873b53421204fb"
+    }, {
+      "name" : "AssertionError: assert 5390 == 0\n +  where 5390 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>>(\"select count(*) count from company where name='' or name='-';\")\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>.get_one_value",
+      "children" : [ {
+        "name" : "查询公司名称为空的数据",
+        "uid" : "b71a928d94147647",
+        "parentUid" : "ca6b75786be98006bb8396b0e66be713",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689627924,
+          "stop" : 1683689628301,
+          "duration" : 377
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ca6b75786be98006bb8396b0e66be713"
+    }, {
+      "name" : "AssertionError: assert 65394 == 0\n +  where 65394 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>>(\"select count(*) count from company where open_status not in ('开业','注销','吊销','迁出','删除','其他','撤销','个体转企业','-','','存续','存续（在营、开业、在业）');\")\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>.get_one_value",
+      "children" : [ {
+        "name" : "查询营业状态的枚举值，异常数据",
+        "uid" : "b9e459e4d3dc0efd",
+        "parentUid" : "bae01c38316881bff1fec5f9cec554d7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689628341,
+          "stop" : 1683689715441,
+          "duration" : 87100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bae01c38316881bff1fec5f9cec554d7"
+    }, {
+      "name" : "AssertionError: assert 5579 == 0\n +  where 5579 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>>(\"select count(*) count from company where data_id in (select company_id from company_finances where stage ='-') and is_linked=1\")\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>.get_one_value",
+      "children" : [ {
+        "name" : "融资轮次为空的数据",
+        "uid" : "ae7b5758b7a2f9b1",
+        "parentUid" : "ac49b586323873cc12208f1fba8b8ed3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689715459,
+          "stop" : 1683689718150,
+          "duration" : 2691
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ac49b586323873cc12208f1fba8b8ed3"
+    }, {
+      "name" : "AssertionError: assert 25794 == 0\n +  where 25794 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>>('select count(*) count from company_compete_company where company_id not in (select data_id from company) ')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>.get_one_value",
+      "children" : [ {
+        "name" : "相似企业数据不在company表的数据",
+        "uid" : "2c116926753d29f3",
+        "parentUid" : "40b7c8cac373e88519b42bf6e34bc77e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689718607,
+          "stop" : 1683689722787,
+          "duration" : 4180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "40b7c8cac373e88519b42bf6e34bc77e"
+    }, {
+      "name" : "AssertionError: assert 18410 == 0\n +  where 18410 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>>(\"select count(*) count from company_compete_company where company_id  in (select data_id from company where name ='' or name='-')\")\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>.get_one_value",
+      "children" : [ {
+        "name" : "相似企业在company表有数据但是name为空",
+        "uid" : "5a14c7a5d52ee558",
+        "parentUid" : "1a0761cb3330dc474a1785525be77824",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689722806,
+          "stop" : 1683689723270,
+          "duration" : 464
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1a0761cb3330dc474a1785525be77824"
+    }, {
+      "name" : "AssertionError: assert 2 == 1",
+      "children" : [ {
+        "name" : "搜索有数据的企业",
+        "uid" : "b57260f652751629",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689723654,
+          "stop" : 1683689723746,
+          "duration" : 92
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2017-09-21', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 2796805656476674048, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '吉林省长春市公主岭市', 'district_city': '长春市', 'district_county': '公主岭市', 'district_province': '吉林省', 'ent_type': '农民专业合作社', 'id': 19839485, 'industry': '农业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '曲广超', 'legal_person_id': 6039922166402362368, 'license_number': '220381NA006409X', 'open_status': '存续', 'open_time': ' ', 'org_no': 'MA0Y3999X', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '吉林省公主岭市朝阳坡镇街道', 'reg_capital': '120万(元)', 'reg_capital_amount': Decimal('1200000.00'), 'reg_capital_currency': '元', 'reg_code': '220381NA006409X', 'reg_no': '93220381MA0Y3999XU', 'scope': '组织采购、供应成员所需的生产资料；组织收购、销售成员、生产的产品，开展成员所需的运输、贮藏、加工、包装等服务；种植服务、提供成员所需的农机作业服务（需专项审批的取得专项后方可经营）；引进新技术、开展技术培训、技术交流和咨询服务。（依法须经批准的目，经相关部门批准后方可开展经营活动）', 'start_date': '2015-11-10', 'tax_no': '93220381MA0Y3999XU', 'unified_code': '93220381MA0Y3999XU', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/1f31b85b7cc6b40471a738e41e4584cb.txt'}, 'compete_cnt': 0, 'data_id': 2796805656476674048, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '曲广超', 'name': '公主岭市朝阳坡镇招阳种植农机作业服务农民专业合作社', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "3c7bbfe54305a5aa",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689724306,
+          "stop" : 1683689724377,
+          "duration" : 71
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2020-11-20', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 521288799096897920, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '陕西省西安市临潼区', 'district_city': '西安市', 'district_county': '临潼区', 'district_province': '陕西省', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 19207754, 'industry': '农业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '张华', 'legal_person_id': 3876456585811554816, 'license_number': '610115100099097', 'open_status': '存续', 'open_time': '2020-11-20 至 无固定期限', 'org_no': 'MAB0M303X', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '陕西省西安市临潼区徐杨街办公义村三组', 'reg_capital': '500万(元)', 'reg_capital_amount': Decimal('5000000.00'), 'reg_capital_currency': '元', 'reg_code': '610115100099097', 'reg_no': '91610115MAB0M303X9', 'scope': '一般项目：谷物种植；豆类种植；薯类种植；蔬菜种植；食用菌种植；水果种植；中草药种植；草种植；销售代理；化工产品销售（不含许可类化工产品）；农业生产资料的购买、使用；非食用农产品初加工；农业专业及辅助性活动；农作物栽培服务；农产品的生产、销售、加工、运输、贮藏及其他相关服务；农作物收割服务；农业生产托管服务；农作物秸秆处理及加工利用服务；劳务服务（不含劳务派遣）；智能农业管理；农业机械服务；农村集体经济组织管理；信息咨询服务（不含许可类信息咨询服务）；农业科学研究和试验发展；技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广；农村民间工艺及制品、休闲农业和乡村旅游资源的开发经营；农业面源和重金属污染防治技术服务；生态恢复及生态保护服务；土地整治服务；土壤污染治理与修复服务；品牌管理；农业机械租赁；非主要农作物种子生产；装卸搬运；普通货物仓储服务（不含危险化学品等需许可审批的项目）；农作物病虫害防治服务；地产中草药(不含中药饮片）购销；谷物销售；豆及薯类销售；农副产品销售；新鲜水果批发；食用农产品批发；初级农产品收购；新鲜蔬菜批发；肥料销售；农用薄膜销售；中草药收购；日用百货销售；日用杂品销售；食用农产品零售；新鲜水果零售；新鲜蔬菜零售。(除依法须经批准的项目外，凭营业执照依法自主开展经营活动)许可项目：农作物种子经营；食用菌菌种经营；农药批发。(依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以审批结果为准)', 'start_date': '2020-11-20', 'tax_no': '91610115MAB0M303X9', 'unified_code': '91610115MAB0M303X9', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/8f88eb6d0cf4f8884b6c3bf51703e412.txt'}, 'compete_cnt': 0, 'data_id': 521288799096897920, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '张华', 'name': '西安秦唐丝路农业科技有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "ff951758f144cf61",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689724405,
+          "stop" : 1683689724473,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2021-06-25', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 6120662256429049856, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '广西壮族自治区北海市铁山港区', 'district_city': '北海市', 'district_county': '铁山港区', 'district_province': '广西壮族自治区', 'ent_type': '有限责任公司(自然人独资)', 'id': 20361356, 'industry': '林业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '劳家有', 'legal_person_id': 5774969234855417856, 'license_number': '450512000110254', 'open_status': '存续', 'open_time': '2021-06-25 至 无固定期限', 'org_no': 'MA5QJX409', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '广西壮族自治区北海市铁山港区营盘镇南珠西二街12号一楼', 'reg_capital': '800万(元)', 'reg_capital_amount': Decimal('8000000.00'), 'reg_capital_currency': '元', 'reg_code': '450512000110254', 'reg_no': '91450512MA5QJX409Q', 'scope': '一般项目：树木种植经营；花卉种植；蔬菜种植；水果种植（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）许可项目：水产养殖（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准）', 'start_date': '2021-06-25', 'tax_no': '91450512MA5QJX409Q', 'unified_code': '91450512MA5QJX409Q', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/2dfb646267300ddfc92c5d9aab60463f.txt'}, 'compete_cnt': 0, 'data_id': 6120662256429049856, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '劳家有', 'name': '北海市铁山港区嘉年华林木种植有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "70b6b21578f1e4e5",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689724555,
+          "stop" : 1683689724626,
+          "duration" : 71
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2020-08-06', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 3350202907847733760, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '河北省承德市兴隆县', 'district_city': '承德市', 'district_county': '兴隆县', 'district_province': '河北省', 'ent_type': '农民专业合作社', 'id': 19352079, 'industry': '畜牧业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '赵春磊', 'legal_person_id': 1846071788995608064, 'license_number': '130822NA001290X', 'open_status': '存续', 'open_time': '2020-08-06 至 无固定期限', 'org_no': 'MA0FAQJU2', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '河北省承德市兴隆县半壁山镇车道峪村（高久营宅）', 'reg_capital': '500万(元)', 'reg_capital_amount': Decimal('5000000.00'), 'reg_capital_currency': '元', 'reg_code': '130822NA001290X', 'reg_no': '93130822MA0FAQJU2J', 'scope': '为成员提供猪、牛、羊、鸡、鸭、鹅、牲畜、水产品、家禽养殖所需生产资料的购买、销售、贮藏以及与牲畜养殖有关的技术、信息等服务***（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'start_date': '2020-08-06', 'tax_no': '93130822MA0FAQJU2J', 'unified_code': '93130822MA0FAQJU2J', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/7e8a1146c06a2efb65e1c2a5916c7b2f.txt'}, 'compete_cnt': 0, 'data_id': 3350202907847733760, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '赵春磊', 'name': '兴隆县春磊养殖农民专业合作社', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "4079023295846adf",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689725039,
+          "stop" : 1683689725103,
+          "duration" : 64
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2017-05-31', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 7724790258379119616, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '河南省安阳市内黄县', 'district_city': '安阳市', 'district_county': '内黄县', 'district_province': '河南省', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 20297905, 'industry': '农、林、牧、渔专业及辅助性活动', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '袁彦超', 'legal_person_id': 2015516931873944064, 'license_number': '410527000030537', 'open_status': '存续', 'open_time': '2017-05-31 至 2027-05-30', 'org_no': 'MA4418072', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': '200万人民币', 'reg_addr': '河南省安阳市内黄县六村乡穆六村', 'reg_capital': '200万(元)', 'reg_capital_amount': Decimal('2000000.00'), 'reg_capital_currency': '元', 'reg_code': '410527000030537', 'reg_no': '91410527MA4418072M', 'scope': '农业技术推广服务；农作物种植；加工、销售：辣椒种子、叶面肥；销售：不再分装的包装种子、化肥；网上销售：农副产品。', 'start_date': '2017-05-31', 'tax_no': '91410527MA4418072M', 'unified_code': '91410527MA4418072M', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/6ce6170b820c524d5d346d4d6d297082.txt'}, 'compete_cnt': 0, 'data_id': 7724790258379119616, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '袁彦超', 'name': '安阳沃泰优农业科技有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "4a76862bbd88cd22",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689725117,
+          "stop" : 1683689725180,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2017-04-14', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 3484938351376610816, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '湖南省岳阳市湘阴县', 'district_city': '岳阳市', 'district_county': '湘阴县', 'district_province': '湖南省', 'ent_type': '农民专业合作社', 'id': 19770389, 'industry': '农、林、牧、渔专业及辅助性活动', 'insurance_info': '{\"insuraceNum\": \"\"}', 'insurance_num': 0, 'legal_person': '周志斌', 'legal_person_id': 2033517586624742912, 'license_number': '430624NA000821X', 'open_status': '存续', 'open_time': ' ', 'org_no': 'MA4L3WNR4', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '湘阴县湘滨镇杨公村', 'reg_capital': '600万(元)', 'reg_capital_amount': Decimal('6000000.00'), 'reg_capital_currency': '元', 'reg_code': '430624NA000821X', 'reg_no': '93430624MA4L3WNR4G', 'scope': '农业机械服务，组织采购、供应成员所需的种苗；组织收购、销售生产的产品；引进新技术、新品种，开展技术培训、技术交流和咨询服务。（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'start_date': '2016-04-20', 'tax_no': '93430624MA4L3WNR4G', 'unified_code': '93430624MA4L3WNR4G', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/56ab0c4a25feaa0c794a465587cb8b50.txt'}, 'compete_cnt': 0, 'data_id': 3484938351376610816, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '周志斌', 'name': '湘阴县杨公雷沃农机专业合作社', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "2a7710e449620598",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689725359,
+          "stop" : 1683689725433,
+          "duration" : 74
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2022-07-04', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 57181224771316896, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '安徽省合肥市肥西县', 'district_city': '合肥市', 'district_county': '肥西县', 'district_province': '安徽省', 'ent_type': '个人独资企业', 'id': 20571725, 'industry': '农业', 'insurance_info': '{\"insuraceNum\": \"\"}', 'insurance_num': 0, 'legal_person': '张锋', 'legal_person_id': 6982785879349096448, 'license_number': '340123000446724', 'open_status': '存续', 'open_time': '2022-07-04 至 无固定期限', 'org_no': 'MA8P7BJW5', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '安徽省合肥市肥西县花岗镇叶岗村杨祠队56号', 'reg_capital': '188万(元)', 'reg_capital_amount': Decimal('1880000.00'), 'reg_capital_currency': '元', 'reg_code': '340123000446724', 'reg_no': '91340123MA8P7BJW50', 'scope': '许可项目：水产养殖；水产苗种生产（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准）一般项目：谷物种植；豆类种植；油料种植；薯类种植；棉花种植；蔬菜种植；食用菌种植；花卉种植；树木种植经营；灌溉服务；草种植（除许可业务外，可自主依法经营法律法规非禁止或限制的项目）', 'start_date': '2022-07-04', 'tax_no': '91340123MA8P7BJW50', 'unified_code': '91340123MA8P7BJW50', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/f5ebf7628673a346c36e96c597cc3b48.txt'}, 'compete_cnt': 0, 'data_id': 57181224771316896, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '张锋', 'name': '合肥鹏峰生态养殖家庭农场', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "aa51526aebe51f1b",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689725747,
+          "stop" : 1683689725814,
+          "duration" : 67
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2021-12-10', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 7645756090342509568, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '宁夏回族自治区固原市西吉县', 'district_city': '固原市', 'district_county': '西吉县', 'district_province': '宁夏回族自治区', 'ent_type': '农民专业合作社', 'id': 20293657, 'industry': '农业', 'insurance_info': '{\"insuraceNum\": \"\"}', 'insurance_num': 0, 'legal_person': '常晓明', 'legal_person_id': 1527263125756475904, 'license_number': '640422NA001802X', 'open_status': '存续', 'open_time': ' ', 'org_no': 'MA7616N89', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '西吉县吉强镇芦子沟村一组', 'reg_capital': '500万(元)', 'reg_capital_amount': Decimal('5000000.00'), 'reg_capital_currency': '元', 'reg_code': '640422NA001802X', 'reg_no': '93640422MA7616N89Q', 'scope': '马铃薯、蔬菜、花卉、经果林、饲草、小秋杂粮、中药材、苗木的种植、贮藏与销售；蜜蜂、家禽、家畜、水产、梅花鹿的养殖与销售；组织采购、供应成员生产所需的农业生产资料；为成员开展相关技术、信息服务及农业产业技术培训服务#(依法须经批准的项目，经相关部门批准后方可开展经营活动)', 'start_date': '2017-05-27', 'tax_no': '93640422MA7616N89Q', 'unified_code': '93640422MA7616N89Q', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/026ecdac0c4b4199b9b29111331fa220.txt'}, 'compete_cnt': 0, 'data_id': 7645756090342509568, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '常晓明', 'name': '宁夏兴鲜杂食种植专业合作社', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "76794397d332f5c0",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689726064,
+          "stop" : 1683689726132,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2016-08-10', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 6460813938486167552, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '宁夏回族自治区银川市贺兰县', 'district_city': '银川市', 'district_county': '贺兰县', 'district_province': '宁夏回族自治区', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 21310879, 'industry': '软件和信息技术服务业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '陈明', 'legal_person_id': 8098510403673351168, 'license_number': '640122200037786', 'open_status': '存续', 'open_time': '2016-08-10 至 无固定期限', 'org_no': 'MA75X26M8', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '贺兰县富兴北街创业东路5号中阿幸福里跨境电商产业园401室', 'reg_capital': '750万(元)', 'reg_capital_amount': Decimal('7500000.00'), 'reg_capital_currency': '元', 'reg_code': '640122200037786', 'reg_no': '91640122MA75X26M88', 'scope': '法律法规明确或国务院决定须经审批的项目，经相关部门批准后方可开展经营活动；无须审批的，企业自主选择经营项目开展经营活动。***(依法须经批准的项目，经相关部门批准后方可开展经营活动)', 'start_date': '2016-08-10', 'tax_no': '91640122MA75X26M88', 'unified_code': '91640122MA75X26M88', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/300b91e4c7ddc968c1187b0c31260719.txt'}, 'compete_cnt': 0, 'data_id': 6460813938486167552, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '陈明', 'name': '宁夏居安保险代理销售有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "c1483fe1b268bcb8",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689726152,
+          "stop" : 1683689726217,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2020-12-15', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 3946463564194664960, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '浙江省温州市苍南县', 'district_city': '温州市', 'district_county': '苍南县', 'district_province': '浙江省', 'ent_type': '农民专业合作社', 'id': 19186735, 'industry': '畜牧业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '薛文斟', 'legal_person_id': 6011343434745398272, 'license_number': '330327NA004837X', 'open_status': '存续', 'open_time': '2020-12-15 至 无固定期限', 'org_no': 'MA2JCRD34', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '浙江省温州市苍南县赤溪镇新窑村140号', 'reg_capital': '200万(元)', 'reg_capital_amount': Decimal('2000000.00'), 'reg_capital_currency': '元', 'reg_code': '330327NA004837X', 'reg_no': '93330327MA2JCRD34A', 'scope': '许可项目：动物饲养(依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以审批结果为准)。', 'start_date': '2020-12-15', 'tax_no': '93330327MA2JCRD34A', 'unified_code': '93330327MA2JCRD34A', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/1afaaf8cbeb2a9bf3e834371227bfd61.txt'}, 'compete_cnt': 0, 'data_id': 3946463564194664960, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '薛文斟', 'name': '苍南县薛文斟养殖专业合作社', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "25839c36955ae96a",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689726453,
+          "stop" : 1683689726581,
+          "duration" : 128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2018-07-18', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 1713132757407557120, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '云南省丽江市宁蒗彝族自治县', 'district_city': '丽江市', 'district_county': '宁蒗彝族自治县', 'district_province': '云南省', 'ent_type': '农民专业合作社', 'id': 19188398, 'industry': '农业', 'insurance_info': '{\"insuraceNum\": \"5\"}', 'insurance_num': 5, 'legal_person': '历史阿坡', 'legal_person_id': 4964307005101986816, 'license_number': '530724NA000055X', 'open_status': '存续', 'open_time': '2010-04-07 至 无固定期限', 'org_no': '568828740', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': '120万人民币', 'reg_addr': '宁蒗县跑马坪乡二村', 'reg_capital': '300万(元)', 'reg_capital_amount': Decimal('3000000.00'), 'reg_capital_currency': '元', 'reg_code': '530724NA000055X', 'reg_no': '93530724568828740Q', 'scope': '经济林木种植；组织采购、供应成员所需的生产资料；组织收购、销售社员生产的产品；开展社员所需的运输、贮藏、加工、包装等服务；引进新技术、新品种，开展技术培训、技术交流和咨询服务；中药材种植；牛、羊的养殖。（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'start_date': '2010-04-07', 'tax_no': '93530724568828740Q', 'unified_code': '93530724568828740Q', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/7226ca85046259a862a17db109a52b62.txt'}, 'compete_cnt': 0, 'data_id': 1713132757407557120, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '历史阿坡', 'name': '宁蒗县跑马坪乡万格经济林木种植专业合作社', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "bc79d4aaeaebd815",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689726791,
+          "stop" : 1683689726850,
+          "duration" : 59
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2017-05-27', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 4331701538655453184, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '湖北省武汉市黄陂区', 'district_city': '武汉市', 'district_county': '黄陂区', 'district_province': '湖北省', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 20295506, 'industry': '农业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '李克峰', 'legal_person_id': 5178167170127900672, 'license_number': '420116000158434', 'open_status': '存续', 'open_time': '2017-05-27 至 2037-05-26', 'org_no': 'MA4KUHFG9', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': '50万人民币', 'reg_addr': '武汉市黄陂区祁家湾街红强村河岭砦', 'reg_capital': '1000万(元)', 'reg_capital_amount': Decimal('10000000.00'), 'reg_capital_currency': '元', 'reg_code': '420116000158434', 'reg_no': '91420116MA4KUHFG9C', 'scope': '生态农业项目开发，旅游观光服务，特种水产品养殖、垂钓服务，苗木、花卉种植，农副产品销售，农田基础设施工程、农田水利工程施工。（依法须经审批的项目，经相关部门审批后方可开展经营活动）', 'start_date': '2017-05-27', 'tax_no': '91420116MA4KUHFG9C', 'unified_code': '91420116MA4KUHFG9C', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/253cbc19a0be5912a9844a3bda47bda7.txt'}, 'compete_cnt': 0, 'data_id': 4331701538655453184, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '李克峰', 'name': '武汉富寓生态农业发展有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "f817ca24bf139ae4",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689727505,
+          "stop" : 1683689727571,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2021-12-24', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 6968307169094798336, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '湖北省恩施土家族苗族自治州巴东县', 'district_city': '恩施土家族苗族自治州', 'district_county': '巴东县', 'district_province': '湖北省', 'ent_type': '农民专业合作社', 'id': 20186589, 'industry': '农业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '伍穆贤', 'legal_person_id': 2100176392952318976, 'license_number': '422823NA002726X', 'open_status': '存续', 'open_time': '2019-02-02 至 无固定期限', 'org_no': 'MA4CWYJ46', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '巴东县官渡口镇水平村二组', 'reg_capital': '500万(元)', 'reg_capital_amount': Decimal('5000000.00'), 'reg_capital_currency': '元', 'reg_code': '422823NA002726X', 'reg_no': '93422823MA4CWYJ466', 'scope': '中药材（国家禁止的除外）种植、收购、销售；组织采购、供应本社成员中药种植所需的生产资料；组织采购、销售社员的中药材产品***（涉及许可经营项目，应取得相关部门许可后方可经营）', 'start_date': '2019-02-02', 'tax_no': '93422823MA4CWYJ466', 'unified_code': '93422823MA4CWYJ466', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/f9cdd3ec2c7d405b784444cbe6f4eda3.txt'}, 'compete_cnt': 0, 'data_id': 6968307169094798336, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '伍穆贤', 'name': '巴东县艾迪益药材种植专业合作社', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "80901073a66ba11c",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689727677,
+          "stop" : 1683689727750,
+          "duration" : 73
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2021-08-11', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 8056838854309501952, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '福建省宁德市古田县', 'district_city': '宁德市', 'district_county': '古田县', 'district_province': '福建省', 'ent_type': '农民专业合作社', 'id': 20236566, 'industry': '农业', 'insurance_info': '{\"insuraceNum\": \"4\"}', 'insurance_num': 4, 'legal_person': '陈智晗', 'legal_person_id': 6725654741784975360, 'license_number': '350922NA001700X', 'open_status': '存续', 'open_time': '2016-03-01 至 无固定期限', 'org_no': 'MA34670C6', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '福建省宁德市古田县吉巷乡渭洋村渭新路45号', 'reg_capital': '300万(元)', 'reg_capital_amount': Decimal('3000000.00'), 'reg_capital_currency': '元', 'reg_code': '350922NA001700X', 'reg_no': '93350922MA34670C6G', 'scope': '食用菌、蔬菜、水果、经济林、茶叶种植；组织采购、供应成员种植食用菌、蔬菜、水果、经济林、茶叶所需的生产资料（不含危险化学品）；农产品初加工服务；组织收购、销售成员生产的初级农产品；预包装食品零售；引进新技术、新品种，开展技术交流和咨询服务。（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'start_date': '2016-03-01', 'tax_no': '93350922MA34670C6G', 'unified_code': '93350922MA34670C6G', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/fdcb440bb5c02045ca1d3694eb25143d.txt'}, 'compete_cnt': 0, 'data_id': 8056838854309501952, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '陈智晗', 'name': '古田县田润食用菌专业合作社', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "a6a05f7678e012d0",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689727769,
+          "stop" : 1683689727825,
+          "duration" : 56
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2014-07-08', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 4695463995850674176, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '河南省开封市尉氏县', 'district_city': '开封市', 'district_county': '尉氏县', 'district_province': '河南省', 'ent_type': '农民专业合作社', 'id': 19305018, 'industry': '畜牧业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '冉国喜', 'legal_person_id': 2923652447774756864, 'license_number': '410223NA001618X', 'open_status': '存续', 'open_time': '2014-07-08 至 无固定期限', 'org_no': '396480433', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '尉氏县岗李乡冉村', 'reg_capital': '150万(元)', 'reg_capital_amount': Decimal('1500000.00'), 'reg_capital_currency': '元', 'reg_code': '410223NA001618X', 'reg_no': '934102233964804336', 'scope': '为本社社员提供养殖信息服务。', 'start_date': '2014-07-08', 'tax_no': '934102233964804336', 'unified_code': '934102233964804336', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/7dca2082dcbb227cef11e14a47901b3f.txt'}, 'compete_cnt': 0, 'data_id': 4695463995850674176, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '冉国喜', 'name': '尉氏县超帅养殖专业合作社', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "1cbef3141ef3c5b7",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689728474,
+          "stop" : 1683689728547,
+          "duration" : 73
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2019-10-21', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 756695332192469504, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '黑龙江省哈尔滨市尚志市', 'district_city': '哈尔滨市', 'district_county': '尚志市', 'district_province': '黑龙江省', 'ent_type': '农民专业合作社', 'id': 19503978, 'industry': '农、林、牧、渔专业及辅助性活动', 'insurance_info': '{\"insuraceNum\": \"\"}', 'insurance_num': 0, 'legal_person': '付金鼎', 'legal_person_id': 8814951618638144512, 'license_number': '230183NA101603X', 'open_status': '存续', 'open_time': '2019-10-21 至 无固定期限', 'org_no': 'MA1BTN798', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '尚志经济开发区（发展大街北侧、汉枫西侧）', 'reg_capital': '500万(元)', 'reg_capital_amount': Decimal('5000000.00'), 'reg_capital_currency': '元', 'reg_code': '230183NA101603X', 'reg_no': '93230183MA1BTN798B', 'scope': '以成员为主要服务对象，为成员提供农机作业服务；农机零配件销售；农机维修，农村可再生能源生产经营（秸秆收集、收购、加工、贮存、销售）；国内普通货物道路运输（秸秆及其制品）（依法须经批准的项目，经相关部门批准后方可开展经营活动）。', 'start_date': '2019-10-21', 'tax_no': '93230183MA1BTN798B', 'unified_code': '93230183MA1BTN798B', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/a589e221aff044620e3dfc9d6c6476d8.txt'}, 'compete_cnt': 0, 'data_id': 756695332192469504, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '付金鼎', 'name': '尚志市秸农现代农机专业合作社', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "ace5882c3c3cc206",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689728711,
+          "stop" : 1683689728768,
+          "duration" : 57
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2018-08-10', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 4436657662794248192, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '浙江省金华市金东区', 'district_city': '金华市', 'district_county': '金东区', 'district_province': '浙江省', 'ent_type': '有限责任公司(自然人独资)', 'id': 21531633, 'industry': '软件和信息技术服务业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '周俊诚', 'legal_person_id': 3214244312180469248, 'license_number': '330703000150061', 'open_status': '存续', 'open_time': '2018-05-30 至 无固定期限', 'org_no': 'MA2DCQQ71', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '浙江省金华市金东区光南路107号金华万达广场6幢1822室', 'reg_capital': '500万(元)', 'reg_capital_amount': Decimal('5000000.00'), 'reg_capital_currency': '元', 'reg_code': '330703000150061', 'reg_no': '91330703MA2DCQQ71H', 'scope': '经营性互联网文化服务。（凡涉及后置审批项目的，凭相关许可证经营，浙江省后置审批目录详见浙江省人民政府官网）（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'start_date': '2018-05-30', 'tax_no': '91330703MA2DCQQ71H', 'unified_code': '91330703MA2DCQQ71H', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/eb9a9c2bf696d95508e1b71a133dbfec.txt'}, 'compete_cnt': 0, 'data_id': 4436657662794248192, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '周俊诚', 'name': '金华紫川文化传媒有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "2ac19c9733d76f62",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689728862,
+          "stop" : 1683689728928,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2018-10-09', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 2808465897767888896, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '河南省开封市龙亭区', 'district_city': '开封市', 'district_county': '龙亭区', 'district_province': '河南省', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 19850192, 'industry': '农业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '张亚鹏', 'legal_person_id': 2724992970530412032, 'license_number': '410202002042526', 'open_status': '存续', 'open_time': '2018-10-09 至 无固定期限', 'org_no': 'MA45TQWL3', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '河南省开封市龙亭区嘉泰新城38号楼1单元西301', 'reg_capital': '300万(元)', 'reg_capital_amount': Decimal('3000000.00'), 'reg_capital_currency': '元', 'reg_code': '410202002042526', 'reg_no': '91410202MA45TQWL36', 'scope': '苗木、棉花的种植及销售；农副产品的加工及销售；粮食收购、销售；农作物种植、销售；农业项目推广；农业技术开发、服务。（涉及许可经营项目，应取得相关部门许可后方可经营）', 'start_date': '2018-10-09', 'tax_no': '91410202MA45TQWL36', 'unified_code': '91410202MA45TQWL36', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/00c2eb2d2b0944f45752fed2783c6721.txt'}, 'compete_cnt': 0, 'data_id': 2808465897767888896, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '张亚鹏', 'name': '开封市慕青农业发展有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "50ae79b1f32a6fc5",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689728952,
+          "stop" : 1683689729029,
+          "duration" : 77
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2020-08-11', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 258292780145457792, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '辽宁省葫芦岛市南票区', 'district_city': '葫芦岛市', 'district_county': '南票区', 'district_province': '辽宁省', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 19421174, 'industry': '畜牧业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '赵守双', 'legal_person_id': 5146877365852891136, 'license_number': '211404004031155', 'open_status': '存续', 'open_time': '2020-08-11 至 无固定期限', 'org_no': 'MA10JFFX9', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': '300万人民币', 'reg_addr': '辽宁省葫芦岛市南票区高桥镇季屯村', 'reg_capital': '300万(元)', 'reg_capital_amount': Decimal('3000000.00'), 'reg_capital_currency': '元', 'reg_code': '211404004031155', 'reg_no': '91211404MA10JFFX90', 'scope': '许可项目：家禽饲养，动物饲养，牲畜饲养（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以审批结果为准）一般项目：食用农产品零售（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）', 'start_date': '2020-08-11', 'tax_no': '91211404MA10JFFX90', 'unified_code': '91211404MA10JFFX90', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/5d5d68082fa42beb2de8b8fb06083f04.txt'}, 'compete_cnt': 0, 'data_id': 258292780145457792, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '赵守双', 'name': '葫芦岛牧兴畜牧养殖有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "c3bc215aa187f254",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689729048,
+          "stop" : 1683689729123,
+          "duration" : 75
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2020-12-31', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 618769765098622848, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '广西壮族自治区柳州市三江侗族自治县', 'district_city': '柳州市', 'district_county': '三江侗族自治县', 'district_province': '广西壮族自治区', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 19164486, 'industry': '农业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '曾招村', 'legal_person_id': 6074407592783508480, 'license_number': '450226000125732', 'open_status': '存续', 'open_time': '2020-12-31 至 无固定期限', 'org_no': 'MA5Q82L02', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': '300万人民币', 'reg_addr': '广西壮族自治区柳州市三江侗族自治县三江县南站片区高铁站南侧（A地块2号厂房28轴~212轴、2A轴~2P轴标准厂房）', 'reg_capital': '1000万(元)', 'reg_capital_amount': Decimal('10000000.00'), 'reg_capital_currency': '元', 'reg_code': '450226000125732', 'reg_no': '91450226MA5Q82L027', 'scope': '一般项目：技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广；农作物病虫害防治服务；农副产品销售；茶叶种植；含油果种植；蔬菜种植；水果种植；花卉种植；中草药种植；日用品销售；广告设计、代理；名胜风景区管理；旅行社服务网点旅游招徕、咨询服务；休闲观光活动（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）许可项目：家禽饲养；牲畜饲养；种畜禽生产；主要农作物种子生产；食用菌菌种生产（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准）', 'start_date': '2020-12-31', 'tax_no': '91450226MA5Q82L027', 'unified_code': '91450226MA5Q82L027', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/e781cf23b0567719479eac3b4137195e.txt'}, 'compete_cnt': 0, 'data_id': 618769765098622848, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '曾招村', 'name': '三江县艺超农业科技有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "5a7714d6ee0eeef2",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689729482,
+          "stop" : 1683689729554,
+          "duration" : 72
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2016-12-29', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 7384601844905250816, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '内蒙古自治区呼伦贝尔市莫力达瓦达斡尔族自治旗', 'district_city': '呼伦贝尔市', 'district_county': '莫力达瓦达斡尔族自治旗', 'district_province': '内蒙古自治区', 'ent_type': '农民专业合作社(9100)', 'id': 20080914, 'industry': '畜牧业', 'insurance_info': '{\"insuraceNum\": \"\"}', 'insurance_num': 0, 'legal_person': '王振国', 'legal_person_id': 5575846448868658176, 'license_number': '150722NA002987X', 'open_status': '存续', 'open_time': '2016-12-29 至 无固定期限', 'org_no': 'MA0N38153', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '莫力达瓦达斡尔族自治旗西瓦尔图镇兴隆村', 'reg_capital': '300万(元)', 'reg_capital_amount': Decimal('3000000.00'), 'reg_capital_currency': '元', 'reg_code': '150722NA002987X', 'reg_no': '93150722MA0N38153R', 'scope': '许可经营项目：无 一般经营项目：谷物及其他作物的种植；蔬菜种植；农副产品购销；组织采购成员所需的生产资料（农药、化肥、种子用于成员自用）；玉米烘干；温室大棚；牲畜、家禽饲养；畜产品购销；组织采购成员所需的牲畜饲料；品种改良；水产养殖；农机具和配件采购；其他农业服务', 'start_date': '2016-12-29', 'tax_no': '93150722MA0N38153R', 'unified_code': '93150722MA0N38153R', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/01b45bb11fb806797f94013046440c8f.txt'}, 'compete_cnt': 0, 'data_id': 7384601844905250816, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '王振国', 'name': '莫力达瓦达斡尔族自治旗豪杰大豆种养殖专业合作社', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "9d05ffa007ff10bc",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689729658,
+          "stop" : 1683689729734,
+          "duration" : 76
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2019-11-22', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 797108538809598592, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '贵州省遵义市道真仡佬族苗族自治县', 'district_city': '遵义市', 'district_county': '道真仡佬族苗族自治县', 'district_province': '贵州省', 'ent_type': '有限责任公司(自然人独资)', 'id': 19250398, 'industry': '农、林、牧、渔专业及辅助性活动', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '陈小勇', 'legal_person_id': 2113368044896561920, 'license_number': '520325000240016', 'open_status': '存续', 'open_time': '2019-11-22 至 无固定期限', 'org_no': 'MA6J52UX9', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '贵州省遵义市道真自治县玉溪镇新城社区长槽网格冉家巷507栋1楼', 'reg_capital': '200万(元)', 'reg_capital_amount': Decimal('2000000.00'), 'reg_capital_currency': '元', 'reg_code': '520325000240016', 'reg_no': '91520325MA6J52UX93', 'scope': '法律、法规、国务院决定规定禁止的不得经营；法律、法规、国务院决定规定应当许可（审批）的，经审批机关批准后凭许可（审批）文件经营;法律、法规、国务院决定规定无需许可（审批）的，市场主体自主选择经营。（花椒、水果、蔬菜、食用菌种植、加工、收购、销售；农作物种苗培育、销售；干果加工、销售；水产品养殖、牲畜养殖及销售；餐饮；住宿；农业观光旅游；农业技术推广及咨询服务；农业项目开发；观光旅游项目开发；农产品深加工、销售；农副产品市场投资建设、运营；农村基础设施建设；农田水利设施建设；农业高新技术研发、技术转让服务。（涉及许可经营项目，应取得相关部门许可后方可经营））', 'start_date': '2019-11-22', 'tax_no': '91520325MA6J52UX93', 'unified_code': '91520325MA6J52UX93', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/c62bcdf66e29f278d833efa7b60c5b9d.txt'}, 'compete_cnt': 0, 'data_id': 797108538809598592, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '陈小勇', 'name': '道真自治县勇达生态农业发展有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "592cda0969271bd6",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689729747,
+          "stop" : 1683689729802,
+          "duration" : 55
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2016-04-05', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 3028170595166585856, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '云南省曲靖市富源县', 'district_city': '曲靖市', 'district_county': '富源县', 'district_province': '云南省', 'ent_type': '个人独资企业', 'id': 19518679, 'industry': '畜牧业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '潘东', 'legal_person_id': 6659163866321896448, 'license_number': '530325100022078', 'open_status': '存续', 'open_time': '2014-06-13 至 无固定期限', 'org_no': '397401864', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '云南省曲靖市富源县古敢乡补掌村委会热水塘村', 'reg_capital': '250万(元)', 'reg_capital_amount': Decimal('2500000.00'), 'reg_capital_currency': '元', 'reg_code': '530325100022078', 'reg_no': '91530325397401864R', 'scope': '肉牛养殖、销售（依法须经批准的项目，经相关部门批准后方可开展经营活动）。', 'start_date': '2014-06-13', 'tax_no': '91530325397401864R', 'unified_code': '91530325397401864R', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/14fdbb1f9c4b1b5ba2dc25ea0e697b11.txt'}, 'compete_cnt': 0, 'data_id': 3028170595166585856, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '潘东', 'name': '富源县宏毅养殖场', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "a3b966853ad90fe3",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689729887,
+          "stop" : 1683689729947,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2017-05-03', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 4872203587320849408, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '黑龙江省哈尔滨市依兰县', 'district_city': '哈尔滨市', 'district_county': '依兰县', 'district_province': '黑龙江省', 'ent_type': '农民专业合作社', 'id': 19238539, 'industry': '农业', 'insurance_info': '{\"insuraceNum\": \"\"}', 'insurance_num': 0, 'legal_person': '关志钢', 'legal_person_id': 5519350606765838336, 'license_number': '230123NA001751X', 'open_status': '存续', 'open_time': ' ', 'org_no': '086030111', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': '30万人民币', 'reg_addr': '依兰县达连河镇新胜村', 'reg_capital': '150万(元)', 'reg_capital_amount': Decimal('1500000.00'), 'reg_capital_currency': '元', 'reg_code': '230123NA001751X', 'reg_no': '93230123086030111D', 'scope': '玉米、水稻、大豆、杂粮种植销售', 'start_date': '2014-01-27', 'tax_no': '93230123086030111D', 'unified_code': '93230123086030111D', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/6b255a0e90fe8d6388fbccc21c56b7d7.txt'}, 'compete_cnt': 0, 'data_id': 4872203587320849408, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '关志钢', 'name': '依兰县传向粮食种植专业合作社', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "1c58eefc4b1f22b0",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689729962,
+          "stop" : 1683689730027,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2017-12-05', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 4382396262304907776, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '湖南省长沙市开福区', 'district_city': '长沙市', 'district_county': '开福区', 'district_province': '湖南省', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 21212040, 'industry': '软件和信息技术服务业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '夏新明', 'legal_person_id': 117439970432646592, 'license_number': '430105000302872', 'open_status': '存续', 'open_time': '2017-12-05 至 2067-12-04', 'org_no': 'MA4P9RCA8', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '长沙市开福区四方坪街道双拥路9号长城万富汇大厦9层9038号房（集群注册）', 'reg_capital': '200万(元)', 'reg_capital_amount': Decimal('2000000.00'), 'reg_capital_currency': '元', 'reg_code': '430105000302872', 'reg_no': '91430105MA4P9RCA81', 'scope': '商业信息咨询；企业管理咨询服务；信息技术咨询服务；软件开发；光伏项目的技术开发、技术转让及运营管理。（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'start_date': '2017-12-05', 'tax_no': '91430105MA4P9RCA81', 'unified_code': '91430105MA4P9RCA81', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/c8c69d2245abbc912c62259df6b49cdd.txt'}, 'compete_cnt': 0, 'data_id': 4382396262304907776, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '夏新明', 'name': '长沙晋达利商务咨询有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "13733f53125b59ec",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689730759,
+          "stop" : 1683689730842,
+          "duration" : 83
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2017-11-06', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 7939489330100354048, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '江西省上饶市信州区', 'district_city': '上饶市', 'district_county': '信州区', 'district_province': '江西省', 'ent_type': '有限责任公司(自然人独资)', 'id': 19297095, 'industry': '林业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '苏文', 'legal_person_id': 2116269531257051904, 'license_number': '361124210011879', 'open_status': '存续', 'open_time': '2014-07-02 至 2064-07-01', 'org_no': '309216598', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': '1000万人民币', 'reg_addr': '江西省上饶市信州区三清山中大道316号47幢312', 'reg_capital': '1000万(元)', 'reg_capital_amount': Decimal('10000000.00'), 'reg_capital_currency': '元', 'reg_code': '361124210011879', 'reg_no': '91361124309216598B', 'scope': '苗木、花卉、草皮种植及销售；蔬菜、水果种植及销售；药材、油茶种植及销售；水产养殖；园林绿化。（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'start_date': '2014-07-02', 'tax_no': '91361124309216598B', 'unified_code': '91361124309216598B', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/c14052dfdff9da56a9a98a77b614301f.txt'}, 'compete_cnt': 0, 'data_id': 7939489330100354048, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '苏文', 'name': '上饶市福盛林农林开发有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "effa1c52c92a30aa",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689730975,
+          "stop" : 1683689731044,
+          "duration" : 69
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2021-09-16', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 8528448014194719744, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '甘肃省武威市凉州区', 'district_city': '武威市', 'district_county': '凉州区', 'district_province': '甘肃省', 'ent_type': '有限责任公司(自然人独资)', 'id': 19885773, 'industry': '农业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '丁顗', 'legal_person_id': 1069342676900540032, 'license_number': '620602200051583', 'open_status': '存续', 'open_time': '2016-06-28 至 2046-06-27', 'org_no': 'MA742PHX0', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '甘肃省武威市凉州区羊下坝镇上双村一组', 'reg_capital': '300万(元)', 'reg_capital_amount': Decimal('3000000.00'), 'reg_capital_currency': '元', 'reg_code': '620602200051583', 'reg_no': '91620602MA742PHX0W', 'scope': '瓜果蔬菜、农产品种植、储藏、包装、收购及销售；农作物种子生产及销售；种苗生产及销售；苗木、花卉种植及销售；畜禽繁育、养殖、屠宰，畜禽肉的包装、加工及销售；水产品养殖、加工及销售；垂钓服务；化肥、农膜、土特产品、中小农具的批发及零售；日光温室智能控制设备销售及安装；日光温室材料销售及安装；农产品质量检测；农产品网上销售服务；从事货物与技术进出口；普通货物（不含危险化学品）运输；农业、林业、牧业信息咨询；农贸市场的开发；观光农业，休闲农业，订单农业，农、林、牧业的技术开发、技术服务、技术咨询、技术转让。（依法须经批准的项目，经相关部门批准后方可开展经营活动）***', 'start_date': '2016-06-28', 'tax_no': '91620602MA742PHX0W', 'unified_code': '91620602MA742PHX0W', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/357ebbbd3474d9fcc6d19271833585a8.txt'}, 'compete_cnt': 0, 'data_id': 8528448014194719744, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '丁顗', 'name': '武威长丰园农业科技有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "f2b823f66f53d72f",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689731616,
+          "stop" : 1683689731681,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2022-03-28', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 5950479017267083264, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '甘肃省金昌市永昌县', 'district_city': '金昌市', 'district_county': '永昌县', 'district_province': '甘肃省', 'ent_type': '有限责任公司(自然人独资)', 'id': 20361822, 'industry': '农业', 'insurance_info': '{\"insuraceNum\": \"\"}', 'insurance_num': 0, 'legal_person': '赵天锐', 'legal_person_id': 5395630585760656384, 'license_number': '620321200037292', 'open_status': '存续', 'open_time': '2022-03-28 至 无固定期限', 'org_no': 'MA7M9YF15', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '甘肃省金昌市永昌县新城子镇农林场', 'reg_capital': '1000万(元)', 'reg_capital_amount': Decimal('10000000.00'), 'reg_capital_currency': '元', 'reg_code': '620321200037292', 'reg_no': '91620321MA7M9YF15R', 'scope': '许可项目：牲畜饲养；家禽饲养；道路货物运输（不含危险货物）。（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准）***一般项目：蔬菜种植；草种植；豆类种植；薯类种植；食用菌种植；中草药种植；谷物种植；休闲观光活动；农业专业及辅助性活动；农作物病虫害防治服务；初级农产品收购；园林绿化工程施工；农业机械租赁；低温仓储（不含危险化学品等需许可审批的项目）；谷物销售；豆及薯类销售；农产品的生产、销售、加工、运输、贮藏及其他相关服务；农副产品销售；食用农产品初加工；草及相关制品销售；新鲜蔬菜批发；新鲜蔬菜零售；食用农产品零售；农作物秸秆处理及加工利用服务；劳务服务（不含劳务派遣）；装卸搬运；牲畜销售（不含犬类）；畜禽收购。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）***', 'start_date': '2022-03-28', 'tax_no': '91620321MA7M9YF15R', 'unified_code': '91620321MA7M9YF15R', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/901f87fbdde4d93e4068f3399c2a96be.txt'}, 'compete_cnt': 0, 'data_id': 5950479017267083264, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '赵天锐', 'name': '甘肃裕禾锐农业有限责任公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "搜索有数据的企业",
+        "uid" : "7d0809201371577a",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689731845,
+          "stop" : 1683689731911,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2018-05-03', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 5899087712426947584, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '贵州省遵义市红花岗区', 'district_city': '遵义市', 'district_county': '红花岗区', 'district_province': '贵州省', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 19662438, 'industry': '农业', 'insurance_info': '{\"insuraceNum\": \"5\"}', 'insurance_num': 5, 'legal_person': '张应江', 'legal_person_id': 3219401987579524096, 'license_number': '520302000757544', 'open_status': '存续', 'open_time': '2018-05-03 至 无固定期限', 'org_no': 'MA6GYGMU7', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': '10万人民币', 'reg_addr': '贵州省遵义市红花岗区白杨一区14栋三层办公用房', 'reg_capital': '2000万(元)', 'reg_capital_amount': Decimal('20000000.00'), 'reg_capital_currency': '元', 'reg_code': '520302000757544', 'reg_no': '91520302MA6GYGMU70', 'scope': '法律、法规、国务院决定规定禁止的不得经营；法律、法规、国务院决定规定应当许可（审批）的，经审批机关批准后凭许可（审批）文件经营;法律、法规、国务院决定规定无需许可（审批）的，市场主体自主选择经营。（中药材及花卉、果蔬种植、加工及销售；农业生态旅游开发(依法须经批准的项目，经相关部门批准后方可开展经营活动)。）', 'start_date': '2018-05-03', 'tax_no': '91520302MA6GYGMU70', 'unified_code': '91520302MA6GYGMU70', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/cae2d7629520a831f5d4e8690e3825ae.txt'}, 'compete_cnt': 0, 'data_id': 5899087712426947584, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '张应江', 'name': '贵州顺焱农农业发展有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      } ],
+      "uid" : "20b3ab6bb3644f149f5fba207dddc2af"
+    }, {
+      "name" : "AssertionError: assert '4,195.1万(元)' == ''\n  + 4,195.1万(元)",
+      "children" : [ {
+        "name" : "搜索有数据的企业",
+        "uid" : "262510a0599e8300",
+        "parentUid" : "d4dec5d63fa520f8fb61af28f8baac06",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689724967,
+          "stop" : 1683689725026,
+          "duration" : 59
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 6, 'company_member_list': {'company_id': 446669945791134903, 'created_at': datetime.datetime(2023, 4, 26, 12, 28, 43), 'end_time': '', 'id': 223735, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 192100152764451685, 'pos_weight': 0, 'position': '董事长,总经理', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 1, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 28, 43), 'useful_position': '0,26', 'useful_position_json': '[{\"id\": \"0\", \"name\": \"董事长\"}, {\"id\": \"26\", \"name\": \"总经理\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2021-07-26', 'authority': '松江区市场监督管理局', 'comp_num': '1', 'comp_num_link': '', 'company_id': 446669945791134903, 'created_at': datetime.datetime(2022, 10, 14, 10, 41, 22), 'district': '上海市松江区', 'district_city': '上海市', 'district_county': '松江区', 'district_province': '上海市', 'ent_type': '有限责任公司(国有控股)', 'id': 1504050, 'industry': '金属制品业', 'insurance_info': '{\"insuranceNum\": \"93人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=32265281788823&year=2021\"}', 'insurance_num': 93, 'legal_person': '黄高云', 'legal_person_id': 0, 'license_number': '310227000580503', 'open_status': '开业', 'open_time': '1999-11-10 至 无固定期限', 'org_no': '63162542-9', 'org_type': '-', 'paidin_capital': '4,195.1万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '增值税一般纳税人', 'real_capital': '-', 'reg_addr': '上海市松江区九亭镇涞坊路2039号8幢', 'reg_capital': '4,195.1万(元)', 'reg_capital_amount': Decimal('41951000.00'), 'reg_capital_currency': '元', 'reg_code': '310227000580503', 'reg_no': '91310117631625429X', 'scope': '滑动轴承双金属复合材料及制品,碟形弹簧,密封材料自产自销。,电子元件加工。经营本企业自产产品的出口业务和本企业所需的机械设备、零配件、原辅材料的进口业务(但国家限定公司经营或禁止进出口的商品及技术除外),本企业包括本企业控股的成员企业。[依法须经批准的项目,经相关部门批准后方可开展经营活动]', 'start_date': '1999-11-10', 'tax_no': '91310117631625429X', 'unified_code': '91310117631625429X', 'updated_at': datetime.datetime(2023, 4, 23, 14, 36, 6), 'url': '/m/basic?pid=xlTM-TogKuTwdyorC4b6UAcJut71EOD6Kgmd&entName=%E4%B8%8A%E6%B5%B7%E6%A0%B8%E5%A8%81%E5%AE%9E%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/a70033cf08503a0a9c6298baf962d21a.txt'}, 'compete_cnt': 0, 'data_id': 446669945791134903, 'finances_cnt': 0, 'introduction': '上海核威实业有限公司成立于1999年11月10日，注册地位于上海市松江区九亭镇涞坊路2039号8幢，法定代表人为黄高云。经营范围包括滑动轴承双金属复合材料及制品,碟形弹簧,密封材料自产自销。,电子元件加工。经营本企业自产产品的出口业务和本企业所需的机械设备、零配件、原辅材料的进口业务(但国家限定公司经营或禁止进出口的商品及技术除外),本企业包括本企业控股的成员企业。[依法须经批准的项目,经相关部门批准后方可开展经营活动]上海核威实业有限公司对外投资1家公司。', 'invest_cnt': 1, 'invest_list': {'amount': '300万(元)', 'company_id': 446669945791134903, 'created_at': datetime.datetime(2022, 10, 14, 10, 23, 25), 'data_id': 7198090168028073924, 'data_type': 1, 'id': 260698, 'rate': '100%', 'status': '开业', 'updated_at': datetime.datetime(2022, 10, 14, 10, 23, 25)}, 'legal_person': '黄高云', 'name': '上海核威实业有限公司', 'ownership_cnt': 2, 'ownership_list': {'amount': '3,975.1万(元)', 'company_id': 446669945791134903, 'created_at': datetime.datetime(2022, 10, 14, 10, 38, 46), 'data_id': 2768580503218511479, 'data_type': 1, 'id': 3126427, 'is_delete': 0, 'ratio': '94.755787%', 'tag': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 38, 46)}, 'tags': ''}" ]
+      } ],
+      "uid" : "d4dec5d63fa520f8fb61af28f8baac06"
+    }, {
+      "name" : "AssertionError: assert '2,000万(元)' == ''\n  + 2,000万(元)",
+      "children" : [ {
+        "name" : "搜索有数据的企业",
+        "uid" : "e1b4ef8433221eaf",
+        "parentUid" : "7a24630649b086e85e3c8b74a1500396",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689729376,
+          "stop" : 1683689729457,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 3, 'company_member_list': {'company_id': 7997222832658238856, 'created_at': datetime.datetime(2023, 4, 26, 13, 24, 56), 'end_time': '', 'id': 63191242, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 3151403513666457315, 'pos_weight': 24, 'position': '执行董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-04-19', 'updated_at': datetime.datetime(2023, 4, 26, 13, 24, 56), 'useful_position': '19', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"执行董事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2019-09-30', 'authority': '北京市丰台区市场监督管理局', 'comp_num': '12', 'comp_num_link': '', 'company_id': 7997222832658238856, 'created_at': datetime.datetime(2023, 4, 20, 8, 38, 51), 'district': '北京市丰台区', 'district_city': '北京市', 'district_county': '丰台区', 'district_province': '北京市', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 15413897, 'industry': '科技推广和应用服务业', 'insurance_info': '{\"insuranceNum\":\"40人\",\"year\":\"2021\",\"reportUrl\":\"/pages/annual/index?pid=29949115162185&year=2021\"}', 'insurance_num': 40, 'legal_person': '王若鹤', 'legal_person_id': 3151403513666457315, 'license_number': '110106011148881', 'open_status': '开业', 'open_time': '2008-06-30 至 2028-06-29', 'org_no': '67741990-3', 'org_type': '', 'paidin_capital': '500万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '', 'qualification': '一般纳税人', 'real_capital': '', 'reg_addr': '北京市丰台区丰台路口139、140号2幢203室(园区)', 'reg_capital': '2,000万(元)', 'reg_capital_amount': Decimal('20000000.00'), 'reg_capital_currency': '元', 'reg_code': '110106011148881', 'reg_no': '91110106677419903P', 'scope': '技术服务、技术咨询、技术转让、技术开发、技术推广；企业管理、企业管理咨询；基础软件服务；数据处理（PUE值1.5以上的云计算数据中心除外）；销售工艺品、机械设备、建筑材料、计算机软硬件及辅助设备、通讯器材、文化办公用品；计算机软件开发。（企业依法自主选择经营项目，开展经营活动；依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事本市产业政策禁止和限制类项目的经营活动。）', 'start_date': '2008-06-30', 'tax_no': '91110106677419903P', 'unified_code': '91110106677419903P', 'updated_at': datetime.datetime(2023, 4, 25, 9, 37, 23), 'url': '/m/basic?pid=xlTM-TogKuTwlmmX7VmsNd12e3NZpvKXpwmd&entName=%E5%8C%97%E4%BA%AC%E4%B8%AD%E8%81%94%E7%A8%8E%E7%BD%91%E4%BF%A1%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/1a82cadab6db23ba59d5bc826ce56d70.txt'}, 'compete_cnt': 0, 'data_id': 7997222832658238856, 'finances_cnt': 0, 'introduction': '北京中联税网信技术有限公司成立于2008年06月30日，注册地位于北京市丰台区丰台路口139、140号2幢203室(园区)，法定代表人为王若鹤。经营范围包括技术服务、技术咨询、技术转让、技术开发、技术推广；企业管理、企业管理咨询；基础软件服务；数据处理（PUE值1.5以上的云计算数据中心除外）；销售工艺品、机械设备、建筑材料、计算机软硬件及辅助设备、通讯器材、文化办公用品；计算机软件开发。（企业依法自主选择经营项目，开展经营活动；依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事本市产业政策禁止和限制类项目的经营活动。）北京中联税网信技术有限公司对外投资5家公司。', 'invest_cnt': 5, 'invest_list': {'amount': '975万(元)', 'company_id': 7997222832658238856, 'created_at': datetime.datetime(2023, 4, 19, 8, 45, 38), 'data_id': 2005534248478226814, 'data_type': 0, 'id': 6486100, 'rate': '97.5%', 'status': '开业', 'updated_at': datetime.datetime(2023, 4, 19, 8, 45, 38)}, 'legal_person': '王若鹤', 'name': '北京中联税网信技术有限公司', 'ownership_cnt': 2, 'ownership_list': {'amount': '1,995万(元)', 'company_id': 7997222832658238856, 'created_at': datetime.datetime(2023, 4, 19, 8, 46, 8), 'data_id': 3151403513666457315, 'data_type': 2, 'id': 13395647, 'is_delete': 0, 'ratio': '99.75%', 'tag': '', 'updated_at': datetime.datetime(2023, 4, 19, 8, 46, 8)}, 'tags': ''}" ]
+      } ],
+      "uid" : "7a24630649b086e85e3c8b74a1500396"
+    }, {
+      "name" : "AssertionError: assert '500万(元)' == ''\n  + 500万(元)",
+      "children" : [ {
+        "name" : "搜索有数据的企业",
+        "uid" : "16f6b37fdd24bc1a",
+        "parentUid" : "3722c02990e794809864bda72403099d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689730878,
+          "stop" : 1683689730938,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': {'amount': '金额未知', 'company_id': 528092107110175622, 'created_at': datetime.datetime(2022, 11, 10, 16, 26, 30), 'estimation': '', 'finances_time': '2019-02-28', 'id': 88984, 'invest': '[2169009553295520055]', 'news_source': '力当宣布获得多方联合战略投', 'news_source_url': 'http://life.jrj.com.cn/2019/02/27222827099041.shtml', 'stage': '战略投资', 'updated_at': datetime.datetime(2022, 11, 22, 21, 43, 24)}, 'company_info_analysis': (), 'company_member_cnt': 3, 'company_member_list': {'company_id': 528092107110175622, 'created_at': datetime.datetime(2023, 4, 26, 12, 41, 39), 'end_time': '', 'id': 1602954, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 2113648803104023955, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 41, 39), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2019-11-08', 'authority': '普陀区市场监管局', 'comp_num': '12', 'comp_num_link': '', 'company_id': 528092107110175622, 'created_at': datetime.datetime(2022, 10, 14, 10, 39, 56), 'district': '上海市普陀区', 'district_city': '上海市', 'district_county': '普陀区', 'district_province': '上海市', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 423166, 'industry': '专业技术服务业', 'insurance_info': '{\"insuranceNum\": \"0人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=30021116025316&year=2021\"}', 'insurance_num': 0, 'legal_person': '曹真龙', 'legal_person_id': 0, 'license_number': '310107000964248', 'open_status': '开业', 'open_time': '2017-07-24 至 2047-07-23', 'org_no': 'MA1G0G9F-7', 'org_type': '-', 'paidin_capital': '500万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '增值税一般纳税人', 'real_capital': '-', 'reg_addr': '上海市普陀区同普路898号1楼8356室', 'reg_capital': '500万(元)', 'reg_capital_amount': Decimal('5000000.00'), 'reg_capital_currency': '元', 'reg_code': '310107000964248', 'reg_no': '91310107MA1G0G9F7L', 'scope': '从事智能科技、信息科技、互联网科技领域内的技术开发、技术转让、技术服务、技术咨询，文化艺术交流策划，设计、制作各类广告，会务会展服务，电子商务（不得从事增值电信、金融业务），计算机网络工程，销售：计算机、软件及辅助设备、电子产品、机械设备及配件、日用百货、工具刃具、金属制品、食用农产品，自有设备租赁，智能化设备租赁与销售，软件开发，物联网平台技术的研发，自动化设备、计算机设备、机械电子设备和系统的设计、安装、调试、技术服务及销售，从事货物及技术的进出口业务。 【依法须经批准的项目，经相关部门批准后方可开展经营活动】', 'start_date': '2017-07-24', 'tax_no': '91310107MA1G0G9F7L', 'unified_code': '91310107MA1G0G9F7L', 'updated_at': datetime.datetime(2023, 4, 23, 14, 19, 24), 'url': '/m/basic?pid=xlTM-TogKuTwE12K-rAB4rwRv-If97k72wmd&entName=%E5%8A%9B%E5%BD%93%E9%AB%98%28%E4%B8%8A%E6%B5%B7%29%E6%99%BA%E8%83%BD%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/61a4968c5afdb39998be65be2bf7f0ac.txt'}, 'compete_cnt': 0, 'data_id': 528092107110175622, 'finances_cnt': 2, 'introduction': '力当高(上海)智能科技有限公司成立于2017年07月24日，注册地位于上海市普陀区同普路898号1楼8356室，法定代表人为曹真龙。经营范围包括从事智能科技、信息科技、互联网科技领域内的技术开发、技术转让、技术服务、技术咨询，文化艺术交流策划，设计、制作各类广告，会务会展服务，电子商务（不得从事增值电信、金融业务），计算机网络工程，销售：计算机、软件及辅助设备、电子产品、机械设备及配件、日用百货、工具刃具、金属制品、食用农产品，自有设备租赁，智能化设备租赁与销售，软件开发，物联网平台技术的研发，自动化设备、计算机设备、机械电子设备和系统的设计、安装、调试、技术服务及销售，从事货物及技术的进出口业务。 【依法须经批准的项目，经相关部门批准后方可开展经营活动】力当高(上海)智能科技有限公司对外投资3家公司。', 'invest_cnt': 3, 'invest_list': {'amount': '500万(元)', 'company_id': 528092107110175622, 'created_at': datetime.datetime(2022, 10, 14, 10, 23, 30), 'data_id': 4356892683732289045, 'data_type': 1, 'id': 353418, 'rate': '100%', 'status': '注销', 'updated_at': datetime.datetime(2022, 10, 14, 10, 23, 30)}, 'legal_person': '曹真龙', 'name': '力当高(上海)智能科技有限公司', 'ownership_cnt': 3, 'ownership_list': {'amount': '200万(元)', 'company_id': 528092107110175622, 'created_at': datetime.datetime(2022, 10, 14, 10, 36, 44), 'data_id': 4385355579676069684, 'data_type': 1, 'id': 1816982, 'is_delete': 0, 'ratio': '40%', 'tag': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 36, 44)}, 'tags': '自助贩卖机,消费,无人零售,智能科技,生活服务,咖啡机,有专利,智能,无人咖啡机,品牌运营,其他生活服务,线下消费,陪护,自助咖啡机'}" ]
+      } ],
+      "uid" : "3722c02990e794809864bda72403099d"
+    }, {
+      "name" : "AssertionError: assert '30万(元)' == ''\n  + 30万(元)",
+      "children" : [ {
+        "name" : "搜索有数据的企业",
+        "uid" : "64be13420e76876c",
+        "parentUid" : "7522ccf357c8c5b22680998298f7ee98",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689731374,
+          "stop" : 1683689731443,
+          "duration" : 69
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 3, 'company_member_list': {'company_id': 7384208902383753475, 'created_at': datetime.datetime(2023, 5, 6, 15, 27, 55), 'end_time': '', 'id': 67920005, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1367514060904657975, 'pos_weight': 24, 'position': '执行董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-05-06', 'updated_at': datetime.datetime(2023, 5, 8, 18, 30, 44), 'useful_position': '19', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"执行董事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2012-05-09', 'authority': '张家界市工商行政管理局', 'comp_num': '1', 'comp_num_link': '', 'company_id': 7384208902383753475, 'created_at': datetime.datetime(2023, 5, 6, 14, 45), 'district': '湖南省张家界市', 'district_city': '张家界市', 'district_county': '', 'district_province': '湖南省', 'ent_type': '有限责任公司(自然人投资或控股的法人独资)', 'id': 20797971, 'industry': '住宿业', 'insurance_info': '{\"insuranceNum\":\"-\"}', 'insurance_num': 0, 'legal_person': '李琳洁', 'legal_person_id': 1367514060904657975, 'license_number': '430800000023365', 'open_status': '注销', 'open_time': '2012-05-09 至 2032-05-08', 'org_no': '59547029-7', 'org_type': '', 'paidin_capital': '30万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '', 'qualification': '', 'real_capital': '', 'reg_addr': '张家界市永定区子午东路土门岗117号', 'reg_capital': '30万(元)', 'reg_capital_amount': Decimal('300000.00'), 'reg_capital_currency': '元', 'reg_code': '430800000023365', 'reg_no': '914308005954702979', 'scope': '住宿、洗浴服务（《特种行业许可证》有效期至2015年4月11日、《卫生许可证》有效期至2015年9月28日）；日用百货零售。', 'start_date': '2012-05-09', 'tax_no': '', 'unified_code': '914308005954702979', 'updated_at': datetime.datetime(2023, 5, 6, 14, 45), 'url': '/m/basic?pid=xlTM-TogKuTwARN1pUnZkqg6sPMcLwfUDQmd&entName=%E5%BC%A0%E5%AE%B6%E7%95%8C%E5%A5%BD%E5%9C%B0%E5%A4%A7%E9%85%92%E5%BA%97%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/9b8078fed4f1031bbfd8d788ca8305bd.txt'}, 'compete_cnt': 0, 'data_id': 7384208902383753475, 'finances_cnt': 0, 'introduction': '-', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '李琳洁', 'name': '张家界好地大酒店有限公司', 'ownership_cnt': 1, 'ownership_list': {'amount': '30万(元)', 'company_id': 7384208902383753475, 'created_at': datetime.datetime(2023, 5, 6, 15, 31, 17), 'data_id': 1653135445181493907, 'data_type': 1, 'id': 15608588, 'is_delete': 0, 'ratio': '100%', 'tag': '', 'updated_at': datetime.datetime(2023, 5, 6, 15, 31, 17)}, 'tags': ''}" ]
+      } ],
+      "uid" : "7522ccf357c8c5b22680998298f7ee98"
+    }, {
+      "name" : "AssertionError: assert '电力工程、机电安装工程施...门批准后方可开展经营活动）' == ''\n  + 电力工程、机电安装工程施工，水暖安装、建筑安装工程施工，管道工程施工（压力管道除外）、电线电缆、电力设备销售，高压配电设备专业技术服务及测试服务、电力设备维修、电力劳务分包（劳务派遣除外）。（依法须经批准的项目，经相关部门批准后方可开展经营活动）",
+      "children" : [ {
+        "name" : "企业基本信息与搜索保持一致",
+        "uid" : "9d0a1c7bc1c3d137",
+        "parentUid" : "6ee6e7d3279abb16fa4fc82416243ffb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689733072,
+          "stop" : 1683689733336,
+          "duration" : 264
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 2, 'company_member_list': {'company_id': 4811713985561131456, 'created_at': datetime.datetime(2023, 5, 4, 21, 1, 10), 'end_time': '', 'id': 66817477, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 2178077544480095066, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-05-04', 'updated_at': datetime.datetime(2023, 5, 4, 21, 1, 10), 'useful_position': '25', 'useful_position_json': ''}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2022-03-18', 'authority': '鹿泉区市场监督管理局', 'comp_num': '1', 'comp_num_link': '', 'company_id': 4811713985561131456, 'created_at': datetime.datetime(2023, 5, 4, 5, 54, 48), 'district': '河北省石家庄市鹿泉区', 'district_city': '石家庄市', 'district_county': '鹿泉区', 'district_province': '河北省', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 16643409, 'industry': '建筑安装业', 'insurance_info': '{\"insuranceNum\":\"51人\",\"year\":\"2021\",\"reportUrl\":\"/pages/annual/index?pid=29222662565829&year=2021\"}', 'insurance_num': 51, 'legal_person': '王立强', 'legal_person_id': 9122119011114484803, 'license_number': '130100000018615', 'open_status': '开业', 'open_time': '2002-05-09 至 2052-04-28', 'org_no': '73872203-4', 'org_type': '', 'paidin_capital': '1,200万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '', 'qualification': '增值税一般纳税人', 'real_capital': '', 'reg_addr': '石家庄市鹿泉区寺家庄镇寺家庄村', 'reg_capital': '1,200万(元)', 'reg_capital_amount': Decimal('12000000.00'), 'reg_capital_currency': '元', 'reg_code': '130100000018615', 'reg_no': '91130100738722034J', 'scope': '电力工程、机电安装工程施工，水暖安装、建筑安装工程施工，管道工程施工（压力管道除外）、电线电缆、电力设备销售，高压配电设备专业技术服务及测试服务、电力设备维修、电力劳务分包（劳务派遣除外）。（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'start_date': '2002-05-09', 'tax_no': '91130100738722034J', 'unified_code': '91130100738722034J', 'updated_at': datetime.datetime(2023, 5, 6, 14, 49, 36), 'url': '/m/basic?pid=xlTM-TogKuTwbJW72HcM2eMUKE8QAkXpkgmd&entName=%E7%9F%B3%E5%AE%B6%E5%BA%84%E5%B8%82%E6%9D%B0%E8%AF%9A%E7%94%B5%E5%8A%9B%E5%B7%A5%E7%A8%8B%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': ''}, 'compete_cnt': 0, 'data_id': 4811713985561131456, 'finances_cnt': 0, 'introduction': '石家庄市杰诚电力工程有限公司成立于2002年05月09日，注册地位于石家庄市鹿泉区寺家庄镇寺家庄村，法定代表人为王立强。经营范围包括电力工程、机电安装工程施工，水暖安装、建筑安装工程施工，管道工程施工（压力管道除外）、电线电缆、电力设备销售，高压配电设备专业技术服务及测试服务、电力设备维修、电力劳务分包（劳务派遣除外）。（依法须经批准的项目，经相关部门批准后方可开展经营活动）石家庄市杰诚电力工程有限公司具有1处分支机构。', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '王立强', 'name': '石家庄市杰诚电力工程有限公司', 'ownership_cnt': 2, 'ownership_list': {'amount': '400万(元)', 'company_id': 4811713985561131456, 'created_at': datetime.datetime(2023, 5, 4, 16, 41, 27), 'data_id': 2178077544480095066, 'data_type': 2, 'id': 14751886, 'is_delete': 0, 'ratio': '33.333333%', 'tag': '', 'updated_at': datetime.datetime(2023, 5, 4, 16, 41, 27)}, 'tags': ''}" ]
+      } ],
+      "uid" : "6ee6e7d3279abb16fa4fc82416243ffb"
+    }, {
+      "name" : "AssertionError: assert '' == '4,195.1万(元)'\n  - 4,195.1万(元)",
+      "children" : [ {
+        "name" : "企业基本信息与搜索保持一致",
+        "uid" : "ce6dee92e690c823",
+        "parentUid" : "8e68a5b006b55d6bb9fce82c14e88dc6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689736053,
+          "stop" : 1683689736264,
+          "duration" : 211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 6, 'company_member_list': {'company_id': 446669945791134903, 'created_at': datetime.datetime(2023, 4, 26, 12, 28, 43), 'end_time': '', 'id': 223735, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 192100152764451685, 'pos_weight': 0, 'position': '董事长,总经理', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 1, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 28, 43), 'useful_position': '0,26', 'useful_position_json': '[{\"id\": \"0\", \"name\": \"董事长\"}, {\"id\": \"26\", \"name\": \"总经理\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2021-07-26', 'authority': '松江区市场监督管理局', 'comp_num': '1', 'comp_num_link': '', 'company_id': 446669945791134903, 'created_at': datetime.datetime(2022, 10, 14, 10, 41, 22), 'district': '上海市松江区', 'district_city': '上海市', 'district_county': '松江区', 'district_province': '上海市', 'ent_type': '有限责任公司(国有控股)', 'id': 1504050, 'industry': '金属制品业', 'insurance_info': '{\"insuranceNum\": \"93人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=32265281788823&year=2021\"}', 'insurance_num': 93, 'legal_person': '黄高云', 'legal_person_id': 0, 'license_number': '310227000580503', 'open_status': '开业', 'open_time': '1999-11-10 至 无固定期限', 'org_no': '63162542-9', 'org_type': '-', 'paidin_capital': '4,195.1万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '增值税一般纳税人', 'real_capital': '-', 'reg_addr': '上海市松江区九亭镇涞坊路2039号8幢', 'reg_capital': '4,195.1万(元)', 'reg_capital_amount': Decimal('41951000.00'), 'reg_capital_currency': '元', 'reg_code': '310227000580503', 'reg_no': '91310117631625429X', 'scope': '滑动轴承双金属复合材料及制品,碟形弹簧,密封材料自产自销。,电子元件加工。经营本企业自产产品的出口业务和本企业所需的机械设备、零配件、原辅材料的进口业务(但国家限定公司经营或禁止进出口的商品及技术除外),本企业包括本企业控股的成员企业。[依法须经批准的项目,经相关部门批准后方可开展经营活动]', 'start_date': '1999-11-10', 'tax_no': '91310117631625429X', 'unified_code': '91310117631625429X', 'updated_at': datetime.datetime(2023, 4, 23, 14, 36, 6), 'url': '/m/basic?pid=xlTM-TogKuTwdyorC4b6UAcJut71EOD6Kgmd&entName=%E4%B8%8A%E6%B5%B7%E6%A0%B8%E5%A8%81%E5%AE%9E%E4%B8%9A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/a70033cf08503a0a9c6298baf962d21a.txt'}, 'compete_cnt': 0, 'data_id': 446669945791134903, 'finances_cnt': 0, 'introduction': '上海核威实业有限公司成立于1999年11月10日，注册地位于上海市松江区九亭镇涞坊路2039号8幢，法定代表人为黄高云。经营范围包括滑动轴承双金属复合材料及制品,碟形弹簧,密封材料自产自销。,电子元件加工。经营本企业自产产品的出口业务和本企业所需的机械设备、零配件、原辅材料的进口业务(但国家限定公司经营或禁止进出口的商品及技术除外),本企业包括本企业控股的成员企业。[依法须经批准的项目,经相关部门批准后方可开展经营活动]上海核威实业有限公司对外投资1家公司。', 'invest_cnt': 1, 'invest_list': {'amount': '300万(元)', 'company_id': 446669945791134903, 'created_at': datetime.datetime(2022, 10, 14, 10, 23, 25), 'data_id': 7198090168028073924, 'data_type': 1, 'id': 260698, 'rate': '100%', 'status': '开业', 'updated_at': datetime.datetime(2022, 10, 14, 10, 23, 25)}, 'legal_person': '黄高云', 'name': '上海核威实业有限公司', 'ownership_cnt': 2, 'ownership_list': {'amount': '3,975.1万(元)', 'company_id': 446669945791134903, 'created_at': datetime.datetime(2022, 10, 14, 10, 38, 46), 'data_id': 2768580503218511479, 'data_type': 1, 'id': 3126427, 'is_delete': 0, 'ratio': '94.755787%', 'tag': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 38, 46)}, 'tags': ''}" ]
+      } ],
+      "uid" : "8e68a5b006b55d6bb9fce82c14e88dc6"
+    }, {
+      "name" : "AssertionError: assert '以自有资金对旅游业、房地...易爆品、危险品、剧毒品）。' == ''\n  + 以自有资金对旅游业、房地产业、商业海洋馆、水族馆、动物园、游乐园进行投资；对文化、影视、科普项目设施建设；游乐园服务项目筹建；游乐园服务；计算机软硬件的技术开发、技术服务、技术咨询、技术转让、技术推广；设计、制作、代理、发布广告业务；网络游戏研发、应用；票务服务；婚庆礼仪服务；洗衣服务；酒店管理服务；企业管理服务；展览展示服务；会议服务；物业管理；大型活动组织服务；摄影扩印服务；文化艺术交流活动策划；企业营销策划；商务信息咨询服务；机构商务代理服务；体育场馆服务（不含高危体育项目）；动漫设计；计算机图文设计；房屋租赁；机器设备租赁；车辆租赁；场地租赁；销售：文化用品、收藏品、工艺品（象牙及其制品除外）、日用百货、针纺织品、服装鞋帽、文教用品、五金交电、通讯设备、电子设备、计算机及外围设备、体育用品（弩除外）、旅游纪念品、玩具、农副产品；贸易代理；货物进出口、技术进出口；游艇销售、租赁、托管、 保养、维修；场地租赁；体育项目组织服务（不含高危体育项目）；舞台灯光设备、音响设备、影视器材租赁；计算机软硬件维修，商务信息咨询服务；以下经营范围限分支机构经营：城市停车场服务；KTV歌厅娱乐服务；电子游艺厅娱乐服务；游乐园设备安装、维修及保养；经营高危体育项目；水产养殖（重点保护水生野生动物除外）；水、电、气供应；烟草零售；文艺创作与表演；文化娱乐经纪代理；演出经纪服务；经营性演出；电影放映；海洋馆、水族馆、动物园管理服务；动物跟踪观察保护服务；旅行社业务经营；住宿服务；餐饮服务；食品生产经营；国内水路运输、泊位租赁、电影和影视节目制作、计算机技术培训及服务、 帆船帆板、游艇驾驶、摩托艇培训、电信业务经营、水疗保健服务、会员服务、仓储服务（不含易燃易爆品、危险品、剧毒品）。",
+      "children" : [ {
+        "name" : "企业基本信息与搜索保持一致",
+        "uid" : "f8c43edc244cbee0",
+        "parentUid" : "e03ad2299b92bfcab332d6ddf78a139c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689747391,
+          "stop" : 1683689747653,
+          "duration" : 262
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 2, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 4, 'company_member_list': {'company_id': 8709182956948527843, 'created_at': datetime.datetime(2023, 5, 5, 23, 51, 39), 'end_time': '', 'id': 67747243, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 5955412205411664602, 'pos_weight': 24, 'position': '执行董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-05-05', 'updated_at': datetime.datetime(2023, 5, 8, 18, 29, 53), 'useful_position': '19', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"执行董事\"}]'}, 'company_news_cnt': 1, 'company_news_value': {'company_id': 8709182956948527843, 'news_id': 84437281126868411, 'publish_time': datetime.datetime(2022, 5, 11, 8, 29)}, 'company_register_info': {'annual_date': '2022-07-21', 'authority': '哈尔滨市松北区市场监督管理局', 'comp_num': '20', 'comp_num_link': '', 'company_id': 8709182956948527843, 'created_at': datetime.datetime(2023, 5, 5, 16, 3, 50), 'district': '黑龙江省哈尔滨市松北区', 'district_city': '哈尔滨市', 'district_county': '松北区', 'district_province': '黑龙江省', 'ent_type': '有限责任公司(非自然人投资或控股的法人独资)', 'id': 18987841, 'industry': '商务服务业', 'insurance_info': '{\"insuranceNum\":\"0人\",\"year\":\"2021\",\"reportUrl\":\"/pages/annual/index?pid=30897075983059&year=2021\"}', 'insurance_num': 0, 'legal_person': '王炜', 'legal_person_id': 7730876429746446356, 'license_number': '230109101060821', 'open_status': '开业', 'open_time': '2017-08-21 至 9999-12-31', 'org_no': 'MA19KJXN-6', 'org_type': '', 'paidin_capital': '5,000万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '', 'qualification': '', 'real_capital': '', 'reg_addr': '哈尔滨市松北区世茂大道99号万达茂购物中心2F办公区', 'reg_capital': '120,000万(元)', 'reg_capital_amount': Decimal('1200000000.00'), 'reg_capital_currency': '元', 'reg_code': '230109101060821', 'reg_no': '91230109MA19KJXN68', 'scope': '以自有资金对旅游业、房地产业、商业海洋馆、水族馆、动物园、游乐园进行投资；对文化、影视、科普项目设施建设；游乐园服务项目筹建；游乐园服务；计算机软硬件的技术开发、技术服务、技术咨询、技术转让、技术推广；设计、制作、代理、发布广告业务；网络游戏研发、应用；票务服务；婚庆礼仪服务；洗衣服务；酒店管理服务；企业管理服务；展览展示服务；会议服务；物业管理；大型活动组织服务；摄影扩印服务；文化艺术交流活动策划；企业营销策划；商务信息咨询服务；机构商务代理服务；体育场馆服务（不含高危体育项目）；动漫设计；计算机图文设计；房屋租赁；机器设备租赁；车辆租赁；场地租赁；销售：文化用品、收藏品、工艺品（象牙及其制品除外）、日用百货、针纺织品、服装鞋帽、文教用品、五金交电、通讯设备、电子设备、计算机及外围设备、体育用品（弩除外）、旅游纪念品、玩具、农副产品；贸易代理；货物进出口、技术进出口；游艇销售、租赁、托管、 保养、维修；场地租赁；体育项目组织服务（不含高危体育项目）；舞台灯光设备、音响设备、影视器材租赁；计算机软硬件维修，商务信息咨询服务；以下经营范围限分支机构经营：城市停车场服务；KTV歌厅娱乐服务；电子游艺厅娱乐服务；游乐园设备安装、维修及保养；经营高危体育项目；水产养殖（重点保护水生野生动物除外）；水、电、气供应；烟草零售；文艺创作与表演；文化娱乐经纪代理；演出经纪服务；经营性演出；电影放映；海洋馆、水族馆、动物园管理服务；动物跟踪观察保护服务；旅行社业务经营；住宿服务；餐饮服务；食品生产经营；国内水路运输、泊位租赁、电影和影视节目制作、计算机技术培训及服务、 帆船帆板、游艇驾驶、摩托艇培训、电信业务经营、水疗保健服务、会员服务、仓储服务（不含易燃易爆品、危险品、剧毒品）。', 'start_date': '2017-08-21', 'tax_no': '91230109MA19KJXN68', 'unified_code': '91230109MA19KJXN68', 'updated_at': datetime.datetime(2023, 5, 5, 16, 3, 50), 'url': '/m/basic?pid=xlTM-TogKuTw5xr60Nzs-j7kpjNP*QidLQmd&entName=%E5%93%88%E5%B0%94%E6%BB%A8%E9%93%AD%E6%99%9F%E5%95%86%E4%B8%9A%E7%AE%A1%E7%90%86%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/c426d0d2d6c1a52c9ce9c9ab1240cbc1.txt'}, 'compete_cnt': 0, 'data_id': 8709182956948527843, 'finances_cnt': 0, 'introduction': '哈尔滨铭晟商业管理有限公司成立于2017年08月21日，注册地位于哈尔滨市松北区世茂大道99号万达茂购物中心2F办公区，法定代表人为王炜。经营范围包括以自有资金对旅游业、房地产业、商业海洋馆、水族馆、动物园、游乐园进行投资；对文化、影视、科普项目设施建设；游乐园服务项目筹建；游乐园服务；计算机软硬件的技术开发、技术服务、技术咨询、技术转让、技术推广；设计、制作、代理、发布广告业务；网络游戏研发、应用；票务服务；婚庆礼仪服务；洗衣服务；酒店管理服务；企业管理服务；展览展示服务；会议服务；物业管理；大型活动组织服务；摄影扩印服务；文化艺术交流活动策划；企业营销策划；商务信息咨询服务；机构商务代理服务；体育场馆服务（不含高危体育项目）；动漫设计；计算机图文设计；房屋租赁；机器设备租赁；车辆租赁；场地租赁；销售：文化用品、收藏品、工艺品（象牙及其制品除外）、日用百货、针纺织品、服装鞋帽、文教用品、五金交电、通讯设备、电子设备、计算机及外围设备、体育用品（弩除外）、旅游纪念品、玩具、农副产品；贸易代理；货物进出口、技术进出口；游艇销售、租赁、托管、 保养、维修；场地租赁；体育项目组织服务（不含高危体育项目）；舞台灯光设备、音响设备、影视器材租赁；计算机软硬件维修，商务信息咨询服务；以下经营范围限分支机构经营：城市停车场服务；KTV歌厅娱乐服务；电子游艺厅娱乐服务；游乐园设备安装、维修及保养；经营高危体育项目；水产养殖（重点保护水生野生动物除外）；水、电、气供应；烟草零售；文艺创作与表演；文化娱乐经纪代理；演出经纪服务；经营性演出；电影放映；海洋馆、水族馆、动物园管理服务；动物跟踪观察保护服务；旅行社业务经营；住宿服务；餐饮服务；食品生产经营；国内水路运输、泊位租赁、电影和影视节目制作、计算机技术培训及服务、 帆船帆板、游艇驾驶、摩托艇培训、电信业务经营、水疗保健服务、会员服务、仓储服务（不含易燃易爆品、危险品、剧毒品）。哈尔滨铭晟商业管理有限公司对外投资19家公司，具有29处分支机构。', 'invest_cnt': 19, 'invest_list': {'amount': '1,000万(元)', 'company_id': 8709182956948527843, 'created_at': datetime.datetime(2023, 5, 5, 23, 45, 57), 'data_id': 857686343954013324, 'data_type': 0, 'id': 7036700, 'rate': '100%', 'status': '开业', 'updated_at': datetime.datetime(2023, 5, 5, 23, 45, 57)}, 'legal_person': '王炜', 'name': '哈尔滨铭晟商业管理有限公司', 'ownership_cnt': 1, 'ownership_list': {'amount': '120,000万(元)', 'company_id': 8709182956948527843, 'created_at': datetime.datetime(2023, 5, 5, 23, 53), 'data_id': 554134748370710695, 'data_type': 1, 'id': 15457099, 'is_delete': 0, 'ratio': '100%', 'tag': '', 'updated_at': datetime.datetime(2023, 5, 5, 23, 53)}, 'tags': ''}" ]
+      } ],
+      "uid" : "e03ad2299b92bfcab332d6ddf78a139c"
+    }, {
+      "name" : "AssertionError: assert '' == '2,000万(元)'\n  - 2,000万(元)",
+      "children" : [ {
+        "name" : "企业基本信息与搜索保持一致",
+        "uid" : "acff1949a1f5a8d6",
+        "parentUid" : "949f3e759599aa251712320298a14c32",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689752485,
+          "stop" : 1683689752690,
+          "duration" : 205
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 3, 'company_member_list': {'company_id': 7997222832658238856, 'created_at': datetime.datetime(2023, 4, 26, 13, 24, 56), 'end_time': '', 'id': 63191242, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 3151403513666457315, 'pos_weight': 24, 'position': '执行董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-04-19', 'updated_at': datetime.datetime(2023, 4, 26, 13, 24, 56), 'useful_position': '19', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"执行董事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2019-09-30', 'authority': '北京市丰台区市场监督管理局', 'comp_num': '12', 'comp_num_link': '', 'company_id': 7997222832658238856, 'created_at': datetime.datetime(2023, 4, 20, 8, 38, 51), 'district': '北京市丰台区', 'district_city': '北京市', 'district_county': '丰台区', 'district_province': '北京市', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 15413897, 'industry': '科技推广和应用服务业', 'insurance_info': '{\"insuranceNum\":\"40人\",\"year\":\"2021\",\"reportUrl\":\"/pages/annual/index?pid=29949115162185&year=2021\"}', 'insurance_num': 40, 'legal_person': '王若鹤', 'legal_person_id': 3151403513666457315, 'license_number': '110106011148881', 'open_status': '开业', 'open_time': '2008-06-30 至 2028-06-29', 'org_no': '67741990-3', 'org_type': '', 'paidin_capital': '500万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '', 'qualification': '一般纳税人', 'real_capital': '', 'reg_addr': '北京市丰台区丰台路口139、140号2幢203室(园区)', 'reg_capital': '2,000万(元)', 'reg_capital_amount': Decimal('20000000.00'), 'reg_capital_currency': '元', 'reg_code': '110106011148881', 'reg_no': '91110106677419903P', 'scope': '技术服务、技术咨询、技术转让、技术开发、技术推广；企业管理、企业管理咨询；基础软件服务；数据处理（PUE值1.5以上的云计算数据中心除外）；销售工艺品、机械设备、建筑材料、计算机软硬件及辅助设备、通讯器材、文化办公用品；计算机软件开发。（企业依法自主选择经营项目，开展经营活动；依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事本市产业政策禁止和限制类项目的经营活动。）', 'start_date': '2008-06-30', 'tax_no': '91110106677419903P', 'unified_code': '91110106677419903P', 'updated_at': datetime.datetime(2023, 4, 25, 9, 37, 23), 'url': '/m/basic?pid=xlTM-TogKuTwlmmX7VmsNd12e3NZpvKXpwmd&entName=%E5%8C%97%E4%BA%AC%E4%B8%AD%E8%81%94%E7%A8%8E%E7%BD%91%E4%BF%A1%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/1a82cadab6db23ba59d5bc826ce56d70.txt'}, 'compete_cnt': 0, 'data_id': 7997222832658238856, 'finances_cnt': 0, 'introduction': '北京中联税网信技术有限公司成立于2008年06月30日，注册地位于北京市丰台区丰台路口139、140号2幢203室(园区)，法定代表人为王若鹤。经营范围包括技术服务、技术咨询、技术转让、技术开发、技术推广；企业管理、企业管理咨询；基础软件服务；数据处理（PUE值1.5以上的云计算数据中心除外）；销售工艺品、机械设备、建筑材料、计算机软硬件及辅助设备、通讯器材、文化办公用品；计算机软件开发。（企业依法自主选择经营项目，开展经营活动；依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事本市产业政策禁止和限制类项目的经营活动。）北京中联税网信技术有限公司对外投资5家公司。', 'invest_cnt': 5, 'invest_list': {'amount': '975万(元)', 'company_id': 7997222832658238856, 'created_at': datetime.datetime(2023, 4, 19, 8, 45, 38), 'data_id': 2005534248478226814, 'data_type': 0, 'id': 6486100, 'rate': '97.5%', 'status': '开业', 'updated_at': datetime.datetime(2023, 4, 19, 8, 45, 38)}, 'legal_person': '王若鹤', 'name': '北京中联税网信技术有限公司', 'ownership_cnt': 2, 'ownership_list': {'amount': '1,995万(元)', 'company_id': 7997222832658238856, 'created_at': datetime.datetime(2023, 4, 19, 8, 46, 8), 'data_id': 3151403513666457315, 'data_type': 2, 'id': 13395647, 'is_delete': 0, 'ratio': '99.75%', 'tag': '', 'updated_at': datetime.datetime(2023, 4, 19, 8, 46, 8)}, 'tags': ''}" ]
+      } ],
+      "uid" : "949f3e759599aa251712320298a14c32"
+    }, {
+      "name" : "AssertionError: assert '' == '500万(元)'\n  - 500万(元)",
+      "children" : [ {
+        "name" : "企业基本信息与搜索保持一致",
+        "uid" : "470c8c15d94a1796",
+        "parentUid" : "a6a7da479d51ef6e6896fd0645f2b92b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689757639,
+          "stop" : 1683689757890,
+          "duration" : 251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': {'amount': '金额未知', 'company_id': 528092107110175622, 'created_at': datetime.datetime(2022, 11, 10, 16, 26, 30), 'estimation': '', 'finances_time': '2019-02-28', 'id': 88984, 'invest': '[2169009553295520055]', 'news_source': '力当宣布获得多方联合战略投', 'news_source_url': 'http://life.jrj.com.cn/2019/02/27222827099041.shtml', 'stage': '战略投资', 'updated_at': datetime.datetime(2022, 11, 22, 21, 43, 24)}, 'company_info_analysis': (), 'company_member_cnt': 3, 'company_member_list': {'company_id': 528092107110175622, 'created_at': datetime.datetime(2023, 4, 26, 12, 41, 39), 'end_time': '', 'id': 1602954, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 2113648803104023955, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 41, 39), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2019-11-08', 'authority': '普陀区市场监管局', 'comp_num': '12', 'comp_num_link': '', 'company_id': 528092107110175622, 'created_at': datetime.datetime(2022, 10, 14, 10, 39, 56), 'district': '上海市普陀区', 'district_city': '上海市', 'district_county': '普陀区', 'district_province': '上海市', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 423166, 'industry': '专业技术服务业', 'insurance_info': '{\"insuranceNum\": \"0人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=30021116025316&year=2021\"}', 'insurance_num': 0, 'legal_person': '曹真龙', 'legal_person_id': 0, 'license_number': '310107000964248', 'open_status': '开业', 'open_time': '2017-07-24 至 2047-07-23', 'org_no': 'MA1G0G9F-7', 'org_type': '-', 'paidin_capital': '500万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '增值税一般纳税人', 'real_capital': '-', 'reg_addr': '上海市普陀区同普路898号1楼8356室', 'reg_capital': '500万(元)', 'reg_capital_amount': Decimal('5000000.00'), 'reg_capital_currency': '元', 'reg_code': '310107000964248', 'reg_no': '91310107MA1G0G9F7L', 'scope': '从事智能科技、信息科技、互联网科技领域内的技术开发、技术转让、技术服务、技术咨询，文化艺术交流策划，设计、制作各类广告，会务会展服务，电子商务（不得从事增值电信、金融业务），计算机网络工程，销售：计算机、软件及辅助设备、电子产品、机械设备及配件、日用百货、工具刃具、金属制品、食用农产品，自有设备租赁，智能化设备租赁与销售，软件开发，物联网平台技术的研发，自动化设备、计算机设备、机械电子设备和系统的设计、安装、调试、技术服务及销售，从事货物及技术的进出口业务。 【依法须经批准的项目，经相关部门批准后方可开展经营活动】', 'start_date': '2017-07-24', 'tax_no': '91310107MA1G0G9F7L', 'unified_code': '91310107MA1G0G9F7L', 'updated_at': datetime.datetime(2023, 4, 23, 14, 19, 24), 'url': '/m/basic?pid=xlTM-TogKuTwE12K-rAB4rwRv-If97k72wmd&entName=%E5%8A%9B%E5%BD%93%E9%AB%98%28%E4%B8%8A%E6%B5%B7%29%E6%99%BA%E8%83%BD%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/61a4968c5afdb39998be65be2bf7f0ac.txt'}, 'compete_cnt': 0, 'data_id': 528092107110175622, 'finances_cnt': 2, 'introduction': '力当高(上海)智能科技有限公司成立于2017年07月24日，注册地位于上海市普陀区同普路898号1楼8356室，法定代表人为曹真龙。经营范围包括从事智能科技、信息科技、互联网科技领域内的技术开发、技术转让、技术服务、技术咨询，文化艺术交流策划，设计、制作各类广告，会务会展服务，电子商务（不得从事增值电信、金融业务），计算机网络工程，销售：计算机、软件及辅助设备、电子产品、机械设备及配件、日用百货、工具刃具、金属制品、食用农产品，自有设备租赁，智能化设备租赁与销售，软件开发，物联网平台技术的研发，自动化设备、计算机设备、机械电子设备和系统的设计、安装、调试、技术服务及销售，从事货物及技术的进出口业务。 【依法须经批准的项目，经相关部门批准后方可开展经营活动】力当高(上海)智能科技有限公司对外投资3家公司。', 'invest_cnt': 3, 'invest_list': {'amount': '500万(元)', 'company_id': 528092107110175622, 'created_at': datetime.datetime(2022, 10, 14, 10, 23, 30), 'data_id': 4356892683732289045, 'data_type': 1, 'id': 353418, 'rate': '100%', 'status': '注销', 'updated_at': datetime.datetime(2022, 10, 14, 10, 23, 30)}, 'legal_person': '曹真龙', 'name': '力当高(上海)智能科技有限公司', 'ownership_cnt': 3, 'ownership_list': {'amount': '200万(元)', 'company_id': 528092107110175622, 'created_at': datetime.datetime(2022, 10, 14, 10, 36, 44), 'data_id': 4385355579676069684, 'data_type': 1, 'id': 1816982, 'is_delete': 0, 'ratio': '40%', 'tag': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 36, 44)}, 'tags': '自助贩卖机,消费,无人零售,智能科技,生活服务,咖啡机,有专利,智能,无人咖啡机,品牌运营,其他生活服务,线下消费,陪护,自助咖啡机'}" ]
+      } ],
+      "uid" : "a6a7da479d51ef6e6896fd0645f2b92b"
+    }, {
+      "name" : "AssertionError: assert '' == '30万(元)'\n  - 30万(元)",
+      "children" : [ {
+        "name" : "企业基本信息与搜索保持一致",
+        "uid" : "966eb44d4c3cd317",
+        "parentUid" : "dddec9b72468c541ee55a99a6b57a06f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689759434,
+          "stop" : 1683689759649,
+          "duration" : 215
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 3, 'company_member_list': {'company_id': 7384208902383753475, 'created_at': datetime.datetime(2023, 5, 6, 15, 27, 55), 'end_time': '', 'id': 67920005, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1367514060904657975, 'pos_weight': 24, 'position': '执行董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-05-06', 'updated_at': datetime.datetime(2023, 5, 8, 18, 30, 44), 'useful_position': '19', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"执行董事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2012-05-09', 'authority': '张家界市工商行政管理局', 'comp_num': '1', 'comp_num_link': '', 'company_id': 7384208902383753475, 'created_at': datetime.datetime(2023, 5, 6, 14, 45), 'district': '湖南省张家界市', 'district_city': '张家界市', 'district_county': '', 'district_province': '湖南省', 'ent_type': '有限责任公司(自然人投资或控股的法人独资)', 'id': 20797971, 'industry': '住宿业', 'insurance_info': '{\"insuranceNum\":\"-\"}', 'insurance_num': 0, 'legal_person': '李琳洁', 'legal_person_id': 1367514060904657975, 'license_number': '430800000023365', 'open_status': '注销', 'open_time': '2012-05-09 至 2032-05-08', 'org_no': '59547029-7', 'org_type': '', 'paidin_capital': '30万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '', 'qualification': '', 'real_capital': '', 'reg_addr': '张家界市永定区子午东路土门岗117号', 'reg_capital': '30万(元)', 'reg_capital_amount': Decimal('300000.00'), 'reg_capital_currency': '元', 'reg_code': '430800000023365', 'reg_no': '914308005954702979', 'scope': '住宿、洗浴服务（《特种行业许可证》有效期至2015年4月11日、《卫生许可证》有效期至2015年9月28日）；日用百货零售。', 'start_date': '2012-05-09', 'tax_no': '', 'unified_code': '914308005954702979', 'updated_at': datetime.datetime(2023, 5, 6, 14, 45), 'url': '/m/basic?pid=xlTM-TogKuTwARN1pUnZkqg6sPMcLwfUDQmd&entName=%E5%BC%A0%E5%AE%B6%E7%95%8C%E5%A5%BD%E5%9C%B0%E5%A4%A7%E9%85%92%E5%BA%97%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/9b8078fed4f1031bbfd8d788ca8305bd.txt'}, 'compete_cnt': 0, 'data_id': 7384208902383753475, 'finances_cnt': 0, 'introduction': '-', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '李琳洁', 'name': '张家界好地大酒店有限公司', 'ownership_cnt': 1, 'ownership_list': {'amount': '30万(元)', 'company_id': 7384208902383753475, 'created_at': datetime.datetime(2023, 5, 6, 15, 31, 17), 'data_id': 1653135445181493907, 'data_type': 1, 'id': 15608588, 'is_delete': 0, 'ratio': '100%', 'tag': '', 'updated_at': datetime.datetime(2023, 5, 6, 15, 31, 17)}, 'tags': ''}" ]
+      } ],
+      "uid" : "dddec9b72468c541ee55a99a6b57a06f"
+    }, {
+      "name" : "AssertionError: assert 'coo,COO,董事' == 'COO,董事'\n  - COO,董事\n  + coo,COO,董事\n  ? ++++",
+      "children" : [ {
+        "name" : "获取人物跟踪列表",
+        "uid" : "b65d1e2d3d602f2b",
+        "parentUid" : "bd5729110cccd5d4fa5f9402f5c958eb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689835548,
+          "stop" : 1683689835820,
+          "duration" : 272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '跟踪人物', 'item_id': '619362364259188248', 'item_ids': ['619362364259188248'], 'except': 'success', 'company_name': '优刻得科技股份有限公司', 'name': '华琨', 'position': 'COO,董事', 'logo_word': '华', 'sql': \"select count(*) count from person_news where person_id ='619362364259188248'\"}" ]
+      } ],
+      "uid" : "bd5729110cccd5d4fa5f9402f5c958eb"
+    }, {
+      "name" : "AssertionError: assert 3543 == 0\n +  where 3543 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E7B92A88>>(\"select count(*) count from person where name='' or name='-';\")\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E7B92A88>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E7B92A88>.get_one_value",
+      "children" : [ {
+        "name" : "person表校验",
+        "uid" : "fb8b0603672be0ec",
+        "parentUid" : "a16e516bda9f8904e4a3a7e5c703eb8d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689836088,
+          "stop" : 1683689836147,
+          "duration" : 59
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a16e516bda9f8904e4a3a7e5c703eb8d"
+    }, {
+      "name" : "AssertionError: assert 15 == 0\n +  where 15 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E7B92A88>>('select count(*) count from person where CHAR_LENGTH(name)>50 ;')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E7B92A88>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E7B92A88>.get_one_value",
+      "children" : [ {
+        "name" : "test_db_person_name_length",
+        "uid" : "1baf72c387bc1d26",
+        "parentUid" : "115e32c0362dcfa722421782a19a26bd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689836156,
+          "stop" : 1683689841747,
+          "duration" : 5591
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "115e32c0362dcfa722421782a19a26bd"
+    }, {
+      "name" : "AssertionError: assert 33 == 0\n +  where 33 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E7B92A88>>('select count(*) count from news where CHAR_LENGTH(title)>100 ;')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E7B92A88>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E7B92A88>.get_one_value",
+      "children" : [ {
+        "name" : "news表校验",
+        "uid" : "3811e968855baeaa",
+        "parentUid" : "e2522331506c272fec3257ce3abccb52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689841782,
+          "stop" : 1683689847443,
+          "duration" : 5661
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e2522331506c272fec3257ce3abccb52"
+    }, {
+      "name" : "AssertionError: assert 162069 == 0\n +  where 162069 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E7B92A88>>('select count(DISTINCT person_id) count from person_edu_experience where person_id not in (select data_id from person);')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E7B92A88>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E7B92A88>.get_one_value",
+      "children" : [ {
+        "name" : "test_db_edu_person",
+        "uid" : "e448549a408c4449",
+        "parentUid" : "26abbeb6473102791ff96069c6f7d9fe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689848733,
+          "stop" : 1683689853730,
+          "duration" : 4997
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "26abbeb6473102791ff96069c6f7d9fe"
+    }, {
+      "name" : "AssertionError: assert 2108 == 0\n +  where 2108 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E7B92A88>>('select count(*) count from person_edu_experience where CHAR_LENGTH(school_name) >20')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E7B92A88>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E7B92A88>.get_one_value",
+      "children" : [ {
+        "name" : "test_db_edu_school",
+        "uid" : "74227d5a30cbd665",
+        "parentUid" : "b485db273651b75976b1d9abde610c19",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689853745,
+          "stop" : 1683689854262,
+          "duration" : 517
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b485db273651b75976b1d9abde610c19"
+    }, {
+      "name" : "AssertionError: assert 879 == 0\n +  where 879 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E7B92A88>>('select count(*) count from person_edu_experience where   CHAR_LENGTH(professional) >20')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E7B92A88>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E7B92A88>.get_one_value",
+      "children" : [ {
+        "name" : "test_db_edu_professional",
+        "uid" : "29d0c1769108d34",
+        "parentUid" : "647f9633a644468988736ee2128fcaa0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689854289,
+          "stop" : 1683689855295,
+          "duration" : 1006
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "647f9633a644468988736ee2128fcaa0"
+    }, {
+      "name" : "AssertionError: assert 91392 == 0\n +  where 91392 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E7B92A88>>('select count(*) count from company_member where person_id not in (select data_id from person);')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E7B92A88>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E7B92A88>.get_one_value",
+      "children" : [ {
+        "name" : "test_db_company_member_person",
+        "uid" : "da58adc66a7e4caa",
+        "parentUid" : "addb95d8e3c365f75570b7754af068d0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689885314,
+          "stop" : 1683689916997,
+          "duration" : 31683
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "addb95d8e3c365f75570b7754af068d0"
+    }, {
+      "name" : "AssertionError: assert 138 == 0\n +  where 138 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E7B92A88>>('select count(*) count from company_member where company_id not in (select data_id from company);')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E7B92A88>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E7B92A88>.get_one_value",
+      "children" : [ {
+        "name" : "test_db_company_member_company",
+        "uid" : "2a82db44be760e4b",
+        "parentUid" : "070aa473cb9863399a302a1be673a5b1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683689917007,
+          "stop" : 1683689939822,
+          "duration" : 22815
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "070aa473cb9863399a302a1be673a5b1"
+    }, {
+      "name" : "AssertionError: assert 7106 == 7108",
+      "children" : [ {
+        "name" : "人物搜索",
+        "uid" : "5d4b04957c673fb2",
+        "parentUid" : "f514283b0413440315364bad7a79ce56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683690056316,
+          "stop" : 1683690061178,
+          "duration" : 4862
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 8783, 'company_member_list': [{'company_id': 885725749133279868, 'created_at': datetime.datetime(2023, 5, 6, 15, 35), 'end_time': '', 'id': 68146440, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 5736884839374965413, 'pos_weight': 26, 'position': '财务负责人', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 0, 'position_label_six': 1, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-05-06', 'updated_at': datetime.datetime(2023, 5, 8, 18, 32, 6), 'useful_position': '20', 'useful_position_json': '[{\"id\": \"20\", \"name\": \"财务负责人\"}]'}], 'data_id': 5736884839374965413, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 1, 'name': '王丽', 'person_list': {'avatar': '', 'avatar_word': '王', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 24), 'data_id': 7175637688526941928, 'from': '爱企查', 'id': 15, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '王丽蓉', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 43, 24), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 1525365043855458481, 'insuranceNum': 175836}, 'tags': ''}" ]
+      } ],
+      "uid" : "f514283b0413440315364bad7a79ce56"
+    }, {
+      "name" : "AssertionError: assert 386 == 387",
+      "children" : [ {
+        "name" : "人物搜索",
+        "uid" : "99fe7f2756368ecc",
+        "parentUid" : "447cc32787e0875ff9c3e394ae563cac",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683690086939,
+          "stop" : 1683690090118,
+          "duration" : 3179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 455, 'company_member_list': [{'company_id': 6470089045446647698, 'created_at': datetime.datetime(2023, 4, 26, 13, 0, 40), 'end_time': '', 'id': 3279212, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 4069312214111940157, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 0, 40), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}], 'data_id': 4069312214111940157, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 1, 'name': '朱磊', 'person_list': {'avatar': '', 'avatar_word': '朱', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 30), 'data_id': 3415975085312420122, 'from': '爱企查', 'id': 103974, 'introduction': '', 'is_delete': 0, 'is_linked': 0, 'name': '朱磊', 'tags': '', 'updated_at': datetime.datetime(2023, 3, 23, 10, 10, 1), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 2983433101951141707, 'insuranceNum': 75925}, 'tags': ''}" ]
+      } ],
+      "uid" : "447cc32787e0875ff9c3e394ae563cac"
+    }, {
+      "name" : "AssertionError: assert 289 == 290",
+      "children" : [ {
+        "name" : "人物搜索",
+        "uid" : "6abcb3415713d323",
+        "parentUid" : "262908d7201ad1737aeb24daefec54d4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683690102843,
+          "stop" : 1683690106039,
+          "duration" : 3196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 346, 'company_member_list': [{'company_id': 4234472618884491338, 'created_at': datetime.datetime(2023, 5, 4, 20, 55, 1), 'end_time': '', 'id': 66495974, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 6892781485462976739, 'pos_weight': 24, 'position': '董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-05-04', 'updated_at': datetime.datetime(2023, 5, 8, 18, 19), 'useful_position': '19', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"董事\"}]'}], 'data_id': 6892781485462976739, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 1, 'name': '李彤', 'person_list': {'avatar': '', 'avatar_word': '李', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 27), 'data_id': 2964520244433371750, 'from': '爱企查', 'id': 51713, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '李彤', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 43, 27), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 738252944748940879, 'insuranceNum': 15826}, 'tags': ''}" ]
+      } ],
+      "uid" : "262908d7201ad1737aeb24daefec54d4"
+    }, {
+      "name" : "AssertionError: assert 'https://img5...ca3c2.png@!bg' == ''\n  + https://img5.tianyancha.com/logo/jigou/31a4a5add9b2041cd875a605b8fca3c2.png@!bg",
+      "children" : [ {
+        "name" : "人物搜索",
+        "uid" : "d4f40226fbf62596",
+        "parentUid" : "e778d2c1005874a285082686c97d9d4e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683690226682,
+          "stop" : 1683690229819,
+          "duration" : 3137
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 3, 'company_member_list': [{'company_id': 4341634041001490676, 'created_at': datetime.datetime(2023, 4, 26, 12, 27, 2), 'end_time': '', 'id': 4670550, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 6380890963052264713, 'pos_weight': 24, 'position': '董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 27, 2), 'useful_position': '19', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"董事\"}]'}], 'data_id': 6380890963052264713, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 1, 'name': '周凌霏', 'person_list': {'avatar': 'https://img5.tianyancha.com/logo/jigou/31a4a5add9b2041cd875a605b8fca3c2.png@!bg', 'avatar_word': '周', 'created_at': datetime.datetime(2022, 10, 14, 10, 44, 41), 'data_id': 3816262450022925391, 'from': '爱企查', 'id': 1518241, 'introduction': '周凌霏女士在投资及金融领域拥有超过14年的行业经验。她曾是启明创投最年轻的合伙人，参与投资了马蜂窝、途虎养车、Musical.ly、洛天依、妙手医生、叮咚买菜等知名项目，也包括Veer这样的种子基金投资项目。\\n她还曾在通用电气资本上海及香港的风险管理团队、通用电气全球财务管理培训项目工作4年。\\n周凌霏女士拥有上海财经大学经济社会学学士学位、芝加哥大学布斯商学院MBA学位。她曾荣登创业邦2018年“40位40岁以下投资人”、36氪2019年“36位36岁以下了不起的投资人”的榜单。', 'is_delete': 0, 'is_linked': 1, 'name': '周凌霏', 'tags': '', 'updated_at': datetime.datetime(2023, 3, 16, 10, 22, 20), 'us3_introduction': 'bdAttr/a8cca0c96625006b805a38f74faca19b.txt'}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 463553622262348712, 'insuranceNum': 217}, 'tags': ''}" ]
+      } ],
+      "uid" : "e778d2c1005874a285082686c97d9d4e"
+    }, {
+      "name" : "AssertionError: assert 2552 == 2553",
+      "children" : [ {
+        "name" : "人物搜索",
+        "uid" : "10297bb40b2d20c5",
+        "parentUid" : "333ce5470b2552d277e9965fe6ec68b0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683690245564,
+          "stop" : 1683690248974,
+          "duration" : 3410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 3098, 'company_member_list': [{'company_id': 8980486273214081527, 'created_at': datetime.datetime(2023, 4, 26, 13, 40, 25), 'end_time': '', 'id': 1249044, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1649675259035777798, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 40, 25), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}], 'data_id': 1649675259035777798, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 1, 'name': '王涛', 'person_list': {'avatar': '', 'avatar_word': '王', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 24), 'data_id': 8697068091396447320, 'from': '爱企查', 'id': 1954, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '王涛', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 43, 24), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 652810756511788732, 'insuranceNum': 14407}, 'tags': ''}" ]
+      } ],
+      "uid" : "333ce5470b2552d277e9965fe6ec68b0"
+    }, {
+      "name" : "AssertionError: assert 2714 == 2716",
+      "children" : [ {
+        "name" : "人物搜索",
+        "uid" : "d654af2bd2deb6e4",
+        "parentUid" : "661b07d13f55c68b43d46a9d6dcd586c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683690261773,
+          "stop" : 1683690265247,
+          "duration" : 3474
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 3258, 'company_member_list': [{'company_id': 8934220927826597223, 'created_at': datetime.datetime(2023, 4, 26, 13, 40, 22), 'end_time': '', 'id': 5384430, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 6775168613929241299, 'pos_weight': 24, 'position': '执行董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 40, 22), 'useful_position': '19', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"执行董事\"}]'}, {'company_id': 780262639468709854, 'created_at': datetime.datetime(2023, 5, 4, 21, 7, 53), 'end_time': '', 'id': 67164277, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 6775168613929241299, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-05-04', 'updated_at': datetime.datetime(2023, 5, 8, 18, 25, 59), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}], 'data_id': 6775168613929241299, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 2, 'name': '张燕', 'person_list': {'avatar': '', 'avatar_word': '张', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 24), 'data_id': 4827983199792448802, 'from': '爱企查', 'id': 736, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '张燕', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 43, 24), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 7581435961835691668, 'insuranceNum': 14881}, 'tags': ''}" ]
+      } ],
+      "uid" : "661b07d13f55c68b43d46a9d6dcd586c"
+    }, {
+      "name" : "AssertionError: assert 2120 == 2121",
+      "children" : [ {
+        "name" : "人物搜索",
+        "uid" : "b3acc7aa03da9164",
+        "parentUid" : "8585729728bc3c6f010ccd4f55e3acea",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683690274829,
+          "stop" : 1683690278215,
+          "duration" : 3386
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 2658, 'company_member_list': [{'company_id': 3526298347185268356, 'created_at': datetime.datetime(2023, 4, 26, 12, 14, 1), 'end_time': '', 'id': 958034, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1093347276118138401, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 14, 1), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}], 'data_id': 1093347276118138401, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 1, 'name': '刘云', 'person_list': {'avatar': '', 'avatar_word': '刘', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 24), 'data_id': 8329213284460881786, 'from': '爱企查', 'id': 795, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '刘云皎', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 43, 24), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 1008062824480880781, 'insuranceNum': 70416}, 'tags': ''}" ]
+      } ],
+      "uid" : "8585729728bc3c6f010ccd4f55e3acea"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: 'NoneType' object is not subscriptable",
+      "children" : [ {
+        "name" : "组织成员",
+        "uid" : "91b9b413448c344",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1683689807478,
+          "stop" : 1683689807557,
+          "duration" : 79
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2021-11-11', 'authority': '晋中市太谷区市场监督管理局', 'comp_num': '1', 'comp_num_link': '', 'company_id': 2549814118446731377, 'created_at': datetime.datetime(2022, 10, 14, 10, 41, 18), 'district': '山西省晋中市太谷区', 'district_city': '晋中市', 'district_county': '太谷区', 'district_province': '山西省', 'ent_type': '有限责任公司分公司(自然人投资或控股)', 'id': 1462348, 'industry': '装卸搬运和仓储业', 'insurance_info': '{\"insuranceNum\": \"0人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=92565378506787&year=2021\"}', 'insurance_num': 0, 'legal_person': '张怡轩', 'legal_person_id': 0, 'license_number': '14072600A004385', 'open_status': '开业', 'open_time': '2021-11-11 至 2028-04-26', 'org_no': 'MA7YLETW-X', 'org_type': '-', 'paidin_capital': '-', 'person_link': '', 'person_title': '负责人', 'prev_ent_name': '-', 'qualification': '-', 'real_capital': '-', 'reg_addr': '山西省晋中市太谷区侯城乡北沙河村新建街111号', 'reg_capital': '-', 'reg_capital_amount': Decimal('0.00'), 'reg_capital_currency': '', 'reg_code': '14072600A004385', 'reg_no': '91140726MA7YLETWXT', 'scope': '许可项目：互联网信息服务；道路货物运输（不含危险货物）。（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准）一般项目：普通货物仓储服务（不含危险化学品等需许可审批的项目）；国内货物运输代理；装卸搬运；供应链管理服务。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）', 'start_date': '2021-11-11', 'tax_no': '91140726MA7YLETWXT', 'unified_code': '91140726MA7YLETWXT', 'updated_at': datetime.datetime(2023, 4, 27, 10, 4, 26), 'url': '/m/basic?pid=xlTM-TogKuTwxtpsxDFD5nL2Jkc4cnNbzgmd&entName=%E5%B1%B1%E8%A5%BF%E6%99%9F%E4%BA%A8%E5%85%83%E7%89%A9%E6%B5%81%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%A4%AA%E8%B0%B7%E5%88%86%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/147e7045878ef775510da206fe6fa2eb.txt'}, 'compete_cnt': 0, 'data_id': 2549814118446731377, 'finances_cnt': 0, 'introduction': '山西晟亨元物流有限公司太谷分公司成立于2021年11月11日，注册地位于山西省晋中市太谷区侯城乡北沙河村新建街111号，法定代表人为张怡轩。经营范围包括许可项目：互联网信息服务；道路货物运输（不含危险货物）。（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准）一般项目：普通货物仓储服务（不含危险化学品等需许可审批的项目）；国内货物运输代理；装卸搬运；供应链管理服务。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '张怡轩', 'name': '山西晟亨元物流有限公司太谷分公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      }, {
+        "name" : "组织成员",
+        "uid" : "5d6c055d675b8473",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1683689807587,
+          "stop" : 1683689807640,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': None, 'compete_cnt': 0, 'data_id': 2382494240101950886, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '马德顺', 'name': '天津市科信针织新技术开发公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+      } ],
+      "uid" : "86a928d47f47009c564bd8e345a40463"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,60 @@
+{
+  "uid" : "6877a4b126a9c1eb",
+  "name" : "校验招投标详情",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_detail",
+  "historyId" : "08787f9333df86ea5f7985243ba4e268",
+  "time" : {
+    "start" : 1683605775020,
+    "stop" : 1683605776275,
+    "duration" : 1255
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 4941921072714472081, 'item_number': '', 'money': '5991700元', 'name': '濠江“一江两岸”生态环境治理及产城融合开发建设项目设计施工图审查服务（第二次）招标公告', 'notice_type': 1, 'products': '服务,其他服务', 'pub_province': '广东省', 'pub_time': datetime.datetime(2022, 12, 21, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6877a4b126a9c1eb.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 4941921072714472081, 'item_number': '', 'money': '5991700元', 'name': '濠江“一江两岸”生态环境治理及产城融合开发建设项目设计施工图审查服务（第二次）招标公告', 'notice_type': 1, 'products': '服务,其他服务', 'pub_province': '广东省', 'pub_time': datetime.datetime(2022, 12, 21, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

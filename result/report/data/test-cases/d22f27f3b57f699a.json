@@ -1,0 +1,60 @@
+{
+  "uid" : "d22f27f3b57f699a",
+  "name" : "校验招投标搜索",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_search",
+  "historyId" : "698c47cafdc1544350ebeb0bd561ee6f",
+  "time" : {
+    "start" : 1683602502492,
+    "stop" : 1683602503807,
+    "duration" : 1315
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 0, 'data_id': 8226825565448752445, 'item_number': '', 'money': '', 'name': '【和谐路及北湾桥绿化亮化工程EPC总承包20230419140225】开标记录(6d990)', 'notice_type': 1, 'products': '', 'pub_province': '', 'pub_time': datetime.datetime(2023, 4, 19, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d22f27f3b57f699a.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 0, 'data_id': 8226825565448752445, 'item_number': '', 'money': '', 'name': '【和谐路及北湾桥绿化亮化工程EPC总承包20230419140225】开标记录(6d990)', 'notice_type': 1, 'products': '', 'pub_province': '', 'pub_time': datetime.datetime(2023, 4, 19, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

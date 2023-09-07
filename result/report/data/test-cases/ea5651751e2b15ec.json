@@ -1,0 +1,60 @@
+{
+  "uid" : "ea5651751e2b15ec",
+  "name" : "人物搜索",
+  "fullName" : "api_test.testcase.test_person.test_person.TestPerson#test_person_search",
+  "historyId" : "645a7432109faea1e58c9256174e2787",
+  "time" : {
+    "start" : 1683607449597,
+    "stop" : 1683607452821,
+    "duration" : 3224
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人物测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_person"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPerson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_person.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 4, 'company_member_list': (), 'data_id': 8545369680359431625, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 0, 'member_cnt': 0, 'name': '付淑杰', 'person_list': {'avatar': '', 'avatar_word': '付', 'created_at': datetime.datetime(2022, 10, 14, 10, 45, 44), 'data_id': 8357733592457200408, 'from': '爱企查', 'id': 2777062, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '付淑杰', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 45, 44), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 8603100326792396906, 'insuranceNum': 1}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ea5651751e2b15ec.json",
+  "parameterValues" : [ "{'cnt': 4, 'company_member_list': (), 'data_id': 8545369680359431625, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 0, 'member_cnt': 0, 'name': '付淑杰', 'person_list': {'avatar': '', 'avatar_word': '付', 'created_at': datetime.datetime(2022, 10, 14, 10, 45, 44), 'data_id': 8357733592457200408, 'from': '爱企查', 'id': 2777062, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '付淑杰', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 45, 44), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 8603100326792396906, 'insuranceNum': 1}, 'tags': ''}" ]
+}

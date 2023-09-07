@@ -1,0 +1,103 @@
+{
+  "total" : 19,
+  "items" : [ {
+    "uid" : "4ca707c31f0026d59fc89203584f8791",
+    "name" : "企业测试案例",
+    "statistic" : {
+      "failed" : 39,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 959,
+      "unknown" : 0,
+      "total" : 1000
+    }
+  }, {
+    "uid" : "fb2f8e58b7d3114b8b33c8b980ea7ca7",
+    "name" : "招投标db校验",
+    "statistic" : {
+      "failed" : 17,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 22
+    }
+  }, {
+    "uid" : "3c2d45dd32c919c7bf6eef08649d5d93",
+    "name" : "人物db校验",
+    "statistic" : {
+      "failed" : 8,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 14
+    }
+  }, {
+    "uid" : "0decbabed4cee6fc8adfaeeb5bb2350f",
+    "name" : "人物测试案例",
+    "statistic" : {
+      "failed" : 7,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 493,
+      "unknown" : 0,
+      "total" : 500
+    }
+  }, {
+    "uid" : "47a595dadb700647dbc948b4ea1e4b57",
+    "name" : "company表db校验",
+    "statistic" : {
+      "failed" : 7,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "6a915c1b75e8c65dd99763b28c397f88",
+    "name" : "跟踪人物和企业测试案例",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "95c515b24730d657bf71795662cf9f57",
+    "name" : "招投标测试案例",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 200,
+      "unknown" : 0,
+      "total" : 200
+    }
+  }, {
+    "uid" : "e90cc9ccf9c1c0677fd30d78fb159bfd",
+    "name" : "招投标接口回归测试案例",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 19,
+      "unknown" : 0,
+      "total" : 19
+    }
+  }, {
+    "uid" : "f37653cbfc7070841b8af87624c5cf40",
+    "name" : "人物搜索接口",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 15
+    }
+  } ]
+}

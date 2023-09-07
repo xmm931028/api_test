@@ -1,0 +1,62 @@
+{
+  "uid" : "60beaa6cee4abcad",
+  "name" : "搜索有数据的企业",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_search",
+  "historyId" : "149addc8ad0f2dbfea3276b7b116e825",
+  "time" : {
+    "start" : 1683603735762,
+    "stop" : 1683603735834,
+    "duration" : 72
+  },
+  "description" : "搜索企业,搜索结果与数据统计条数一致",
+  "descriptionHtml" : "<p>搜索企业,搜索结果与数据统计条数一致</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 2, 'company_member_list': {'company_id': 1773307582017371729, 'created_at': datetime.datetime(2023, 4, 26, 11, 44, 52), 'end_time': '', 'id': 1464879, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1744167198186563837, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 11, 44, 52), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2021-03-29', 'authority': '成都高新区市场监督管理局', 'comp_num': '1', 'comp_num_link': '', 'company_id': 1773307582017371729, 'created_at': datetime.datetime(2022, 10, 14, 10, 41, 4), 'district': '四川省成都市', 'district_city': '成都市', 'district_county': '', 'district_province': '四川省', 'ent_type': '有限责任公司(自然人独资)', 'id': 1294807, 'industry': '研究和试验发展', 'insurance_info': '{\"insuranceNum\": \"2人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=17697287591825&year=2021\"}', 'insurance_num': 2, 'legal_person': '李彦霖', 'legal_person_id': 0, 'license_number': '510109000615176', 'open_status': '开业', 'open_time': '2015-07-16 至 无固定期限', 'org_no': '35065320-4', 'org_type': '-', 'paidin_capital': '100万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '-', 'real_capital': '-', 'reg_addr': '中国（四川）自由贸易试验区成都市高新区天府二街368号2栋1单元12楼1201号', 'reg_capital': '100万(元)', 'reg_capital_amount': Decimal('1000000.00'), 'reg_capital_currency': '元', 'reg_code': '510109000615176', 'reg_no': '91510100350653204E', 'scope': '设计、研发、销售机械设备。（依法须经批准的项目、经相关部门批准后方可开展经营活动）。', 'start_date': '2015-07-16', 'tax_no': '91510100350653204E', 'unified_code': '91510100350653204E', 'updated_at': datetime.datetime(2023, 4, 23, 14, 32, 46), 'url': '/m/basic?pid=xlTM-TogKuTw7dt4CagzCMf9Z89idC84FAmd&entName=%E6%88%90%E9%83%BD%E5%B8%82%E8%A3%85%E7%94%B2%E5%8A%9B%E9%87%8F%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/a544fcc1ccf6d2f108639e3b9ff6688c.txt'}, 'compete_cnt': 0, 'data_id': 1773307582017371729, 'finances_cnt': 0, 'introduction': '成都市装甲力量科技有限公司成立于2015年07月16日，注册地位于中国（四川）自由贸易试验区成都市高新区天府二街368号2栋1单元12楼1201号，法定代表人为李彦霖。经营范围包括设计、研发、销售机械设备。（依法须经批准的项目、经相关部门批准后方可开展经营活动）。', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '李彦霖', 'name': '成都市装甲力量科技有限公司', 'ownership_cnt': 1, 'ownership_list': {'amount': '100万(元)', 'company_id': 1773307582017371729, 'created_at': datetime.datetime(2022, 10, 14, 10, 35, 18), 'data_id': 4477405079560321335, 'data_type': 2, 'id': 98701, 'is_delete': 0, 'ratio': '100%', 'tag': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 35, 18)}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "60beaa6cee4abcad.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 2, 'company_member_list': {'company_id': 1773307582017371729, 'created_at': datetime.datetime(2023, 4, 26, 11, 44, 52), 'end_time': '', 'id': 1464879, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1744167198186563837, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 11, 44, 52), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2021-03-29', 'authority': '成都高新区市场监督管理局', 'comp_num': '1', 'comp_num_link': '', 'company_id': 1773307582017371729, 'created_at': datetime.datetime(2022, 10, 14, 10, 41, 4), 'district': '四川省成都市', 'district_city': '成都市', 'district_county': '', 'district_province': '四川省', 'ent_type': '有限责任公司(自然人独资)', 'id': 1294807, 'industry': '研究和试验发展', 'insurance_info': '{\"insuranceNum\": \"2人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=17697287591825&year=2021\"}', 'insurance_num': 2, 'legal_person': '李彦霖', 'legal_person_id': 0, 'license_number': '510109000615176', 'open_status': '开业', 'open_time': '2015-07-16 至 无固定期限', 'org_no': '35065320-4', 'org_type': '-', 'paidin_capital': '100万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '-', 'real_capital': '-', 'reg_addr': '中国（四川）自由贸易试验区成都市高新区天府二街368号2栋1单元12楼1201号', 'reg_capital': '100万(元)', 'reg_capital_amount': Decimal('1000000.00'), 'reg_capital_currency': '元', 'reg_code': '510109000615176', 'reg_no': '91510100350653204E', 'scope': '设计、研发、销售机械设备。（依法须经批准的项目、经相关部门批准后方可开展经营活动）。', 'start_date': '2015-07-16', 'tax_no': '91510100350653204E', 'unified_code': '91510100350653204E', 'updated_at': datetime.datetime(2023, 4, 23, 14, 32, 46), 'url': '/m/basic?pid=xlTM-TogKuTw7dt4CagzCMf9Z89idC84FAmd&entName=%E6%88%90%E9%83%BD%E5%B8%82%E8%A3%85%E7%94%B2%E5%8A%9B%E9%87%8F%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/a544fcc1ccf6d2f108639e3b9ff6688c.txt'}, 'compete_cnt': 0, 'data_id': 1773307582017371729, 'finances_cnt': 0, 'introduction': '成都市装甲力量科技有限公司成立于2015年07月16日，注册地位于中国（四川）自由贸易试验区成都市高新区天府二街368号2栋1单元12楼1201号，法定代表人为李彦霖。经营范围包括设计、研发、销售机械设备。（依法须经批准的项目、经相关部门批准后方可开展经营活动）。', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '李彦霖', 'name': '成都市装甲力量科技有限公司', 'ownership_cnt': 1, 'ownership_list': {'amount': '100万(元)', 'company_id': 1773307582017371729, 'created_at': datetime.datetime(2022, 10, 14, 10, 35, 18), 'data_id': 4477405079560321335, 'data_type': 2, 'id': 98701, 'is_delete': 0, 'ratio': '100%', 'tag': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 35, 18)}, 'tags': ''}" ]
+}

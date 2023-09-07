@@ -1,0 +1,59 @@
+{
+  "uid" : "d684b409e5686843",
+  "name" : "test_db_edu_professional",
+  "fullName" : "api_test.testcase.test_person.test_person.TestDbCheck#test_db_edu_professional",
+  "historyId" : "d7e095cd44a62f7d2362fc24ac2961fe",
+  "time" : {
+    "start" : 1683603876321,
+    "stop" : 1683603877413,
+    "duration" : 1092
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 879 == 0\n +  where 879 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x00000243713FED08>>('select count(*) count from person_edu_experience where   CHAR_LENGTH(professional) >20')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x00000243713FED08>> = <api_test.untils.HandleMysql.HandleMysql object at 0x00000243713FED08>.get_one_value",
+  "statusTrace" : "self = <api_test.testcase.test_person.test_person.TestDbCheck object at 0x00000243712A8FC8>\n\n    def test_db_edu_professional(self):\n        #查询专业名称超过20个字符的数据\n>       assert s.get_one_value(\"select count(*) count from person_edu_experience where   CHAR_LENGTH(professional) >20\") == 0\nE       AssertionError: assert 879 == 0\nE        +  where 879 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x00000243713FED08>>('select count(*) count from person_edu_experience where   CHAR_LENGTH(professional) >20')\nE        +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x00000243713FED08>> = <api_test.untils.HandleMysql.HandleMysql object at 0x00000243713FED08>.get_one_value\n\napi_test\\testcase\\test_person\\test_person.py:55: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人物db校验"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_person"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDbCheck"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_person.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d684b409e5686843.json",
+  "parameterValues" : [ ]
+}

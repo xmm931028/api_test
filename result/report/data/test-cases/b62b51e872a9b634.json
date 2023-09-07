@@ -1,0 +1,78 @@
+{
+  "uid" : "b62b51e872a9b634",
+  "name" : "获取人物教育经历-V1接口",
+  "fullName" : "api_test.testcase.test_person.test_person.TestPerson#test_person_edu_experience",
+  "historyId" : "e7720fe87bd8006cd014656bc0005d28",
+  "time" : {
+    "start" : 1683690381862,
+    "stop" : 1683690381910,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人物测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_person"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPerson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_person.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 38, 'company_member_list': (), 'data_id': 9196577256606963374, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 0, 'member_cnt': 0, 'name': '高微', 'person_list': {'avatar': '', 'avatar_word': '高', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 45), 'data_id': 5358894509018435889, 'from': '爱企查', 'id': 399231, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '高微', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 43, 45), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 3017506360349665085, 'insuranceNum': 50}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6a0e5743fc670e01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683607710605,
+        "stop" : 1683607710659,
+        "duration" : 54
+      }
+    }, {
+      "uid" : "8b10978392b3bcbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683604417911,
+        "stop" : 1683604417958,
+        "duration" : 47
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b62b51e872a9b634.json",
+  "parameterValues" : [ "{'cnt': 38, 'company_member_list': (), 'data_id': 9196577256606963374, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 0, 'member_cnt': 0, 'name': '高微', 'person_list': {'avatar': '', 'avatar_word': '高', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 45), 'data_id': 5358894509018435889, 'from': '爱企查', 'id': 399231, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '高微', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 43, 45), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 3017506360349665085, 'insuranceNum': 50}, 'tags': ''}" ]
+}

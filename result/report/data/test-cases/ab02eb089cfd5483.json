@@ -1,0 +1,60 @@
+{
+  "uid" : "ab02eb089cfd5483",
+  "name" : "股东信息-v2接口",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_company_ownership",
+  "historyId" : "028800972e4942a16b18a62a4d70c6a0",
+  "time" : {
+    "start" : 1683607130516,
+    "stop" : 1683607130563,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 2, 'company_member_list': {'company_id': 4629599605280108456, 'created_at': datetime.datetime(2023, 4, 26, 12, 31, 57), 'end_time': '', 'id': 4699510, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 6422402654291141473, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 31, 57), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2021-11-11', 'authority': '呼和浩特市赛罕区市场监督管理局', 'comp_num': '1', 'comp_num_link': '', 'company_id': 4629599605280108456, 'created_at': datetime.datetime(2022, 10, 14, 10, 40, 21), 'district': '内蒙古自治区呼和浩特市赛罕区', 'district_city': '呼和浩特市', 'district_county': '赛罕区', 'district_province': '内蒙古自治区', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 777240, 'industry': '科技推广和应用服务业', 'insurance_info': '{\"insuranceNum\": \"0人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=29411255673825&year=2021\"}', 'insurance_num': 0, 'legal_person': '冀隆', 'legal_person_id': 0, 'license_number': '150105000072877', 'open_status': '开业', 'open_time': '2013-01-16 至 2033-01-15', 'org_no': '06160618-8', 'org_type': '-', 'paidin_capital': '1.5万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '[呼和浩特市心动力心理学应用科技有限公司]', 'qualification': '-', 'real_capital': '-', 'reg_addr': '内蒙古自治区呼和浩特市赛罕区昭乌达路利佰佳国际公寓1号楼16层B座1601', 'reg_capital': '100万(元)', 'reg_capital_amount': Decimal('1000000.00'), 'reg_capital_currency': '元', 'reg_code': '150105000072877', 'reg_no': '91150105061606188G', 'scope': '医学研究和试验发展;健康咨询服务（不含诊疗服务）;业务培训（不含教育培训、职业技能培训等需取得许可的培训）;企业管理咨询;信息技术咨询服务;社会经济咨询服务;特种作业人员安全技术培训;科技中介服务;会议及展览服务;教学用模型及教具销售;计算机系统服务;计算机软硬件及辅助设备零售', 'start_date': '2013-01-16', 'tax_no': '91150105061606188G', 'unified_code': '91150105061606188G', 'updated_at': datetime.datetime(2023, 4, 23, 14, 24, 45), 'url': '/m/basic?pid=xlTM-TogKuTw0Soxdo7tkC4TAr8CYtLtjwmd&entName=%E5%86%85%E8%92%99%E5%8F%A4%E5%85%B0%E8%B0%B1%E5%BF%83%E7%90%86%E5%AD%A6%E5%BA%94%E7%94%A8%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/4ddbe92cf4cb134d59ba688edb1111a0.txt'}, 'compete_cnt': 0, 'data_id': 4629599605280108456, 'finances_cnt': 0, 'introduction': '内蒙古兰谱心理学应用科技有限公司成立于2013年01月16日，注册地位于内蒙古自治区呼和浩特市赛罕区昭乌达路利佰佳国际公寓1号楼16层B座1601，法定代表人为冀隆。经营范围包括医学研究和试验发展;健康咨询服务（不含诊疗服务）;业务培训（不含教育培训、职业技能培训等需取得许可的培训）;企业管理咨询;信息技术咨询服务;社会经济咨询服务;特种作业人员安全技术培训;科技中介服务;会议及展览服务;教学用模型及教具销售;计算机系统服务;计算机软硬件及辅助设备零售', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '冀隆', 'name': '内蒙古兰谱心理学应用科技有限公司', 'ownership_cnt': 2, 'ownership_list': {'amount': '50万(元)', 'company_id': 4629599605280108456, 'created_at': datetime.datetime(2022, 10, 14, 10, 35, 48), 'data_id': 6422402654291141473, 'data_type': 2, 'id': 707538, 'is_delete': 0, 'ratio': '50%', 'tag': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 35, 48)}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab02eb089cfd5483.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 2, 'company_member_list': {'company_id': 4629599605280108456, 'created_at': datetime.datetime(2023, 4, 26, 12, 31, 57), 'end_time': '', 'id': 4699510, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 6422402654291141473, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 31, 57), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2021-11-11', 'authority': '呼和浩特市赛罕区市场监督管理局', 'comp_num': '1', 'comp_num_link': '', 'company_id': 4629599605280108456, 'created_at': datetime.datetime(2022, 10, 14, 10, 40, 21), 'district': '内蒙古自治区呼和浩特市赛罕区', 'district_city': '呼和浩特市', 'district_county': '赛罕区', 'district_province': '内蒙古自治区', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 777240, 'industry': '科技推广和应用服务业', 'insurance_info': '{\"insuranceNum\": \"0人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=29411255673825&year=2021\"}', 'insurance_num': 0, 'legal_person': '冀隆', 'legal_person_id': 0, 'license_number': '150105000072877', 'open_status': '开业', 'open_time': '2013-01-16 至 2033-01-15', 'org_no': '06160618-8', 'org_type': '-', 'paidin_capital': '1.5万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '[呼和浩特市心动力心理学应用科技有限公司]', 'qualification': '-', 'real_capital': '-', 'reg_addr': '内蒙古自治区呼和浩特市赛罕区昭乌达路利佰佳国际公寓1号楼16层B座1601', 'reg_capital': '100万(元)', 'reg_capital_amount': Decimal('1000000.00'), 'reg_capital_currency': '元', 'reg_code': '150105000072877', 'reg_no': '91150105061606188G', 'scope': '医学研究和试验发展;健康咨询服务（不含诊疗服务）;业务培训（不含教育培训、职业技能培训等需取得许可的培训）;企业管理咨询;信息技术咨询服务;社会经济咨询服务;特种作业人员安全技术培训;科技中介服务;会议及展览服务;教学用模型及教具销售;计算机系统服务;计算机软硬件及辅助设备零售', 'start_date': '2013-01-16', 'tax_no': '91150105061606188G', 'unified_code': '91150105061606188G', 'updated_at': datetime.datetime(2023, 4, 23, 14, 24, 45), 'url': '/m/basic?pid=xlTM-TogKuTw0Soxdo7tkC4TAr8CYtLtjwmd&entName=%E5%86%85%E8%92%99%E5%8F%A4%E5%85%B0%E8%B0%B1%E5%BF%83%E7%90%86%E5%AD%A6%E5%BA%94%E7%94%A8%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/4ddbe92cf4cb134d59ba688edb1111a0.txt'}, 'compete_cnt': 0, 'data_id': 4629599605280108456, 'finances_cnt': 0, 'introduction': '内蒙古兰谱心理学应用科技有限公司成立于2013年01月16日，注册地位于内蒙古自治区呼和浩特市赛罕区昭乌达路利佰佳国际公寓1号楼16层B座1601，法定代表人为冀隆。经营范围包括医学研究和试验发展;健康咨询服务（不含诊疗服务）;业务培训（不含教育培训、职业技能培训等需取得许可的培训）;企业管理咨询;信息技术咨询服务;社会经济咨询服务;特种作业人员安全技术培训;科技中介服务;会议及展览服务;教学用模型及教具销售;计算机系统服务;计算机软硬件及辅助设备零售', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '冀隆', 'name': '内蒙古兰谱心理学应用科技有限公司', 'ownership_cnt': 2, 'ownership_list': {'amount': '50万(元)', 'company_id': 4629599605280108456, 'created_at': datetime.datetime(2022, 10, 14, 10, 35, 48), 'data_id': 6422402654291141473, 'data_type': 2, 'id': 707538, 'is_delete': 0, 'ratio': '50%', 'tag': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 35, 48)}, 'tags': ''}" ]
+}

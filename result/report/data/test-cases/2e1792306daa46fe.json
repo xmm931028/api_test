@@ -1,0 +1,78 @@
+{
+  "uid" : "2e1792306daa46fe",
+  "name" : "对外投资",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_invest",
+  "historyId" : "821b5ceb8fe587e4d91d42212b807713",
+  "time" : {
+    "start" : 1683689830825,
+    "stop" : 1683689830875,
+    "duration" : 50
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 1, 'company_member_list': {'company_id': 6955672796180517858, 'created_at': datetime.datetime(2023, 4, 26, 13, 8, 36), 'end_time': '', 'id': 861912, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 974042329395204265, 'pos_weight': 26, 'position': '负责人', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 0, 'position_label_six': 1, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 8, 36), 'useful_position': '20', 'useful_position_json': '[{\"id\": \"20\", \"name\": \"负责人\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2019-07-10', 'authority': '沈阳市沈河区市场监督管理局', 'comp_num': '1', 'comp_num_link': '', 'company_id': 6955672796180517858, 'created_at': datetime.datetime(2022, 10, 14, 10, 40, 14), 'district': '辽宁省沈阳市沈河区', 'district_city': '沈阳市', 'district_county': '沈河区', 'district_province': '辽宁省', 'ent_type': '个人独资企业', 'id': 672147, 'industry': '研究和试验发展', 'insurance_info': '{\"insuranceNum\": \"9人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=30870137022013&year=2021\"}', 'insurance_num': 9, 'legal_person': '邢志文', 'legal_person_id': 0, 'license_number': '210103100024030', 'open_status': '开业', 'open_time': '长期有效', 'org_no': '24064186-X', 'org_type': '企业非法人', 'paidin_capital': '-', 'person_link': '', 'person_title': '投资人', 'prev_ent_name': '-', 'qualification': '-', 'real_capital': '-', 'reg_addr': '辽宁省沈阳市沈河区榆树屯街11—2号', 'reg_capital': '10万(元)', 'reg_capital_amount': Decimal('100000.00'), 'reg_capital_currency': '元', 'reg_code': '210103100024030', 'reg_no': '9121010324064186XP', 'scope': '医疗仪器研究开发咨询服务；Ⅰ类、Ⅱ类医疗器械生产销售；从事货物和技术进出口业务（国家法律法规规定应经审批方可经营或禁止进出口的货物和技术除外）（依法须经批准的项目，经相关部门批准后方可开展经营活动。）', 'start_date': '1992-10-30', 'tax_no': '9121010324064186XP', 'unified_code': '9121010324064186XP', 'updated_at': datetime.datetime(2023, 4, 23, 14, 23, 11), 'url': '/m/basic?pid=xlTM-TogKuTwyAl6BnYFfVpxVg6X9Ufqhwmd&entName=%E6%B2%88%E9%98%B3%E5%B8%82%E7%8E%B0%E4%BB%A3%E5%8C%BB%E7%96%97%E4%BB%AA%E5%99%A8%E7%A0%94%E7%A9%B6%E6%89%80', 'us3_scope': 'bdAttr/84fcd33aae272dbbee0ff6acbed9d9ba.txt'}, 'compete_cnt': 0, 'data_id': 6955672796180517858, 'finances_cnt': 0, 'introduction': '沈阳市现代医疗仪器研究所成立于1992年10月30日，注册地位于辽宁省沈阳市沈河区榆树屯街11—2号，法定代表人为邢志文。经营范围包括医疗仪器研究开发咨询服务；Ⅰ类、Ⅱ类医疗器械生产销售；从事货物和技术进出口业务（国家法律法规规定应经审批方可经营或禁止进出口的货物和技术除外）（依法须经批准的项目，经相关部门批准后方可开展经营活动。）', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '邢志文', 'name': '沈阳市现代医疗仪器研究所', 'ownership_cnt': 1, 'ownership_list': {'amount': '10万(元)', 'company_id': 6955672796180517858, 'created_at': datetime.datetime(2022, 10, 14, 10, 36, 3), 'data_id': 974042329395204265, 'data_type': 2, 'id': 1008488, 'is_delete': 0, 'ratio': '100%', 'tag': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 36, 3)}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f5f7edeed02f24ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683607132836,
+        "stop" : 1683607132883,
+        "duration" : 47
+      }
+    }, {
+      "uid" : "7b41e078bedfb793",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683603850818,
+        "stop" : 1683603850873,
+        "duration" : 55
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2e1792306daa46fe.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 1, 'company_member_list': {'company_id': 6955672796180517858, 'created_at': datetime.datetime(2023, 4, 26, 13, 8, 36), 'end_time': '', 'id': 861912, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 974042329395204265, 'pos_weight': 26, 'position': '负责人', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 0, 'position_label_six': 1, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 8, 36), 'useful_position': '20', 'useful_position_json': '[{\"id\": \"20\", \"name\": \"负责人\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2019-07-10', 'authority': '沈阳市沈河区市场监督管理局', 'comp_num': '1', 'comp_num_link': '', 'company_id': 6955672796180517858, 'created_at': datetime.datetime(2022, 10, 14, 10, 40, 14), 'district': '辽宁省沈阳市沈河区', 'district_city': '沈阳市', 'district_county': '沈河区', 'district_province': '辽宁省', 'ent_type': '个人独资企业', 'id': 672147, 'industry': '研究和试验发展', 'insurance_info': '{\"insuranceNum\": \"9人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=30870137022013&year=2021\"}', 'insurance_num': 9, 'legal_person': '邢志文', 'legal_person_id': 0, 'license_number': '210103100024030', 'open_status': '开业', 'open_time': '长期有效', 'org_no': '24064186-X', 'org_type': '企业非法人', 'paidin_capital': '-', 'person_link': '', 'person_title': '投资人', 'prev_ent_name': '-', 'qualification': '-', 'real_capital': '-', 'reg_addr': '辽宁省沈阳市沈河区榆树屯街11—2号', 'reg_capital': '10万(元)', 'reg_capital_amount': Decimal('100000.00'), 'reg_capital_currency': '元', 'reg_code': '210103100024030', 'reg_no': '9121010324064186XP', 'scope': '医疗仪器研究开发咨询服务；Ⅰ类、Ⅱ类医疗器械生产销售；从事货物和技术进出口业务（国家法律法规规定应经审批方可经营或禁止进出口的货物和技术除外）（依法须经批准的项目，经相关部门批准后方可开展经营活动。）', 'start_date': '1992-10-30', 'tax_no': '9121010324064186XP', 'unified_code': '9121010324064186XP', 'updated_at': datetime.datetime(2023, 4, 23, 14, 23, 11), 'url': '/m/basic?pid=xlTM-TogKuTwyAl6BnYFfVpxVg6X9Ufqhwmd&entName=%E6%B2%88%E9%98%B3%E5%B8%82%E7%8E%B0%E4%BB%A3%E5%8C%BB%E7%96%97%E4%BB%AA%E5%99%A8%E7%A0%94%E7%A9%B6%E6%89%80', 'us3_scope': 'bdAttr/84fcd33aae272dbbee0ff6acbed9d9ba.txt'}, 'compete_cnt': 0, 'data_id': 6955672796180517858, 'finances_cnt': 0, 'introduction': '沈阳市现代医疗仪器研究所成立于1992年10月30日，注册地位于辽宁省沈阳市沈河区榆树屯街11—2号，法定代表人为邢志文。经营范围包括医疗仪器研究开发咨询服务；Ⅰ类、Ⅱ类医疗器械生产销售；从事货物和技术进出口业务（国家法律法规规定应经审批方可经营或禁止进出口的货物和技术除外）（依法须经批准的项目，经相关部门批准后方可开展经营活动。）', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '邢志文', 'name': '沈阳市现代医疗仪器研究所', 'ownership_cnt': 1, 'ownership_list': {'amount': '10万(元)', 'company_id': 6955672796180517858, 'created_at': datetime.datetime(2022, 10, 14, 10, 36, 3), 'data_id': 974042329395204265, 'data_type': 2, 'id': 1008488, 'is_delete': 0, 'ratio': '100%', 'tag': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 36, 3)}, 'tags': ''}" ]
+}

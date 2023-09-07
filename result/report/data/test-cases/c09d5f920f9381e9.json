@@ -1,0 +1,62 @@
+{
+  "uid" : "c09d5f920f9381e9",
+  "name" : "获取人物跟踪列表",
+  "fullName" : "api_test.testcase.test_follow.test_follow.TestFollow#test_follow_list_person",
+  "historyId" : "091ff2a04cfdb481ddd7e15d6d5d9427",
+  "time" : {
+    "start" : 1683603857004,
+    "stop" : 1683603857268,
+    "duration" : 264
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'coo,COO,董事' == 'COO,董事'\n  - COO,董事\n  + coo,COO,董事\n  ? ++++",
+  "statusTrace" : "self = <api_test.testcase.test_follow.test_follow.TestFollow object at 0x00000243712B5988>\ntest_data = {'company_name': '优刻得科技股份有限公司', 'except': 'success', 'item_id': '619362364259188248', 'item_ids': ['619362364259188248'], ...}\n\n    @allure.title('获取人物跟踪列表')\n    @pytest.mark.parametrize('test_data', yaml_person_data)\n    def test_follow_list_person(self, test_data):\n        result = f.get_follow_list_person()\n        assert result['msg'] == 'success'\n        assert jsonpath(result, '$..id')[0] == test_data['item_id']\n        # 校验人物列表信息,人物名称，在职公司，职位\n        assert jsonpath(result,'$..company_name')[0] == test_data['company_name']\n        assert jsonpath(result,'$..name')[0] == test_data['name']\n>       assert jsonpath(result, '$..position')[0] == test_data['position']\nE       AssertionError: assert 'coo,COO,董事' == 'COO,董事'\nE         - COO,董事\nE         + coo,COO,董事\nE         ? ++++\n\napi_test\\testcase\\test_follow\\test_follow.py:60: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "跟踪人物和企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_follow"
+  }, {
+    "name" : "suite",
+    "value" : "test_follow"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFollow"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_follow.test_follow"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'title': '跟踪人物', 'item_id': '619362364259188248', 'item_ids': ['619362364259188248'], 'except': 'success', 'company_name': '优刻得科技股份有限公司', 'name': '华琨', 'position': 'COO,董事', 'logo_word': '华', 'sql': \"select count(*) count from person_news where person_id ='619362364259188248'\"}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c09d5f920f9381e9.json",
+  "parameterValues" : [ "{'title': '跟踪人物', 'item_id': '619362364259188248', 'item_ids': ['619362364259188248'], 'except': 'success', 'company_name': '优刻得科技股份有限公司', 'name': '华琨', 'position': 'COO,董事', 'logo_word': '华', 'sql': \"select count(*) count from person_news where person_id ='619362364259188248'\"}" ]
+}

@@ -1,0 +1,57 @@
+{
+  "uid" : "5197ff7d7ee4f36b",
+  "name" : "工作经历校验",
+  "fullName" : "api_test.testcase.test_person.test_person.TestDbCheck#test_db_company_member_status",
+  "historyId" : "df2bd065a86292034ebba8120ea189f6",
+  "time" : {
+    "start" : 1683603878492,
+    "stop" : 1683603909151,
+    "duration" : 30659
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人物db校验"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_person"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDbCheck"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_person.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5197ff7d7ee4f36b.json",
+  "parameterValues" : [ ]
+}

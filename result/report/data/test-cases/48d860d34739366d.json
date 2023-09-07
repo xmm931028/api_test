@@ -1,0 +1,60 @@
+{
+  "uid" : "48d860d34739366d",
+  "name" : "校验招投标详情",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_detail",
+  "historyId" : "54acbd58743a91d235ff828759dc3bba",
+  "time" : {
+    "start" : 1683605877285,
+    "stop" : 1683605879013,
+    "duration" : 1728
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 1278225149961078300, 'data_id': 8222704394278342268, 'item_number': '', 'money': '747500.0元', 'name': '四季青医院智慧分诊及运行监测系统中标公告', 'notice_type': 2, 'products': '智慧分诊及运行监测系统中,智慧分诊及运行监测系统 智慧分诊及运行监测系统 按照采购人要求 按照采购人要求 按照采购人要求五、评审专家(单一来源采购人员)名单:魏继航 蒋,智慧分诊及运行监测系统三、中标(成交)信息供应商', 'pub_province': '北京市', 'pub_time': datetime.datetime(2021, 9, 7, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "48d860d34739366d.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 1278225149961078300, 'data_id': 8222704394278342268, 'item_number': '', 'money': '747500.0元', 'name': '四季青医院智慧分诊及运行监测系统中标公告', 'notice_type': 2, 'products': '智慧分诊及运行监测系统中,智慧分诊及运行监测系统 智慧分诊及运行监测系统 按照采购人要求 按照采购人要求 按照采购人要求五、评审专家(单一来源采购人员)名单:魏继航 蒋,智慧分诊及运行监测系统三、中标(成交)信息供应商', 'pub_province': '北京市', 'pub_time': datetime.datetime(2021, 9, 7, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

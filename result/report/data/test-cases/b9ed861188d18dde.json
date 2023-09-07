@@ -1,0 +1,54 @@
+{
+  "uid" : "b9ed861188d18dde",
+  "name" : "企业标签搜索接口",
+  "fullName" : "api_test.testcase.test_company.test_company_api.TestCompanyApi#test_recommend_tag_search",
+  "historyId" : "c84ac55b257a0cee6930bdc54559b6bb",
+  "time" : {
+    "start" : 1683602754064,
+    "stop" : 1683602754693,
+    "duration" : 629
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyApi"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b9ed861188d18dde.json",
+  "parameterValues" : [ ]
+}

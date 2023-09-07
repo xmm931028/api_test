@@ -1,0 +1,60 @@
+{
+  "uid" : "ffe7d9466842d51a",
+  "name" : "校验招投标搜索",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_search",
+  "historyId" : "872bbee0587502ab999bbea8b636cdb1",
+  "time" : {
+    "start" : 1683602559828,
+    "stop" : 1683602561357,
+    "duration" : 1529
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 4597675227880864824, 'data_id': 8878285019727641120, 'item_number': '', 'money': '', 'name': '申能新能源（青海）有限公司格尔木项目（东恒、清脉、瑞鑫达）150MW风电场、110kV升压站、110kV送出线路运检维护及生产管理服务委托招标公告', 'notice_type': 1, 'products': '', 'pub_province': '青海省', 'pub_time': datetime.datetime(2021, 11, 17, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ffe7d9466842d51a.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 4597675227880864824, 'data_id': 8878285019727641120, 'item_number': '', 'money': '', 'name': '申能新能源（青海）有限公司格尔木项目（东恒、清脉、瑞鑫达）150MW风电场、110kV升压站、110kV送出线路运检维护及生产管理服务委托招标公告', 'notice_type': 1, 'products': '', 'pub_province': '青海省', 'pub_time': datetime.datetime(2021, 11, 17, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

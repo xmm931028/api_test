@@ -1,0 +1,60 @@
+{
+  "uid" : "87b49bf41f20369b",
+  "name" : "校验招投标详情",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_detail",
+  "historyId" : "93a3dc314f4f10d35912352ad9b998b4",
+  "time" : {
+    "start" : 1683605850588,
+    "stop" : 1683605852124,
+    "duration" : 1536
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 7521706144093220528, 'data_id': 1885548531517733560, 'item_number': '', 'money': '', 'name': '中国电信股份有限公司十堰分公司2022年云谷大数据中心“智慧工地”建设项目比选-中选候选人公示', 'notice_type': 2, 'products': '智慧工地”建设', 'pub_province': '湖北省', 'pub_time': datetime.datetime(2022, 3, 23, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "87b49bf41f20369b.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 7521706144093220528, 'data_id': 1885548531517733560, 'item_number': '', 'money': '', 'name': '中国电信股份有限公司十堰分公司2022年云谷大数据中心“智慧工地”建设项目比选-中选候选人公示', 'notice_type': 2, 'products': '智慧工地”建设', 'pub_province': '湖北省', 'pub_time': datetime.datetime(2022, 3, 23, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

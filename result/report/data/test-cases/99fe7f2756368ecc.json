@@ -1,0 +1,84 @@
+{
+  "uid" : "99fe7f2756368ecc",
+  "name" : "人物搜索",
+  "fullName" : "api_test.testcase.test_person.test_person.TestPerson#test_person_search",
+  "historyId" : "003d4dd122377beb96d1cdb5023b1c73",
+  "time" : {
+    "start" : 1683690086939,
+    "stop" : 1683690090118,
+    "duration" : 3179
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 386 == 387",
+  "statusTrace" : "self = <api_test.testcase.test_person.test_person.TestPerson object at 0x000001C1E7BB7408>\ntest_data = {'cnt': 455, 'company_member_list': [{'company_id': 6470089045446647698, 'created_at': datetime.datetime(2023, 4, 26, 13, 0, 40), 'end_time': '', 'id': 3279212, ...}], 'data_id': 4069312214111940157, 'edu_cnt': 0, ...}\n\n    @allure.title('人物搜索')\n    @pytest.mark.parametrize('test_data', person_yaml_data)\n    def test_person_search(self, test_data):\n        result = p.person_search_v3(test_data['name'],'')\n        result_info = result['data']['items']\n        person_id = str(test_data['data_id'])\n        # 断言搜索结果与数据库保持一致\n        sql_person_cnt = f'select count(*) count from person where name like \"%{test_data[\"name\"]}%\" and `from` <> \"脉脉\" and data_id  in (select person_id from company_member)'\n        cnt = s.get_one_value(sql_person_cnt)\n>       assert cnt == result['data']['cnt']\nE       assert 386 == 387\n\napi_test\\testcase\\test_person\\test_person.py:91: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人物测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_person"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPerson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_person.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 455, 'company_member_list': [{'company_id': 6470089045446647698, 'created_at': datetime.datetime(2023, 4, 26, 13, 0, 40), 'end_time': '', 'id': 3279212, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 4069312214111940157, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 0, 40), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}], 'data_id': 4069312214111940157, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 1, 'name': '朱磊', 'person_list': {'avatar': '', 'avatar_word': '朱', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 30), 'data_id': 3415975085312420122, 'from': '爱企查', 'id': 103974, 'introduction': '', 'is_delete': 0, 'is_linked': 0, 'name': '朱磊', 'tags': '', 'updated_at': datetime.datetime(2023, 3, 23, 10, 10, 1), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 2983433101951141707, 'insuranceNum': 75925}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d710cdb5f8c2ee51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683607409023,
+        "stop" : 1683607412188,
+        "duration" : 3165
+      }
+    }, {
+      "uid" : "8dc6e2833682a2d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683604114540,
+        "stop" : 1683604117904,
+        "duration" : 3364
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "99fe7f2756368ecc.json",
+  "parameterValues" : [ "{'cnt': 455, 'company_member_list': [{'company_id': 6470089045446647698, 'created_at': datetime.datetime(2023, 4, 26, 13, 0, 40), 'end_time': '', 'id': 3279212, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 4069312214111940157, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 0, 40), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}], 'data_id': 4069312214111940157, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 1, 'name': '朱磊', 'person_list': {'avatar': '', 'avatar_word': '朱', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 30), 'data_id': 3415975085312420122, 'from': '爱企查', 'id': 103974, 'introduction': '', 'is_delete': 0, 'is_linked': 0, 'name': '朱磊', 'tags': '', 'updated_at': datetime.datetime(2023, 3, 23, 10, 10, 1), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 2983433101951141707, 'insuranceNum': 75925}, 'tags': ''}" ]
+}

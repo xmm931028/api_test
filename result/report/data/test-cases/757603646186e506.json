@@ -1,0 +1,60 @@
+{
+  "uid" : "757603646186e506",
+  "name" : "相似企业接口",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_company_compete_companies",
+  "historyId" : "cec5217550f109e4cf03aadd92b4f20e",
+  "time" : {
+    "start" : 1683607084879,
+    "stop" : 1683607084926,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2017-05-03', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 4872203587320849408, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '黑龙江省哈尔滨市依兰县', 'district_city': '哈尔滨市', 'district_county': '依兰县', 'district_province': '黑龙江省', 'ent_type': '农民专业合作社', 'id': 19238539, 'industry': '农业', 'insurance_info': '{\"insuraceNum\": \"\"}', 'insurance_num': 0, 'legal_person': '关志钢', 'legal_person_id': 5519350606765838336, 'license_number': '230123NA001751X', 'open_status': '存续', 'open_time': ' ', 'org_no': '086030111', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': '30万人民币', 'reg_addr': '依兰县达连河镇新胜村', 'reg_capital': '150万(元)', 'reg_capital_amount': Decimal('1500000.00'), 'reg_capital_currency': '元', 'reg_code': '230123NA001751X', 'reg_no': '93230123086030111D', 'scope': '玉米、水稻、大豆、杂粮种植销售', 'start_date': '2014-01-27', 'tax_no': '93230123086030111D', 'unified_code': '93230123086030111D', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/6b255a0e90fe8d6388fbccc21c56b7d7.txt'}, 'compete_cnt': 0, 'data_id': 4872203587320849408, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '关志钢', 'name': '依兰县传向粮食种植专业合作社', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "757603646186e506.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2017-05-03', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 4872203587320849408, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '黑龙江省哈尔滨市依兰县', 'district_city': '哈尔滨市', 'district_county': '依兰县', 'district_province': '黑龙江省', 'ent_type': '农民专业合作社', 'id': 19238539, 'industry': '农业', 'insurance_info': '{\"insuraceNum\": \"\"}', 'insurance_num': 0, 'legal_person': '关志钢', 'legal_person_id': 5519350606765838336, 'license_number': '230123NA001751X', 'open_status': '存续', 'open_time': ' ', 'org_no': '086030111', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': '30万人民币', 'reg_addr': '依兰县达连河镇新胜村', 'reg_capital': '150万(元)', 'reg_capital_amount': Decimal('1500000.00'), 'reg_capital_currency': '元', 'reg_code': '230123NA001751X', 'reg_no': '93230123086030111D', 'scope': '玉米、水稻、大豆、杂粮种植销售', 'start_date': '2014-01-27', 'tax_no': '93230123086030111D', 'unified_code': '93230123086030111D', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/6b255a0e90fe8d6388fbccc21c56b7d7.txt'}, 'compete_cnt': 0, 'data_id': 4872203587320849408, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '关志钢', 'name': '依兰县传向粮食种植专业合作社', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+}

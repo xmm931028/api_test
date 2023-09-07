@@ -1,0 +1,78 @@
+{
+  "uid" : "56e1552f521c2140",
+  "name" : "获取人物教育经历-V1接口",
+  "fullName" : "api_test.testcase.test_person.test_person.TestPerson#test_person_edu_experience",
+  "historyId" : "444375d720c37bf734481c85caf3306e",
+  "time" : {
+    "start" : 1683690382914,
+    "stop" : 1683690382958,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人物测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_person"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPerson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_person.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 346, 'company_member_list': [{'company_id': 4234472618884491338, 'created_at': datetime.datetime(2023, 5, 4, 20, 55, 1), 'end_time': '', 'id': 66495974, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 6892781485462976739, 'pos_weight': 24, 'position': '董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-05-04', 'updated_at': datetime.datetime(2023, 5, 8, 18, 19), 'useful_position': '19', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"董事\"}]'}], 'data_id': 6892781485462976739, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 1, 'name': '李彤', 'person_list': {'avatar': '', 'avatar_word': '李', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 27), 'data_id': 2964520244433371750, 'from': '爱企查', 'id': 51713, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '李彤', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 43, 27), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 738252944748940879, 'insuranceNum': 15826}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f68c68718de3ac35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683607711786,
+        "stop" : 1683607711835,
+        "duration" : 49
+      }
+    }, {
+      "uid" : "cef266e782e0e653",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683604418881,
+        "stop" : 1683604418929,
+        "duration" : 48
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "56e1552f521c2140.json",
+  "parameterValues" : [ "{'cnt': 346, 'company_member_list': [{'company_id': 4234472618884491338, 'created_at': datetime.datetime(2023, 5, 4, 20, 55, 1), 'end_time': '', 'id': 66495974, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 6892781485462976739, 'pos_weight': 24, 'position': '董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-05-04', 'updated_at': datetime.datetime(2023, 5, 8, 18, 19), 'useful_position': '19', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"董事\"}]'}], 'data_id': 6892781485462976739, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 1, 'name': '李彤', 'person_list': {'avatar': '', 'avatar_word': '李', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 27), 'data_id': 2964520244433371750, 'from': '爱企查', 'id': 51713, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '李彤', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 43, 27), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 738252944748940879, 'insuranceNum': 15826}, 'tags': ''}" ]
+}

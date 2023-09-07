@@ -1,0 +1,83 @@
+{
+  "uid" : "2c116926753d29f3",
+  "name" : "相似企业数据不在company表的数据",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestDbCase#test_db_company_compete_company",
+  "historyId" : "6be4682ed782445b7b8a61f67336d1e5",
+  "time" : {
+    "start" : 1683689718607,
+    "stop" : 1683689722787,
+    "duration" : 4180
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 25794 == 0\n +  where 25794 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>>('select count(*) count from company_compete_company where company_id not in (select data_id from company) ')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>.get_one_value",
+  "statusTrace" : "self = <api_test.testcase.test_company.test_company_data.TestDbCase object at 0x000001C1E782FA88>\n\n    @allure.title('相似企业数据不在company表的数据')\n    #校验相似企业数据\n    def test_db_company_compete_company(self):\n>       assert h.get_one_value(\"select count(*) count from company_compete_company where company_id not in (select data_id from company) \") == 0\nE       AssertionError: assert 25794 == 0\nE        +  where 25794 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>>('select count(*) count from company_compete_company where company_id not in (select data_id from company) ')\nE        +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E78A0548>.get_one_value\n\napi_test\\testcase\\test_company\\test_company_data.py:63: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "company表db校验"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDbCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b3db06dbb2a2895f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 25794 == 0\n +  where 25794 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A30E5C8>>('select count(*) count from company_compete_company where company_id not in (select data_id from company) ')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A30E5C8>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A30E5C8>.get_one_value",
+      "time" : {
+        "start" : 1683607021417,
+        "stop" : 1683607025493,
+        "duration" : 4076
+      }
+    }, {
+      "uid" : "8790f337dd4f655",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 25794 == 0\n +  where 25794 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x0000024370F099C8>>('select count(*) count from company_compete_company where company_id not in (select data_id from company) ')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x0000024370F099C8>> = <api_test.untils.HandleMysql.HandleMysql object at 0x0000024370F099C8>.get_one_value",
+      "time" : {
+        "start" : 1683603725768,
+        "stop" : 1683603729770,
+        "duration" : 4002
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2c116926753d29f3.json",
+  "parameterValues" : [ ]
+}

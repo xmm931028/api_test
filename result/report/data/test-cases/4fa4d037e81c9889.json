@@ -1,0 +1,62 @@
+{
+  "uid" : "4fa4d037e81c9889",
+  "name" : "搜索有数据的企业",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_search",
+  "historyId" : "e4a0156d8c18d1c656680669bd6d1dfb",
+  "time" : {
+    "start" : 1683603733051,
+    "stop" : 1683603733124,
+    "duration" : 73
+  },
+  "description" : "搜索企业,搜索结果与数据统计条数一致",
+  "descriptionHtml" : "<p>搜索企业,搜索结果与数据统计条数一致</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 2, 'company_member_list': {'company_id': 6547849127487536609, 'created_at': datetime.datetime(2023, 4, 26, 13, 2, 13), 'end_time': '', 'id': 3256060, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 4408435788069513539, 'pos_weight': 24, 'position': '总经理,执行董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 1, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 2, 13), 'useful_position': '19,26', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"执行董事\"}, {\"id\": \"26\", \"name\": \"总经理\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2020-05-25', 'authority': '鹤壁市市场监督管理局淇滨分局', 'comp_num': '1', 'comp_num_link': '', 'company_id': 6547849127487536609, 'created_at': datetime.datetime(2022, 10, 14, 10, 39, 36), 'district': '河南省鹤壁市淇滨区', 'district_city': '鹤壁市', 'district_county': '淇滨区', 'district_province': '河南省', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 132879, 'industry': '房地产业', 'insurance_info': '{\"insuranceNum\": \"0人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=29666341625213&year=2021\"}', 'insurance_num': 0, 'legal_person': '李昊', 'legal_person_id': 0, 'license_number': '410692100001924', 'open_status': '开业', 'open_time': '2004-12-15 至 无固定期限', 'org_no': '76948333-9', 'org_type': '-', 'paidin_capital': '100万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '增值税一般纳税人', 'real_capital': '-', 'reg_addr': '河南省鹤壁市淇滨区钜桥镇职教园区硅谷产业园乡村振兴产业生态双创园办公楼三楼321室', 'reg_capital': '100万(元)', 'reg_capital_amount': Decimal('1000000.00'), 'reg_capital_currency': '元', 'reg_code': '410692100001924', 'reg_no': '914106007694833393', 'scope': '物业管理、保洁、家政服务。', 'start_date': '2004-12-15', 'tax_no': '914106007694833393', 'unified_code': '914106007694833393', 'updated_at': datetime.datetime(2023, 4, 23, 14, 14, 40), 'url': '/m/basic?pid=xlTM-TogKuTw2o53hAlrNNzLJSt1QNe67gmd&entName=%E9%B9%A4%E5%A3%81%E5%B8%82%E4%BF%A1%E8%BE%BE%E7%89%A9%E4%B8%9A%E7%AE%A1%E7%90%86%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/ddde5907185ed452dfca486bd51c21ad.txt'}, 'compete_cnt': 0, 'data_id': 6547849127487536609, 'finances_cnt': 0, 'introduction': '鹤壁市信达物业管理有限公司成立于2004年12月15日，注册地位于河南省鹤壁市淇滨区钜桥镇职教园区硅谷产业园乡村振兴产业生态双创园办公楼三楼321室，法定代表人为李昊。经营范围包括物业管理、保洁、家政服务。', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '李昊', 'name': '鹤壁市信达物业管理有限公司', 'ownership_cnt': 2, 'ownership_list': {'amount': '90万(元)', 'company_id': 6547849127487536609, 'created_at': datetime.datetime(2022, 10, 14, 10, 36, 44), 'data_id': 4408435788069513539, 'data_type': 2, 'id': 1816557, 'is_delete': 0, 'ratio': '90%', 'tag': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 36, 44)}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4fa4d037e81c9889.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 2, 'company_member_list': {'company_id': 6547849127487536609, 'created_at': datetime.datetime(2023, 4, 26, 13, 2, 13), 'end_time': '', 'id': 3256060, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 4408435788069513539, 'pos_weight': 24, 'position': '总经理,执行董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 1, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 2, 13), 'useful_position': '19,26', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"执行董事\"}, {\"id\": \"26\", \"name\": \"总经理\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2020-05-25', 'authority': '鹤壁市市场监督管理局淇滨分局', 'comp_num': '1', 'comp_num_link': '', 'company_id': 6547849127487536609, 'created_at': datetime.datetime(2022, 10, 14, 10, 39, 36), 'district': '河南省鹤壁市淇滨区', 'district_city': '鹤壁市', 'district_county': '淇滨区', 'district_province': '河南省', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 132879, 'industry': '房地产业', 'insurance_info': '{\"insuranceNum\": \"0人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=29666341625213&year=2021\"}', 'insurance_num': 0, 'legal_person': '李昊', 'legal_person_id': 0, 'license_number': '410692100001924', 'open_status': '开业', 'open_time': '2004-12-15 至 无固定期限', 'org_no': '76948333-9', 'org_type': '-', 'paidin_capital': '100万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '增值税一般纳税人', 'real_capital': '-', 'reg_addr': '河南省鹤壁市淇滨区钜桥镇职教园区硅谷产业园乡村振兴产业生态双创园办公楼三楼321室', 'reg_capital': '100万(元)', 'reg_capital_amount': Decimal('1000000.00'), 'reg_capital_currency': '元', 'reg_code': '410692100001924', 'reg_no': '914106007694833393', 'scope': '物业管理、保洁、家政服务。', 'start_date': '2004-12-15', 'tax_no': '914106007694833393', 'unified_code': '914106007694833393', 'updated_at': datetime.datetime(2023, 4, 23, 14, 14, 40), 'url': '/m/basic?pid=xlTM-TogKuTw2o53hAlrNNzLJSt1QNe67gmd&entName=%E9%B9%A4%E5%A3%81%E5%B8%82%E4%BF%A1%E8%BE%BE%E7%89%A9%E4%B8%9A%E7%AE%A1%E7%90%86%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/ddde5907185ed452dfca486bd51c21ad.txt'}, 'compete_cnt': 0, 'data_id': 6547849127487536609, 'finances_cnt': 0, 'introduction': '鹤壁市信达物业管理有限公司成立于2004年12月15日，注册地位于河南省鹤壁市淇滨区钜桥镇职教园区硅谷产业园乡村振兴产业生态双创园办公楼三楼321室，法定代表人为李昊。经营范围包括物业管理、保洁、家政服务。', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '李昊', 'name': '鹤壁市信达物业管理有限公司', 'ownership_cnt': 2, 'ownership_list': {'amount': '90万(元)', 'company_id': 6547849127487536609, 'created_at': datetime.datetime(2022, 10, 14, 10, 36, 44), 'data_id': 4408435788069513539, 'data_type': 2, 'id': 1816557, 'is_delete': 0, 'ratio': '90%', 'tag': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 36, 44)}, 'tags': ''}" ]
+}

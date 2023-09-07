@@ -1,0 +1,62 @@
+{
+  "uid" : "261570b8a7541c8a",
+  "name" : "企业基本信息与搜索保持一致",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_company_datail",
+  "historyId" : "284eecf932b25f6799cdb51aafcc02af",
+  "time" : {
+    "start" : 1683603770024,
+    "stop" : 1683603770320,
+    "duration" : 296
+  },
+  "description" : "校验企业介绍",
+  "descriptionHtml" : "<p>校验企业介绍</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2021-09-16', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 8528448014194719744, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '甘肃省武威市凉州区', 'district_city': '武威市', 'district_county': '凉州区', 'district_province': '甘肃省', 'ent_type': '有限责任公司(自然人独资)', 'id': 19885773, 'industry': '农业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '丁顗', 'legal_person_id': 1069342676900540032, 'license_number': '620602200051583', 'open_status': '存续', 'open_time': '2016-06-28 至 2046-06-27', 'org_no': 'MA742PHX0', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '甘肃省武威市凉州区羊下坝镇上双村一组', 'reg_capital': '300万(元)', 'reg_capital_amount': Decimal('3000000.00'), 'reg_capital_currency': '元', 'reg_code': '620602200051583', 'reg_no': '91620602MA742PHX0W', 'scope': '瓜果蔬菜、农产品种植、储藏、包装、收购及销售；农作物种子生产及销售；种苗生产及销售；苗木、花卉种植及销售；畜禽繁育、养殖、屠宰，畜禽肉的包装、加工及销售；水产品养殖、加工及销售；垂钓服务；化肥、农膜、土特产品、中小农具的批发及零售；日光温室智能控制设备销售及安装；日光温室材料销售及安装；农产品质量检测；农产品网上销售服务；从事货物与技术进出口；普通货物（不含危险化学品）运输；农业、林业、牧业信息咨询；农贸市场的开发；观光农业，休闲农业，订单农业，农、林、牧业的技术开发、技术服务、技术咨询、技术转让。（依法须经批准的项目，经相关部门批准后方可开展经营活动）***', 'start_date': '2016-06-28', 'tax_no': '91620602MA742PHX0W', 'unified_code': '91620602MA742PHX0W', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/357ebbbd3474d9fcc6d19271833585a8.txt'}, 'compete_cnt': 0, 'data_id': 8528448014194719744, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '丁顗', 'name': '武威长丰园农业科技有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "261570b8a7541c8a.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2021-09-16', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 8528448014194719744, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '甘肃省武威市凉州区', 'district_city': '武威市', 'district_county': '凉州区', 'district_province': '甘肃省', 'ent_type': '有限责任公司(自然人独资)', 'id': 19885773, 'industry': '农业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '丁顗', 'legal_person_id': 1069342676900540032, 'license_number': '620602200051583', 'open_status': '存续', 'open_time': '2016-06-28 至 2046-06-27', 'org_no': 'MA742PHX0', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '甘肃省武威市凉州区羊下坝镇上双村一组', 'reg_capital': '300万(元)', 'reg_capital_amount': Decimal('3000000.00'), 'reg_capital_currency': '元', 'reg_code': '620602200051583', 'reg_no': '91620602MA742PHX0W', 'scope': '瓜果蔬菜、农产品种植、储藏、包装、收购及销售；农作物种子生产及销售；种苗生产及销售；苗木、花卉种植及销售；畜禽繁育、养殖、屠宰，畜禽肉的包装、加工及销售；水产品养殖、加工及销售；垂钓服务；化肥、农膜、土特产品、中小农具的批发及零售；日光温室智能控制设备销售及安装；日光温室材料销售及安装；农产品质量检测；农产品网上销售服务；从事货物与技术进出口；普通货物（不含危险化学品）运输；农业、林业、牧业信息咨询；农贸市场的开发；观光农业，休闲农业，订单农业，农、林、牧业的技术开发、技术服务、技术咨询、技术转让。（依法须经批准的项目，经相关部门批准后方可开展经营活动）***', 'start_date': '2016-06-28', 'tax_no': '91620602MA742PHX0W', 'unified_code': '91620602MA742PHX0W', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/357ebbbd3474d9fcc6d19271833585a8.txt'}, 'compete_cnt': 0, 'data_id': 8528448014194719744, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '丁顗', 'name': '武威长丰园农业科技有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+}

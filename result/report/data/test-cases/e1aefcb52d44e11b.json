@@ -1,0 +1,62 @@
+{
+  "uid" : "e1aefcb52d44e11b",
+  "name" : "搜索有数据的企业",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_search",
+  "historyId" : "39e53f896a2ffa99b7758f825ea8e93c",
+  "time" : {
+    "start" : 1683607034100,
+    "stop" : 1683607034190,
+    "duration" : 90
+  },
+  "description" : "搜索企业,搜索结果与数据统计条数一致",
+  "descriptionHtml" : "<p>搜索企业,搜索结果与数据统计条数一致</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 4, 'company_member_list': {'company_id': 1717795414347431709, 'created_at': datetime.datetime(2023, 4, 26, 11, 44, 48), 'end_time': '', 'id': 319765, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 283835299887350654, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 11, 44, 48), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2022-01-04', 'authority': '广州市天河区市场监督管理局', 'comp_num': '99', 'comp_num_link': '', 'company_id': 1717795414347431709, 'created_at': datetime.datetime(2022, 10, 14, 10, 40, 26), 'district': '广东省广州市天河区', 'district_city': '广州市', 'district_county': '天河区', 'district_province': '广东省', 'ent_type': '有限责任公司(外商投资企业法人独资)', 'id': 830723, 'industry': '房地产业', 'insurance_info': '{\"insuranceNum\": \"0人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=30023171192420&year=2021\"}', 'insurance_num': 0, 'legal_person': '陈文德', 'legal_person_id': 0, 'license_number': '440106002109425', 'open_status': '开业', 'open_time': '2017-07-25 至 无固定期限', 'org_no': 'MA59R01L-X', 'org_type': '-', 'paidin_capital': '100万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '-', 'real_capital': '-', 'reg_addr': '广州市天河区华夏路8号3601房自编8号（仅限办公用途）', 'reg_capital': '100万(元)', 'reg_capital_amount': Decimal('1000000.00'), 'reg_capital_currency': '元', 'reg_code': '440106002109425', 'reg_no': '91440101MA59R01LXH', 'scope': '房屋租赁;房地产开发经营;物业管理;', 'start_date': '2017-07-25', 'tax_no': '91440101MA59R01LXH', 'unified_code': '91440101MA59R01LXH', 'updated_at': datetime.datetime(2023, 4, 23, 14, 25, 31), 'url': '/m/basic?pid=xlTM-TogKuTwSPJTaklzBPIE40cDCKCegwmd&entName=%E5%B9%BF%E5%B7%9E%E5%90%88%E6%99%AF%E9%A2%82%E8%AA%89%E7%BD%AE%E4%B8%9A%E5%8F%91%E5%B1%95%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/7bdef04b757101a89e6f0252f2b31452.txt'}, 'compete_cnt': 0, 'data_id': 1717795414347431709, 'finances_cnt': 0, 'introduction': '广州合景颂誉置业发展有限公司成立于2017年07月25日，注册地位于广州市天河区华夏路8号3601房自编8号（仅限办公用途），法定代表人为陈文德。经营范围包括房屋租赁;房地产开发经营;物业管理;广州合景颂誉置业发展有限公司对外投资1家公司。', 'invest_cnt': 1, 'invest_list': {'amount': '5,000万(元)', 'company_id': 1717795414347431709, 'created_at': datetime.datetime(2022, 10, 14, 10, 23, 35), 'data_id': 2272365474904313352, 'data_type': 1, 'id': 467406, 'rate': '100%', 'status': '开业', 'updated_at': datetime.datetime(2022, 10, 14, 10, 23, 35)}, 'legal_person': '陈文德', 'name': '广州合景颂誉置业发展有限公司', 'ownership_cnt': 1, 'ownership_list': {'amount': '100万(元)', 'company_id': 1717795414347431709, 'created_at': datetime.datetime(2022, 10, 14, 10, 38, 39), 'data_id': 570785764311460858, 'data_type': 1, 'id': 3061451, 'is_delete': 0, 'ratio': '100%', 'tag': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 38, 39)}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e1aefcb52d44e11b.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 4, 'company_member_list': {'company_id': 1717795414347431709, 'created_at': datetime.datetime(2023, 4, 26, 11, 44, 48), 'end_time': '', 'id': 319765, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 283835299887350654, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 11, 44, 48), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2022-01-04', 'authority': '广州市天河区市场监督管理局', 'comp_num': '99', 'comp_num_link': '', 'company_id': 1717795414347431709, 'created_at': datetime.datetime(2022, 10, 14, 10, 40, 26), 'district': '广东省广州市天河区', 'district_city': '广州市', 'district_county': '天河区', 'district_province': '广东省', 'ent_type': '有限责任公司(外商投资企业法人独资)', 'id': 830723, 'industry': '房地产业', 'insurance_info': '{\"insuranceNum\": \"0人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=30023171192420&year=2021\"}', 'insurance_num': 0, 'legal_person': '陈文德', 'legal_person_id': 0, 'license_number': '440106002109425', 'open_status': '开业', 'open_time': '2017-07-25 至 无固定期限', 'org_no': 'MA59R01L-X', 'org_type': '-', 'paidin_capital': '100万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '-', 'real_capital': '-', 'reg_addr': '广州市天河区华夏路8号3601房自编8号（仅限办公用途）', 'reg_capital': '100万(元)', 'reg_capital_amount': Decimal('1000000.00'), 'reg_capital_currency': '元', 'reg_code': '440106002109425', 'reg_no': '91440101MA59R01LXH', 'scope': '房屋租赁;房地产开发经营;物业管理;', 'start_date': '2017-07-25', 'tax_no': '91440101MA59R01LXH', 'unified_code': '91440101MA59R01LXH', 'updated_at': datetime.datetime(2023, 4, 23, 14, 25, 31), 'url': '/m/basic?pid=xlTM-TogKuTwSPJTaklzBPIE40cDCKCegwmd&entName=%E5%B9%BF%E5%B7%9E%E5%90%88%E6%99%AF%E9%A2%82%E8%AA%89%E7%BD%AE%E4%B8%9A%E5%8F%91%E5%B1%95%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/7bdef04b757101a89e6f0252f2b31452.txt'}, 'compete_cnt': 0, 'data_id': 1717795414347431709, 'finances_cnt': 0, 'introduction': '广州合景颂誉置业发展有限公司成立于2017年07月25日，注册地位于广州市天河区华夏路8号3601房自编8号（仅限办公用途），法定代表人为陈文德。经营范围包括房屋租赁;房地产开发经营;物业管理;广州合景颂誉置业发展有限公司对外投资1家公司。', 'invest_cnt': 1, 'invest_list': {'amount': '5,000万(元)', 'company_id': 1717795414347431709, 'created_at': datetime.datetime(2022, 10, 14, 10, 23, 35), 'data_id': 2272365474904313352, 'data_type': 1, 'id': 467406, 'rate': '100%', 'status': '开业', 'updated_at': datetime.datetime(2022, 10, 14, 10, 23, 35)}, 'legal_person': '陈文德', 'name': '广州合景颂誉置业发展有限公司', 'ownership_cnt': 1, 'ownership_list': {'amount': '100万(元)', 'company_id': 1717795414347431709, 'created_at': datetime.datetime(2022, 10, 14, 10, 38, 39), 'data_id': 570785764311460858, 'data_type': 1, 'id': 3061451, 'is_delete': 0, 'ratio': '100%', 'tag': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 38, 39)}, 'tags': ''}" ]
+}

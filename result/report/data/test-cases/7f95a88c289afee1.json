@@ -1,0 +1,60 @@
+{
+  "uid" : "7f95a88c289afee1",
+  "name" : "校验招投标详情",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_detail",
+  "historyId" : "923b4b68cfa6d27379c757b901b31789",
+  "time" : {
+    "start" : 1683605810419,
+    "stop" : 1683605811979,
+    "duration" : 1560
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 0, 'data_id': 621996786618704998, 'item_number': '', 'money': '', 'name': '灵宝市朱阳镇人民政府朱阳镇梁家庄村五星支部创建项目-成交公告', 'notice_type': 2, 'products': '', 'pub_province': '河南省', 'pub_time': datetime.datetime(2023, 4, 24, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7f95a88c289afee1.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 0, 'data_id': 621996786618704998, 'item_number': '', 'money': '', 'name': '灵宝市朱阳镇人民政府朱阳镇梁家庄村五星支部创建项目-成交公告', 'notice_type': 2, 'products': '', 'pub_province': '河南省', 'pub_time': datetime.datetime(2023, 4, 24, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

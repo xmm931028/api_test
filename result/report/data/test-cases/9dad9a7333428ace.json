@@ -1,0 +1,78 @@
+{
+  "uid" : "9dad9a7333428ace",
+  "name" : "人物搜索",
+  "fullName" : "api_test.testcase.test_person.test_person.TestPerson#test_person_search",
+  "historyId" : "92c5c43f37c1a779dfc0f7e884645ecf",
+  "time" : {
+    "start" : 1683690182163,
+    "stop" : 1683690185318,
+    "duration" : 3155
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人物测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_person"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPerson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_person.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 3, 'company_member_list': [{'company_id': 6173575188618864210, 'created_at': datetime.datetime(2023, 4, 26, 12, 56, 1), 'end_time': '', 'id': 64083755, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 7262300729205387880, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-04-25', 'updated_at': datetime.datetime(2023, 4, 26, 12, 56, 1), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}], 'data_id': 7262300729205387880, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 1, 'name': '樊亚静', 'person_list': {'avatar': '', 'avatar_word': '樊', 'created_at': datetime.datetime(2022, 10, 14, 10, 45, 12), 'data_id': 8400991902461021292, 'from': '爱企查', 'id': 2128904, 'introduction': '-', 'is_delete': 0, 'is_linked': 1, 'name': '樊亚静', 'tags': '', 'updated_at': datetime.datetime(2023, 3, 19, 2, 36, 37), 'us3_introduction': 'bdAttr/336d5ebc5436534e61d16e63ddfca327.txt'}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 6020935799976391230, 'insuranceNum': 103}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eb1622a2e631cf4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683607510244,
+        "stop" : 1683607513431,
+        "duration" : 3187
+      }
+    }, {
+      "uid" : "5403d4b096580685",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683604213496,
+        "stop" : 1683604216687,
+        "duration" : 3191
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9dad9a7333428ace.json",
+  "parameterValues" : [ "{'cnt': 3, 'company_member_list': [{'company_id': 6173575188618864210, 'created_at': datetime.datetime(2023, 4, 26, 12, 56, 1), 'end_time': '', 'id': 64083755, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 7262300729205387880, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-04-25', 'updated_at': datetime.datetime(2023, 4, 26, 12, 56, 1), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}], 'data_id': 7262300729205387880, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 1, 'name': '樊亚静', 'person_list': {'avatar': '', 'avatar_word': '樊', 'created_at': datetime.datetime(2022, 10, 14, 10, 45, 12), 'data_id': 8400991902461021292, 'from': '爱企查', 'id': 2128904, 'introduction': '-', 'is_delete': 0, 'is_linked': 1, 'name': '樊亚静', 'tags': '', 'updated_at': datetime.datetime(2023, 3, 19, 2, 36, 37), 'us3_introduction': 'bdAttr/336d5ebc5436534e61d16e63ddfca327.txt'}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 6020935799976391230, 'insuranceNum': 103}, 'tags': ''}" ]
+}

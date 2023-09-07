@@ -1,0 +1,59 @@
+{
+  "total" : 5,
+  "items" : [ {
+    "uid" : "e2a264c57f9bfbc1b797987847de4a06",
+    "name" : "api_test.testcase.test_company",
+    "statistic" : {
+      "failed" : 46,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 970,
+      "unknown" : 0,
+      "total" : 1018
+    }
+  }, {
+    "uid" : "63d93270f32df3ffd5ecec85ffc04eef",
+    "name" : "api_test.testcase.test_bid_project",
+    "statistic" : {
+      "failed" : 17,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 205,
+      "unknown" : 0,
+      "total" : 222
+    }
+  }, {
+    "uid" : "495f96094137f8ba70f0a2e4cf411cd0",
+    "name" : "api_test.testcase.test_person",
+    "statistic" : {
+      "failed" : 15,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 514,
+      "unknown" : 0,
+      "total" : 529
+    }
+  }, {
+    "uid" : "4497f8b164efab39abecfcc0cd2e45ca",
+    "name" : "api_test.testcase.test_follow",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "144afb5cf60dc80c00e9594094746c5a",
+    "name" : "api_test.testcase.test_bid",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 19,
+      "unknown" : 0,
+      "total" : 19
+    }
+  } ]
+}

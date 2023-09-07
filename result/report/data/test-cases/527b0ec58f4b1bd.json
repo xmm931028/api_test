@@ -1,0 +1,78 @@
+{
+  "uid" : "527b0ec58f4b1bd",
+  "name" : "校验招投标搜索",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_search",
+  "historyId" : "9ac67f69178ded3511bd9560bdfe7335",
+  "time" : {
+    "start" : 1683688497586,
+    "stop" : 1683688498865,
+    "duration" : 1279
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2768684626368242923, 'data_id': 2506388503144472092, 'item_number': '', 'money': '804.4元', 'name': '消防救援局2022年度消防被装部门集中采购项目第一批次第6包', 'notice_type': 2, 'products': '消防员被装,消防毛毯', 'pub_province': '', 'pub_time': datetime.datetime(2022, 9, 14, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5590e57fb45fcf26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683605618516,
+        "stop" : 1683605620183,
+        "duration" : 1667
+      }
+    }, {
+      "uid" : "92d0ef75181ee0af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683602453692,
+        "stop" : 1683602455796,
+        "duration" : 2104
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "527b0ec58f4b1bd.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2768684626368242923, 'data_id': 2506388503144472092, 'item_number': '', 'money': '804.4元', 'name': '消防救援局2022年度消防被装部门集中采购项目第一批次第6包', 'notice_type': 2, 'products': '消防员被装,消防毛毯', 'pub_province': '', 'pub_time': datetime.datetime(2022, 9, 14, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

@@ -1,0 +1,60 @@
+{
+  "uid" : "d9afed65da7461e5",
+  "name" : "校验招投标详情",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_detail",
+  "historyId" : "1d23748a5d39df32f44aaee7de701b85",
+  "time" : {
+    "start" : 1683605859926,
+    "stop" : 1683605861319,
+    "duration" : 1393
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 6809967684891617815, 'data_id': 4649526984370579238, 'item_number': '', 'money': '656000.0元', 'name': '【德州市】德州市公安局交通警察支队科目二、科目三考试车辆车载设备采购项目B包（二次）中标公告', 'notice_type': 2, 'products': '车辆车载设备', 'pub_province': '山东省', 'pub_time': datetime.datetime(2020, 5, 18, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d9afed65da7461e5.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 6809967684891617815, 'data_id': 4649526984370579238, 'item_number': '', 'money': '656000.0元', 'name': '【德州市】德州市公安局交通警察支队科目二、科目三考试车辆车载设备采购项目B包（二次）中标公告', 'notice_type': 2, 'products': '车辆车载设备', 'pub_province': '山东省', 'pub_time': datetime.datetime(2020, 5, 18, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

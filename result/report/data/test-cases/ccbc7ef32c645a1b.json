@@ -1,0 +1,62 @@
+{
+  "uid" : "ccbc7ef32c645a1b",
+  "name" : "搜索有数据的企业",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_search",
+  "historyId" : "e9e9a13500b47bc1c9ed186faf82a167",
+  "time" : {
+    "start" : 1683603731602,
+    "stop" : 1683603731671,
+    "duration" : 69
+  },
+  "description" : "搜索企业,搜索结果与数据统计条数一致",
+  "descriptionHtml" : "<p>搜索企业,搜索结果与数据统计条数一致</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 5, 'company_member_list': {'company_id': 7508929917255958160, 'created_at': datetime.datetime(2023, 4, 26, 13, 18, 2), 'end_time': '', 'id': 10150387, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1981452332018424698, 'pos_weight': 0, 'position': '董事长', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 18, 2), 'useful_position': '0', 'useful_position_json': '[{\"id\": \"0\", \"name\": \"董事长\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2018-03-09', 'authority': '南山局', 'comp_num': '8', 'comp_num_link': '', 'company_id': 7508929917255958160, 'created_at': datetime.datetime(2022, 12, 19, 11, 41, 23), 'district': '广东省深圳市南山区', 'district_city': '深圳市', 'district_county': '南山区', 'district_province': '广东省', 'ent_type': '有限责任公司', 'id': 8259743, 'industry': '机动车、电子产品和日用产品修理业', 'insurance_info': '{\"insuranceNum\": \"0人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=18576227865256&year=2021\"}', 'insurance_num': 0, 'legal_person': '李震东', 'legal_person_id': 0, 'license_number': '440301117666174', 'open_status': '开业', 'open_time': '2016-10-08 至 5000-01-01', 'org_no': 'MA5DM77L-3', 'org_type': '-', 'paidin_capital': '100万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '-', 'real_capital': '-', 'reg_addr': '深圳市南山区桃源街道龙珠大道北82号益力工业园办公楼401', 'reg_capital': '100万(元)', 'reg_capital_amount': Decimal('1000000.00'), 'reg_capital_currency': '元', 'reg_code': '440301117666174', 'reg_no': '91440300MA5DM77L3W', 'scope': '一般经营项目是：足球培训；为体育场馆提供管理服务；体育用品、体育器械、文体用品、艺术器材的销售；音乐、美术、乐器、舞蹈的培训；体育赛事活动策划；文化活动策划；文化交流。，许可经营项目是：劳务派遣。', 'start_date': '2016-10-08', 'tax_no': '91440300MA5DM77L3W', 'unified_code': '91440300MA5DM77L3W', 'updated_at': datetime.datetime(2023, 4, 23, 14, 36, 59), 'url': '/m/basic?pid=xlTM-TogKuTwkHAMb62ZzR-xs5qdA7SwDQmd&entName=%E6%B7%B1%E5%9C%B3%E5%B8%82%E6%9E%9C%E8%BE%89%E6%95%99%E8%82%B2%E6%9C%8D%E5%8A%A1%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/127dbf669d9d70355c7b078f1db7c5a5.txt'}, 'compete_cnt': 0, 'data_id': 7508929917255958160, 'finances_cnt': 0, 'introduction': '深圳市果辉教育服务有限公司成立于2016年10月08日，注册地位于深圳市南山区桃源街道龙珠大道北82号益力工业园办公楼401，法定代表人为李震东。经营范围包括一般经营项目是：足球培训；为体育场馆提供管理服务；体育用品、体育器械、文体用品、艺术器材的销售；音乐、美术、乐器、舞蹈的培训；体育赛事活动策划；文化活动策划；文化交流。，许可经营项目是：劳务派遣。', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '李震东', 'name': '深圳市果辉教育服务有限公司', 'ownership_cnt': 2, 'ownership_list': {'amount': '60万(元)', 'company_id': 7508929917255958160, 'created_at': datetime.datetime(2022, 12, 19, 11, 34, 10), 'data_id': 3730096676348638134, 'data_type': 1, 'id': 10874647, 'is_delete': 0, 'ratio': '60%', 'tag': '', 'updated_at': datetime.datetime(2022, 12, 19, 11, 34, 10)}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ccbc7ef32c645a1b.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 5, 'company_member_list': {'company_id': 7508929917255958160, 'created_at': datetime.datetime(2023, 4, 26, 13, 18, 2), 'end_time': '', 'id': 10150387, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1981452332018424698, 'pos_weight': 0, 'position': '董事长', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 18, 2), 'useful_position': '0', 'useful_position_json': '[{\"id\": \"0\", \"name\": \"董事长\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2018-03-09', 'authority': '南山局', 'comp_num': '8', 'comp_num_link': '', 'company_id': 7508929917255958160, 'created_at': datetime.datetime(2022, 12, 19, 11, 41, 23), 'district': '广东省深圳市南山区', 'district_city': '深圳市', 'district_county': '南山区', 'district_province': '广东省', 'ent_type': '有限责任公司', 'id': 8259743, 'industry': '机动车、电子产品和日用产品修理业', 'insurance_info': '{\"insuranceNum\": \"0人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=18576227865256&year=2021\"}', 'insurance_num': 0, 'legal_person': '李震东', 'legal_person_id': 0, 'license_number': '440301117666174', 'open_status': '开业', 'open_time': '2016-10-08 至 5000-01-01', 'org_no': 'MA5DM77L-3', 'org_type': '-', 'paidin_capital': '100万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '-', 'real_capital': '-', 'reg_addr': '深圳市南山区桃源街道龙珠大道北82号益力工业园办公楼401', 'reg_capital': '100万(元)', 'reg_capital_amount': Decimal('1000000.00'), 'reg_capital_currency': '元', 'reg_code': '440301117666174', 'reg_no': '91440300MA5DM77L3W', 'scope': '一般经营项目是：足球培训；为体育场馆提供管理服务；体育用品、体育器械、文体用品、艺术器材的销售；音乐、美术、乐器、舞蹈的培训；体育赛事活动策划；文化活动策划；文化交流。，许可经营项目是：劳务派遣。', 'start_date': '2016-10-08', 'tax_no': '91440300MA5DM77L3W', 'unified_code': '91440300MA5DM77L3W', 'updated_at': datetime.datetime(2023, 4, 23, 14, 36, 59), 'url': '/m/basic?pid=xlTM-TogKuTwkHAMb62ZzR-xs5qdA7SwDQmd&entName=%E6%B7%B1%E5%9C%B3%E5%B8%82%E6%9E%9C%E8%BE%89%E6%95%99%E8%82%B2%E6%9C%8D%E5%8A%A1%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/127dbf669d9d70355c7b078f1db7c5a5.txt'}, 'compete_cnt': 0, 'data_id': 7508929917255958160, 'finances_cnt': 0, 'introduction': '深圳市果辉教育服务有限公司成立于2016年10月08日，注册地位于深圳市南山区桃源街道龙珠大道北82号益力工业园办公楼401，法定代表人为李震东。经营范围包括一般经营项目是：足球培训；为体育场馆提供管理服务；体育用品、体育器械、文体用品、艺术器材的销售；音乐、美术、乐器、舞蹈的培训；体育赛事活动策划；文化活动策划；文化交流。，许可经营项目是：劳务派遣。', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '李震东', 'name': '深圳市果辉教育服务有限公司', 'ownership_cnt': 2, 'ownership_list': {'amount': '60万(元)', 'company_id': 7508929917255958160, 'created_at': datetime.datetime(2022, 12, 19, 11, 34, 10), 'data_id': 3730096676348638134, 'data_type': 1, 'id': 10874647, 'is_delete': 0, 'ratio': '60%', 'tag': '', 'updated_at': datetime.datetime(2022, 12, 19, 11, 34, 10)}, 'tags': ''}" ]
+}

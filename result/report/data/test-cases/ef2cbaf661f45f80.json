@@ -1,0 +1,60 @@
+{
+  "uid" : "ef2cbaf661f45f80",
+  "name" : "校验招投标详情",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_detail",
+  "historyId" : "3f55e6872892fd2788ea1fe35636ba01",
+  "time" : {
+    "start" : 1683605871672,
+    "stop" : 1683605872966,
+    "duration" : 1294
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 1274402365678750225, 'data_id': 8689080333900524293, 'item_number': '', 'money': '597389.81元', 'name': '江西国贵文旅发展有限责任公司贵溪市白鹤湖旅游综合开发项目泛光照明采购项目（询价编号：0773-2240GNJXHWXJ0167）询价成交公告', 'notice_type': 2, 'products': '泛光照明,灯具,照明设备', 'pub_province': '江西省', 'pub_time': datetime.datetime(2022, 2, 15, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ef2cbaf661f45f80.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 1274402365678750225, 'data_id': 8689080333900524293, 'item_number': '', 'money': '597389.81元', 'name': '江西国贵文旅发展有限责任公司贵溪市白鹤湖旅游综合开发项目泛光照明采购项目（询价编号：0773-2240GNJXHWXJ0167）询价成交公告', 'notice_type': 2, 'products': '泛光照明,灯具,照明设备', 'pub_province': '江西省', 'pub_time': datetime.datetime(2022, 2, 15, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

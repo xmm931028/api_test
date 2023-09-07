@@ -1,0 +1,60 @@
+{
+  "uid" : "596f68020b7f2238",
+  "name" : "校验招投标搜索",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_search",
+  "historyId" : "415c154513c0835b0ccdaaa8a70700af",
+  "time" : {
+    "start" : 1683602589946,
+    "stop" : 1683602591562,
+    "duration" : 1616
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 7537265765044231196, 'item_number': '', 'money': '570.0', 'name': '湖南省工业技师学院（中南工业学校）关于杯子套装/情侣对杯的网上超市采购项目成交公告', 'notice_type': 2, 'products': '情侣对杯,杯子套装', 'pub_province': '湖南省', 'pub_time': datetime.datetime(2022, 11, 26, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "596f68020b7f2238.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 7537265765044231196, 'item_number': '', 'money': '570.0', 'name': '湖南省工业技师学院（中南工业学校）关于杯子套装/情侣对杯的网上超市采购项目成交公告', 'notice_type': 2, 'products': '情侣对杯,杯子套装', 'pub_province': '湖南省', 'pub_time': datetime.datetime(2022, 11, 26, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

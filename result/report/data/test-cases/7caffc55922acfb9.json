@@ -1,0 +1,78 @@
+{
+  "uid" : "7caffc55922acfb9",
+  "name" : "校验招投标搜索",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_search",
+  "historyId" : "f4b023f02881cf8021769606cbb0f417",
+  "time" : {
+    "start" : 1683688564468,
+    "stop" : 1683688565646,
+    "duration" : 1178
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 7944963428016842614, 'data_id': 4363352091253993855, 'item_number': '', 'money': '', 'name': '德州站客运视频监控补强成交候选人公示', 'notice_type': 2, 'products': '客运视频监控补强', 'pub_province': '河北省', 'pub_time': datetime.datetime(2022, 8, 29, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6f496a51c012619e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683605699816,
+        "stop" : 1683605700941,
+        "duration" : 1125
+      }
+    }, {
+      "uid" : "a92789f1b49ef050",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683602541167,
+        "stop" : 1683602542405,
+        "duration" : 1238
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7caffc55922acfb9.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 7944963428016842614, 'data_id': 4363352091253993855, 'item_number': '', 'money': '', 'name': '德州站客运视频监控补强成交候选人公示', 'notice_type': 2, 'products': '客运视频监控补强', 'pub_province': '河北省', 'pub_time': datetime.datetime(2022, 8, 29, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

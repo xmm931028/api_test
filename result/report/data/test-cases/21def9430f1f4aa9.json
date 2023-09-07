@@ -1,0 +1,78 @@
+{
+  "uid" : "21def9430f1f4aa9",
+  "name" : "校验招投标搜索",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_search",
+  "historyId" : "319f206b24941368f407d571fc2358f9",
+  "time" : {
+    "start" : 1683688550088,
+    "stop" : 1683688551176,
+    "duration" : 1088
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 2242098259326884898, 'item_number': '', 'money': '', 'name': '湖南省桂东县第一中学关于电源适配器的网上超市采购项目合同履约验收公告', 'notice_type': 2, 'products': '', 'pub_province': '湖南省', 'pub_time': datetime.datetime(2022, 3, 16, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3b461205b684e131",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683605681864,
+        "stop" : 1683605683270,
+        "duration" : 1406
+      }
+    }, {
+      "uid" : "c5939de26d205657",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683602522976,
+        "stop" : 1683602524187,
+        "duration" : 1211
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "21def9430f1f4aa9.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 2242098259326884898, 'item_number': '', 'money': '', 'name': '湖南省桂东县第一中学关于电源适配器的网上超市采购项目合同履约验收公告', 'notice_type': 2, 'products': '', 'pub_province': '湖南省', 'pub_time': datetime.datetime(2022, 3, 16, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

@@ -1,0 +1,60 @@
+{
+  "uid" : "62758de3b32101cb",
+  "name" : "orig_members接口",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_orig_members_v2",
+  "historyId" : "d0fe6f5ec76aa01fd16743cbfc7c3dae",
+  "time" : {
+    "start" : 1683603811925,
+    "stop" : 1683603812022,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 2, 'company_member_list': {'company_id': 147285844182685016, 'created_at': datetime.datetime(2023, 4, 26, 11, 39, 30), 'end_time': '', 'id': 3164485, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 4281439812365118360, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 11, 39, 30), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2022-04-07', 'authority': '苏州市相城区行政审批局', 'comp_num': '5', 'comp_num_link': '', 'company_id': 147285844182685016, 'created_at': datetime.datetime(2022, 12, 19, 12, 14, 54), 'district': '江苏省苏州市相城区', 'district_city': '苏州市', 'district_county': '相城区', 'district_province': '江苏省', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 8824173, 'industry': '商务服务业', 'insurance_info': '{\"insuranceNum\": \"1人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=17008108496959&year=2021\"}', 'insurance_num': 1, 'legal_person': '李刚', 'legal_person_id': 0, 'license_number': '320507000420716', 'open_status': '开业', 'open_time': '2018-09-10 至 无固定期限', 'org_no': 'MA1X5TY3-6', 'org_type': '-', 'paidin_capital': '21,921万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '-', 'real_capital': '-', 'reg_addr': '苏州市相城区高铁新城青龙港路66号领寓商务广场1幢18层1805室-009工位（集群登记）', 'reg_capital': '28,000万(元)', 'reg_capital_amount': Decimal('280000000.00'), 'reg_capital_currency': '元', 'reg_code': '320507000420716', 'reg_no': '91320507MA1X5TY36M', 'scope': '投资管理（不得从事信托、金融资产管理、证券资产管理等业务）；资产管理；股权投资。（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'start_date': '2018-09-10', 'tax_no': '91320507MA1X5TY36M', 'unified_code': '91320507MA1X5TY36M', 'updated_at': datetime.datetime(2023, 4, 23, 14, 48, 28), 'url': '/m/basic?pid=xlTM-TogKuTwDPZHbzxL2NrFetdPEG0gDgmd&entName=%E8%8B%8F%E5%B7%9E%E5%92%8C%E6%99%93%E6%8A%95%E8%B5%84%E7%AE%A1%E7%90%86%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/21b1dbff25164a367eeaf3d8e302ea41.txt'}, 'compete_cnt': 0, 'data_id': 147285844182685016, 'finances_cnt': 0, 'introduction': '苏州和晓投资管理有限公司成立于2018年09月10日，注册地位于苏州市相城区高铁新城青龙港路66号领寓商务广场1幢18层1805室-009工位（集群登记），法定代表人为李刚。经营范围包括投资管理（不得从事信托、金融资产管理、证券资产管理等业务）；资产管理；股权投资。（依法须经批准的项目，经相关部门批准后方可开展经营活动）苏州和晓投资管理有限公司对外投资10家公司。', 'invest_cnt': 10, 'invest_list': {'amount': '-', 'company_id': 147285844182685016, 'created_at': datetime.datetime(2022, 12, 19, 11, 13, 46), 'data_id': 577027926403614565, 'data_type': 0, 'id': 5854262, 'rate': '-', 'status': '开业', 'updated_at': datetime.datetime(2022, 12, 19, 11, 13, 46)}, 'legal_person': '李刚', 'name': '苏州和晓投资管理有限公司', 'ownership_cnt': 2, 'ownership_list': {'amount': '13,720万(元)', 'company_id': 147285844182685016, 'created_at': datetime.datetime(2022, 12, 19, 11, 38, 13), 'data_id': 4281439812365118360, 'data_type': 2, 'id': 12127199, 'is_delete': 0, 'ratio': '49%', 'tag': '', 'updated_at': datetime.datetime(2022, 12, 19, 11, 38, 13)}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "62758de3b32101cb.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 2, 'company_member_list': {'company_id': 147285844182685016, 'created_at': datetime.datetime(2023, 4, 26, 11, 39, 30), 'end_time': '', 'id': 3164485, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 4281439812365118360, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 11, 39, 30), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2022-04-07', 'authority': '苏州市相城区行政审批局', 'comp_num': '5', 'comp_num_link': '', 'company_id': 147285844182685016, 'created_at': datetime.datetime(2022, 12, 19, 12, 14, 54), 'district': '江苏省苏州市相城区', 'district_city': '苏州市', 'district_county': '相城区', 'district_province': '江苏省', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 8824173, 'industry': '商务服务业', 'insurance_info': '{\"insuranceNum\": \"1人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=17008108496959&year=2021\"}', 'insurance_num': 1, 'legal_person': '李刚', 'legal_person_id': 0, 'license_number': '320507000420716', 'open_status': '开业', 'open_time': '2018-09-10 至 无固定期限', 'org_no': 'MA1X5TY3-6', 'org_type': '-', 'paidin_capital': '21,921万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '-', 'real_capital': '-', 'reg_addr': '苏州市相城区高铁新城青龙港路66号领寓商务广场1幢18层1805室-009工位（集群登记）', 'reg_capital': '28,000万(元)', 'reg_capital_amount': Decimal('280000000.00'), 'reg_capital_currency': '元', 'reg_code': '320507000420716', 'reg_no': '91320507MA1X5TY36M', 'scope': '投资管理（不得从事信托、金融资产管理、证券资产管理等业务）；资产管理；股权投资。（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'start_date': '2018-09-10', 'tax_no': '91320507MA1X5TY36M', 'unified_code': '91320507MA1X5TY36M', 'updated_at': datetime.datetime(2023, 4, 23, 14, 48, 28), 'url': '/m/basic?pid=xlTM-TogKuTwDPZHbzxL2NrFetdPEG0gDgmd&entName=%E8%8B%8F%E5%B7%9E%E5%92%8C%E6%99%93%E6%8A%95%E8%B5%84%E7%AE%A1%E7%90%86%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/21b1dbff25164a367eeaf3d8e302ea41.txt'}, 'compete_cnt': 0, 'data_id': 147285844182685016, 'finances_cnt': 0, 'introduction': '苏州和晓投资管理有限公司成立于2018年09月10日，注册地位于苏州市相城区高铁新城青龙港路66号领寓商务广场1幢18层1805室-009工位（集群登记），法定代表人为李刚。经营范围包括投资管理（不得从事信托、金融资产管理、证券资产管理等业务）；资产管理；股权投资。（依法须经批准的项目，经相关部门批准后方可开展经营活动）苏州和晓投资管理有限公司对外投资10家公司。', 'invest_cnt': 10, 'invest_list': {'amount': '-', 'company_id': 147285844182685016, 'created_at': datetime.datetime(2022, 12, 19, 11, 13, 46), 'data_id': 577027926403614565, 'data_type': 0, 'id': 5854262, 'rate': '-', 'status': '开业', 'updated_at': datetime.datetime(2022, 12, 19, 11, 13, 46)}, 'legal_person': '李刚', 'name': '苏州和晓投资管理有限公司', 'ownership_cnt': 2, 'ownership_list': {'amount': '13,720万(元)', 'company_id': 147285844182685016, 'created_at': datetime.datetime(2022, 12, 19, 11, 38, 13), 'data_id': 4281439812365118360, 'data_type': 2, 'id': 12127199, 'is_delete': 0, 'ratio': '49%', 'tag': '', 'updated_at': datetime.datetime(2022, 12, 19, 11, 38, 13)}, 'tags': ''}" ]
+}

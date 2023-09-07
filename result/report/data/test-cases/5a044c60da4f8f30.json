@@ -1,0 +1,78 @@
+{
+  "uid" : "5a044c60da4f8f30",
+  "name" : "校验招投标搜索",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_search",
+  "historyId" : "6839887c8dbde6df080349d537234ffc",
+  "time" : {
+    "start" : 1683688563358,
+    "stop" : 1683688564456,
+    "duration" : 1098
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 7821908681730932780, 'item_number': '', 'money': '', 'name': '华夏保险内蒙古分公司呼和浩特中心支公司和林格尔支公司职场装修服务询价采购项目', 'notice_type': 1, 'products': '职场装修服务', 'pub_province': '内蒙古自治区', 'pub_time': datetime.datetime(2022, 10, 24, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "52b16c0943437442",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683605698477,
+        "stop" : 1683605699793,
+        "duration" : 1316
+      }
+    }, {
+      "uid" : "a87c775ed5c09c4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683602539760,
+        "stop" : 1683602541155,
+        "duration" : 1395
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a044c60da4f8f30.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 7821908681730932780, 'item_number': '', 'money': '', 'name': '华夏保险内蒙古分公司呼和浩特中心支公司和林格尔支公司职场装修服务询价采购项目', 'notice_type': 1, 'products': '职场装修服务', 'pub_province': '内蒙古自治区', 'pub_time': datetime.datetime(2022, 10, 24, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

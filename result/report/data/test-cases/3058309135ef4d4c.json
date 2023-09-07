@@ -1,0 +1,62 @@
+{
+  "uid" : "3058309135ef4d4c",
+  "name" : "企业基本信息与搜索保持一致",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_company_datail",
+  "historyId" : "2074f094b1d698801164f40f13d60961",
+  "time" : {
+    "start" : 1683607043024,
+    "stop" : 1683607043296,
+    "duration" : 272
+  },
+  "description" : "校验企业介绍",
+  "descriptionHtml" : "<p>校验企业介绍</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2016-08-10', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 6460813938486167552, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '宁夏回族自治区银川市贺兰县', 'district_city': '银川市', 'district_county': '贺兰县', 'district_province': '宁夏回族自治区', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 21310879, 'industry': '软件和信息技术服务业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '陈明', 'legal_person_id': 8098510403673351168, 'license_number': '640122200037786', 'open_status': '存续', 'open_time': '2016-08-10 至 无固定期限', 'org_no': 'MA75X26M8', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '贺兰县富兴北街创业东路5号中阿幸福里跨境电商产业园401室', 'reg_capital': '750万(元)', 'reg_capital_amount': Decimal('7500000.00'), 'reg_capital_currency': '元', 'reg_code': '640122200037786', 'reg_no': '91640122MA75X26M88', 'scope': '法律法规明确或国务院决定须经审批的项目，经相关部门批准后方可开展经营活动；无须审批的，企业自主选择经营项目开展经营活动。***(依法须经批准的项目，经相关部门批准后方可开展经营活动)', 'start_date': '2016-08-10', 'tax_no': '91640122MA75X26M88', 'unified_code': '91640122MA75X26M88', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/300b91e4c7ddc968c1187b0c31260719.txt'}, 'compete_cnt': 0, 'data_id': 6460813938486167552, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '陈明', 'name': '宁夏居安保险代理销售有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3058309135ef4d4c.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2016-08-10', 'authority': '', 'comp_num': '', 'comp_num_link': ' ', 'company_id': 6460813938486167552, 'created_at': datetime.datetime(2023, 5, 4, 0, 0), 'district': '宁夏回族自治区银川市贺兰县', 'district_city': '银川市', 'district_county': '贺兰县', 'district_province': '宁夏回族自治区', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 21310879, 'industry': '软件和信息技术服务业', 'insurance_info': '{\"insuraceNum\": \"0\"}', 'insurance_num': 0, 'legal_person': '陈明', 'legal_person_id': 8098510403673351168, 'license_number': '640122200037786', 'open_status': '存续', 'open_time': '2016-08-10 至 无固定期限', 'org_no': 'MA75X26M8', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '', 'prev_ent_name': '', 'qualification': '', 'real_capital': ' ', 'reg_addr': '贺兰县富兴北街创业东路5号中阿幸福里跨境电商产业园401室', 'reg_capital': '750万(元)', 'reg_capital_amount': Decimal('7500000.00'), 'reg_capital_currency': '元', 'reg_code': '640122200037786', 'reg_no': '91640122MA75X26M88', 'scope': '法律法规明确或国务院决定须经审批的项目，经相关部门批准后方可开展经营活动；无须审批的，企业自主选择经营项目开展经营活动。***(依法须经批准的项目，经相关部门批准后方可开展经营活动)', 'start_date': '2016-08-10', 'tax_no': '91640122MA75X26M88', 'unified_code': '91640122MA75X26M88', 'updated_at': datetime.datetime(2023, 5, 4, 0, 0), 'url': ' ', 'us3_scope': 'bdAttr/300b91e4c7ddc968c1187b0c31260719.txt'}, 'compete_cnt': 0, 'data_id': 6460813938486167552, 'finances_cnt': 0, 'introduction': '', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '陈明', 'name': '宁夏居安保险代理销售有限公司', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+}

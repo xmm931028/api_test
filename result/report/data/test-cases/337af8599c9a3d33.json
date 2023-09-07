@@ -1,0 +1,78 @@
+{
+  "uid" : "337af8599c9a3d33",
+  "name" : "校验招投标详情",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_detail",
+  "historyId" : "1798c7d76a220cff8c7806443be266fd",
+  "time" : {
+    "start" : 1683688614143,
+    "stop" : 1683688615300,
+    "duration" : 1157
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 7707724639183041752, 'data_id': 3346086008288623477, 'item_number': '', 'money': '', 'name': '威海市卫生健康委员会中心村卫生室设备配备公开招标采购公告( 第  2 轮  )', 'notice_type': 1, 'products': '', 'pub_province': '', 'pub_time': datetime.datetime(2022, 11, 11, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5ea820da57c9c352",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683605758555,
+        "stop" : 1683605760126,
+        "duration" : 1571
+      }
+    }, {
+      "uid" : "b9cf2759067b646b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683602604257,
+        "stop" : 1683602605659,
+        "duration" : 1402
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "337af8599c9a3d33.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 7707724639183041752, 'data_id': 3346086008288623477, 'item_number': '', 'money': '', 'name': '威海市卫生健康委员会中心村卫生室设备配备公开招标采购公告( 第  2 轮  )', 'notice_type': 1, 'products': '', 'pub_province': '', 'pub_time': datetime.datetime(2022, 11, 11, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

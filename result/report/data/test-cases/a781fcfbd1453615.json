@@ -1,0 +1,60 @@
+{
+  "uid" : "a781fcfbd1453615",
+  "name" : "对外投资",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_invest",
+  "historyId" : "b74ed7fe62414a3c3f8643008fefc719",
+  "time" : {
+    "start" : 1683603855716,
+    "stop" : 1683603855780,
+    "duration" : 64
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': [{'company_compete_id': 4348552951737629277, 'company_id': 3945207423348835860, 'created_at': datetime.datetime(2023, 3, 17, 10, 14, 45), 'id': 4029613, 'is_delete': 0, 'updated_at': datetime.datetime(2023, 3, 17, 10, 14, 45), 'weight': 0}, {'company_compete_id': 5405916170899633646, 'company_id': 3945207423348835860, 'created_at': datetime.datetime(2023, 3, 17, 10, 14, 45), 'id': 4029612, 'is_delete': 0, 'updated_at': datetime.datetime(2023, 3, 17, 10, 14, 45), 'weight': 0}, {'company_compete_id': 6903060494225240006, 'company_id': 3945207423348835860, 'created_at': datetime.datetime(2023, 3, 17, 10, 14, 45), 'id': 4029609, 'is_delete': 0, 'updated_at': datetime.datetime(2023, 3, 17, 10, 14, 45), 'weight': 0}], 'company_finances_info': {'amount': '10000万元', 'company_id': 3945207423348835860, 'created_at': datetime.datetime(2022, 11, 10, 16, 26, 30), 'estimation': '', 'finances_time': '2019-10-18', 'id': 93884, 'invest': '[2614986850815425433, 1206136213303802233]', 'news_source': '链豆资本等机构战略投资深圳星猿区块链旗下平台一亿人民币', 'news_source_url': 'https://www.jinse.com/lives/125362.htm', 'stage': '战略投资', 'updated_at': datetime.datetime(2023, 4, 3, 14, 21, 35)}, 'company_info_analysis': (), 'company_member_cnt': 3, 'company_member_list': {'company_id': 3945207423348835860, 'created_at': datetime.datetime(2023, 4, 26, 12, 20, 26), 'end_time': '', 'id': 1771758, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 2350478561649519909, 'pos_weight': 7, 'position': 'ceo,总经理,执行董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 1, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 20, 26), 'useful_position': '4,19,26', 'useful_position_json': '[{\"id\": \"4\", \"name\": \"CEO\"}, {\"id\": \"19\", \"name\": \"执行董事\"}, {\"id\": \"26\", \"name\": \"总经理\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2019-10-14', 'authority': '南山局', 'comp_num': '2', 'comp_num_link': '', 'company_id': 3945207423348835860, 'created_at': datetime.datetime(2022, 10, 14, 10, 39, 45), 'district': '广东省深圳市南山区', 'district_city': '深圳市', 'district_county': '南山区', 'district_province': '广东省', 'ent_type': '有限责任公司', 'id': 271702, 'industry': '软件和信息技术服务业', 'insurance_info': '{\"insuranceNum\": \"0人\", \"year\": \"2020\", \"reportUrl\": \"/pages/annual/index?pid=26690395535481&year=2020\"}', 'insurance_num': 0, 'legal_person': '杜宁', 'legal_person_id': 0, 'license_number': '440300208289316', 'open_status': '开业', 'open_time': '2019-10-14 至 无固定期限', 'org_no': 'MA5FUQ1B-0', 'org_type': '-', 'paidin_capital': '-', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '-', 'real_capital': '-', 'reg_addr': '深圳市南山区沙河街道白石洲西社区石洲中路55号国际市长交流中心1809', 'reg_capital': '5,000万(元)', 'reg_capital_amount': Decimal('50000000.00'), 'reg_capital_currency': '元', 'reg_code': '440300208289316', 'reg_no': '91440300MA5FUQ1B0N', 'scope': '一般经营项目是：区块链技术、计算机软硬件技术、网络信息技术、数据库技术、加密算法技术、云计算技术、大数据技术、供应链与物联网技术、人工智能技术、机器人技术的技术开发、技术咨询服务、技术转让；计算机软件系统集成；计算机网络系统的设计；计算机系统的技术开发与销售； 电子设备、电子产品、通讯设备、计算机硬件及其辅助设备的销售；经营电子商务；国内贸易；经营进出口业务。，许可经营项目是：', 'start_date': '2019-10-14', 'tax_no': '-', 'unified_code': '91440300MA5FUQ1B0N', 'updated_at': datetime.datetime(2023, 4, 23, 14, 16, 54), 'url': '/m/basic?pid=xlTM-TogKuTwNoXQpx3-uSMQHqtUrB7tPAmd&entName=%E6%B7%B1%E5%9C%B3%E6%98%9F%E7%8C%BF%E5%8C%BA%E5%9D%97%E9%93%BE%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/4ef313496e00945c70198642656a3aa6.txt'}, 'compete_cnt': 3, 'data_id': 3945207423348835860, 'finances_cnt': 1, 'introduction': '深圳星猿区块链技术有限公司成立于2019年10月14日，注册地位于深圳市南山区沙河街道白石洲西社区石洲中路55号国际市长交流中心1809，法定代表人为杜宁。经营范围包括一般经营项目是：区块链技术、计算机软硬件技术、网络信息技术、数据库技术、加密算法技术、云计算技术、大数据技术、供应链与物联网技术、人工智能技术、机器人技术的技术开发、技术咨询服务、技术转让；计算机软件系统集成；计算机网络系统的设计；计算机系统的技术开发与销售； 电子设备、电子产品、通讯设备、计算机硬件及其辅助设备的销售；经营电子商务；国内贸易；经营进出口业务。，许可经营项目是：深圳星猿区块链技术有限公司对外投资1家公司。', 'invest_cnt': 1, 'invest_list': {'amount': '5,000万(元)', 'company_id': 3945207423348835860, 'created_at': datetime.datetime(2022, 10, 14, 10, 23, 26), 'data_id': 2266823681043089216, 'data_type': 1, 'id': 284360, 'rate': '100%', 'status': '注销', 'updated_at': datetime.datetime(2022, 10, 14, 10, 23, 26)}, 'legal_person': '杜宁', 'name': '深圳星猿区块链技术有限公司', 'ownership_cnt': 3, 'ownership_list': {'amount': '500万(元)', 'company_id': 3945207423348835860, 'created_at': datetime.datetime(2022, 10, 14, 10, 35, 29), 'data_id': 302556631840187286, 'data_type': 2, 'id': 316487, 'is_delete': 0, 'ratio': '10%', 'tag': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 35, 29)}, 'tags': '区块链,电子商务,互联网电商,区块链应用,区块链电商,产业互联网,购物,B2C'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a781fcfbd1453615.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': [{'company_compete_id': 4348552951737629277, 'company_id': 3945207423348835860, 'created_at': datetime.datetime(2023, 3, 17, 10, 14, 45), 'id': 4029613, 'is_delete': 0, 'updated_at': datetime.datetime(2023, 3, 17, 10, 14, 45), 'weight': 0}, {'company_compete_id': 5405916170899633646, 'company_id': 3945207423348835860, 'created_at': datetime.datetime(2023, 3, 17, 10, 14, 45), 'id': 4029612, 'is_delete': 0, 'updated_at': datetime.datetime(2023, 3, 17, 10, 14, 45), 'weight': 0}, {'company_compete_id': 6903060494225240006, 'company_id': 3945207423348835860, 'created_at': datetime.datetime(2023, 3, 17, 10, 14, 45), 'id': 4029609, 'is_delete': 0, 'updated_at': datetime.datetime(2023, 3, 17, 10, 14, 45), 'weight': 0}], 'company_finances_info': {'amount': '10000万元', 'company_id': 3945207423348835860, 'created_at': datetime.datetime(2022, 11, 10, 16, 26, 30), 'estimation': '', 'finances_time': '2019-10-18', 'id': 93884, 'invest': '[2614986850815425433, 1206136213303802233]', 'news_source': '链豆资本等机构战略投资深圳星猿区块链旗下平台一亿人民币', 'news_source_url': 'https://www.jinse.com/lives/125362.htm', 'stage': '战略投资', 'updated_at': datetime.datetime(2023, 4, 3, 14, 21, 35)}, 'company_info_analysis': (), 'company_member_cnt': 3, 'company_member_list': {'company_id': 3945207423348835860, 'created_at': datetime.datetime(2023, 4, 26, 12, 20, 26), 'end_time': '', 'id': 1771758, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 2350478561649519909, 'pos_weight': 7, 'position': 'ceo,总经理,执行董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 1, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 20, 26), 'useful_position': '4,19,26', 'useful_position_json': '[{\"id\": \"4\", \"name\": \"CEO\"}, {\"id\": \"19\", \"name\": \"执行董事\"}, {\"id\": \"26\", \"name\": \"总经理\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2019-10-14', 'authority': '南山局', 'comp_num': '2', 'comp_num_link': '', 'company_id': 3945207423348835860, 'created_at': datetime.datetime(2022, 10, 14, 10, 39, 45), 'district': '广东省深圳市南山区', 'district_city': '深圳市', 'district_county': '南山区', 'district_province': '广东省', 'ent_type': '有限责任公司', 'id': 271702, 'industry': '软件和信息技术服务业', 'insurance_info': '{\"insuranceNum\": \"0人\", \"year\": \"2020\", \"reportUrl\": \"/pages/annual/index?pid=26690395535481&year=2020\"}', 'insurance_num': 0, 'legal_person': '杜宁', 'legal_person_id': 0, 'license_number': '440300208289316', 'open_status': '开业', 'open_time': '2019-10-14 至 无固定期限', 'org_no': 'MA5FUQ1B-0', 'org_type': '-', 'paidin_capital': '-', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '-', 'real_capital': '-', 'reg_addr': '深圳市南山区沙河街道白石洲西社区石洲中路55号国际市长交流中心1809', 'reg_capital': '5,000万(元)', 'reg_capital_amount': Decimal('50000000.00'), 'reg_capital_currency': '元', 'reg_code': '440300208289316', 'reg_no': '91440300MA5FUQ1B0N', 'scope': '一般经营项目是：区块链技术、计算机软硬件技术、网络信息技术、数据库技术、加密算法技术、云计算技术、大数据技术、供应链与物联网技术、人工智能技术、机器人技术的技术开发、技术咨询服务、技术转让；计算机软件系统集成；计算机网络系统的设计；计算机系统的技术开发与销售； 电子设备、电子产品、通讯设备、计算机硬件及其辅助设备的销售；经营电子商务；国内贸易；经营进出口业务。，许可经营项目是：', 'start_date': '2019-10-14', 'tax_no': '-', 'unified_code': '91440300MA5FUQ1B0N', 'updated_at': datetime.datetime(2023, 4, 23, 14, 16, 54), 'url': '/m/basic?pid=xlTM-TogKuTwNoXQpx3-uSMQHqtUrB7tPAmd&entName=%E6%B7%B1%E5%9C%B3%E6%98%9F%E7%8C%BF%E5%8C%BA%E5%9D%97%E9%93%BE%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/4ef313496e00945c70198642656a3aa6.txt'}, 'compete_cnt': 3, 'data_id': 3945207423348835860, 'finances_cnt': 1, 'introduction': '深圳星猿区块链技术有限公司成立于2019年10月14日，注册地位于深圳市南山区沙河街道白石洲西社区石洲中路55号国际市长交流中心1809，法定代表人为杜宁。经营范围包括一般经营项目是：区块链技术、计算机软硬件技术、网络信息技术、数据库技术、加密算法技术、云计算技术、大数据技术、供应链与物联网技术、人工智能技术、机器人技术的技术开发、技术咨询服务、技术转让；计算机软件系统集成；计算机网络系统的设计；计算机系统的技术开发与销售； 电子设备、电子产品、通讯设备、计算机硬件及其辅助设备的销售；经营电子商务；国内贸易；经营进出口业务。，许可经营项目是：深圳星猿区块链技术有限公司对外投资1家公司。', 'invest_cnt': 1, 'invest_list': {'amount': '5,000万(元)', 'company_id': 3945207423348835860, 'created_at': datetime.datetime(2022, 10, 14, 10, 23, 26), 'data_id': 2266823681043089216, 'data_type': 1, 'id': 284360, 'rate': '100%', 'status': '注销', 'updated_at': datetime.datetime(2022, 10, 14, 10, 23, 26)}, 'legal_person': '杜宁', 'name': '深圳星猿区块链技术有限公司', 'ownership_cnt': 3, 'ownership_list': {'amount': '500万(元)', 'company_id': 3945207423348835860, 'created_at': datetime.datetime(2022, 10, 14, 10, 35, 29), 'data_id': 302556631840187286, 'data_type': 2, 'id': 316487, 'is_delete': 0, 'ratio': '10%', 'tag': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 35, 29)}, 'tags': '区块链,电子商务,互联网电商,区块链应用,区块链电商,产业互联网,购物,B2C'}" ]
+}

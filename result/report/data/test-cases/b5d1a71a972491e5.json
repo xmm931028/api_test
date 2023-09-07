@@ -1,0 +1,60 @@
+{
+  "uid" : "b5d1a71a972491e5",
+  "name" : "跟踪人物",
+  "fullName" : "api_test.testcase.test_follow.test_follow.TestFollow#test_person_follow",
+  "historyId" : "a7f3e6d3ea28452af5c379292c149a77",
+  "time" : {
+    "start" : 1683603856926,
+    "stop" : 1683603856983,
+    "duration" : 57
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "跟踪人物和企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_follow"
+  }, {
+    "name" : "suite",
+    "value" : "test_follow"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFollow"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_follow.test_follow"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'title': '跟踪人物', 'item_id': '619362364259188248', 'item_ids': ['619362364259188248'], 'except': 'success', 'company_name': '优刻得科技股份有限公司', 'name': '华琨', 'position': 'COO,董事', 'logo_word': '华', 'sql': \"select count(*) count from person_news where person_id ='619362364259188248'\"}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b5d1a71a972491e5.json",
+  "parameterValues" : [ "{'title': '跟踪人物', 'item_id': '619362364259188248', 'item_ids': ['619362364259188248'], 'except': 'success', 'company_name': '优刻得科技股份有限公司', 'name': '华琨', 'position': 'COO,董事', 'logo_word': '华', 'sql': \"select count(*) count from person_news where person_id ='619362364259188248'\"}" ]
+}

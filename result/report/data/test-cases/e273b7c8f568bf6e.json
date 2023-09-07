@@ -1,0 +1,60 @@
+{
+  "uid" : "e273b7c8f568bf6e",
+  "name" : "组织成员",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_company_member",
+  "historyId" : "0607a8347eb799c7ad98b1136ac02942",
+  "time" : {
+    "start" : 1683603840987,
+    "stop" : 1683603841429,
+    "duration" : 442
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 3, 'company_member_list': {'company_id': 7384208902383753475, 'created_at': datetime.datetime(2023, 5, 6, 15, 27, 55), 'end_time': '', 'id': 67920005, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1367514060904657975, 'pos_weight': 24, 'position': '执行董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-05-06', 'updated_at': datetime.datetime(2023, 5, 8, 18, 30, 44), 'useful_position': '19', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"执行董事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2012-05-09', 'authority': '张家界市工商行政管理局', 'comp_num': '1', 'comp_num_link': '', 'company_id': 7384208902383753475, 'created_at': datetime.datetime(2023, 5, 6, 14, 45), 'district': '湖南省张家界市', 'district_city': '张家界市', 'district_county': '', 'district_province': '湖南省', 'ent_type': '有限责任公司(自然人投资或控股的法人独资)', 'id': 20797971, 'industry': '住宿业', 'insurance_info': '{\"insuranceNum\":\"-\"}', 'insurance_num': 0, 'legal_person': '李琳洁', 'legal_person_id': 1367514060904657975, 'license_number': '430800000023365', 'open_status': '注销', 'open_time': '2012-05-09 至 2032-05-08', 'org_no': '59547029-7', 'org_type': '', 'paidin_capital': '30万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '', 'qualification': '', 'real_capital': '', 'reg_addr': '张家界市永定区子午东路土门岗117号', 'reg_capital': '30万(元)', 'reg_capital_amount': Decimal('300000.00'), 'reg_capital_currency': '元', 'reg_code': '430800000023365', 'reg_no': '914308005954702979', 'scope': '住宿、洗浴服务（《特种行业许可证》有效期至2015年4月11日、《卫生许可证》有效期至2015年9月28日）；日用百货零售。', 'start_date': '2012-05-09', 'tax_no': '', 'unified_code': '914308005954702979', 'updated_at': datetime.datetime(2023, 5, 6, 14, 45), 'url': '/m/basic?pid=xlTM-TogKuTwARN1pUnZkqg6sPMcLwfUDQmd&entName=%E5%BC%A0%E5%AE%B6%E7%95%8C%E5%A5%BD%E5%9C%B0%E5%A4%A7%E9%85%92%E5%BA%97%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/9b8078fed4f1031bbfd8d788ca8305bd.txt'}, 'compete_cnt': 0, 'data_id': 7384208902383753475, 'finances_cnt': 0, 'introduction': '-', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '李琳洁', 'name': '张家界好地大酒店有限公司', 'ownership_cnt': 1, 'ownership_list': {'amount': '30万(元)', 'company_id': 7384208902383753475, 'created_at': datetime.datetime(2023, 5, 6, 15, 31, 17), 'data_id': 1653135445181493907, 'data_type': 1, 'id': 15608588, 'is_delete': 0, 'ratio': '100%', 'tag': '', 'updated_at': datetime.datetime(2023, 5, 6, 15, 31, 17)}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e273b7c8f568bf6e.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 3, 'company_member_list': {'company_id': 7384208902383753475, 'created_at': datetime.datetime(2023, 5, 6, 15, 27, 55), 'end_time': '', 'id': 67920005, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1367514060904657975, 'pos_weight': 24, 'position': '执行董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-05-06', 'updated_at': datetime.datetime(2023, 5, 8, 18, 30, 44), 'useful_position': '19', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"执行董事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2012-05-09', 'authority': '张家界市工商行政管理局', 'comp_num': '1', 'comp_num_link': '', 'company_id': 7384208902383753475, 'created_at': datetime.datetime(2023, 5, 6, 14, 45), 'district': '湖南省张家界市', 'district_city': '张家界市', 'district_county': '', 'district_province': '湖南省', 'ent_type': '有限责任公司(自然人投资或控股的法人独资)', 'id': 20797971, 'industry': '住宿业', 'insurance_info': '{\"insuranceNum\":\"-\"}', 'insurance_num': 0, 'legal_person': '李琳洁', 'legal_person_id': 1367514060904657975, 'license_number': '430800000023365', 'open_status': '注销', 'open_time': '2012-05-09 至 2032-05-08', 'org_no': '59547029-7', 'org_type': '', 'paidin_capital': '30万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '', 'qualification': '', 'real_capital': '', 'reg_addr': '张家界市永定区子午东路土门岗117号', 'reg_capital': '30万(元)', 'reg_capital_amount': Decimal('300000.00'), 'reg_capital_currency': '元', 'reg_code': '430800000023365', 'reg_no': '914308005954702979', 'scope': '住宿、洗浴服务（《特种行业许可证》有效期至2015年4月11日、《卫生许可证》有效期至2015年9月28日）；日用百货零售。', 'start_date': '2012-05-09', 'tax_no': '', 'unified_code': '914308005954702979', 'updated_at': datetime.datetime(2023, 5, 6, 14, 45), 'url': '/m/basic?pid=xlTM-TogKuTwARN1pUnZkqg6sPMcLwfUDQmd&entName=%E5%BC%A0%E5%AE%B6%E7%95%8C%E5%A5%BD%E5%9C%B0%E5%A4%A7%E9%85%92%E5%BA%97%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/9b8078fed4f1031bbfd8d788ca8305bd.txt'}, 'compete_cnt': 0, 'data_id': 7384208902383753475, 'finances_cnt': 0, 'introduction': '-', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '李琳洁', 'name': '张家界好地大酒店有限公司', 'ownership_cnt': 1, 'ownership_list': {'amount': '30万(元)', 'company_id': 7384208902383753475, 'created_at': datetime.datetime(2023, 5, 6, 15, 31, 17), 'data_id': 1653135445181493907, 'data_type': 1, 'id': 15608588, 'is_delete': 0, 'ratio': '100%', 'tag': '', 'updated_at': datetime.datetime(2023, 5, 6, 15, 31, 17)}, 'tags': ''}" ]
+}

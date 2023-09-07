@@ -1,0 +1,78 @@
+{
+  "uid" : "22c5e36b0e9018b4",
+  "name" : "获取人物新闻",
+  "fullName" : "api_test.testcase.test_person.test_person.TestPerson#test_person_news",
+  "historyId" : "9b571ed9099981ef0c0cceb3b4c3f772",
+  "time" : {
+    "start" : 1683690389768,
+    "stop" : 1683690389816,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人物测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_person"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPerson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_person.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_member_list': [{'company_id': 6464043635816442038, 'created_at': datetime.datetime(2023, 4, 26, 13, 0, 45), 'end_time': '', 'id': 1632431, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1961724402230467839, 'pos_weight': 24, 'position': '董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 0, 45), 'useful_position': '19', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"董事\"}]'}, {'company_id': 42084623052934110, 'created_at': datetime.datetime(2023, 4, 26, 12, 25, 20), 'end_time': '', 'id': 62939300, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1961724402230467839, 'pos_weight': 24, 'position': '总经理,董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 1, 'start_time': '2023-04-16', 'updated_at': datetime.datetime(2023, 4, 26, 12, 25, 20), 'useful_position': '19,26', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"董事\"}, {\"id\": \"26\", \"name\": \"总经理\"}]'}, {'company_id': 7708691646602844973, 'created_at': datetime.datetime(2023, 4, 26, 13, 21, 16), 'end_time': '', 'id': 64405172, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1961724402230467839, 'pos_weight': 24, 'position': '董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-04-26', 'updated_at': datetime.datetime(2023, 4, 26, 13, 21, 16), 'useful_position': '19', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"董事\"}]'}], 'data_id': 1961724402230467839, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 3, 'name': '史晓贤', 'person_list': {'avatar': '', 'avatar_word': '史', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 33), 'data_id': 1961724402230467839, 'from': '爱企查', 'id': 172756, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '史晓贤', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 43, 33), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 7708691646602844973, 'insuranceNum': 196}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7e6b3cadc1cc659e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683607718697,
+        "stop" : 1683607718745,
+        "duration" : 48
+      }
+    }, {
+      "uid" : "20e8e4868e54f868",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683604426810,
+        "stop" : 1683604426859,
+        "duration" : 49
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "22c5e36b0e9018b4.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_member_list': [{'company_id': 6464043635816442038, 'created_at': datetime.datetime(2023, 4, 26, 13, 0, 45), 'end_time': '', 'id': 1632431, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1961724402230467839, 'pos_weight': 24, 'position': '董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 13, 0, 45), 'useful_position': '19', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"董事\"}]'}, {'company_id': 42084623052934110, 'created_at': datetime.datetime(2023, 4, 26, 12, 25, 20), 'end_time': '', 'id': 62939300, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1961724402230467839, 'pos_weight': 24, 'position': '总经理,董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 1, 'start_time': '2023-04-16', 'updated_at': datetime.datetime(2023, 4, 26, 12, 25, 20), 'useful_position': '19,26', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"董事\"}, {\"id\": \"26\", \"name\": \"总经理\"}]'}, {'company_id': 7708691646602844973, 'created_at': datetime.datetime(2023, 4, 26, 13, 21, 16), 'end_time': '', 'id': 64405172, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 1961724402230467839, 'pos_weight': 24, 'position': '董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-04-26', 'updated_at': datetime.datetime(2023, 4, 26, 13, 21, 16), 'useful_position': '19', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"董事\"}]'}], 'data_id': 1961724402230467839, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 3, 'name': '史晓贤', 'person_list': {'avatar': '', 'avatar_word': '史', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 33), 'data_id': 1961724402230467839, 'from': '爱企查', 'id': 172756, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '史晓贤', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 43, 33), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 7708691646602844973, 'insuranceNum': 196}, 'tags': ''}" ]
+}

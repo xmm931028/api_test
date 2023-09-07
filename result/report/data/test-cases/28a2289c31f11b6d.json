@@ -1,0 +1,78 @@
+{
+  "uid" : "28a2289c31f11b6d",
+  "name" : "获取人物工作经历",
+  "fullName" : "api_test.testcase.test_person.test_person.TestPerson#test_person_work_experience",
+  "historyId" : "2b50aba3f736ee29615fab7f4d356be5",
+  "time" : {
+    "start" : 1683690336451,
+    "stop" : 1683690337514,
+    "duration" : 1063
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人物测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_person"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPerson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_person.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 110, 'company_member_list': [{'company_id': 1391116726478492065, 'created_at': datetime.datetime(2023, 4, 26, 11, 37, 3), 'end_time': '', 'id': 4401906, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 6009104777909903237, 'pos_weight': 40, 'position': '经理', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 0, 'position_label_six': 1, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 11, 37, 3), 'useful_position': '30', 'useful_position_json': '[{\"id\": \"30\", \"name\": \"经理\"}]'}, {'company_id': 2682001579640645984, 'created_at': datetime.datetime(2023, 4, 26, 11, 59, 39), 'end_time': '', 'id': 4804031, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 6009104777909903237, 'pos_weight': 24, 'position': '董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 11, 59, 39), 'useful_position': '19', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"董事\"}]'}, {'company_id': 3313633625700781235, 'created_at': datetime.datetime(2023, 4, 26, 12, 10, 50), 'end_time': '', 'id': 4804035, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 6009104777909903237, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 10, 50), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}], 'data_id': 6009104777909903237, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 3, 'name': '高梦', 'person_list': {'avatar': '', 'avatar_word': '高', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 28), 'data_id': 4081269363430920018, 'from': '爱企查', 'id': 72497, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '高梦军', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 43, 28), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 4209235579852400608, 'insuranceNum': 424}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3c9c77f48ae8b73a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683607666479,
+        "stop" : 1683607666872,
+        "duration" : 393
+      }
+    }, {
+      "uid" : "35315cb867d6d40d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683604369828,
+        "stop" : 1683604370216,
+        "duration" : 388
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "28a2289c31f11b6d.json",
+  "parameterValues" : [ "{'cnt': 110, 'company_member_list': [{'company_id': 1391116726478492065, 'created_at': datetime.datetime(2023, 4, 26, 11, 37, 3), 'end_time': '', 'id': 4401906, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 6009104777909903237, 'pos_weight': 40, 'position': '经理', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 0, 'position_label_six': 1, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 11, 37, 3), 'useful_position': '30', 'useful_position_json': '[{\"id\": \"30\", \"name\": \"经理\"}]'}, {'company_id': 2682001579640645984, 'created_at': datetime.datetime(2023, 4, 26, 11, 59, 39), 'end_time': '', 'id': 4804031, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 6009104777909903237, 'pos_weight': 24, 'position': '董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 11, 59, 39), 'useful_position': '19', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"董事\"}]'}, {'company_id': 3313633625700781235, 'created_at': datetime.datetime(2023, 4, 26, 12, 10, 50), 'end_time': '', 'id': 4804035, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 6009104777909903237, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 10, 50), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}], 'data_id': 6009104777909903237, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 1, 'member_cnt': 3, 'name': '高梦', 'person_list': {'avatar': '', 'avatar_word': '高', 'created_at': datetime.datetime(2022, 10, 14, 10, 43, 28), 'data_id': 4081269363430920018, 'from': '爱企查', 'id': 72497, 'introduction': '', 'is_delete': 0, 'is_linked': 1, 'name': '高梦军', 'tags': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 43, 28), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 4209235579852400608, 'insuranceNum': 424}, 'tags': ''}" ]
+}

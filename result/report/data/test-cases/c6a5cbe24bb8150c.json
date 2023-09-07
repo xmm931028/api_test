@@ -1,0 +1,60 @@
+{
+  "uid" : "c6a5cbe24bb8150c",
+  "name" : "校验招投标搜索",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_search",
+  "historyId" : "bce096dae14ab71e83470ff0fd3abc22",
+  "time" : {
+    "start" : 1683602503820,
+    "stop" : 1683602505034,
+    "duration" : 1214
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 0, 'data_id': 5549140992576760074, 'item_number': '', 'money': '', 'name': '邯郸市气象局货物项目DD23041711502920_fBzSWy', 'notice_type': 2, 'products': '货物项目', 'pub_province': '河北省', 'pub_time': datetime.datetime(2023, 4, 17, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c6a5cbe24bb8150c.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 0, 'data_id': 5549140992576760074, 'item_number': '', 'money': '', 'name': '邯郸市气象局货物项目DD23041711502920_fBzSWy', 'notice_type': 2, 'products': '货物项目', 'pub_province': '河北省', 'pub_time': datetime.datetime(2023, 4, 17, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

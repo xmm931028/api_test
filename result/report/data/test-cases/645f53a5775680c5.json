@@ -1,0 +1,78 @@
+{
+  "uid" : "645f53a5775680c5",
+  "name" : "人物详情页-基本信息",
+  "fullName" : "api_test.testcase.test_person.test_person.TestPerson#test_person_detail",
+  "historyId" : "aff4dad029d178e0c2adb3f20a6a7465",
+  "time" : {
+    "start" : 1683690333298,
+    "stop" : 1683690333348,
+    "duration" : 50
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "人物测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_person"
+  }, {
+    "name" : "suite",
+    "value" : "test_person"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPerson"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_person.test_person"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 2, 'company_member_list': (), 'data_id': 4710361590339143541, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 0, 'member_cnt': 0, 'name': '包建义', 'person_list': {'avatar': '', 'avatar_word': '包', 'created_at': datetime.datetime(2022, 11, 24, 15, 45, 28), 'data_id': 4710361590339143541, 'from': '爱企查', 'id': 8000647, 'introduction': '', 'is_delete': 0, 'is_linked': 0, 'name': '包建义', 'tags': '', 'updated_at': datetime.datetime(2023, 3, 23, 10, 21, 53), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 4565806661498384622, 'insuranceNum': 0}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bf3806f9f18a443d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683607663168,
+        "stop" : 1683607663232,
+        "duration" : 64
+      }
+    }, {
+      "uid" : "60bd319a9d568ef8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683604366275,
+        "stop" : 1683604366325,
+        "duration" : 50
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "645f53a5775680c5.json",
+  "parameterValues" : [ "{'cnt': 2, 'company_member_list': (), 'data_id': 4710361590339143541, 'edu_cnt': 0, 'edu_list': (), 'introduction': '', 'is_linked': 0, 'member_cnt': 0, 'name': '包建义', 'person_list': {'avatar': '', 'avatar_word': '包', 'created_at': datetime.datetime(2022, 11, 24, 15, 45, 28), 'data_id': 4710361590339143541, 'from': '爱企查', 'id': 8000647, 'introduction': '', 'is_delete': 0, 'is_linked': 0, 'name': '包建义', 'tags': '', 'updated_at': datetime.datetime(2023, 3, 23, 10, 21, 53), 'us3_introduction': ''}, 'person_news_cnt': 0, 'result_num_order': {'company_id': 4565806661498384622, 'insuranceNum': 0}, 'tags': ''}" ]
+}

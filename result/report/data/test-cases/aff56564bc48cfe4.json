@@ -1,0 +1,60 @@
+{
+  "uid" : "aff56564bc48cfe4",
+  "name" : "校验招投标搜索",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_search",
+  "historyId" : "c0034f1e338639b3c6b5b07fbb738fca",
+  "time" : {
+    "start" : 1683605634211,
+    "stop" : 1683605635882,
+    "duration" : 1671
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 0, 'data_id': 7491999406779904217, 'item_number': '', 'money': '', 'name': '长春市九台区2022年农村道路畅通工程（2023年续建）', 'notice_type': 1, 'products': '', 'pub_province': '吉林省', 'pub_time': datetime.datetime(2023, 4, 19, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aff56564bc48cfe4.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 0, 'data_id': 7491999406779904217, 'item_number': '', 'money': '', 'name': '长春市九台区2022年农村道路畅通工程（2023年续建）', 'notice_type': 1, 'products': '', 'pub_province': '吉林省', 'pub_time': datetime.datetime(2023, 4, 19, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

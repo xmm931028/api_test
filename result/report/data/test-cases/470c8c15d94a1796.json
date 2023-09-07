@@ -1,0 +1,86 @@
+{
+  "uid" : "470c8c15d94a1796",
+  "name" : "企业基本信息与搜索保持一致",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_company_datail",
+  "historyId" : "dafbfa021b6afc1293c3a6eacffe7e8c",
+  "time" : {
+    "start" : 1683689757639,
+    "stop" : 1683689757890,
+    "duration" : 251
+  },
+  "description" : "校验企业介绍",
+  "descriptionHtml" : "<p>校验企业介绍</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '' == '500万(元)'\n  - 500万(元)",
+  "statusTrace" : "self = <api_test.testcase.test_company.test_company_data.TestCompanyCase object at 0x000001C1E79058C8>\ntest_data = {'cnt': 1, 'company_compete': (), 'company_finances_info': {'amount': '金额未知', 'company_id': 528092107110175622, 'created_at': datetime.datetime(2022, 11, 10, 16, 26, 30), 'estimation': '', ...}, 'company_info_analysis': (), ...}\n\n    @allure.title('企业基本信息与搜索保持一致')\n    @pytest.mark.parametrize('test_data',yaml_company_data)\n    def test_company_datail(self,test_data):\n        '''校验企业介绍'''\n        #企业搜索的返回值\n        result_search = s.search_company(test_data['name'])\n        #企业详情的返回值\n        result_detail = c.company_detail_v2(str(test_data['data_id']))\n        result_registration = c.company_registration(str(test_data['data_id']))\n        data_id = str(test_data['data_id'])\n        company_info = result_search['data']['items']\n        for i in company_info:\n            if i['id'] == data_id:\n                #断言企业名称与搜索列表一致\n                assert i['name'] == result_detail['data']['basic']['name']\n                #断言注册资金与搜索列表一致\n>               assert i['register_capital'] == result_detail['data']['basic']['reg_capital']\nE               AssertionError: assert '' == '500万(元)'\nE                 - 500万(元)\n\napi_test\\testcase\\test_company\\test_company_data.py:146: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': {'amount': '金额未知', 'company_id': 528092107110175622, 'created_at': datetime.datetime(2022, 11, 10, 16, 26, 30), 'estimation': '', 'finances_time': '2019-02-28', 'id': 88984, 'invest': '[2169009553295520055]', 'news_source': '力当宣布获得多方联合战略投', 'news_source_url': 'http://life.jrj.com.cn/2019/02/27222827099041.shtml', 'stage': '战略投资', 'updated_at': datetime.datetime(2022, 11, 22, 21, 43, 24)}, 'company_info_analysis': (), 'company_member_cnt': 3, 'company_member_list': {'company_id': 528092107110175622, 'created_at': datetime.datetime(2023, 4, 26, 12, 41, 39), 'end_time': '', 'id': 1602954, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 2113648803104023955, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 41, 39), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2019-11-08', 'authority': '普陀区市场监管局', 'comp_num': '12', 'comp_num_link': '', 'company_id': 528092107110175622, 'created_at': datetime.datetime(2022, 10, 14, 10, 39, 56), 'district': '上海市普陀区', 'district_city': '上海市', 'district_county': '普陀区', 'district_province': '上海市', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 423166, 'industry': '专业技术服务业', 'insurance_info': '{\"insuranceNum\": \"0人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=30021116025316&year=2021\"}', 'insurance_num': 0, 'legal_person': '曹真龙', 'legal_person_id': 0, 'license_number': '310107000964248', 'open_status': '开业', 'open_time': '2017-07-24 至 2047-07-23', 'org_no': 'MA1G0G9F-7', 'org_type': '-', 'paidin_capital': '500万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '增值税一般纳税人', 'real_capital': '-', 'reg_addr': '上海市普陀区同普路898号1楼8356室', 'reg_capital': '500万(元)', 'reg_capital_amount': Decimal('5000000.00'), 'reg_capital_currency': '元', 'reg_code': '310107000964248', 'reg_no': '91310107MA1G0G9F7L', 'scope': '从事智能科技、信息科技、互联网科技领域内的技术开发、技术转让、技术服务、技术咨询，文化艺术交流策划，设计、制作各类广告，会务会展服务，电子商务（不得从事增值电信、金融业务），计算机网络工程，销售：计算机、软件及辅助设备、电子产品、机械设备及配件、日用百货、工具刃具、金属制品、食用农产品，自有设备租赁，智能化设备租赁与销售，软件开发，物联网平台技术的研发，自动化设备、计算机设备、机械电子设备和系统的设计、安装、调试、技术服务及销售，从事货物及技术的进出口业务。 【依法须经批准的项目，经相关部门批准后方可开展经营活动】', 'start_date': '2017-07-24', 'tax_no': '91310107MA1G0G9F7L', 'unified_code': '91310107MA1G0G9F7L', 'updated_at': datetime.datetime(2023, 4, 23, 14, 19, 24), 'url': '/m/basic?pid=xlTM-TogKuTwE12K-rAB4rwRv-If97k72wmd&entName=%E5%8A%9B%E5%BD%93%E9%AB%98%28%E4%B8%8A%E6%B5%B7%29%E6%99%BA%E8%83%BD%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/61a4968c5afdb39998be65be2bf7f0ac.txt'}, 'compete_cnt': 0, 'data_id': 528092107110175622, 'finances_cnt': 2, 'introduction': '力当高(上海)智能科技有限公司成立于2017年07月24日，注册地位于上海市普陀区同普路898号1楼8356室，法定代表人为曹真龙。经营范围包括从事智能科技、信息科技、互联网科技领域内的技术开发、技术转让、技术服务、技术咨询，文化艺术交流策划，设计、制作各类广告，会务会展服务，电子商务（不得从事增值电信、金融业务），计算机网络工程，销售：计算机、软件及辅助设备、电子产品、机械设备及配件、日用百货、工具刃具、金属制品、食用农产品，自有设备租赁，智能化设备租赁与销售，软件开发，物联网平台技术的研发，自动化设备、计算机设备、机械电子设备和系统的设计、安装、调试、技术服务及销售，从事货物及技术的进出口业务。 【依法须经批准的项目，经相关部门批准后方可开展经营活动】力当高(上海)智能科技有限公司对外投资3家公司。', 'invest_cnt': 3, 'invest_list': {'amount': '500万(元)', 'company_id': 528092107110175622, 'created_at': datetime.datetime(2022, 10, 14, 10, 23, 30), 'data_id': 4356892683732289045, 'data_type': 1, 'id': 353418, 'rate': '100%', 'status': '注销', 'updated_at': datetime.datetime(2022, 10, 14, 10, 23, 30)}, 'legal_person': '曹真龙', 'name': '力当高(上海)智能科技有限公司', 'ownership_cnt': 3, 'ownership_list': {'amount': '200万(元)', 'company_id': 528092107110175622, 'created_at': datetime.datetime(2022, 10, 14, 10, 36, 44), 'data_id': 4385355579676069684, 'data_type': 1, 'id': 1816982, 'is_delete': 0, 'ratio': '40%', 'tag': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 36, 44)}, 'tags': '自助贩卖机,消费,无人零售,智能科技,生活服务,咖啡机,有专利,智能,无人咖啡机,品牌运营,其他生活服务,线下消费,陪护,自助咖啡机'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b7ddcbea519b0a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683607060439,
+        "stop" : 1683607060733,
+        "duration" : 294
+      }
+    }, {
+      "uid" : "974487ab0f429cb9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683603769625,
+        "stop" : 1683603770001,
+        "duration" : 376
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "470c8c15d94a1796.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': {'amount': '金额未知', 'company_id': 528092107110175622, 'created_at': datetime.datetime(2022, 11, 10, 16, 26, 30), 'estimation': '', 'finances_time': '2019-02-28', 'id': 88984, 'invest': '[2169009553295520055]', 'news_source': '力当宣布获得多方联合战略投', 'news_source_url': 'http://life.jrj.com.cn/2019/02/27222827099041.shtml', 'stage': '战略投资', 'updated_at': datetime.datetime(2022, 11, 22, 21, 43, 24)}, 'company_info_analysis': (), 'company_member_cnt': 3, 'company_member_list': {'company_id': 528092107110175622, 'created_at': datetime.datetime(2023, 4, 26, 12, 41, 39), 'end_time': '', 'id': 1602954, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 2113648803104023955, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '', 'updated_at': datetime.datetime(2023, 4, 26, 12, 41, 39), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2019-11-08', 'authority': '普陀区市场监管局', 'comp_num': '12', 'comp_num_link': '', 'company_id': 528092107110175622, 'created_at': datetime.datetime(2022, 10, 14, 10, 39, 56), 'district': '上海市普陀区', 'district_city': '上海市', 'district_county': '普陀区', 'district_province': '上海市', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 423166, 'industry': '专业技术服务业', 'insurance_info': '{\"insuranceNum\": \"0人\", \"year\": \"2021\", \"reportUrl\": \"/pages/annual/index?pid=30021116025316&year=2021\"}', 'insurance_num': 0, 'legal_person': '曹真龙', 'legal_person_id': 0, 'license_number': '310107000964248', 'open_status': '开业', 'open_time': '2017-07-24 至 2047-07-23', 'org_no': 'MA1G0G9F-7', 'org_type': '-', 'paidin_capital': '500万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '增值税一般纳税人', 'real_capital': '-', 'reg_addr': '上海市普陀区同普路898号1楼8356室', 'reg_capital': '500万(元)', 'reg_capital_amount': Decimal('5000000.00'), 'reg_capital_currency': '元', 'reg_code': '310107000964248', 'reg_no': '91310107MA1G0G9F7L', 'scope': '从事智能科技、信息科技、互联网科技领域内的技术开发、技术转让、技术服务、技术咨询，文化艺术交流策划，设计、制作各类广告，会务会展服务，电子商务（不得从事增值电信、金融业务），计算机网络工程，销售：计算机、软件及辅助设备、电子产品、机械设备及配件、日用百货、工具刃具、金属制品、食用农产品，自有设备租赁，智能化设备租赁与销售，软件开发，物联网平台技术的研发，自动化设备、计算机设备、机械电子设备和系统的设计、安装、调试、技术服务及销售，从事货物及技术的进出口业务。 【依法须经批准的项目，经相关部门批准后方可开展经营活动】', 'start_date': '2017-07-24', 'tax_no': '91310107MA1G0G9F7L', 'unified_code': '91310107MA1G0G9F7L', 'updated_at': datetime.datetime(2023, 4, 23, 14, 19, 24), 'url': '/m/basic?pid=xlTM-TogKuTwE12K-rAB4rwRv-If97k72wmd&entName=%E5%8A%9B%E5%BD%93%E9%AB%98%28%E4%B8%8A%E6%B5%B7%29%E6%99%BA%E8%83%BD%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/61a4968c5afdb39998be65be2bf7f0ac.txt'}, 'compete_cnt': 0, 'data_id': 528092107110175622, 'finances_cnt': 2, 'introduction': '力当高(上海)智能科技有限公司成立于2017年07月24日，注册地位于上海市普陀区同普路898号1楼8356室，法定代表人为曹真龙。经营范围包括从事智能科技、信息科技、互联网科技领域内的技术开发、技术转让、技术服务、技术咨询，文化艺术交流策划，设计、制作各类广告，会务会展服务，电子商务（不得从事增值电信、金融业务），计算机网络工程，销售：计算机、软件及辅助设备、电子产品、机械设备及配件、日用百货、工具刃具、金属制品、食用农产品，自有设备租赁，智能化设备租赁与销售，软件开发，物联网平台技术的研发，自动化设备、计算机设备、机械电子设备和系统的设计、安装、调试、技术服务及销售，从事货物及技术的进出口业务。 【依法须经批准的项目，经相关部门批准后方可开展经营活动】力当高(上海)智能科技有限公司对外投资3家公司。', 'invest_cnt': 3, 'invest_list': {'amount': '500万(元)', 'company_id': 528092107110175622, 'created_at': datetime.datetime(2022, 10, 14, 10, 23, 30), 'data_id': 4356892683732289045, 'data_type': 1, 'id': 353418, 'rate': '100%', 'status': '注销', 'updated_at': datetime.datetime(2022, 10, 14, 10, 23, 30)}, 'legal_person': '曹真龙', 'name': '力当高(上海)智能科技有限公司', 'ownership_cnt': 3, 'ownership_list': {'amount': '200万(元)', 'company_id': 528092107110175622, 'created_at': datetime.datetime(2022, 10, 14, 10, 36, 44), 'data_id': 4385355579676069684, 'data_type': 1, 'id': 1816982, 'is_delete': 0, 'ratio': '40%', 'tag': '', 'updated_at': datetime.datetime(2022, 10, 14, 10, 36, 44)}, 'tags': '自助贩卖机,消费,无人零售,智能科技,生活服务,咖啡机,有专利,智能,无人咖啡机,品牌运营,其他生活服务,线下消费,陪护,自助咖啡机'}" ]
+}

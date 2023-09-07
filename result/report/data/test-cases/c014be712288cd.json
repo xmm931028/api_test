@@ -1,0 +1,62 @@
+{
+  "uid" : "c014be712288cd",
+  "name" : "搜索有数据的企业",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_search",
+  "historyId" : "03de6818411afb3c64234e065c250381",
+  "time" : {
+    "start" : 1683607034408,
+    "stop" : 1683607034470,
+    "duration" : 62
+  },
+  "description" : "搜索企业,搜索结果与数据统计条数一致",
+  "descriptionHtml" : "<p>搜索企业,搜索结果与数据统计条数一致</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "21680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '-', 'authority': '-', 'comp_num': '0', 'comp_num_link': '', 'company_id': 5165893564018190774, 'created_at': datetime.datetime(2022, 10, 14, 10, 40, 6), 'district': '天津市南开区', 'district_city': '天津市', 'district_county': '南开区', 'district_province': '天津市', 'ent_type': '-', 'id': 552252, 'industry': '-', 'insurance_info': '{\"insuranceNum\": \"-\"}', 'insurance_num': 0, 'legal_person': '杨兰', 'legal_person_id': 0, 'license_number': '-', 'open_status': '开业', 'open_time': '2020-01-06 至 2025-01-05', 'org_no': '35672663-8', 'org_type': '工会法人', 'paidin_capital': '-', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '-', 'real_capital': '-', 'reg_addr': '南开区密云路锦园里楼内', 'reg_capital': '-', 'reg_capital_amount': Decimal('0.00'), 'reg_capital_currency': '', 'reg_code': '', 'reg_no': '81120104356726638Y', 'scope': '履行工会职责', 'start_date': '2004-12-01', 'tax_no': '81120104356726638Y', 'unified_code': '81120104356726638Y', 'updated_at': datetime.datetime(2023, 4, 27, 10, 1, 55), 'url': '/m/basic?pid=xlTM-TogKuTwB4pUS2GbDqsegqqnHhXMIwmd&entName=%E5%A4%A9%E6%B4%A5%E5%B8%82%E5%8D%97%E5%BC%80%E5%8C%BA%E5%89%8D%E5%9B%AD%E5%B0%8F%E5%AD%A6%E5%B7%A5%E4%BC%9A', 'us3_scope': 'bdAttr/dbbad40a20c96ebf2456a5a73d14e867.txt'}, 'compete_cnt': 0, 'data_id': 5165893564018190774, 'finances_cnt': 0, 'introduction': '天津市南开区前园小学工会成立于2004年12月01日，注册地位于南开区密云路锦园里楼内，法定代表人为杨兰。经营范围包括履行工会职责', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '杨兰', 'name': '天津市南开区前园小学工会', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c014be712288cd.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 0, 'company_member_list': None, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '-', 'authority': '-', 'comp_num': '0', 'comp_num_link': '', 'company_id': 5165893564018190774, 'created_at': datetime.datetime(2022, 10, 14, 10, 40, 6), 'district': '天津市南开区', 'district_city': '天津市', 'district_county': '南开区', 'district_province': '天津市', 'ent_type': '-', 'id': 552252, 'industry': '-', 'insurance_info': '{\"insuranceNum\": \"-\"}', 'insurance_num': 0, 'legal_person': '杨兰', 'legal_person_id': 0, 'license_number': '-', 'open_status': '开业', 'open_time': '2020-01-06 至 2025-01-05', 'org_no': '35672663-8', 'org_type': '工会法人', 'paidin_capital': '-', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '-', 'qualification': '-', 'real_capital': '-', 'reg_addr': '南开区密云路锦园里楼内', 'reg_capital': '-', 'reg_capital_amount': Decimal('0.00'), 'reg_capital_currency': '', 'reg_code': '', 'reg_no': '81120104356726638Y', 'scope': '履行工会职责', 'start_date': '2004-12-01', 'tax_no': '81120104356726638Y', 'unified_code': '81120104356726638Y', 'updated_at': datetime.datetime(2023, 4, 27, 10, 1, 55), 'url': '/m/basic?pid=xlTM-TogKuTwB4pUS2GbDqsegqqnHhXMIwmd&entName=%E5%A4%A9%E6%B4%A5%E5%B8%82%E5%8D%97%E5%BC%80%E5%8C%BA%E5%89%8D%E5%9B%AD%E5%B0%8F%E5%AD%A6%E5%B7%A5%E4%BC%9A', 'us3_scope': 'bdAttr/dbbad40a20c96ebf2456a5a73d14e867.txt'}, 'compete_cnt': 0, 'data_id': 5165893564018190774, 'finances_cnt': 0, 'introduction': '天津市南开区前园小学工会成立于2004年12月01日，注册地位于南开区密云路锦园里楼内，法定代表人为杨兰。经营范围包括履行工会职责', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '杨兰', 'name': '天津市南开区前园小学工会', 'ownership_cnt': 0, 'ownership_list': None, 'tags': ''}" ]
+}

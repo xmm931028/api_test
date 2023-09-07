@@ -1,0 +1,86 @@
+{
+  "uid" : "acff1949a1f5a8d6",
+  "name" : "企业基本信息与搜索保持一致",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_company_datail",
+  "historyId" : "e46fc5b8ff75c4e44df8a0961799cc8e",
+  "time" : {
+    "start" : 1683689752485,
+    "stop" : 1683689752690,
+    "duration" : 205
+  },
+  "description" : "校验企业介绍",
+  "descriptionHtml" : "<p>校验企业介绍</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '' == '2,000万(元)'\n  - 2,000万(元)",
+  "statusTrace" : "self = <api_test.testcase.test_company.test_company_data.TestCompanyCase object at 0x000001C1E7903B08>\ntest_data = {'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), ...}\n\n    @allure.title('企业基本信息与搜索保持一致')\n    @pytest.mark.parametrize('test_data',yaml_company_data)\n    def test_company_datail(self,test_data):\n        '''校验企业介绍'''\n        #企业搜索的返回值\n        result_search = s.search_company(test_data['name'])\n        #企业详情的返回值\n        result_detail = c.company_detail_v2(str(test_data['data_id']))\n        result_registration = c.company_registration(str(test_data['data_id']))\n        data_id = str(test_data['data_id'])\n        company_info = result_search['data']['items']\n        for i in company_info:\n            if i['id'] == data_id:\n                #断言企业名称与搜索列表一致\n                assert i['name'] == result_detail['data']['basic']['name']\n                #断言注册资金与搜索列表一致\n>               assert i['register_capital'] == result_detail['data']['basic']['reg_capital']\nE               AssertionError: assert '' == '2,000万(元)'\nE                 - 2,000万(元)\n\napi_test\\testcase\\test_company\\test_company_data.py:146: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 3, 'company_member_list': {'company_id': 7997222832658238856, 'created_at': datetime.datetime(2023, 4, 26, 13, 24, 56), 'end_time': '', 'id': 63191242, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 3151403513666457315, 'pos_weight': 24, 'position': '执行董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-04-19', 'updated_at': datetime.datetime(2023, 4, 26, 13, 24, 56), 'useful_position': '19', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"执行董事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2019-09-30', 'authority': '北京市丰台区市场监督管理局', 'comp_num': '12', 'comp_num_link': '', 'company_id': 7997222832658238856, 'created_at': datetime.datetime(2023, 4, 20, 8, 38, 51), 'district': '北京市丰台区', 'district_city': '北京市', 'district_county': '丰台区', 'district_province': '北京市', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 15413897, 'industry': '科技推广和应用服务业', 'insurance_info': '{\"insuranceNum\":\"40人\",\"year\":\"2021\",\"reportUrl\":\"/pages/annual/index?pid=29949115162185&year=2021\"}', 'insurance_num': 40, 'legal_person': '王若鹤', 'legal_person_id': 3151403513666457315, 'license_number': '110106011148881', 'open_status': '开业', 'open_time': '2008-06-30 至 2028-06-29', 'org_no': '67741990-3', 'org_type': '', 'paidin_capital': '500万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '', 'qualification': '一般纳税人', 'real_capital': '', 'reg_addr': '北京市丰台区丰台路口139、140号2幢203室(园区)', 'reg_capital': '2,000万(元)', 'reg_capital_amount': Decimal('20000000.00'), 'reg_capital_currency': '元', 'reg_code': '110106011148881', 'reg_no': '91110106677419903P', 'scope': '技术服务、技术咨询、技术转让、技术开发、技术推广；企业管理、企业管理咨询；基础软件服务；数据处理（PUE值1.5以上的云计算数据中心除外）；销售工艺品、机械设备、建筑材料、计算机软硬件及辅助设备、通讯器材、文化办公用品；计算机软件开发。（企业依法自主选择经营项目，开展经营活动；依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事本市产业政策禁止和限制类项目的经营活动。）', 'start_date': '2008-06-30', 'tax_no': '91110106677419903P', 'unified_code': '91110106677419903P', 'updated_at': datetime.datetime(2023, 4, 25, 9, 37, 23), 'url': '/m/basic?pid=xlTM-TogKuTwlmmX7VmsNd12e3NZpvKXpwmd&entName=%E5%8C%97%E4%BA%AC%E4%B8%AD%E8%81%94%E7%A8%8E%E7%BD%91%E4%BF%A1%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/1a82cadab6db23ba59d5bc826ce56d70.txt'}, 'compete_cnt': 0, 'data_id': 7997222832658238856, 'finances_cnt': 0, 'introduction': '北京中联税网信技术有限公司成立于2008年06月30日，注册地位于北京市丰台区丰台路口139、140号2幢203室(园区)，法定代表人为王若鹤。经营范围包括技术服务、技术咨询、技术转让、技术开发、技术推广；企业管理、企业管理咨询；基础软件服务；数据处理（PUE值1.5以上的云计算数据中心除外）；销售工艺品、机械设备、建筑材料、计算机软硬件及辅助设备、通讯器材、文化办公用品；计算机软件开发。（企业依法自主选择经营项目，开展经营活动；依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事本市产业政策禁止和限制类项目的经营活动。）北京中联税网信技术有限公司对外投资5家公司。', 'invest_cnt': 5, 'invest_list': {'amount': '975万(元)', 'company_id': 7997222832658238856, 'created_at': datetime.datetime(2023, 4, 19, 8, 45, 38), 'data_id': 2005534248478226814, 'data_type': 0, 'id': 6486100, 'rate': '97.5%', 'status': '开业', 'updated_at': datetime.datetime(2023, 4, 19, 8, 45, 38)}, 'legal_person': '王若鹤', 'name': '北京中联税网信技术有限公司', 'ownership_cnt': 2, 'ownership_list': {'amount': '1,995万(元)', 'company_id': 7997222832658238856, 'created_at': datetime.datetime(2023, 4, 19, 8, 46, 8), 'data_id': 3151403513666457315, 'data_type': 2, 'id': 13395647, 'is_delete': 0, 'ratio': '99.75%', 'tag': '', 'updated_at': datetime.datetime(2023, 4, 19, 8, 46, 8)}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "546c10ef0e032e95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683607055322,
+        "stop" : 1683607055623,
+        "duration" : 301
+      }
+    }, {
+      "uid" : "b57737c2f252a280",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683603763637,
+        "stop" : 1683603763958,
+        "duration" : 321
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "acff1949a1f5a8d6.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 3, 'company_member_list': {'company_id': 7997222832658238856, 'created_at': datetime.datetime(2023, 4, 26, 13, 24, 56), 'end_time': '', 'id': 63191242, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 3151403513666457315, 'pos_weight': 24, 'position': '执行董事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-04-19', 'updated_at': datetime.datetime(2023, 4, 26, 13, 24, 56), 'useful_position': '19', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"执行董事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2019-09-30', 'authority': '北京市丰台区市场监督管理局', 'comp_num': '12', 'comp_num_link': '', 'company_id': 7997222832658238856, 'created_at': datetime.datetime(2023, 4, 20, 8, 38, 51), 'district': '北京市丰台区', 'district_city': '北京市', 'district_county': '丰台区', 'district_province': '北京市', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 15413897, 'industry': '科技推广和应用服务业', 'insurance_info': '{\"insuranceNum\":\"40人\",\"year\":\"2021\",\"reportUrl\":\"/pages/annual/index?pid=29949115162185&year=2021\"}', 'insurance_num': 40, 'legal_person': '王若鹤', 'legal_person_id': 3151403513666457315, 'license_number': '110106011148881', 'open_status': '开业', 'open_time': '2008-06-30 至 2028-06-29', 'org_no': '67741990-3', 'org_type': '', 'paidin_capital': '500万(元)', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '', 'qualification': '一般纳税人', 'real_capital': '', 'reg_addr': '北京市丰台区丰台路口139、140号2幢203室(园区)', 'reg_capital': '2,000万(元)', 'reg_capital_amount': Decimal('20000000.00'), 'reg_capital_currency': '元', 'reg_code': '110106011148881', 'reg_no': '91110106677419903P', 'scope': '技术服务、技术咨询、技术转让、技术开发、技术推广；企业管理、企业管理咨询；基础软件服务；数据处理（PUE值1.5以上的云计算数据中心除外）；销售工艺品、机械设备、建筑材料、计算机软硬件及辅助设备、通讯器材、文化办公用品；计算机软件开发。（企业依法自主选择经营项目，开展经营活动；依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事本市产业政策禁止和限制类项目的经营活动。）', 'start_date': '2008-06-30', 'tax_no': '91110106677419903P', 'unified_code': '91110106677419903P', 'updated_at': datetime.datetime(2023, 4, 25, 9, 37, 23), 'url': '/m/basic?pid=xlTM-TogKuTwlmmX7VmsNd12e3NZpvKXpwmd&entName=%E5%8C%97%E4%BA%AC%E4%B8%AD%E8%81%94%E7%A8%8E%E7%BD%91%E4%BF%A1%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/1a82cadab6db23ba59d5bc826ce56d70.txt'}, 'compete_cnt': 0, 'data_id': 7997222832658238856, 'finances_cnt': 0, 'introduction': '北京中联税网信技术有限公司成立于2008年06月30日，注册地位于北京市丰台区丰台路口139、140号2幢203室(园区)，法定代表人为王若鹤。经营范围包括技术服务、技术咨询、技术转让、技术开发、技术推广；企业管理、企业管理咨询；基础软件服务；数据处理（PUE值1.5以上的云计算数据中心除外）；销售工艺品、机械设备、建筑材料、计算机软硬件及辅助设备、通讯器材、文化办公用品；计算机软件开发。（企业依法自主选择经营项目，开展经营活动；依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事本市产业政策禁止和限制类项目的经营活动。）北京中联税网信技术有限公司对外投资5家公司。', 'invest_cnt': 5, 'invest_list': {'amount': '975万(元)', 'company_id': 7997222832658238856, 'created_at': datetime.datetime(2023, 4, 19, 8, 45, 38), 'data_id': 2005534248478226814, 'data_type': 0, 'id': 6486100, 'rate': '97.5%', 'status': '开业', 'updated_at': datetime.datetime(2023, 4, 19, 8, 45, 38)}, 'legal_person': '王若鹤', 'name': '北京中联税网信技术有限公司', 'ownership_cnt': 2, 'ownership_list': {'amount': '1,995万(元)', 'company_id': 7997222832658238856, 'created_at': datetime.datetime(2023, 4, 19, 8, 46, 8), 'data_id': 3151403513666457315, 'data_type': 2, 'id': 13395647, 'is_delete': 0, 'ratio': '99.75%', 'tag': '', 'updated_at': datetime.datetime(2023, 4, 19, 8, 46, 8)}, 'tags': ''}" ]
+}

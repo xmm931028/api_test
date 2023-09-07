@@ -1,0 +1,60 @@
+{
+  "uid" : "b7911b21a1640438",
+  "name" : "校验招投标详情",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_detail",
+  "historyId" : "b5dce6ef6782f3c6252a0ef6cd3da612",
+  "time" : {
+    "start" : 1683602656688,
+    "stop" : 1683602658118,
+    "duration" : 1430
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 5000875459371760124, 'data_id': 234995737180652297, 'item_number': '', 'money': '895008.0元', 'name': '梧州学院物联网技术实验室设备采购（GXWZZC2013-G1-051-ZC）中标结果公告', 'notice_type': 2, 'products': '物联网技术实验室设备', 'pub_province': '广西壮族自治区', 'pub_time': datetime.datetime(2013, 8, 26, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b7911b21a1640438.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 5000875459371760124, 'data_id': 234995737180652297, 'item_number': '', 'money': '895008.0元', 'name': '梧州学院物联网技术实验室设备采购（GXWZZC2013-G1-051-ZC）中标结果公告', 'notice_type': 2, 'products': '物联网技术实验室设备', 'pub_province': '广西壮族自治区', 'pub_time': datetime.datetime(2013, 8, 26, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

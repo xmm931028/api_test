@@ -1,0 +1,78 @@
+{
+  "uid" : "14540943b75062c7",
+  "name" : "校验招投标详情",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_detail",
+  "historyId" : "76d9a750a155fa4a6541a923a2101510",
+  "time" : {
+    "start" : 1683688708069,
+    "stop" : 1683688709354,
+    "duration" : 1285
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 3255474512398818593, 'item_number': '', 'money': '', 'name': '工CD(2022)12号', 'notice_type': 3, 'products': '', 'pub_province': '湖北省', 'pub_time': datetime.datetime(2022, 9, 29, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "38bbf22f0f77eac3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683605872973,
+        "stop" : 1683605874336,
+        "duration" : 1363
+      }
+    }, {
+      "uid" : "57bd8f2be563d251",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683602725697,
+        "stop" : 1683602727034,
+        "duration" : 1337
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "14540943b75062c7.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 3255474512398818593, 'item_number': '', 'money': '', 'name': '工CD(2022)12号', 'notice_type': 3, 'products': '', 'pub_province': '湖北省', 'pub_time': datetime.datetime(2022, 9, 29, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

@@ -1,0 +1,78 @@
+{
+  "uid" : "30f1d42aa1b76f78",
+  "name" : "校验招投标详情",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_detail",
+  "historyId" : "3e15b8a17fcc6883fee63fd2b952e7fa",
+  "time" : {
+    "start" : 1683688719151,
+    "stop" : 1683688720390,
+    "duration" : 1239
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2122709011626016538, 'data_id': 1979656789735736614, 'item_number': '', 'money': '', 'name': '中国铁路沈阳局集团有限公司阜新车务段朝阳站2021年垃圾清运服务项目(A01)中标候选人公示', 'notice_type': 2, 'products': '垃圾清运服务', 'pub_province': '辽宁省', 'pub_time': datetime.datetime(2021, 3, 18, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c7d71e41926435d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683605886303,
+        "stop" : 1683605887956,
+        "duration" : 1653
+      }
+    }, {
+      "uid" : "94b1d0a9e6c757a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683602739648,
+        "stop" : 1683602741157,
+        "duration" : 1509
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "30f1d42aa1b76f78.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2122709011626016538, 'data_id': 1979656789735736614, 'item_number': '', 'money': '', 'name': '中国铁路沈阳局集团有限公司阜新车务段朝阳站2021年垃圾清运服务项目(A01)中标候选人公示', 'notice_type': 2, 'products': '垃圾清运服务', 'pub_province': '辽宁省', 'pub_time': datetime.datetime(2021, 3, 18, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

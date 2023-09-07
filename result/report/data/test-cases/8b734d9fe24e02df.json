@@ -1,0 +1,60 @@
+{
+  "uid" : "8b734d9fe24e02df",
+  "name" : "校验招投标详情",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_detail",
+  "historyId" : "7d0bb2c1cbecb75f1658196a4bb89087",
+  "time" : {
+    "start" : 1683602660998,
+    "stop" : 1683602662631,
+    "duration" : 1633
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 551405623006649599, 'data_id': 9189600194156516229, 'item_number': '', 'money': '183905.04元', 'name': '常州信息职业技术学院校史展馆（含刘国钧生平事迹馆）改造修缮工程成交结果公告', 'notice_type': 2, 'products': '改造修缮工程', 'pub_province': '江苏省', 'pub_time': datetime.datetime(2022, 7, 8, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8b734d9fe24e02df.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 551405623006649599, 'data_id': 9189600194156516229, 'item_number': '', 'money': '183905.04元', 'name': '常州信息职业技术学院校史展馆（含刘国钧生平事迹馆）改造修缮工程成交结果公告', 'notice_type': 2, 'products': '改造修缮工程', 'pub_province': '江苏省', 'pub_time': datetime.datetime(2022, 7, 8, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

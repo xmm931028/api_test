@@ -1,0 +1,83 @@
+{
+  "uid" : "d46068bb1ca8f17c",
+  "name" : "test_db_bid_project_win_company_bid",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_DbCheck#test_db_bid_project_win_company_bid",
+  "historyId" : "4432c8581e4093eeabc4c8325dd8bc14",
+  "time" : {
+    "start" : 1683688061451,
+    "stop" : 1683688174208,
+    "duration" : 112757
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 3585 == 0\n +  where 3585 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>>('select count(*) count from bid_project_win_company where bid_project_id not in (select data_id from bid_project);')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>.get_one_value",
+  "statusTrace" : "self = <api_test.testcase.test_bid_project.test_bid.Test_Bid_DbCheck object at 0x000001C1E77EC988>\n\n    def test_db_bid_project_win_company_bid(self):\n        #断言中标公司不在bid表存在的数据\n>       assert s.get_one_value(\"select count(*) count from bid_project_win_company where bid_project_id not in (select data_id from bid_project);\") == 0\nE       AssertionError: assert 3585 == 0\nE        +  where 3585 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>>('select count(*) count from bid_project_win_company where bid_project_id not in (select data_id from bid_project);')\nE        +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000001C1E77DA088>.get_one_value\n\napi_test\\testcase\\test_bid_project\\test_bid.py:80: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标db校验"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_DbCheck"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e7f3ab382549e79d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 3585 == 0\n +  where 3585 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A25F648>>('select count(*) count from bid_project_win_company where bid_project_id not in (select data_id from bid_project);')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A25F648>> = <api_test.untils.HandleMysql.HandleMysql object at 0x000002B81A25F648>.get_one_value",
+      "time" : {
+        "start" : 1683605212399,
+        "stop" : 1683605313323,
+        "duration" : 100924
+      }
+    }, {
+      "uid" : "f47ef4fe5f46fa7a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 3585 == 0\n +  where 3585 = <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x0000024370F83248>>('select count(*) count from bid_project_win_company where bid_project_id not in (select data_id from bid_project);')\n +    where <bound method HandleMysql.get_one_value of <api_test.untils.HandleMysql.HandleMysql object at 0x0000024370F83248>> = <api_test.untils.HandleMysql.HandleMysql object at 0x0000024370F83248>.get_one_value",
+      "time" : {
+        "start" : 1683602015168,
+        "stop" : 1683602115376,
+        "duration" : 100208
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d46068bb1ca8f17c.json",
+  "parameterValues" : [ ]
+}

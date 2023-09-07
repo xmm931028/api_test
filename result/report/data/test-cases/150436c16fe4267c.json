@@ -1,0 +1,60 @@
+{
+  "uid" : "150436c16fe4267c",
+  "name" : "企业新闻",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_company_news",
+  "historyId" : "e5011ca6d97a2fa9b4b45e05d15ccd95",
+  "time" : {
+    "start" : 1683603795328,
+    "stop" : 1683603795388,
+    "duration" : 60
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 3, 'company_member_list': {'company_id': 7767123492650250903, 'created_at': datetime.datetime(2023, 4, 26, 13, 21, 15), 'end_time': '', 'id': 64315468, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 623525362104378366, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-04-26', 'updated_at': datetime.datetime(2023, 4, 26, 13, 21, 15), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2021-07-23', 'authority': '蒙城县市场监督管理局', 'comp_num': '4', 'comp_num_link': '', 'company_id': 7767123492650250903, 'created_at': datetime.datetime(2023, 4, 26, 6, 44, 53), 'district': '安徽省亳州市蒙城县', 'district_city': '亳州市', 'district_county': '蒙城县', 'district_province': '安徽省', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 15802330, 'industry': '土木工程建筑业', 'insurance_info': '{\"insuranceNum\":\"10人\",\"year\":\"2022\",\"reportUrl\":\"/pages/annual/index?pid=11570936734275&year=2022\"}', 'insurance_num': 10, 'legal_person': '张磊', 'legal_person_id': 3121853800103904572, 'license_number': '341622000204677', 'open_status': '开业', 'open_time': '2019-03-20 至 无固定期限', 'org_no': 'MA2TJE7F-6', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '', 'qualification': '', 'real_capital': '', 'reg_addr': '安徽省亳州市蒙城县三宝钢结构股份有限公司院内', 'reg_capital': '1,200万(元)', 'reg_capital_amount': Decimal('12000000.00'), 'reg_capital_currency': '元', 'reg_code': '341622000204677', 'reg_no': '91341622MA2TJE7F6C', 'scope': '市政公用工程、园林绿化、房屋建筑工程、水利水电工程、环保工程、钢结构、古建筑工程、装饰装修工程、公路工程、城市照明工程、消防设施工程、桥梁工程、地基基础工程、土石方工程、机电工程、通信工程、防水防腐保温工程、建筑幕墙工程、电子与智能化工程、隧道工程、河湖整治、模板脚手架、建筑材料销售、建筑水泥制品生产，销售、园林苗木种植、销售，施工劳务、建筑工程及房屋拆迁（不含爆破作业）脚手架，钢模、钢管扣件、建筑机械设备租赁、装饰设计、广告设计。（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'start_date': '2019-03-20', 'tax_no': '91341622MA2TJE7F6C', 'unified_code': '91341622MA2TJE7F6C', 'updated_at': datetime.datetime(2023, 4, 27, 17, 23, 2), 'url': '/m/basic?pid=xlTM-TogKuTwBpBFGgrtdppNoF9a1ZEK5gmd&entName=%E5%AE%89%E5%BE%BD%E4%B8%AD%E5%B2%B8%E5%BB%BA%E8%AE%BE%E5%8F%91%E5%B1%95%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/932cfb305a5fd1eb67fc59c55b631350.txt'}, 'compete_cnt': 0, 'data_id': 7767123492650250903, 'finances_cnt': 0, 'introduction': '安徽中岸建设发展有限公司成立于2019年03月20日，注册地位于安徽省亳州市蒙城县三宝钢结构股份有限公司院内，法定代表人为张磊。经营范围包括市政公用工程、园林绿化、房屋建筑工程、水利水电工程、环保工程、钢结构、古建筑工程、装饰装修工程、公路工程、城市照明工程、消防设施工程、桥梁工程、地基基础工程、土石方工程、机电工程、通信工程、防水防腐保温工程、建筑幕墙工程、电子与智能化工程、隧道工程、河湖整治、模板脚手架、建筑材料销售、建筑水泥制品生产，销售、园林苗木种植、销售，施工劳务、建筑工程及房屋拆迁（不含爆破作业）脚手架，钢模、钢管扣件、建筑机械设备租赁、装饰设计、广告设计。（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '张磊', 'name': '安徽中岸建设发展有限公司', 'ownership_cnt': 2, 'ownership_list': {'amount': '120万(元)', 'company_id': 7767123492650250903, 'created_at': datetime.datetime(2023, 5, 5, 23, 52, 15), 'data_id': 623525362104378366, 'data_type': 2, 'id': 15435835, 'is_delete': 0, 'ratio': '10%', 'tag': '', 'updated_at': datetime.datetime(2023, 5, 5, 23, 52, 15)}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "150436c16fe4267c.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 3, 'company_member_list': {'company_id': 7767123492650250903, 'created_at': datetime.datetime(2023, 4, 26, 13, 21, 15), 'end_time': '', 'id': 64315468, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 623525362104378366, 'pos_weight': 30, 'position': '监事', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 0, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-04-26', 'updated_at': datetime.datetime(2023, 4, 26, 13, 21, 15), 'useful_position': '25', 'useful_position_json': '[{\"id\": \"25\", \"name\": \"监事\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2021-07-23', 'authority': '蒙城县市场监督管理局', 'comp_num': '4', 'comp_num_link': '', 'company_id': 7767123492650250903, 'created_at': datetime.datetime(2023, 4, 26, 6, 44, 53), 'district': '安徽省亳州市蒙城县', 'district_city': '亳州市', 'district_county': '蒙城县', 'district_province': '安徽省', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 15802330, 'industry': '土木工程建筑业', 'insurance_info': '{\"insuranceNum\":\"10人\",\"year\":\"2022\",\"reportUrl\":\"/pages/annual/index?pid=11570936734275&year=2022\"}', 'insurance_num': 10, 'legal_person': '张磊', 'legal_person_id': 3121853800103904572, 'license_number': '341622000204677', 'open_status': '开业', 'open_time': '2019-03-20 至 无固定期限', 'org_no': 'MA2TJE7F-6', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '', 'qualification': '', 'real_capital': '', 'reg_addr': '安徽省亳州市蒙城县三宝钢结构股份有限公司院内', 'reg_capital': '1,200万(元)', 'reg_capital_amount': Decimal('12000000.00'), 'reg_capital_currency': '元', 'reg_code': '341622000204677', 'reg_no': '91341622MA2TJE7F6C', 'scope': '市政公用工程、园林绿化、房屋建筑工程、水利水电工程、环保工程、钢结构、古建筑工程、装饰装修工程、公路工程、城市照明工程、消防设施工程、桥梁工程、地基基础工程、土石方工程、机电工程、通信工程、防水防腐保温工程、建筑幕墙工程、电子与智能化工程、隧道工程、河湖整治、模板脚手架、建筑材料销售、建筑水泥制品生产，销售、园林苗木种植、销售，施工劳务、建筑工程及房屋拆迁（不含爆破作业）脚手架，钢模、钢管扣件、建筑机械设备租赁、装饰设计、广告设计。（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'start_date': '2019-03-20', 'tax_no': '91341622MA2TJE7F6C', 'unified_code': '91341622MA2TJE7F6C', 'updated_at': datetime.datetime(2023, 4, 27, 17, 23, 2), 'url': '/m/basic?pid=xlTM-TogKuTwBpBFGgrtdppNoF9a1ZEK5gmd&entName=%E5%AE%89%E5%BE%BD%E4%B8%AD%E5%B2%B8%E5%BB%BA%E8%AE%BE%E5%8F%91%E5%B1%95%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/932cfb305a5fd1eb67fc59c55b631350.txt'}, 'compete_cnt': 0, 'data_id': 7767123492650250903, 'finances_cnt': 0, 'introduction': '安徽中岸建设发展有限公司成立于2019年03月20日，注册地位于安徽省亳州市蒙城县三宝钢结构股份有限公司院内，法定代表人为张磊。经营范围包括市政公用工程、园林绿化、房屋建筑工程、水利水电工程、环保工程、钢结构、古建筑工程、装饰装修工程、公路工程、城市照明工程、消防设施工程、桥梁工程、地基基础工程、土石方工程、机电工程、通信工程、防水防腐保温工程、建筑幕墙工程、电子与智能化工程、隧道工程、河湖整治、模板脚手架、建筑材料销售、建筑水泥制品生产，销售、园林苗木种植、销售，施工劳务、建筑工程及房屋拆迁（不含爆破作业）脚手架，钢模、钢管扣件、建筑机械设备租赁、装饰设计、广告设计。（依法须经批准的项目，经相关部门批准后方可开展经营活动）', 'invest_cnt': 0, 'invest_list': None, 'legal_person': '张磊', 'name': '安徽中岸建设发展有限公司', 'ownership_cnt': 2, 'ownership_list': {'amount': '120万(元)', 'company_id': 7767123492650250903, 'created_at': datetime.datetime(2023, 5, 5, 23, 52, 15), 'data_id': 623525362104378366, 'data_type': 2, 'id': 15435835, 'is_delete': 0, 'ratio': '10%', 'tag': '', 'updated_at': datetime.datetime(2023, 5, 5, 23, 52, 15)}, 'tags': ''}" ]
+}

@@ -1,0 +1,78 @@
+{
+  "uid" : "d10a9b80dd3f77c",
+  "name" : "校验招投标搜索",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_search",
+  "historyId" : "b2578d92a1a858c6937ed076f9dbcee5",
+  "time" : {
+    "start" : 1683688592510,
+    "stop" : 1683688593584,
+    "duration" : 1074
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 8181886737501403780, 'item_number': '', 'money': '', 'name': 'FW325长宁区块2022年度旋转下套管技术服务', 'notice_type': 2, 'products': '旋转下套管技术服务', 'pub_province': '上海市', 'pub_time': datetime.datetime(2022, 6, 17, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a3ae442bc5d1fb69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683605732919,
+        "stop" : 1683605734276,
+        "duration" : 1357
+      }
+    }, {
+      "uid" : "212e4a71c52e6c79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683602577448,
+        "stop" : 1683602578761,
+        "duration" : 1313
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d10a9b80dd3f77c.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 2369416174825988326, 'data_id': 8181886737501403780, 'item_number': '', 'money': '', 'name': 'FW325长宁区块2022年度旋转下套管技术服务', 'notice_type': 2, 'products': '旋转下套管技术服务', 'pub_province': '上海市', 'pub_time': datetime.datetime(2022, 6, 17, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

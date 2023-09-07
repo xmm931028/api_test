@@ -1,0 +1,78 @@
+{
+  "uid" : "d4708233eb975a2c",
+  "name" : "校验招投标搜索",
+  "fullName" : "api_test.testcase.test_bid_project.test_bid.Test_Bid_Search#test_bid_search",
+  "historyId" : "917eaa04dd0476b89304436a9a6496df",
+  "time" : {
+    "start" : 1683688498870,
+    "stop" : 1683688499941,
+    "duration" : 1071
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "招投标测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_bid_project"
+  }, {
+    "name" : "suite",
+    "value" : "test_bid"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Bid_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_bid_project.test_bid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 6374584007033106184, 'data_id': 845977465503395657, 'item_number': '', 'money': '', 'name': '中国银联深圳分公司2021年深圳读书月云闪付专项活动外包服务商采购结果公示', 'notice_type': 2, 'products': '云闪付专项活动外包服务商', 'pub_province': '广东省', 'pub_time': datetime.datetime(2021, 11, 17, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7f4b5b0a5955155b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683605620194,
+        "stop" : 1683605621348,
+        "duration" : 1154
+      }
+    }, {
+      "uid" : "9f919b22154abf9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683602455808,
+        "stop" : 1683602457316,
+        "duration" : 1508
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d4708233eb975a2c.json",
+  "parameterValues" : [ "{'bid_end_time': datetime.datetime(1971, 1, 1, 0, 0), 'company_id': 6374584007033106184, 'data_id': 845977465503395657, 'item_number': '', 'money': '', 'name': '中国银联深圳分公司2021年深圳读书月云闪付专项活动外包服务商采购结果公示', 'notice_type': 2, 'products': '云闪付专项活动外包服务商', 'pub_province': '广东省', 'pub_time': datetime.datetime(2021, 11, 17, 0, 0), 'tender_time': datetime.datetime(1971, 1, 1, 0, 0)}" ]
+}

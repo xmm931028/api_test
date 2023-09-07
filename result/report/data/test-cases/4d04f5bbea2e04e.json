@@ -1,0 +1,60 @@
+{
+  "uid" : "4d04f5bbea2e04e",
+  "name" : "组织成员",
+  "fullName" : "api_test.testcase.test_company.test_company_data.TestCompanyCase#test_company_member",
+  "historyId" : "80e54e30bb414a52825eb252082aefa2",
+  "time" : {
+    "start" : 1683603830551,
+    "stop" : 1683603830996,
+    "duration" : 445
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "企业测试案例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "api_test.testcase.test_company"
+  }, {
+    "name" : "suite",
+    "value" : "test_company_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCompanyCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-AR41KHM"
+  }, {
+    "name" : "thread",
+    "value" : "29684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "api_test.testcase.test_company.test_company_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 2, 'company_member_list': {'company_id': 1043487038590083757, 'created_at': datetime.datetime(2023, 5, 4, 20, 59, 5), 'end_time': '', 'id': 66708610, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 6188775505000507475, 'pos_weight': 24, 'position': '执行董事,经理', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 1, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-05-04', 'updated_at': datetime.datetime(2023, 5, 8, 18, 21, 14), 'useful_position': '19,30', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"执行董事\"}, {\"id\": \"30\", \"name\": \"经理\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2023-04-07', 'authority': '珠海市香洲区市场监督管理局', 'comp_num': '16', 'comp_num_link': '', 'company_id': 1043487038590083757, 'created_at': datetime.datetime(2023, 5, 4, 5, 57, 57), 'district': '广东省珠海市香洲区', 'district_city': '珠海市', 'district_county': '香洲区', 'district_province': '广东省', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 16667810, 'industry': '科技推广和应用服务业', 'insurance_info': '{\"insuranceNum\":\"0人\",\"year\":\"2021\",\"reportUrl\":\"/pages/annual/index?pid=96175686551441&year=2021\"}', 'insurance_num': 0, 'legal_person': '徐礼威', 'legal_person_id': 6188775505000507475, 'license_number': '440003000688601', 'open_status': '开业', 'open_time': '2021-04-02 至 9999-12-31', 'org_no': 'MA5672PE-9', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '', 'qualification': '', 'real_capital': '', 'reg_addr': '珠海市吉大九洲大道东1238号第三层西侧3032房', 'reg_capital': '10万(元)', 'reg_capital_amount': Decimal('100000.00'), 'reg_capital_currency': '元', 'reg_code': '440003000688601', 'reg_no': '91440400MA5672PE9N', 'scope': '一般项目：科技中介服务；技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广；通信设备制造；通信设备销售；电子、机械设备维护（不含特种设备）；机械电气设备制造；计算机软硬件及辅助设备零售；信息系统集成服务；计算机系统服务；社会经济咨询服务；市场调查（不含涉外调查）；货物进出口；技术进出口。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）', 'start_date': '2021-04-02', 'tax_no': '91440400MA5672PE9N', 'unified_code': '91440400MA5672PE9N', 'updated_at': datetime.datetime(2023, 5, 5, 16, 2, 19), 'url': '/m/basic?pid=xlTM-TogKuTwkL-DcVptNfYJVuOuhYM8LQmd&entName=%E7%8F%A0%E6%B5%B7%E8%9E%8D%E4%BC%97%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/ea96516b0e5440f128176f3bca6de440.txt'}, 'compete_cnt': 0, 'data_id': 1043487038590083757, 'finances_cnt': 0, 'introduction': '珠海融众科技有限责任公司成立于2021年04月02日，注册地位于珠海市吉大九洲大道东1238号第三层西侧3032房，法定代表人为徐礼威。经营范围包括一般项目：科技中介服务；技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广；通信设备制造；通信设备销售；电子、机械设备维护（不含特种设备）；机械电气设备制造；计算机软硬件及辅助设备零售；信息系统集成服务；计算机系统服务；社会经济咨询服务；市场调查（不含涉外调查）；货物进出口；技术进出口。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）珠海融众科技有限责任公司对外投资2家公司。', 'invest_cnt': 2, 'invest_list': {'amount': '2.9万(元)', 'company_id': 1043487038590083757, 'created_at': datetime.datetime(2023, 5, 4, 16, 16, 45), 'data_id': 6064041286549572651, 'data_type': 0, 'id': 6857576, 'rate': '2.86%', 'status': '开业', 'updated_at': datetime.datetime(2023, 5, 4, 16, 16, 45)}, 'legal_person': '徐礼威', 'name': '珠海融众科技有限责任公司', 'ownership_cnt': 2, 'ownership_list': {'amount': '8万(元)', 'company_id': 1043487038590083757, 'created_at': datetime.datetime(2023, 5, 4, 16, 41, 38), 'data_id': 6188775505000507475, 'data_type': 2, 'id': 14760507, 'is_delete': 0, 'ratio': '80%', 'tag': '', 'updated_at': datetime.datetime(2023, 5, 4, 16, 41, 38)}, 'tags': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4d04f5bbea2e04e.json",
+  "parameterValues" : [ "{'cnt': 1, 'company_compete': (), 'company_finances_info': None, 'company_info_analysis': (), 'company_member_cnt': 2, 'company_member_list': {'company_id': 1043487038590083757, 'created_at': datetime.datetime(2023, 5, 4, 20, 59, 5), 'end_time': '', 'id': 66708610, 'is_delete': 0, 'job_status': 1, 'major_type': 0, 'organize_type': 0, 'person_from': 1, 'person_id': 6188775505000507475, 'pos_weight': 24, 'position': '执行董事,经理', 'position_label_five': 0, 'position_label_four': 0, 'position_label_one': 1, 'position_label_six': 1, 'position_label_three': 0, 'position_label_two': 0, 'start_time': '2023-05-04', 'updated_at': datetime.datetime(2023, 5, 8, 18, 21, 14), 'useful_position': '19,30', 'useful_position_json': '[{\"id\": \"19\", \"name\": \"执行董事\"}, {\"id\": \"30\", \"name\": \"经理\"}]'}, 'company_news_cnt': 0, 'company_news_value': None, 'company_register_info': {'annual_date': '2023-04-07', 'authority': '珠海市香洲区市场监督管理局', 'comp_num': '16', 'comp_num_link': '', 'company_id': 1043487038590083757, 'created_at': datetime.datetime(2023, 5, 4, 5, 57, 57), 'district': '广东省珠海市香洲区', 'district_city': '珠海市', 'district_county': '香洲区', 'district_province': '广东省', 'ent_type': '有限责任公司(自然人投资或控股)', 'id': 16667810, 'industry': '科技推广和应用服务业', 'insurance_info': '{\"insuranceNum\":\"0人\",\"year\":\"2021\",\"reportUrl\":\"/pages/annual/index?pid=96175686551441&year=2021\"}', 'insurance_num': 0, 'legal_person': '徐礼威', 'legal_person_id': 6188775505000507475, 'license_number': '440003000688601', 'open_status': '开业', 'open_time': '2021-04-02 至 9999-12-31', 'org_no': 'MA5672PE-9', 'org_type': '', 'paidin_capital': '', 'person_link': '', 'person_title': '法定代表人', 'prev_ent_name': '', 'qualification': '', 'real_capital': '', 'reg_addr': '珠海市吉大九洲大道东1238号第三层西侧3032房', 'reg_capital': '10万(元)', 'reg_capital_amount': Decimal('100000.00'), 'reg_capital_currency': '元', 'reg_code': '440003000688601', 'reg_no': '91440400MA5672PE9N', 'scope': '一般项目：科技中介服务；技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广；通信设备制造；通信设备销售；电子、机械设备维护（不含特种设备）；机械电气设备制造；计算机软硬件及辅助设备零售；信息系统集成服务；计算机系统服务；社会经济咨询服务；市场调查（不含涉外调查）；货物进出口；技术进出口。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）', 'start_date': '2021-04-02', 'tax_no': '91440400MA5672PE9N', 'unified_code': '91440400MA5672PE9N', 'updated_at': datetime.datetime(2023, 5, 5, 16, 2, 19), 'url': '/m/basic?pid=xlTM-TogKuTwkL-DcVptNfYJVuOuhYM8LQmd&entName=%E7%8F%A0%E6%B5%B7%E8%9E%8D%E4%BC%97%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8', 'us3_scope': 'bdAttr/ea96516b0e5440f128176f3bca6de440.txt'}, 'compete_cnt': 0, 'data_id': 1043487038590083757, 'finances_cnt': 0, 'introduction': '珠海融众科技有限责任公司成立于2021年04月02日，注册地位于珠海市吉大九洲大道东1238号第三层西侧3032房，法定代表人为徐礼威。经营范围包括一般项目：科技中介服务；技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广；通信设备制造；通信设备销售；电子、机械设备维护（不含特种设备）；机械电气设备制造；计算机软硬件及辅助设备零售；信息系统集成服务；计算机系统服务；社会经济咨询服务；市场调查（不含涉外调查）；货物进出口；技术进出口。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）珠海融众科技有限责任公司对外投资2家公司。', 'invest_cnt': 2, 'invest_list': {'amount': '2.9万(元)', 'company_id': 1043487038590083757, 'created_at': datetime.datetime(2023, 5, 4, 16, 16, 45), 'data_id': 6064041286549572651, 'data_type': 0, 'id': 6857576, 'rate': '2.86%', 'status': '开业', 'updated_at': datetime.datetime(2023, 5, 4, 16, 16, 45)}, 'legal_person': '徐礼威', 'name': '珠海融众科技有限责任公司', 'ownership_cnt': 2, 'ownership_list': {'amount': '8万(元)', 'company_id': 1043487038590083757, 'created_at': datetime.datetime(2023, 5, 4, 16, 41, 38), 'data_id': 6188775505000507475, 'data_type': 2, 'id': 14760507, 'is_delete': 0, 'ratio': '80%', 'tag': '', 'updated_at': datetime.datetime(2023, 5, 4, 16, 41, 38)}, 'tags': ''}" ]
+}
