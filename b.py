@@ -47,12 +47,45 @@ import requests
 #
 
 #计算从1-n中出现了多少个9，n是一个正整数
-def num(n):
-    count = 0
-    for i in range(1,n+1):
-        count += str(i).count('9')
+# def num(n):
+#     count = 0
+#     for i in range(1,n+1):
+#         count += str(i).count('9')
+#
+#     return count
+#
+#
+# print(num(100))
 
-    return count
+""" 给定一个字符串，
+将它们其中的每个字符（区分大小写）再重复一次。 
+示例：输入："Hogwarts"，输出："HHooggwwaarrttss" """
+
+# def num2(str_a):
+#     num_new=[]
+#     for i in range(len(str_a)):
+#         if i in str_a:
+#             num_new.append(i*2)
+#
+#
+#     return ''.join(num_new)
+#
+#
+# print(num2('Hogwarts'))
 
 
-print(num(100))
+# def str2(input_str):
+#     output_str = ''
+#     for char in input_str:
+#         output_str += char*2
+#     return output_str
+#
+# print(str2('Hogwarts'))
+
+item_id='7926332075054106120'
+item_ids: ['7926332075054106120']
+
+
+new_list =[item_id]
+print(new_list)
+
